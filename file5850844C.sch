@@ -29,6 +29,8 @@ LIBS:contrib
 LIBS:valves
 LIBS:xilinx
 LIBS:xilinx7
+LIBS:IS31FL3199_LED_driver
+LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -43,4 +45,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L IS31FL3199 IC?
+U 1 1 58506106
+P 5350 3850
+F 0 "IC?" H 4600 5050 50  0000 C CNN
+F 1 "IS31FL3199" H 5900 2850 50  0000 C CNN
+F 2 "MLF/QFN20" H 5350 4100 50  0000 C CIN
+F 3 "" H 5350 4300 50  0000 C CNN
+	1    5350 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=12/13/2016 2:42:11 PM
+update=12/13/2016 3:57:57 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=contrib
 LibName28=valves
 LibName29=xilinx
 LibName30=xilinx7
+LibName31=IS31FL3199_LED_driver
