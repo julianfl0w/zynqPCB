@@ -29,11 +29,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:xilinx
 LIBS:xilinx7
+LIBS:IS31FL3199_LED_driver
+LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -43,70 +45,34 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L xc7a50tftg256 U?
-U 1 1 585069D5
-P 1050 1200
-F 0 "U?" H 1250 1450 60  0000 L CNN
-F 1 "xc7a50tftg256" H 1250 1350 60  0000 L CNN
-F 2 "" H 1050 1200 60  0000 C CNN
-F 3 "" H 1050 1200 60  0000 C CNN
-	1    1050 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L xc7a50tftg256 U?
-U 2 1 58506A92
-P 2350 1200
-F 0 "U?" H 2550 1450 60  0000 L CNN
-F 1 "xc7a50tftg256" H 2550 1350 60  0000 L CNN
-F 2 "" H 2350 1200 60  0000 C CNN
-F 3 "" H 2350 1200 60  0000 C CNN
-	2    2350 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L xc7a50tftg256 U?
-U 3 1 58506ACD
-P 4400 1200
-F 0 "U?" H 4600 1450 60  0000 L CNN
-F 1 "xc7a50tftg256" H 4600 1350 60  0000 L CNN
-F 2 "" H 4400 1200 60  0000 C CNN
-F 3 "" H 4400 1200 60  0000 C CNN
-	3    4400 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L xc7a50tftg256 U?
-U 4 1 58506B00
-P 6250 1150
-F 0 "U?" H 6450 1400 60  0000 L CNN
-F 1 "xc7a50tftg256" H 6450 1300 60  0000 L CNN
-F 2 "" H 6250 1150 60  0000 C CNN
-F 3 "" H 6250 1150 60  0000 C CNN
-	4    6250 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L xc7a50tftg256 U?
-U 5 1 58506B37
-P 8500 1200
-F 0 "U?" H 8700 1450 60  0000 L CNN
-F 1 "xc7a50tftg256" H 8700 1350 60  0000 L CNN
-F 2 "" H 8500 1200 60  0000 C CNN
-F 3 "" H 8500 1200 60  0000 C CNN
-	5    8500 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L xc7a50tftg256 U?
-U 6 1 58506B72
-P 6550 4150
-F 0 "U?" H 6750 4400 60  0000 L CNN
-F 1 "xc7a50tftg256" H 6750 4300 60  0000 L CNN
-F 2 "" H 6550 4150 60  0000 C CNN
-F 3 "" H 6550 4150 60  0000 C CNN
-	6    6550 4150
-	1    0    0    -1  
-$EndComp
+$Sheet
+S 1250 6150 1600 1150
+U 58508414
+F0 "FPGA" 60
+F1 "file58508413.sch" 60
+$EndSheet
+$Sheet
+S 4100 6500 1550 950 
+U 5850843B
+F0 "Cypress FX3" 60
+F1 "file5850843A.sch" 60
+$EndSheet
+$Sheet
+S 6550 5000 1450 1000
+U 58508444
+F0 "Audio" 60
+F1 "file58508443.sch" 60
+$EndSheet
+$Sheet
+S 1000 3950 1600 1150
+U 5850844D
+F0 "LEDs" 60
+F1 "file5850844C.sch" 60
+$EndSheet
+$Sheet
+S 7800 2150 1800 1300
+U 58508456
+F0 "Memory" 60
+F1 "file58508455.sch" 60
+$EndSheet
 $EndSCHEMATC

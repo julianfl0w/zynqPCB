@@ -59,4 +59,4 @@ LibName27=contrib
 LibName28=valves
 LibName29=xilinx
 LibName30=xilinx7
-LibName31=WM8758B
+LibName31=IS31FL3199_LED_driver

@@ -29,6 +29,8 @@ LIBS:contrib
 LIBS:valves
 LIBS:xilinx
 LIBS:xilinx7
+LIBS:IS31FL3199_LED_driver
+LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
