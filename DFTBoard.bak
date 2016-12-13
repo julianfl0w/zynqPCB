@@ -1,0 +1,112 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:xilinx
+LIBS:xilinx7
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L xc7a50tftg256 U?
+U 1 1 585069D5
+P 1050 1200
+F 0 "U?" H 1250 1450 60  0000 L CNN
+F 1 "xc7a50tftg256" H 1250 1350 60  0000 L CNN
+F 2 "" H 1050 1200 60  0000 C CNN
+F 3 "" H 1050 1200 60  0000 C CNN
+	1    1050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L xc7a50tftg256 U?
+U 2 1 58506A92
+P 2350 1200
+F 0 "U?" H 2550 1450 60  0000 L CNN
+F 1 "xc7a50tftg256" H 2550 1350 60  0000 L CNN
+F 2 "" H 2350 1200 60  0000 C CNN
+F 3 "" H 2350 1200 60  0000 C CNN
+	2    2350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L xc7a50tftg256 U?
+U 3 1 58506ACD
+P 4400 1200
+F 0 "U?" H 4600 1450 60  0000 L CNN
+F 1 "xc7a50tftg256" H 4600 1350 60  0000 L CNN
+F 2 "" H 4400 1200 60  0000 C CNN
+F 3 "" H 4400 1200 60  0000 C CNN
+	3    4400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L xc7a50tftg256 U?
+U 4 1 58506B00
+P 6250 1150
+F 0 "U?" H 6450 1400 60  0000 L CNN
+F 1 "xc7a50tftg256" H 6450 1300 60  0000 L CNN
+F 2 "" H 6250 1150 60  0000 C CNN
+F 3 "" H 6250 1150 60  0000 C CNN
+	4    6250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L xc7a50tftg256 U?
+U 5 1 58506B37
+P 8500 1200
+F 0 "U?" H 8700 1450 60  0000 L CNN
+F 1 "xc7a50tftg256" H 8700 1350 60  0000 L CNN
+F 2 "" H 8500 1200 60  0000 C CNN
+F 3 "" H 8500 1200 60  0000 C CNN
+	5    8500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L xc7a50tftg256 U?
+U 6 1 58506B72
+P 6550 4150
+F 0 "U?" H 6750 4400 60  0000 L CNN
+F 1 "xc7a50tftg256" H 6750 4300 60  0000 L CNN
+F 2 "" H 6550 4150 60  0000 C CNN
+F 3 "" H 6550 4150 60  0000 C CNN
+	6    6550 4150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
