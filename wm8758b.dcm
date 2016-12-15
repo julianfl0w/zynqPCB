@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WM8758B
+D CODEC with I2S and Audio I/O CONNECT GROUND PADDLE!
+K QFN32, CODEC, Audio
+F https://www.cirrus.com/en/pubs/proDatasheet/WM8758B_v4.4.pdf
+$ENDCMP
+#
+#End Doc Library
