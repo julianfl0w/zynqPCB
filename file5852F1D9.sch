@@ -34,6 +34,7 @@ LIBS:wm8758b
 LIBS:SC189
 LIBS:s70fl01gs
 LIBS:_sensors
+LIBS:PROpendous-cache
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
