@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -46,33 +46,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1250 6150 1600 1150
-U 58508414
-F0 "FPGA" 60
-F1 "FPGA.sch" 60
+S 1400 1350 2050 1350
+U 58508495
+F0 "Configuration" 60
+F1 "Configuration.sch" 60
 $EndSheet
 $Sheet
-S 6550 5000 1450 1000
-U 58508444
-F0 "Audio" 60
-F1 "Audio.sch" 60
-$EndSheet
-$Sheet
-S 1000 3950 1600 1150
-U 5850844D
-F0 "LEDs" 60
-F1 "leds.sch" 60
-$EndSheet
-$Sheet
-S 7800 2150 1850 1250
-U 58508456
-F0 "Memory" 60
-F1 "Memory.sch" 60
-$EndSheet
-$Sheet
-S 4900 6950 1750 650 
-U 5852A88E
-F0 "Cypress FX3" 60
-F1 "CypressFX3.sch" 60
+S 1800 3750 2200 1950
+U 58508498
+F0 "GPIF II" 60
+F1 "gpif2.sch" 60
 $EndSheet
 $EndSCHEMATC

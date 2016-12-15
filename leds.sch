@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -45,34 +45,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1250 6150 1600 1150
-U 58508414
-F0 "FPGA" 60
-F1 "FPGA.sch" 60
-$EndSheet
-$Sheet
-S 6550 5000 1450 1000
-U 58508444
-F0 "Audio" 60
-F1 "Audio.sch" 60
-$EndSheet
-$Sheet
-S 1000 3950 1600 1150
-U 5850844D
-F0 "LEDs" 60
-F1 "leds.sch" 60
-$EndSheet
-$Sheet
-S 7800 2150 1850 1250
-U 58508456
-F0 "Memory" 60
-F1 "Memory.sch" 60
-$EndSheet
-$Sheet
-S 4900 6950 1750 650 
-U 5852A88E
-F0 "Cypress FX3" 60
-F1 "CypressFX3.sch" 60
-$EndSheet
+$Comp
+L IS31FL3199 IC?
+U 1 1 58506106
+P 5350 3850
+F 0 "IC?" H 4600 5050 50  0000 C CNN
+F 1 "IS31FL3199" H 5900 2850 50  0000 C CNN
+F 2 "MLF/QFN20" H 5350 4100 50  0000 C CIN
+F 3 "" H 5350 4300 50  0000 C CNN
+	1    5350 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

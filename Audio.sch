@@ -9,6 +9,7 @@ LIBS:74xx
 LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
+LIBS:xilinx
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -27,15 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:xilinx
-LIBS:xilinx7
-LIBS:IS31FL3199_LED_driver
-LIBS:DFTBoard-cache
+LIBS:wm8758b
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -45,34 +43,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1250 6150 1600 1150
-U 58508414
-F0 "FPGA" 60
-F1 "FPGA.sch" 60
-$EndSheet
-$Sheet
-S 6550 5000 1450 1000
-U 58508444
-F0 "Audio" 60
-F1 "Audio.sch" 60
-$EndSheet
-$Sheet
-S 1000 3950 1600 1150
-U 5850844D
-F0 "LEDs" 60
-F1 "leds.sch" 60
-$EndSheet
-$Sheet
-S 7800 2150 1850 1250
-U 58508456
-F0 "Memory" 60
-F1 "Memory.sch" 60
-$EndSheet
-$Sheet
-S 4900 6950 1750 650 
-U 5852A88E
-F0 "Cypress FX3" 60
-F1 "CypressFX3.sch" 60
-$EndSheet
+$Comp
+L WM8758B IC?
+U 1 1 5852C39F
+P 6100 4300
+F 0 "IC?" H 5150 6130 50  0000 L BNN
+F 1 "WM8758B" H 6600 2900 50  0000 L BNN
+F 2 "QFN32" H 6100 4300 50  0000 C CIN
+F 3 "" H 6100 4300 50  0000 C CNN
+	1    6100 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
