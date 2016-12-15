@@ -33,12 +33,13 @@ LIBS:IS31FL3199_LED_driver
 LIBS:wm8758b
 LIBS:SC189
 LIBS:s70fl01gs
+LIBS:_sensors
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -83,5 +84,11 @@ S 4250 2600 1950 1300
 U 5852F1DA
 F0 "Power" 60
 F1 "file5852F1D9.sch" 60
+$EndSheet
+$Sheet
+S 1600 1950 500  150 
+U 5852FF3B
+F0 "rangefinder" 60
+F1 "rangefinder.sch" 60
 $EndSheet
 $EndSCHEMATC

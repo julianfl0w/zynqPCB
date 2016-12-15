@@ -1,4 +1,4 @@
-update=12/15/2016 3:16:20 PM
+update=12/15/2016 3:42:34 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=C:/Users/jcloi/Documents/KiCad/kicad-lib/components
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -63,3 +63,4 @@ LibName31=IS31FL3199_LED_driver
 LibName32=wm8758b
 LibName33=SC189
 LibName34=s70fl01gs
+LibName35=_sensors
