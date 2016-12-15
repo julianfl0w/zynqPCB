@@ -30,12 +30,14 @@ LIBS:valves
 LIBS:xilinx
 LIBS:xilinx7
 LIBS:IS31FL3199_LED_driver
+LIBS:wm8758b
+LIBS:SC189
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -45,4 +47,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L WM8758B IC?
+U 1 1 5852C39F
+P 6100 4300
+F 0 "IC?" H 5150 6130 50  0000 L BNN
+F 1 "WM8758B" H 6600 2900 50  0000 L BNN
+F 2 "QFN32" H 6100 4300 50  0000 C CIN
+F 3 "" H 6100 4300 50  0000 C CNN
+	1    6100 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

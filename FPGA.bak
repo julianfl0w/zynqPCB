@@ -30,12 +30,14 @@ LIBS:valves
 LIBS:xilinx
 LIBS:xilinx7
 LIBS:IS31FL3199_LED_driver
+LIBS:wm8758b
+LIBS:SC189
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -49,12 +51,12 @@ $Sheet
 S 1400 1350 2050 1350
 U 58508495
 F0 "Configuration" 60
-F1 "file58508494.sch" 60
+F1 "Configuration.sch" 60
 $EndSheet
 $Sheet
 S 1800 3750 2200 1950
 U 58508498
-F0 "Interface with Cyprus" 60
-F1 "file58508497.sch" 60
+F0 "GPIF II" 60
+F1 "gpif2.sch" 60
 $EndSheet
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Tue 13 Dec 2016 03:49:38 PM EST
+update=Thu 15 Dec 2016 02:38:15 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,5 @@ LibName28=valves
 LibName29=xilinx
 LibName30=xilinx7
 LibName31=IS31FL3199_LED_driver
+LibName32=wm8758b
+LibName33=SC189

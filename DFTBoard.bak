@@ -30,12 +30,14 @@ LIBS:valves
 LIBS:xilinx
 LIBS:xilinx7
 LIBS:IS31FL3199_LED_driver
+LIBS:wm8758b
+LIBS:SC189
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -49,30 +51,36 @@ $Sheet
 S 1250 6150 1600 1150
 U 58508414
 F0 "FPGA" 60
-F1 "file58508413.sch" 60
-$EndSheet
-$Sheet
-S 4100 6500 1550 950 
-U 5850843B
-F0 "Cypress FX3" 60
-F1 "file5850843A.sch" 60
+F1 "FPGA.sch" 60
 $EndSheet
 $Sheet
 S 6550 5000 1450 1000
 U 58508444
 F0 "Audio" 60
-F1 "file58508443.sch" 60
+F1 "Audio.sch" 60
 $EndSheet
 $Sheet
 S 1000 3950 1600 1150
 U 5850844D
 F0 "LEDs" 60
-F1 "file5850844C.sch" 60
+F1 "leds.sch" 60
 $EndSheet
 $Sheet
-S 7800 2150 1800 1300
+S 7800 2150 1850 1250
 U 58508456
 F0 "Memory" 60
-F1 "file58508455.sch" 60
+F1 "Memory.sch" 60
+$EndSheet
+$Sheet
+S 4900 6950 1750 650 
+U 5852A88E
+F0 "Cypress FX3" 60
+F1 "CypressFX3.sch" 60
+$EndSheet
+$Sheet
+S 4250 2600 1950 1300
+U 5852F1DA
+F0 "Power" 60
+F1 "file5852F1D9.sch" 60
 $EndSheet
 $EndSCHEMATC

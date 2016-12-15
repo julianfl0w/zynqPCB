@@ -30,12 +30,14 @@ LIBS:valves
 LIBS:xilinx
 LIBS:xilinx7
 LIBS:IS31FL3199_LED_driver
+LIBS:wm8758b
+LIBS:SC189
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -74,5 +76,11 @@ S 4900 6950 1750 650
 U 5852A88E
 F0 "Cypress FX3" 60
 F1 "CypressFX3.sch" 60
+$EndSheet
+$Sheet
+S 4250 2600 1950 1300
+U 5852F1DA
+F0 "Power" 60
+F1 "file5852F1D9.sch" 60
 $EndSheet
 $EndSCHEMATC
