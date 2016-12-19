@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-update=12/15/2016 3:42:34 PM
-=======
 update=Thu 15 Dec 2016 03:33:55 PM EST
->>>>>>> 1327bf8c535b1b0737e166d29c28a9b0b7d23b62
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,8 +63,5 @@ LibName31=IS31FL3199_LED_driver
 LibName32=wm8758b
 LibName33=SC189
 LibName34=s70fl01gs
-<<<<<<< HEAD
 LibName35=_sensors
-=======
-LibName35=PROpendous-cache
->>>>>>> 1327bf8c535b1b0737e166d29c28a9b0b7d23b62
+LibName36=PROpendous-cache

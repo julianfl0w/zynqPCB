@@ -33,11 +33,8 @@ LIBS:IS31FL3199_LED_driver
 LIBS:wm8758b
 LIBS:SC189
 LIBS:s70fl01gs
-<<<<<<< HEAD
 LIBS:_sensors
-=======
 LIBS:PROpendous-cache
->>>>>>> 1327bf8c535b1b0737e166d29c28a9b0b7d23b62
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
