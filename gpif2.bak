@@ -35,12 +35,32 @@ LIBS:SC189
 LIBS:s70fl01gs
 LIBS:_sensors
 LIBS:PROpendous-cache
+LIBS:_antenna
+LIBS:_audio
+LIBS:_charge-pump-regulators
+LIBS:_connectors
+LIBS:_discrete
+LIBS:_div
+LIBS:_ic
+LIBS:_linear-regulators
+LIBS:_motor_drivers
+LIBS:_power
+LIBS:_stm32
+LIBS:_transceiver
+LIBS:_wireless
+LIBS:Comp2014
+LIBS:cvra
+LIBS:IRF
+LIBS:logo
+LIBS:Mec
+LIBS:National
+LIBS:phoenix
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 4 10
 Title ""
 Date ""
 Rev ""

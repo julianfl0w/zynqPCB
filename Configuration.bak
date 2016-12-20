@@ -33,11 +33,28 @@ LIBS:IS31FL3199_LED_driver
 LIBS:wm8758b
 LIBS:SC189
 LIBS:s70fl01gs
-<<<<<<< HEAD
 LIBS:_sensors
-=======
 LIBS:PROpendous-cache
->>>>>>> 1327bf8c535b1b0737e166d29c28a9b0b7d23b62
+LIBS:_antenna
+LIBS:_audio
+LIBS:_charge-pump-regulators
+LIBS:_connectors
+LIBS:_discrete
+LIBS:_div
+LIBS:_ic
+LIBS:_linear-regulators
+LIBS:_motor_drivers
+LIBS:_power
+LIBS:_stm32
+LIBS:_transceiver
+LIBS:_wireless
+LIBS:Comp2014
+LIBS:cvra
+LIBS:IRF
+LIBS:logo
+LIBS:Mec
+LIBS:National
+LIBS:phoenix
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
