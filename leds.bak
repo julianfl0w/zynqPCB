@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:DFTBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,34 +34,15 @@ LIBS:IS31FL3199_LED_driver
 LIBS:wm8758b
 LIBS:SC189
 LIBS:s70fl01gs
-LIBS:_sensors
 LIBS:PROpendous-cache
-LIBS:_antenna
-LIBS:_audio
-LIBS:_charge-pump-regulators
-LIBS:_connectors
-LIBS:_discrete
-LIBS:_div
-LIBS:_ic
-LIBS:_linear-regulators
-LIBS:_motor_drivers
-LIBS:_power
-LIBS:_stm32
-LIBS:_transceiver
-LIBS:_wireless
-LIBS:Comp2014
-LIBS:cvra
-LIBS:IRF
 LIBS:logo
-LIBS:Mec
-LIBS:National
-LIBS:phoenix
+LIBS:JTAG
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 11
+Sheet 8 12
 Title ""
 Date ""
 Rev ""
@@ -115,7 +97,7 @@ F 3 "" H 2500 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 585893DE
 P 2500 3550
 F 0 "#PWR?" H 2500 3550 30  0001 C CNN
@@ -166,7 +148,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 3400 7300 3500
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 58589A65
 P 7300 3500
 F 0 "#PWR?" H 7300 3500 30  0001 C CNN
@@ -268,9 +250,11 @@ Connection ~ 1900 3800
 Wire Wire Line
 	1050 3800 3100 3800
 $Comp
-L +3.3V #PWR?
+L +3.3V-RESCUE-DFTBoard #PWR?
 U 1 1 5858AA08
 P 2800 3100
+AR Path="/5858AA08" Ref="#PWR?"  Part="1" 
+AR Path="/5850844D/5858AA08" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2800 3060 30  0001 C CNN
 F 1 "+3.3V" H 2800 3210 30  0000 C CNN
 F 2 "" H 2800 3100 60  0001 C CNN
@@ -295,7 +279,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 4900 9850 4900
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 5858ACBB
 P 5150 5200
 F 0 "#PWR?" H 5150 5200 30  0001 C CNN
@@ -310,7 +294,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 5000 5150 5200
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 5858AD21
 P 2900 4900
 F 0 "#PWR?" H 2900 4900 30  0001 C CNN
@@ -363,7 +347,7 @@ Connection ~ 1750 4000
 Text GLabel 1550 4000 0    60   Input ~ 0
 LED_SD
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 5858B7DD
 P 9950 5300
 F 0 "#PWR?" H 9950 5300 30  0001 C CNN
@@ -406,7 +390,7 @@ F 3 "" H 7700 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 5858BD60
 P 7700 4900
 F 0 "#PWR?" H 7700 4900 30  0001 C CNN
@@ -535,7 +519,7 @@ Wire Wire Line
 	6600 1850 6600 4700
 Connection ~ 6750 1850
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 5858E9FF
 P 6750 2250
 F 0 "#PWR?" H 6750 2250 30  0001 C CNN

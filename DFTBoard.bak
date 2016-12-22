@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:DFTBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,34 +34,15 @@ LIBS:IS31FL3199_LED_driver
 LIBS:wm8758b
 LIBS:SC189
 LIBS:s70fl01gs
-LIBS:_sensors
 LIBS:PROpendous-cache
-LIBS:_antenna
-LIBS:_audio
-LIBS:_charge-pump-regulators
-LIBS:_connectors
-LIBS:_discrete
-LIBS:_div
-LIBS:_ic
-LIBS:_linear-regulators
-LIBS:_motor_drivers
-LIBS:_power
-LIBS:_stm32
-LIBS:_transceiver
-LIBS:_wireless
-LIBS:Comp2014
-LIBS:cvra
-LIBS:IRF
 LIBS:logo
-LIBS:Mec
-LIBS:National
-LIBS:phoenix
+LIBS:JTAG
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title ""
 Date ""
 Rev ""

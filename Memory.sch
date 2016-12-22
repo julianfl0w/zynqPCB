@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:DFTBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,34 +34,15 @@ LIBS:IS31FL3199_LED_driver
 LIBS:wm8758b
 LIBS:SC189
 LIBS:s70fl01gs
-LIBS:_sensors
 LIBS:PROpendous-cache
-LIBS:_antenna
-LIBS:_audio
-LIBS:_charge-pump-regulators
-LIBS:_connectors
-LIBS:_discrete
-LIBS:_div
-LIBS:_ic
-LIBS:_linear-regulators
-LIBS:_motor_drivers
-LIBS:_power
-LIBS:_stm32
-LIBS:_transceiver
-LIBS:_wireless
-LIBS:Comp2014
-LIBS:cvra
-LIBS:IRF
 LIBS:logo
-LIBS:Mec
-LIBS:National
-LIBS:phoenix
+LIBS:JTAG
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 11
+Sheet 7 12
 Title ""
 Date ""
 Rev ""
@@ -110,7 +92,7 @@ F 3 "" H 5450 1350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 58594FE3
 P 4600 1950
 F 0 "#PWR?" H 4600 1950 30  0001 C CNN
@@ -121,7 +103,7 @@ F 3 "" H 4600 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 58594FFB
 P 5450 2350
 F 0 "#PWR?" H 5450 2350 30  0001 C CNN
@@ -150,7 +132,7 @@ SPI_MOSI
 Text GLabel 6050 3550 2    60   Output ~ 0
 SPI_MISO
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 585952EA
 P 6150 3900
 F 0 "#PWR?" H 6150 3900 30  0001 C CNN
@@ -163,7 +145,7 @@ $EndComp
 Wire Wire Line
 	6150 3650 6150 3900
 $Comp
-L +3.3V #PWR?
+L +3.3V-RESCUE-DFTBoard #PWR?
 U 1 1 5859530D
 P 6650 3750
 F 0 "#PWR?" H 6650 3710 30  0001 C CNN
