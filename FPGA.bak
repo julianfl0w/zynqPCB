@@ -60,7 +60,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 2 11
 Title ""
 Date ""
 Rev ""
@@ -81,5 +81,11 @@ S 1800 3750 2200 1950
 U 58508498
 F0 "GPIF II" 60
 F1 "gpif2.sch" 60
+$EndSheet
+$Sheet
+S 5500 2050 1800 1300
+U 585C37C3
+F0 "FPGA_POWER" 60
+F1 "FPGA_POWER.sch" 60
 $EndSheet
 $EndSCHEMATC

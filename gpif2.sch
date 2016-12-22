@@ -60,7 +60,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 4 11
 Title ""
 Date ""
 Rev ""
@@ -70,4 +70,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L xc7a50tftg256 U?
+U 2 1 585C370B
+P 2550 1850
+F 0 "U?" H 2750 2100 60  0000 L CNN
+F 1 "xc7a50tftg256" H 2750 2000 60  0000 L CNN
+F 2 "" H 2550 1850 60  0001 C CNN
+F 3 "" H 2550 1850 60  0001 C CNN
+	2    2550 1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
