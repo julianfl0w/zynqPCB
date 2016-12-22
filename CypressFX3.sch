@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:DFTBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,28 +34,9 @@ LIBS:IS31FL3199_LED_driver
 LIBS:wm8758b
 LIBS:SC189
 LIBS:s70fl01gs
-LIBS:_sensors
 LIBS:PROpendous-cache
-LIBS:_antenna
-LIBS:_audio
-LIBS:_charge-pump-regulators
-LIBS:_connectors
-LIBS:_discrete
-LIBS:_div
-LIBS:_ic
-LIBS:_linear-regulators
-LIBS:_motor_drivers
-LIBS:_power
-LIBS:_stm32
-LIBS:_transceiver
-LIBS:_wireless
-LIBS:Comp2014
-LIBS:cvra
-LIBS:IRF
 LIBS:logo
-LIBS:Mec
-LIBS:National
-LIBS:phoenix
+LIBS:JTAG
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
@@ -181,7 +163,7 @@ F 3 "" H 8700 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 585BF727
 P 8700 2900
 F 0 "#PWR?" H 8700 2900 30  0001 C CNN
@@ -203,7 +185,7 @@ F 3 "" H 8700 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 585BF837
 P 8700 2450
 F 0 "#PWR?" H 8700 2450 30  0001 C CNN
@@ -360,7 +342,7 @@ Text GLabel 3200 2550 2    60   Output ~ 0
 GPIF_CLK
 NoConn ~ 8000 4050
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 585C0985
 P 9400 5800
 F 0 "#PWR?" H 9400 5800 30  0001 C CNN
@@ -467,14 +449,16 @@ Wire Wire Line
 	7900 6200 8000 6200
 Connection ~ 7900 6100
 $Comp
-L +3.3V #PWR?
+L +3.3V-RESCUE-DFTBoard #PWR?
 U 1 1 585C16D6
-P 7850 3700
-F 0 "#PWR?" H 7850 3660 30  0001 C CNN
-F 1 "+3.3V" H 7850 3810 30  0000 C CNN
-F 2 "" H 7850 3700 60  0001 C CNN
-F 3 "" H 7850 3700 60  0001 C CNN
-	1    7850 3700
+P 8050 3100
+AR Path="/585C16D6" Ref="#PWR?"  Part="1" 
+AR Path="/5852A88E/585C16D6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8050 3060 30  0001 C CNN
+F 1 "+3.3V" H 8050 3210 30  0000 C CNN
+F 2 "" H 8050 3100 60  0001 C CNN
+F 3 "" H 8050 3100 60  0001 C CNN
+	1    8050 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -528,7 +512,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 1850 9550 1850
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 585C2597
 P 6450 2250
 F 0 "#PWR?" H 6450 2250 30  0001 C CNN
@@ -559,7 +543,7 @@ NoConn ~ 6600 2900
 Text Notes 6000 2650 0    60   ~ 0
 JTAG Signals
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 585C2EDC
 P 9300 1200
 F 0 "#PWR?" H 9300 1200 30  0001 C CNN

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:DFTBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,28 +34,9 @@ LIBS:IS31FL3199_LED_driver
 LIBS:wm8758b
 LIBS:SC189
 LIBS:s70fl01gs
-LIBS:_sensors
 LIBS:PROpendous-cache
-LIBS:_antenna
-LIBS:_audio
-LIBS:_charge-pump-regulators
-LIBS:_connectors
-LIBS:_discrete
-LIBS:_div
-LIBS:_ic
-LIBS:_linear-regulators
-LIBS:_motor_drivers
-LIBS:_power
-LIBS:_stm32
-LIBS:_transceiver
-LIBS:_wireless
-LIBS:Comp2014
-LIBS:cvra
-LIBS:IRF
 LIBS:logo
-LIBS:Mec
-LIBS:National
-LIBS:phoenix
+LIBS:JTAG
 LIBS:DFTBoard-cache
 EELAYER 25 0
 EELAYER END
@@ -143,7 +125,7 @@ Wire Wire Line
 	6900 4600 7500 4600
 Connection ~ 6900 2750
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 58592DBB
 P 3400 5650
 F 0 "#PWR?" H 3400 5650 30  0001 C CNN
@@ -363,7 +345,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 4600 9500 5000
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 58594786
 P 5900 3500
 F 0 "#PWR?" H 5900 3500 30  0001 C CNN
@@ -374,7 +356,7 @@ F 3 "" H 5900 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 58594848
 P 5900 5300
 F 0 "#PWR?" H 5900 5300 30  0001 C CNN
@@ -389,7 +371,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 5200 5900 5300
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 58594C14
 P 9500 5350
 F 0 "#PWR?" H 9500 5350 30  0001 C CNN
@@ -400,7 +382,7 @@ F 3 "" H 9500 5350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-DFTBoard #PWR?
 U 1 1 58594C4F
 P 9500 3500
 F 0 "#PWR?" H 9500 3500 30  0001 C CNN
@@ -415,7 +397,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 5200 9500 5350
 $Comp
-L +3.3V #PWR?
+L +3.3V-RESCUE-DFTBoard #PWR?
 U 1 1 585961A7
 P 5900 2750
 F 0 "#PWR?" H 5900 2710 30  0001 C CNN
