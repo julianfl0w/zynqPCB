@@ -37,7 +37,11 @@ LIBS:s70fl01gs
 LIBS:PROpendous-cache
 LIBS:logo
 LIBS:JTAG
+LIBS:Audio-cache
+LIBS:beagledancer
 LIBS:DFTBoard-cache
+LIBS:Memory-cache
+LIBS:tinkerforge
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
