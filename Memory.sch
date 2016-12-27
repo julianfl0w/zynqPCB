@@ -41,7 +41,11 @@ LIBS:Audio-cache
 LIBS:beagledancer
 LIBS:DFTBoard-cache
 LIBS:Memory-cache
+<<<<<<< HEAD
 LIBS:usb_condom_extended_v1-cache
+=======
+LIBS:tinkerforge
+>>>>>>> 4aeb67232443da9530b87c9e081ce067f6f7dcce
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

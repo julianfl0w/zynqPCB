@@ -1,4 +1,4 @@
-update=Tue 27 Dec 2016 03:25:05 PM EST
+update=12/27/2016 2:17:25 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -80,3 +80,4 @@ LibName48=lib/SC189
 LibName49=lib/wm8758b
 LibName50=lib/xilinx7
 LibName51=lib/usb_condom_extended_v1-cache
+LibName52=lib/tinkerforge
