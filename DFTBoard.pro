@@ -1,4 +1,4 @@
-update=12/28/2016 3:55:34 PM
+update=Thu 29 Dec 2016 03:01:37 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -83,3 +83,5 @@ LibName51=lib/usb_condom_extended_v1-cache
 LibName52=lib/tinkerforge
 LibName53=lib/si570
 LibName54=lib/hdmi_BiDir_n
+LibName55=lib/LevelShifter Components
+LibName56=lib/N25Q128A

@@ -45,6 +45,8 @@ LIBS:usb_condom_extended_v1-cache
 LIBS:tinkerforge
 LIBS:si570
 LIBS:hdmi_BiDir_n
+LIBS:LevelShifter Components
+LIBS:N25Q128A
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
