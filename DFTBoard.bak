@@ -37,12 +37,17 @@ LIBS:s70fl01gs
 LIBS:PROpendous-cache
 LIBS:logo
 LIBS:JTAG
+LIBS:Audio-cache
+LIBS:beagledancer
 LIBS:DFTBoard-cache
+LIBS:Memory-cache
+LIBS:usb_condom_extended_v1-cache
+LIBS:tinkerforge
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title ""
 Date ""
 Rev ""
@@ -93,5 +98,11 @@ S 1600 1950 500  150
 U 5852FF3B
 F0 "rangefinder" 60
 F1 "rangefinder.sch" 60
+$EndSheet
+$Sheet
+S 4150 5150 1450 950 
+U 5862C4CE
+F0 "SPIUSBBRIDGE" 60
+F1 "SPI_USB_Bridge.sch" 60
 $EndSheet
 $EndSCHEMATC

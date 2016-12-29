@@ -1,4 +1,4 @@
-update=12/27/2016 2:17:25 PM
+update=12/28/2016 3:55:34 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -81,3 +81,5 @@ LibName49=lib/wm8758b
 LibName50=lib/xilinx7
 LibName51=lib/usb_condom_extended_v1-cache
 LibName52=lib/tinkerforge
+LibName53=lib/si570
+LibName54=lib/hdmi_BiDir_n

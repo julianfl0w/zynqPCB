@@ -43,11 +43,13 @@ LIBS:DFTBoard-cache
 LIBS:Memory-cache
 LIBS:usb_condom_extended_v1-cache
 LIBS:tinkerforge
+LIBS:si570
+LIBS:hdmi_BiDir_n
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 14
 Title ""
 Date ""
 Rev ""
@@ -58,51 +60,57 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1250 6150 1600 1150
+S 1600 5150 1050 1000
 U 58508414
 F0 "FPGA" 60
 F1 "FPGA.sch" 60
 $EndSheet
 $Sheet
-S 6550 5000 1450 1000
+S 5600 5200 1000 950 
 U 58508444
 F0 "Audio" 60
 F1 "Audio.sch" 60
 $EndSheet
 $Sheet
-S 1000 3950 1600 1150
+S 1600 3550 1100 1050
 U 5850844D
 F0 "LEDs" 60
 F1 "leds.sch" 60
 $EndSheet
 $Sheet
-S 7800 2150 1850 1250
+S 5600 3650 1000 950 
 U 58508456
 F0 "Memory" 60
 F1 "Memory.sch" 60
 $EndSheet
 $Sheet
-S 4900 6950 1750 650 
+S 3600 3600 1050 1000
 U 5852A88E
 F0 "Cypress FX3" 60
 F1 "CypressFX3.sch" 60
 $EndSheet
 $Sheet
-S 4250 2600 1950 1300
+S 3600 1950 1100 1050
 U 5852F1DA
 F0 "Power" 60
 F1 "file5852F1D9.sch" 60
 $EndSheet
 $Sheet
-S 1600 1950 500  150 
+S 1600 1950 1150 1050
 U 5852FF3B
 F0 "rangefinder" 60
 F1 "rangefinder.sch" 60
 $EndSheet
 $Sheet
-S 4150 5150 1450 950 
+S 3600 5150 1050 1000
 U 5862C4CE
 F0 "SPIUSBBRIDGE" 60
 F1 "SPI_USB_Bridge.sch" 60
+$EndSheet
+$Sheet
+S 5600 2000 1000 1000
+U 58643221
+F0 "HDMI" 60
+F1 "hdmi.sch" 60
 $EndSheet
 $EndSCHEMATC

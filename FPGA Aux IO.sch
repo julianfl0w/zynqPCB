@@ -43,11 +43,13 @@ LIBS:DFTBoard-cache
 LIBS:Memory-cache
 LIBS:usb_condom_extended_v1-cache
 LIBS:tinkerforge
+LIBS:si570
+LIBS:hdmi_BiDir_n
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 13
+Sheet 6 14
 Title ""
 Date ""
 Rev ""
@@ -58,78 +60,16 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xc7a50tftg256 U?
+L xc7a50tftg256 U1
 U 3 1 585C5883
 P 1850 1450
-F 0 "U?" H 2050 1700 60  0000 L CNN
+F 0 "U1" H 2050 1700 60  0000 L CNN
 F 1 "xc7a50tftg256" H 2050 1600 60  0000 L CNN
 F 2 "" H 1850 1450 60  0001 C CNN
 F 3 "" H 1850 1450 60  0001 C CNN
 	3    1850 1450
 	1    0    0    -1  
 $EndComp
-$Comp
-L xc7a50tftg256 U?
-U 5 1 585C595B
-P 8150 1400
-F 0 "U?" H 8350 1650 60  0000 L CNN
-F 1 "xc7a50tftg256" H 8350 1550 60  0000 L CNN
-F 2 "" H 8150 1400 60  0001 C CNN
-F 3 "" H 8150 1400 60  0001 C CNN
-	5    8150 1400
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8150 1400
-NoConn ~ 8150 1500
-NoConn ~ 8150 1600
-NoConn ~ 8150 1700
-NoConn ~ 8150 1800
-NoConn ~ 8150 3100
-NoConn ~ 8150 3200
-NoConn ~ 8150 3300
-NoConn ~ 8150 3400
-NoConn ~ 8150 3500
-NoConn ~ 8150 3600
-NoConn ~ 8150 1900
-NoConn ~ 8150 2000
-NoConn ~ 8150 2100
-NoConn ~ 8150 2200
-NoConn ~ 8150 2300
-NoConn ~ 8150 2400
-NoConn ~ 8150 3700
-NoConn ~ 8150 3800
-NoConn ~ 8150 3900
-NoConn ~ 8150 4000
-NoConn ~ 8150 4100
-NoConn ~ 8150 4200
-NoConn ~ 8150 4300
-NoConn ~ 8150 4400
-NoConn ~ 8150 4500
-NoConn ~ 8150 4600
-NoConn ~ 8150 4700
-NoConn ~ 8150 4800
-NoConn ~ 8150 4900
-NoConn ~ 8150 5000
-NoConn ~ 8150 5100
-NoConn ~ 8150 5200
-NoConn ~ 8150 5300
-NoConn ~ 8150 5400
-NoConn ~ 8150 2500
-NoConn ~ 8150 2600
-NoConn ~ 8150 2700
-NoConn ~ 8150 2800
-NoConn ~ 8150 2900
-NoConn ~ 8150 3000
-NoConn ~ 8150 5500
-NoConn ~ 8150 5600
-NoConn ~ 8150 5700
-NoConn ~ 8150 5800
-NoConn ~ 8150 5900
-NoConn ~ 8150 6000
-NoConn ~ 8150 6100
-NoConn ~ 8150 6200
-NoConn ~ 8150 6300
-NoConn ~ 8150 6400
 NoConn ~ 5550 2100
 NoConn ~ 5550 2200
 NoConn ~ 5550 2300
@@ -203,10 +143,10 @@ NoConn ~ 1850 6250
 NoConn ~ 1850 6350
 NoConn ~ 1850 6450
 $Comp
-L xc7a50tftg256 U?
+L xc7a50tftg256 U1
 U 4 1 585C58DC
 P 5550 2100
-F 0 "U?" H 5750 2350 60  0000 L CNN
+F 0 "U1" H 5750 2350 60  0000 L CNN
 F 1 "xc7a50tftg256" H 5750 2250 60  0000 L CNN
 F 2 "" H 5550 2100 60  0001 C CNN
 F 3 "" H 5550 2100 60  0001 C CNN

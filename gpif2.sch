@@ -43,11 +43,13 @@ LIBS:DFTBoard-cache
 LIBS:Memory-cache
 LIBS:usb_condom_extended_v1-cache
 LIBS:tinkerforge
+LIBS:si570
+LIBS:hdmi_BiDir_n
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 13
+Sheet 4 14
 Title ""
 Date ""
 Rev ""
@@ -58,10 +60,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L xc7a50tftg256 U?
+L xc7a50tftg256 U1
 U 2 1 585C370B
 P 5950 1550
-F 0 "U?" H 6150 1800 60  0000 L CNN
+F 0 "U1" H 6150 1800 60  0000 L CNN
 F 1 "xc7a50tftg256" H 6150 1700 60  0000 L CNN
 F 2 "" H 5950 1550 60  0001 C CNN
 F 3 "" H 5950 1550 60  0001 C CNN
@@ -69,10 +71,10 @@ F 3 "" H 5950 1550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1.8V #PWR?
+L +1.8V #PWR06
 U 1 1 585C5E93
 P 5400 6400
-F 0 "#PWR?" H 5400 6540 20  0001 C CNN
+F 0 "#PWR06" H 5400 6540 20  0001 C CNN
 F 1 "+1.8V" H 5400 6510 30  0000 C CNN
 F 2 "" H 5400 6400 60  0001 C CNN
 F 3 "" H 5400 6400 60  0001 C CNN
