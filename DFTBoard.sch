@@ -93,7 +93,7 @@ $Sheet
 S 3600 1950 1100 1050
 U 5852F1DA
 F0 "Power" 60
-F1 "file5852F1D9.sch" 60
+F1 "power.sch" 60
 $EndSheet
 $Sheet
 S 1600 1950 1150 1050
