@@ -43,11 +43,13 @@ LIBS:DFTBoard-cache
 LIBS:Memory-cache
 LIBS:usb_condom_extended_v1-cache
 LIBS:tinkerforge
+LIBS:si570
+LIBS:hdmi_BiDir_n
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 13
+Sheet 4 14
 Title ""
 Date ""
 Rev ""

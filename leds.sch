@@ -45,6 +45,8 @@ LIBS:usb_condom_extended_v1-cache
 LIBS:tinkerforge
 LIBS:si570
 LIBS:hdmi_BiDir_n
+LIBS:LevelShifter Components
+LIBS:N25Q128A
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -372,4 +374,6 @@ Wire Wire Line
 	1600 3800 3100 3800
 Wire Wire Line
 	2100 4000 3100 4000
+NoConn ~ 5000 4900
+NoConn ~ 3100 3900
 $EndSCHEMATC

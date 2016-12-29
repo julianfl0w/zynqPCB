@@ -43,11 +43,13 @@ LIBS:DFTBoard-cache
 LIBS:Memory-cache
 LIBS:usb_condom_extended_v1-cache
 LIBS:tinkerforge
+LIBS:si570
+LIBS:hdmi_BiDir_n
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 13
+Sheet 10 14
 Title ""
 Date ""
 Rev ""
@@ -607,23 +609,22 @@ Wire Bus Line
 	2450 3550 2700 3550
 Text GLabel 2700 3550 2    60   Output ~ 0
 GPIF_ADDR
-NoConn ~ 2250 3850
 NoConn ~ 2250 4050
 $Comp
 L +1.8V #PWR046
 U 1 1 585C8AB0
-P 2450 3850
-F 0 "#PWR046" H 2450 3990 20  0001 C CNN
-F 1 "+1.8V" H 2450 3960 30  0000 C CNN
-F 2 "" H 2450 3850 60  0001 C CNN
-F 3 "" H 2450 3850 60  0001 C CNN
-	1    2450 3850
+P 3000 3850
+F 0 "#PWR046" H 3000 3990 20  0001 C CNN
+F 1 "+1.8V" H 3000 3960 30  0000 C CNN
+F 2 "" H 3000 3850 60  0001 C CNN
+F 3 "" H 3000 3850 60  0001 C CNN
+	1    3000 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 3950 2450 3950
+	2250 3950 3000 3950
 Wire Wire Line
-	2450 3950 2450 3850
+	3000 3950 3000 3850
 $Comp
 L LCD-016N002L DS1
 U 1 1 585D73E2
@@ -753,32 +754,18 @@ Wire Wire Line
 	5050 4550 5050 5050
 Wire Wire Line
 	5050 5050 2250 5050
-Text GLabel 2250 4350 2    60   Input ~ 0
+Text GLabel 2250 5750 2    60   Input ~ 0
 ENC_NAVA
 Wire Wire Line
-	2250 4450 2750 4450
-Text GLabel 2750 4450 2    60   Input ~ 0
+	2250 5850 2750 5850
+Text GLabel 2750 5850 2    60   Input ~ 0
 ENC_NAVB
-Text GLabel 2250 4550 2    60   Input ~ 0
-ENC_C0A
-Wire Wire Line
-	2250 4650 2800 4650
-Text GLabel 2800 4650 2    60   Input ~ 0
-ENC_C0B
 Wire Wire Line
 	3200 3150 2250 3150
 Text GLabel 3200 3150 2    60   Input ~ 0
 ENC_NAVSW
-Text GLabel 2800 4850 2    60   Input ~ 0
-ENC_C1A
-Text GLabel 2250 4950 2    60   Input ~ 0
-ENC_C1B
-Text GLabel 2250 4750 2    60   Input ~ 0
-ENC_C0SW
-Wire Wire Line
-	2250 4850 2800 4850
 Text GLabel 3300 3300 2    60   Input ~ 0
-ENC_C2A
+ENCC_Q0
 Wire Wire Line
 	2300 3400 3850 3400
 Text GLabel 3850 3400 2    60   Input ~ 0
@@ -805,8 +792,6 @@ Wire Wire Line
 	2350 3450 2350 3550
 Wire Wire Line
 	2350 3550 2250 3550
-Text GLabel 2250 5750 2    60   Input ~ 0
-ENC_C1SW
 NoConn ~ 5450 4850
 NoConn ~ 5450 4950
 NoConn ~ 5450 5050
@@ -891,4 +876,24 @@ Wire Wire Line
 Wire Wire Line
 	4950 2750 4950 2500
 NoConn ~ 5600 2650
+Text Notes 2550 4200 0    60   ~ 0
+Z1Z - I2C (USB fallback)\nZ11 - USB only
+$Comp
+L Jumper_NO_Small JP?
+U 1 1 58640BCD
+P 2500 3850
+F 0 "JP?" H 2500 3930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2510 3790 50  0001 C CNN
+F 2 "" H 2500 3850 50  0000 C CNN
+F 3 "" H 2500 3850 50  0000 C CNN
+	1    2500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3850 2250 3850
+Wire Wire Line
+	2600 3850 2700 3850
+Wire Wire Line
+	2700 3850 2700 3950
+Connection ~ 2700 3950
 $EndSCHEMATC
