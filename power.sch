@@ -45,11 +45,13 @@ LIBS:usb_condom_extended_v1-cache
 LIBS:tinkerforge
 LIBS:si570
 LIBS:hdmi_BiDir_n
+LIBS:LevelShifter Components
+LIBS:N25Q128A
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 14
+Sheet 11 13
 Title ""
 Date ""
 Rev ""

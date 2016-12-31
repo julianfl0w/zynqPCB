@@ -51,7 +51,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 14
+Sheet 13 13
 Title ""
 Date ""
 Rev ""
@@ -441,13 +441,13 @@ Connection ~ 8950 2450
 Wire Wire Line
 	5850 4700 7600 4700
 Text GLabel 5850 3800 2    60   Input ~ 0
-ENCC1_SW
+ENCC0_SW
 Text GLabel 6400 3700 2    60   Input ~ 0
-ENCC1_Q0
+ENCC0_Q0
 Wire Wire Line
 	6400 3700 5850 3700
 Text GLabel 5850 3600 2    60   Input ~ 0
-ENCC1_Q1
+ENCC0_Q1
 Text GLabel 6400 3500 2    60   Input ~ 0
 ENCC1_SW
 Text GLabel 5850 3400 2    60   Input ~ 0
@@ -458,4 +458,14 @@ Text GLabel 6400 3300 2    60   Input ~ 0
 ENCC1_Q1
 Wire Wire Line
 	5850 3300 6400 3300
+Text GLabel 5850 3200 2    60   Input ~ 0
+ENCC2_Q0
+Text GLabel 6400 3100 2    60   Input ~ 0
+ENCC2_Q1
+Wire Wire Line
+	4100 3100 6400 3100
+Wire Wire Line
+	4100 3100 4100 3200
+Wire Wire Line
+	4100 3200 4150 3200
 $EndSCHEMATC

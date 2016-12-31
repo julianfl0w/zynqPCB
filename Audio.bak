@@ -51,7 +51,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 14
+Sheet 7 13
 Title ""
 Date ""
 Rev ""
@@ -815,4 +815,8 @@ F 3 "" H 3650 5450 50  0000 C CNN
 	1    3650 5450
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4750 4400
+NoConn ~ 4750 4500
+Text Notes 9750 5550 0    60   ~ 0
+MAY NEED TO USE LINE_COM
 $EndSCHEMATC
