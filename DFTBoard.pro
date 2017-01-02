@@ -1,4 +1,4 @@
-update=Thu 29 Dec 2016 03:01:37 PM EST
+update=1/2/2017 2:41:52 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -85,3 +85,13 @@ LibName53=lib/si570
 LibName54=lib/hdmi_BiDir_n
 LibName55=lib/LevelShifter Components
 LibName56=lib/N25Q128A
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
