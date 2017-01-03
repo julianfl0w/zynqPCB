@@ -51,7 +51,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 13
+Sheet 10 14
 Title ""
 Date ""
 Rev ""
@@ -402,9 +402,11 @@ F 3 "" H 5350 6400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV1
+L POT-RESCUE-DFTBoard RV1
 U 1 1 585D90E7
 P 4650 4300
+AR Path="/585D90E7" Ref="RV1"  Part="1" 
+AR Path="/5852A88E/585D90E7" Ref="RV1"  Part="1" 
 F 0 "RV1" H 4650 4220 50  0000 C CNN
 F 1 "10k" H 4650 4300 50  0000 C CNN
 F 2 "" H 4650 4300 50  0000 C CNN
@@ -1788,4 +1790,16 @@ Wire Wire Line
 Wire Wire Line
 	9400 4150 7400 4150
 NoConn ~ 9700 3750
+Text GLabel 2250 4350 2    60   Input ~ 0
+JD_ROUT
+Wire Wire Line
+	2250 4450 2750 4450
+Text GLabel 2750 4450 2    60   Input ~ 0
+JD_LOUT
+Text GLabel 2250 4550 2    60   Input ~ 0
+JD_HOUT
+Wire Wire Line
+	2250 4650 2750 4650
+Text GLabel 2750 4650 2    60   Input ~ 0
+JD_IN
 $EndSCHEMATC
