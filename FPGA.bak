@@ -82,7 +82,7 @@ $EndSheet
 $Sheet
 S 4900 3800 1200 1200
 U 585C547A
-F0 "FPGA AUX IO" 60
-F1 "FPGA Aux IO.sch" 60
+F0 "FPGA UNUSED IO" 60
+F1 "FPGA Unused IO.sch" 60
 $EndSheet
 $EndSCHEMATC
