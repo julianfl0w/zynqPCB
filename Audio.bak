@@ -578,7 +578,6 @@ $EndComp
 NoConn ~ 4750 4400
 NoConn ~ 4750 4500
 NoConn ~ 6950 4800
-NoConn ~ 6950 4900
 Wire Wire Line
 	4750 3500 4150 3500
 Wire Wire Line
@@ -905,4 +904,6 @@ F 3 "" H 8450 3100 60  0001 C CNN
 	1    8450 3100
 	1    0    0    -1  
 $EndComp
+Text GLabel 6950 4900 2    60   Output ~ 0
+AUDIO_IN
 $EndSCHEMATC
