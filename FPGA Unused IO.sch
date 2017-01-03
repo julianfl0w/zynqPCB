@@ -83,7 +83,6 @@ NoConn ~ 4950 2750
 NoConn ~ 4950 2850
 NoConn ~ 4950 3950
 NoConn ~ 4950 4050
-NoConn ~ 4950 4150
 NoConn ~ 4950 2950
 NoConn ~ 4950 3050
 NoConn ~ 4950 3150
@@ -156,4 +155,17 @@ F 3 "" H 4950 2150 60  0001 C CNN
 	4    4950 2150
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	4950 4150 4850 4150
+Wire Bus Line
+	4850 4150 4850 4550
+Entry Wire Line
+	4850 4550 4950 4650
+Entry Wire Line
+	4850 4500 4950 4600
+Entry Wire Line
+	4850 4450 4950 4550
+NoConn ~ 4950 4650
+NoConn ~ 4950 4600
+NoConn ~ 4950 4550
 $EndSCHEMATC
