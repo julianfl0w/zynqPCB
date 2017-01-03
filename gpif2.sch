@@ -51,7 +51,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 13
+Sheet 4 14
 Title ""
 Date ""
 Rev ""
@@ -169,9 +169,9 @@ Wire Bus Line
 	5800 3650 5200 3650
 Text GLabel 5200 3650 0    60   Input ~ 0
 GPIF_ADDR
-Text GLabel 5950 3950 0    60   Input ~ 0
+Text GLabel 5950 5750 0    60   Input ~ 0
 GPIF_SLWR#
-Text GLabel 5300 4050 0    60   Input ~ 0
+Text GLabel 5300 5850 0    60   Input ~ 0
 GPIF_SLRD#
 Wire Wire Line
 	5250 3350 5950 3350
@@ -184,12 +184,12 @@ Wire Wire Line
 Wire Bus Line
 	5800 3650 5800 3750
 Wire Wire Line
-	5950 4050 5300 4050
-Text GLabel 5950 4150 0    60   Input ~ 0
+	5950 5850 5300 5850
+Text GLabel 5950 5950 0    60   Input ~ 0
 GPIF_SLOE#
 Wire Wire Line
-	5950 4250 5300 4250
-Text GLabel 5300 4250 0    60   Input ~ 0
+	5950 6050 5300 6050
+Text GLabel 5300 6050 0    60   Input ~ 0
 GPIF_PCLK
 $Comp
 L R R17
@@ -374,19 +374,10 @@ Wire Wire Line
 NoConn ~ 5950 3550
 NoConn ~ 5950 3650
 NoConn ~ 5950 5650
-NoConn ~ 5950 4350
-NoConn ~ 5950 4550
-NoConn ~ 5950 4450
-NoConn ~ 5950 4650
 NoConn ~ 5950 5550
-NoConn ~ 5950 5750
-NoConn ~ 5950 5850
-NoConn ~ 5950 5950
-NoConn ~ 5950 6050
 NoConn ~ 5950 6150
 NoConn ~ 5950 6250
 NoConn ~ 5950 4850
-NoConn ~ 5950 4750
 NoConn ~ 5950 4950
 NoConn ~ 5950 5050
 NoConn ~ 5950 5150
@@ -556,4 +547,22 @@ F 3 "" H 5400 7300 50  0000 C CNN
 	1    5400 7300
 	1    0    0    -1  
 $EndComp
+Text GLabel 5950 3950 0    60   Input ~ 0
+I2S_LRCLK
+Text GLabel 5350 4050 0    60   Input ~ 0
+I2C_MCLK
+Wire Wire Line
+	5350 4050 5950 4050
+Text GLabel 5950 4150 0    60   Input ~ 0
+I2C_BCLK
+NoConn ~ 5950 4750
+NoConn ~ 5950 4650
+NoConn ~ 5950 4550
+NoConn ~ 5950 4450
+Text GLabel 5400 4250 0    60   Input ~ 0
+I2C_ADCSD
+Wire Wire Line
+	5950 4250 5400 4250
+Text GLabel 5950 4350 0    60   Input ~ 0
+I2C_DACSD
 $EndSCHEMATC

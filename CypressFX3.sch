@@ -51,7 +51,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 13
+Sheet 10 14
 Title ""
 Date ""
 Rev ""
@@ -61,17 +61,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CyUSB30xx-BZX IC3
-U 1 1 5852FE9A
-P 1000 4050
-F 0 "IC3" V 950 3650 60  0000 C CNN
-F 1 "CyUSB30xx-BZX" V 950 4200 60  0000 C CNN
-F 2 "" H 1400 5600 60  0000 C CNN
-F 3 "" H 1400 5600 60  0000 C CNN
-	1    1000 4050
-	1    0    0    -1  
-$EndComp
 $Comp
 L CyUSB30xx-BZX IC3
 U 2 1 5852FF1B
@@ -138,7 +127,7 @@ SPI_MOSI
 Text GLabel 2250 6750 2    60   Output ~ 0
 SPI_MISO
 Text GLabel 2800 6650 2    60   Output ~ 0
-SPI_SS1
+SPIMEM_SS
 Text GLabel 2250 6550 2    60   Output ~ 0
 SPI_CLK
 Text GLabel 2250 6350 2    60   Output ~ 0
@@ -147,8 +136,8 @@ Text GLabel 2800 6250 2    60   Output ~ 0
 I2S_SDIN
 Text GLabel 2250 6150 2    60   Output ~ 0
 I2S_BCLK
-Text GLabel 2800 6050 2    60   Output ~ 0
-SPI_SS2
+Text GLabel 2850 6050 2    60   Output ~ 0
+SPIUSB_SS
 $Comp
 L +1.8V #PWR59
 U 1 1 585B4E2D
@@ -423,13 +412,13 @@ F 3 "" H 5300 4850 60  0001 C CNN
 	1    5300 4850
 	1    0    0    -1  
 $EndComp
-Text GLabel 3200 3150 2    60   Input ~ 0
+Text GLabel 2250 4750 2    60   Input ~ 0
 ENCC3_SW
-Text GLabel 3300 3300 2    60   Input ~ 0
+Text GLabel 3200 3150 2    60   Input ~ 0
 ENCC2_SW
-Text GLabel 3850 3400 2    60   Input ~ 0
+Text GLabel 2800 4850 2    60   Input ~ 0
 ENCC3_Q0
-Text GLabel 3300 3500 2    60   Input ~ 0
+Text GLabel 2250 4950 2    60   Input ~ 0
 ENCC3_Q1
 NoConn ~ 5450 4850
 NoConn ~ 5450 4950
@@ -1210,7 +1199,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 6250 2800 6250
 Wire Wire Line
-	2250 6050 2800 6050
+	2250 6050 2850 6050
 Wire Wire Line
 	8750 4800 9700 4800
 Wire Wire Line
@@ -1458,28 +1447,6 @@ Wire Wire Line
 	5050 5050 2250 5050
 Wire Wire Line
 	3200 3150 2250 3150
-Wire Wire Line
-	2300 3400 3850 3400
-Wire Wire Line
-	3300 3300 3100 3300
-Wire Wire Line
-	3100 3300 3100 3350
-Wire Wire Line
-	3100 3350 2250 3350
-Wire Wire Line
-	2300 3400 2300 3450
-Wire Wire Line
-	2300 3450 2250 3450
-Wire Wire Line
-	3300 3500 3250 3500
-Wire Wire Line
-	3250 3500 3250 3450
-Wire Wire Line
-	3250 3450 2350 3450
-Wire Wire Line
-	2350 3450 2350 3550
-Wire Wire Line
-	2350 3550 2250 3550
 Wire Wire Line
 	6600 2500 6250 2500
 Wire Wire Line
@@ -1788,4 +1755,54 @@ Wire Wire Line
 Wire Wire Line
 	9400 4150 7400 4150
 NoConn ~ 9700 3750
+NoConn ~ 2250 4150
+Text GLabel 2250 5950 2    60   Input ~ 0
+SPIUSB_INT
+Text GLabel 2850 5850 2    60   Input ~ 0
+SPIUSB_GPX
+Wire Wire Line
+	2850 5850 2250 5850
+Text GLabel 2250 5750 2    60   Input ~ 0
+RF_IRQ
+$Comp
+L CyUSB30xx-BZX IC3
+U 1 1 5852FE9A
+P 1000 4050
+F 0 "IC3" V 950 3650 60  0000 C CNN
+F 1 "CyUSB30xx-BZX" V 950 4200 60  0000 C CNN
+F 2 "" H 1400 5600 60  0000 C CNN
+F 3 "" H 1400 5600 60  0000 C CNN
+	1    1000 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4850 2250 4850
+Wire Wire Line
+	2250 3450 2300 3450
+Wire Wire Line
+	2300 3450 2300 3400
+Text GLabel 3850 3650 2    60   Input ~ 0
+CONFIG_DONE
+Wire Wire Line
+	3850 3650 3700 3650
+Wire Wire Line
+	3700 3650 3700 3450
+Wire Wire Line
+	3700 3450 2350 3450
+Wire Wire Line
+	2350 3450 2350 3550
+Wire Wire Line
+	2350 3550 2250 3550
+Text GLabel 3850 3500 2    60   Input ~ 0
+USB_FAULT
+Wire Wire Line
+	2300 3400 3750 3400
+Wire Wire Line
+	3750 3400 3750 3500
+Wire Wire Line
+	3750 3500 3850 3500
+Text GLabel 3850 3350 2    60   Input ~ 0
+PWM_LCD_DIM
+Wire Wire Line
+	3850 3350 2250 3350
 $EndSCHEMATC
