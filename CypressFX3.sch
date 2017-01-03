@@ -1808,4 +1808,16 @@ Text GLabel 3850 3350 2    60   Input ~ 0
 PWM_LCD_DIM
 Wire Wire Line
 	3850 3350 2250 3350
+Text GLabel 2250 4350 2    60   Input ~ 0
+JD_ROUT
+Wire Wire Line
+	2250 4450 2750 4450
+Text GLabel 2750 4450 2    60   Input ~ 0
+JD_LOUT
+Text GLabel 2250 4550 2    60   Input ~ 0
+JD_HOUT
+Wire Wire Line
+	2250 4650 2850 4650
+Text GLabel 2850 4650 2    60   Input ~ 0
+JD_IN
 $EndSCHEMATC

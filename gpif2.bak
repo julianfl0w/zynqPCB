@@ -47,11 +47,12 @@ LIBS:si570
 LIBS:hdmi_BiDir_n
 LIBS:LevelShifter Components
 LIBS:N25Q128A
+LIBS:sparkfun
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 14
+Sheet 4 15
 Title ""
 Date ""
 Rev ""
@@ -73,10 +74,10 @@ F 3 "" H 5950 1550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1.8V #PWR7
+L +1.8V #PWR07
 U 1 1 585C5E93
 P 5400 6400
-F 0 "#PWR7" H 5400 6540 20  0001 C CNN
+F 0 "#PWR07" H 5400 6540 20  0001 C CNN
 F 1 "+1.8V" H 5400 6510 30  0000 C CNN
 F 2 "" H 5400 6400 60  0001 C CNN
 F 3 "" H 5400 6400 60  0001 C CNN
@@ -169,9 +170,9 @@ Wire Bus Line
 	5800 3650 5200 3650
 Text GLabel 5200 3650 0    60   Input ~ 0
 GPIF_ADDR
-Text GLabel 5950 3950 0    60   Input ~ 0
+Text GLabel 5950 5750 0    60   Input ~ 0
 GPIF_SLWR#
-Text GLabel 5300 4050 0    60   Input ~ 0
+Text GLabel 5300 5850 0    60   Input ~ 0
 GPIF_SLRD#
 Wire Wire Line
 	5250 3350 5950 3350
@@ -184,12 +185,12 @@ Wire Wire Line
 Wire Bus Line
 	5800 3650 5800 3750
 Wire Wire Line
-	5950 4050 5300 4050
-Text GLabel 5950 4150 0    60   Input ~ 0
+	5950 5850 5300 5850
+Text GLabel 5950 5950 0    60   Input ~ 0
 GPIF_SLOE#
 Wire Wire Line
-	5950 4250 5300 4250
-Text GLabel 5300 4250 0    60   Input ~ 0
+	5950 6050 5300 6050
+Text GLabel 5300 6050 0    60   Input ~ 0
 GPIF_PCLK
 $Comp
 L R R17
@@ -374,19 +375,10 @@ Wire Wire Line
 NoConn ~ 5950 3550
 NoConn ~ 5950 3650
 NoConn ~ 5950 5650
-NoConn ~ 5950 4350
-NoConn ~ 5950 4550
-NoConn ~ 5950 4450
-NoConn ~ 5950 4650
 NoConn ~ 5950 5550
-NoConn ~ 5950 5750
-NoConn ~ 5950 5850
-NoConn ~ 5950 5950
-NoConn ~ 5950 6050
 NoConn ~ 5950 6150
 NoConn ~ 5950 6250
 NoConn ~ 5950 4850
-NoConn ~ 5950 4750
 NoConn ~ 5950 4950
 NoConn ~ 5950 5050
 NoConn ~ 5950 5150
@@ -546,14 +538,32 @@ Wire Wire Line
 	5150 7100 5150 7200
 Connection ~ 5150 7200
 $Comp
-L GND #PWR8
+L GND #PWR08
 U 1 1 586C88E4
 P 5400 7300
-F 0 "#PWR8" H 5400 7050 50  0001 C CNN
+F 0 "#PWR08" H 5400 7050 50  0001 C CNN
 F 1 "GND" H 5400 7150 50  0000 C CNN
 F 2 "" H 5400 7300 50  0000 C CNN
 F 3 "" H 5400 7300 50  0000 C CNN
 	1    5400 7300
 	1    0    0    -1  
 $EndComp
+Text GLabel 5950 3950 0    60   Input ~ 0
+I2S_LRCLK
+Text GLabel 5350 4050 0    60   Input ~ 0
+I2C_MCLK
+Wire Wire Line
+	5350 4050 5950 4050
+Text GLabel 5950 4150 0    60   Input ~ 0
+I2C_BCLK
+NoConn ~ 5950 4750
+NoConn ~ 5950 4650
+NoConn ~ 5950 4550
+NoConn ~ 5950 4450
+Text GLabel 5400 4250 0    60   Input ~ 0
+I2C_ADCSD
+Wire Wire Line
+	5950 4250 5400 4250
+Text GLabel 5950 4350 0    60   Input ~ 0
+I2C_DACSD
 $EndSCHEMATC

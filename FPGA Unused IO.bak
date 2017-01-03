@@ -47,11 +47,12 @@ LIBS:si570
 LIBS:hdmi_BiDir_n
 LIBS:LevelShifter Components
 LIBS:N25Q128A
+LIBS:sparkfun
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 14
+Sheet 6 15
 Title ""
 Date ""
 Rev ""
