@@ -208,42 +208,8 @@ F 3 "" H 6400 1400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 6600 1750
-Entry Wire Line
-	2350 850  2450 950 
-Entry Wire Line
-	2350 950  2450 1050
-Entry Wire Line
-	2350 1050 2450 1150
-Entry Wire Line
-	2350 1150 2450 1250
-Entry Wire Line
-	2350 1250 2450 1350
-Entry Wire Line
-	2350 1350 2450 1450
-Entry Wire Line
-	2350 1450 2450 1550
-Entry Wire Line
-	2350 1550 2450 1650
-Entry Wire Line
-	2350 1650 2450 1750
-Entry Wire Line
-	2350 1750 2450 1850
-Entry Wire Line
-	2350 1850 2450 1950
-Entry Wire Line
-	2350 1950 2450 2050
-Entry Wire Line
-	2350 2050 2450 2150
-Entry Wire Line
-	2350 2150 2450 2250
-Entry Wire Line
-	2350 2250 2450 2350
-Entry Wire Line
-	2350 2350 2450 2450
-Text GLabel 2650 2450 2    60   Output ~ 0
-GPIF_DATA
 Text GLabel 3200 2550 2    60   Output ~ 0
-GPIF_CLK
+GPIF_PCLK
 $Comp
 L GND-RESCUE-DFTBoard #PWR052
 U 1 1 585C0985
@@ -318,23 +284,17 @@ Text GLabel 2350 3050 2    60   Input ~ 0
 GPIF_FLAGB
 Text GLabel 2350 3250 2    60   Output ~ 0
 GPIF_PKTEND#
-Entry Wire Line
-	2350 3650 2450 3550
-Entry Wire Line
-	2350 3750 2450 3650
-Text GLabel 2700 3550 2    60   Output ~ 0
-GPIF_ADDR
 NoConn ~ 2250 4050
 $Comp
 L +1.8V #PWR056
 U 1 1 585C8AB0
-P 3000 3850
-F 0 "#PWR056" H 3000 3990 20  0001 C CNN
-F 1 "+1.8V" H 3000 3960 30  0000 C CNN
-F 2 "" H 3000 3850 60  0001 C CNN
-F 3 "" H 3000 3850 60  0001 C CNN
-	1    3000 3850
-	1    0    0    -1  
+P 3000 3950
+F 0 "#PWR056" H 3000 4090 20  0001 C CNN
+F 1 "+1.8V" H 3000 4060 30  0000 C CNN
+F 2 "" H 3000 3950 60  0001 C CNN
+F 3 "" H 3000 3950 60  0001 C CNN
+	1    3000 3950
+	0    1    1    0   
 $EndComp
 $Comp
 L LCD-016N002L DS1
@@ -1218,42 +1178,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 1550 6600 1550
 Wire Wire Line
-	2250 850  2350 850 
-Wire Wire Line
-	2250 950  2350 950 
-Wire Wire Line
-	2350 1050 2250 1050
-Wire Wire Line
-	2250 1150 2350 1150
-Wire Wire Line
-	2350 1250 2250 1250
-Wire Wire Line
-	2250 1350 2350 1350
-Wire Wire Line
-	2250 1450 2350 1450
-Wire Wire Line
-	2250 1550 2350 1550
-Wire Wire Line
-	2250 1650 2350 1650
-Wire Wire Line
-	2250 1750 2350 1750
-Wire Wire Line
-	2250 1850 2350 1850
-Wire Wire Line
-	2250 1950 2350 1950
-Wire Wire Line
-	2250 2050 2350 2050
-Wire Wire Line
-	2250 2150 2350 2150
-Wire Wire Line
-	2250 2250 2350 2250
-Wire Wire Line
-	2250 2350 2350 2350
-Wire Bus Line
-	2450 950  2450 2450
-Wire Bus Line
-	2450 2450 2650 2450
-Wire Wire Line
 	2250 2450 2400 2450
 Wire Wire Line
 	2400 2450 2400 2550
@@ -1391,17 +1315,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 3250 2350 3250
 Wire Wire Line
-	2350 3650 2250 3650
-Wire Wire Line
-	2250 3750 2350 3750
-Wire Bus Line
-	2450 3650 2450 3550
-Wire Bus Line
-	2450 3550 2700 3550
-Wire Wire Line
 	2250 3950 3000 3950
-Wire Wire Line
-	3000 3950 3000 3850
 Wire Wire Line
 	2250 5550 5450 5550
 Wire Wire Line
@@ -1818,4 +1732,76 @@ Wire Wire Line
 	2250 4650 2850 4650
 Text GLabel 2850 4650 2    60   Input ~ 0
 JD_IN
+Wire Wire Line
+	2250 850  2400 850 
+Wire Wire Line
+	2250 950  2400 950 
+Wire Wire Line
+	2250 1050 2400 1050
+Wire Wire Line
+	2250 1150 2400 1150
+Wire Wire Line
+	2250 1250 2400 1250
+Wire Wire Line
+	2250 1350 2400 1350
+Wire Wire Line
+	2250 1450 2400 1450
+Wire Wire Line
+	2250 1550 2400 1550
+Wire Wire Line
+	2250 1650 2400 1650
+Wire Wire Line
+	2250 1750 2400 1750
+Wire Wire Line
+	2250 1850 2400 1850
+Wire Wire Line
+	2250 1950 2400 1950
+Wire Wire Line
+	2250 2050 2400 2050
+Wire Wire Line
+	2250 2150 2400 2150
+Wire Wire Line
+	2250 2250 2400 2250
+Wire Wire Line
+	2250 2350 2400 2350
+Text GLabel 2400 850  2    60   BiDi ~ 0
+GD_0
+Text GLabel 2400 950  2    60   BiDi ~ 0
+GD_1
+Text GLabel 2400 1050 2    60   BiDi ~ 0
+GD_2
+Text GLabel 2400 1150 2    60   BiDi ~ 0
+GD_3
+Text GLabel 2400 1250 2    60   BiDi ~ 0
+GD_4
+Text GLabel 2400 1350 2    60   BiDi ~ 0
+GD_5
+Text GLabel 2400 1450 2    60   BiDi ~ 0
+GD_6
+Text GLabel 2400 1550 2    60   BiDi ~ 0
+GD_7
+Text GLabel 2400 1650 2    60   BiDi ~ 0
+GD_8
+Text GLabel 2400 1750 2    60   BiDi ~ 0
+GD_9
+Text GLabel 2400 1850 2    60   BiDi ~ 0
+GD_10
+Text GLabel 2400 1950 2    60   BiDi ~ 0
+GD_11
+Text GLabel 2400 2050 2    60   BiDi ~ 0
+GD_12
+Text GLabel 2400 2150 2    60   BiDi ~ 0
+GD_13
+Text GLabel 2400 2250 2    60   BiDi ~ 0
+GD_14
+Text GLabel 2400 2350 2    60   BiDi ~ 0
+GD_15
+Wire Wire Line
+	2250 3650 2900 3650
+Wire Wire Line
+	2250 3750 2900 3750
+Text GLabel 2900 3650 2    60   BiDi ~ 0
+GA_0
+Text GLabel 2900 3750 2    60   BiDi ~ 0
+GA_1
 $EndSCHEMATC
