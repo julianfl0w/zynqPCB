@@ -155,17 +155,5 @@ F 3 "" H 4950 2150 60  0001 C CNN
 	4    4950 2150
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	4950 4150 4850 4150
-Wire Bus Line
-	4850 4150 4850 4550
-Entry Wire Line
-	4850 4550 4950 4650
-Entry Wire Line
-	4850 4500 4950 4600
-Entry Wire Line
-	4850 4450 4950 4550
-NoConn ~ 4950 4650
-NoConn ~ 4950 4600
-NoConn ~ 4950 4550
+NoConn ~ 4950 4150
 $EndSCHEMATC
