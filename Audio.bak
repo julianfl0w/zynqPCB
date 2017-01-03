@@ -52,11 +52,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-<<<<<<< HEAD
-Sheet 7 14
-=======
 Sheet 7 15
->>>>>>> 57bd10dc5db44f53b29cf018e9e3d2d3db018447
 Title ""
 Date ""
 Rev ""
