@@ -47,11 +47,12 @@ LIBS:si570
 LIBS:hdmi_BiDir_n
 LIBS:LevelShifter Components
 LIBS:N25Q128A
+LIBS:sparkfun
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 14
+Sheet 1 15
 Title ""
 Date ""
 Rev ""
@@ -110,9 +111,15 @@ F0 "SPIUSBBRIDGE" 60
 F1 "SPI_USB_Bridge.sch" 60
 $EndSheet
 $Sheet
-S 5600 2000 950  950 
-U 586C8D27
+S 5600 1950 1050 1000
+U 586C0171
 F0 "HDMI" 60
-F1 "HDMI.sch" 60
+F1 "hdmi.sch" 60
+$EndSheet
+$Sheet
+S 7600 2000 1050 950 
+U 586C33AF
+F0 "Encoders" 60
+F1 "Encoders.sch" 60
 $EndSheet
 $EndSCHEMATC
