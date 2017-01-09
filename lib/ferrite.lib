@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# FERRITE
+#
+DEF FERRITE FB 0 40 N Y 1 F N
+F0 "FB" -75 -75 40 H V L CNN
+F1 "FERRITE" -75 -150 40 H V L CNN
+F2 "" 0 -100 60 H V C CNN
+F3 "" 0 -100 60 H V C CNN
+DRAW
+C -66 -14 3 0 1 0 N
+S -50 25 50 -25 0 1 0 N
+X ~ 1 -100 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

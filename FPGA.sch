@@ -48,6 +48,15 @@ LIBS:hdmi_BiDir_n
 LIBS:LevelShifter Components
 LIBS:N25Q128A
 LIBS:sparkfun
+LIBS:GSB3211311WEU
+LIBS:48258-0001
+LIBS:ArduinoSpecAn-cache
+LIBS:passiveelectret
+LIBS:passiveind
+LIBS:passiveinductor
+LIBS:fb_powerout
+LIBS:ferrite
+LIBS:df_device
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

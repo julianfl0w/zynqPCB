@@ -1,4 +1,4 @@
-update=1/3/2017 3:02:12 PM
+update=1/9/2017 12:56:04 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=/home/jcloiacon/dft/kicad/kicad-library;lib
@@ -86,13 +96,12 @@ LibName54=lib/hdmi_BiDir_n
 LibName55=lib/LevelShifter Components
 LibName56=lib/N25Q128A
 LibName57=lib/sparkfun
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName58=lib/GSB3211311WEU
+LibName59=lib/48258-0001
+LibName60=lib/ArduinoSpecAn-cache
+LibName61=lib/passiveelectret
+LibName62=lib/passiveind
+LibName63=lib/passiveinductor
+LibName64=lib/fb_powerout
+LibName65=lib/ferrite
+LibName66=lib/df_device

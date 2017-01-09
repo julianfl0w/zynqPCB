@@ -48,6 +48,15 @@ LIBS:hdmi_BiDir_n
 LIBS:LevelShifter Components
 LIBS:N25Q128A
 LIBS:sparkfun
+LIBS:GSB3211311WEU
+LIBS:48258-0001
+LIBS:ArduinoSpecAn-cache
+LIBS:passiveelectret
+LIBS:passiveind
+LIBS:passiveinductor
+LIBS:fb_powerout
+LIBS:ferrite
+LIBS:df_device
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -143,7 +152,6 @@ NoConn ~ 1850 6050
 NoConn ~ 1850 6150
 NoConn ~ 1850 6250
 NoConn ~ 1850 6350
-NoConn ~ 1850 6450
 $Comp
 L xc7a50tftg256 U1
 U 4 1 585C58DC
@@ -155,5 +163,34 @@ F 3 "" H 4950 2150 60  0001 C CNN
 	4    4950 2150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4950 4150
+$Comp
+L GND #PWR018
+U 1 1 586E8826
+P 1650 6600
+F 0 "#PWR018" H 1650 6350 50  0001 C CNN
+F 1 "GND" H 1650 6450 50  0000 C CNN
+F 2 "" H 1650 6600 50  0000 C CNN
+F 3 "" H 1650 6600 50  0000 C CNN
+	1    1650 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 6450 1650 6450
+Wire Wire Line
+	1650 6450 1650 6600
+$Comp
+L GND #PWR019
+U 1 1 586E88A6
+P 4750 4300
+F 0 "#PWR019" H 4750 4050 50  0001 C CNN
+F 1 "GND" H 4750 4150 50  0000 C CNN
+F 2 "" H 4750 4300 50  0000 C CNN
+F 3 "" H 4750 4300 50  0000 C CNN
+	1    4750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4150 4750 4150
+Wire Wire Line
+	4750 4150 4750 4300
 $EndSCHEMATC
