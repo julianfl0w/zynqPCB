@@ -3,4 +3,6 @@
   (lib (name TQFP-32)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\other.pretty\\TQFP-32.mod")(options "")(descr ""))
   (lib (name TQFP32-5MM)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\other.pretty\\TQFP32-5MM.mod")(options "")(descr ""))
   (lib (name LGA12R50P4X4_200X200X86)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\other.pretty\\LGA12R50P4X4_200X200X86.mod")(options "")(descr ""))
+  (lib (name GSB3211311WEU)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\other.pretty\\GSB3211311WEU.mod")(options "")(descr ""))
+  (lib (name UDFN-6)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\other.pretty\\UDFN-6.mod")(options "")(descr ""))
 )
