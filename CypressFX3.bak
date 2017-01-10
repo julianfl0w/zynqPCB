@@ -255,7 +255,7 @@ $EndComp
 Text Notes 5350 1950 0    60   ~ 0
 000 => 19.2MHz crystal
 NoConn ~ 6050 2400
-Text Notes 3850 2200 0    60   ~ 0
+Text Notes 4450 2300 0    60   ~ 0
 JTAG Signals
 $Comp
 L GND-RESCUE-DFTBoard #PWR059
