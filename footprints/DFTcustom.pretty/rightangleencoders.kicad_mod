@@ -1,8 +1,8 @@
-(module "rightangle encoders" (layer F.Cu) (tedit 58756735)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+(module rightangleencoders (layer F.Cu) (tedit 58767EC9)
+  (fp_text reference REF** (at 0 2.54) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value "rightangle encoder" (at 0 -0.5) (layer F.Fab)
+  (fp_text value "rightangle encoder" (at 0 -5.08) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -10.16 -5.08) (end -10.16 3.81) (layer F.SilkS) (width 0.15))
