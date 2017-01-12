@@ -1014,33 +1014,49 @@ Info: Checking netlist component footprint "CON1:/58508414/58508495/585C36E8:DFT
 
 Adding new component "CON1:/58508414/58508495/585C36E8" footprint "DFTcustom:CustomJTAG".
 
-Changing component "CON1:/58508414/58508495/585C36E8" pin "2" net name from "" to "AGND".
+Changing component "CON1:/58508414/58508495/585C36E8" pin "1" net name from "" to "Net-(CON1-Pad1)".
 
-Changing component "CON1:/58508414/58508495/585C36E8" pin "3" net name from "" to "Net-(CON1-Pad3)".
+Changing component "CON1:/58508414/58508495/585C36E8" pin "2" net name from "" to "AGND".
 
 Changing component "CON1:/58508414/58508495/585C36E8" pin "4" net name from "" to "+1.8V".
 
-Changing component "CON1:/58508414/58508495/585C36E8" pin "5" net name from "" to "Net-(CON1-Pad5)".
+Changing component "CON1:/58508414/58508495/585C36E8" pin "3" net name from "" to "Net-(CON1-Pad3)".
+
+Changing component "CON1:/58508414/58508495/585C36E8" pin "7" net name from "" to "Net-(CON1-Pad7)".
+
+Changing component "CON1:/58508414/58508495/585C36E8" pin "9" net name from "" to "Net-(CON1-Pad9)".
+
+Changing component "CON1:/58508414/58508495/585C36E8" pin "10" net name from "" to "AGND".
+
+Changing component "CON1:/58508414/58508495/585C36E8" pin "8" net name from "" to "Net-(CON1-Pad8)".
 
 Changing component "CON1:/58508414/58508495/585C36E8" pin "6" net name from "" to "Net-(CON1-Pad6)".
 
-Changing component "CON1:/58508414/58508495/585C36E8" pin "7" net name from "" to "Net-(CON1-Pad7)".
+Changing component "CON1:/58508414/58508495/585C36E8" pin "5" net name from "" to "Net-(CON1-Pad5)".
 
 Info: Checking netlist component footprint "CON2:/5852A88E/585DDC48:DFTcustom:CustomJTAG".
 
 Adding new component "CON2:/5852A88E/585DDC48" footprint "DFTcustom:CustomJTAG".
 
-Changing component "CON2:/5852A88E/585DDC48" pin "2" net name from "" to "AGND".
+Changing component "CON2:/5852A88E/585DDC48" pin "1" net name from "" to "Net-(CON2-Pad1)".
 
-Changing component "CON2:/5852A88E/585DDC48" pin "3" net name from "" to "Net-(CON2-Pad3)".
+Changing component "CON2:/5852A88E/585DDC48" pin "2" net name from "" to "AGND".
 
 Changing component "CON2:/5852A88E/585DDC48" pin "4" net name from "" to "+1.8V".
 
-Changing component "CON2:/5852A88E/585DDC48" pin "5" net name from "" to "Net-(CON2-Pad5)".
+Changing component "CON2:/5852A88E/585DDC48" pin "3" net name from "" to "Net-(CON2-Pad3)".
+
+Changing component "CON2:/5852A88E/585DDC48" pin "7" net name from "" to "Net-(CON2-Pad7)".
+
+Changing component "CON2:/5852A88E/585DDC48" pin "9" net name from "" to "Net-(CON2-Pad9)".
+
+Changing component "CON2:/5852A88E/585DDC48" pin "10" net name from "" to "AGND".
+
+Changing component "CON2:/5852A88E/585DDC48" pin "8" net name from "" to "Net-(CON2-Pad8)".
 
 Changing component "CON2:/5852A88E/585DDC48" pin "6" net name from "" to "Net-(CON2-Pad6)".
 
-Changing component "CON2:/5852A88E/585DDC48" pin "7" net name from "" to "Net-(CON2-Pad7)".
+Changing component "CON2:/5852A88E/585DDC48" pin "5" net name from "" to "Net-(CON2-Pad5)".
 
 Info: Checking netlist component footprint "D1:/58508414/58508495/585C4BD7:LEDs:LED_0603".
 
@@ -1588,41 +1604,35 @@ Info: Checking netlist component footprint "J5:/586C0171/5864322C:DFTcustom:MICR
 
 Adding new component "J5:/586C0171/5864322C" footprint "DFTcustom:MICRO HDMI".
 
-Changing component "J5:/586C0171/5864322C" pin "3" net name from "" to "Net-(J5-Pad3)".
+Changing component "J5:/586C0171/5864322C" pin "18" net name from "" to "Net-(J5-Pad18)".
 
-Changing component "J5:/586C0171/5864322C" pin "3" net name from "" to "Net-(J5-Pad3)".
+Changing component "J5:/586C0171/5864322C" pin "16" net name from "" to "AGND".
 
-Changing component "J5:/586C0171/5864322C" pin "3" net name from "" to "Net-(J5-Pad3)".
+Changing component "J5:/586C0171/5864322C" pin "14" net name from "" to "Net-(J5-Pad14)".
 
-Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
+Changing component "J5:/586C0171/5864322C" pin "12" net name from "" to "Net-(J5-Pad12)".
 
-Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
+Changing component "J5:/586C0171/5864322C" pin "10" net name from "" to "AGND".
 
-Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
+Changing component "J5:/586C0171/5864322C" pin "8" net name from "" to "Net-(J5-Pad8)".
 
-Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
-
-Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
-
-Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
-
-Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
+Changing component "J5:/586C0171/5864322C" pin "6" net name from "" to "Net-(J5-Pad6)".
 
 Changing component "J5:/586C0171/5864322C" pin "4" net name from "" to "AGND".
 
-Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+Changing component "J5:/586C0171/5864322C" pin "19" net name from "" to "HDMI_5V0".
 
-Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+Changing component "J5:/586C0171/5864322C" pin "17" net name from "" to "Net-(J5-Pad17)".
 
-Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+Changing component "J5:/586C0171/5864322C" pin "15" net name from "" to "Net-(D6-Pad2)".
 
-Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+Changing component "J5:/586C0171/5864322C" pin "13" net name from "" to "AGND".
 
-Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+Changing component "J5:/586C0171/5864322C" pin "11" net name from "" to "Net-(J5-Pad11)".
 
-Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+Changing component "J5:/586C0171/5864322C" pin "9" net name from "" to "Net-(J5-Pad9)".
 
-Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+Changing component "J5:/586C0171/5864322C" pin "7" net name from "" to "AGND".
 
 Changing component "J5:/586C0171/5864322C" pin "5" net name from "" to "Net-(J5-Pad5)".
 
@@ -1631,8 +1641,6 @@ Changing component "J5:/586C0171/5864322C" pin "3" net name from "" to "Net-(J5-
 Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
 
 Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
-
-Changing component "J5:/586C0171/5864322C" pin "3" net name from "" to "Net-(J5-Pad3)".
 
 Info: Checking netlist component footprint "J6:/5852A88E/58703A94:GSB3211311WEU:AMPHENOL_GSB3211311WEU".
 
@@ -3262,22 +3270,6 @@ Changing component "Y2:/5862C4CE/5862C6D3" pin "2" net name from "" to "Net-(C10
 
 Changing component "Y2:/5862C4CE/5862C6D3" pin "1" net name from "" to "Net-(C102-Pad2)".
 
-Error: Component 'CON1' pad '10' not found in footprint 'DFTcustom:CustomJTAG'
-
-Error: Component 'CON1' pad '8' not found in footprint 'DFTcustom:CustomJTAG'
-
-Error: Component 'CON1' pad '1' not found in footprint 'DFTcustom:CustomJTAG'
-
-Error: Component 'CON1' pad '9' not found in footprint 'DFTcustom:CustomJTAG'
-
-Error: Component 'CON2' pad '10' not found in footprint 'DFTcustom:CustomJTAG'
-
-Error: Component 'CON2' pad '8' not found in footprint 'DFTcustom:CustomJTAG'
-
-Error: Component 'CON2' pad '1' not found in footprint 'DFTcustom:CustomJTAG'
-
-Error: Component 'CON2' pad '9' not found in footprint 'DFTcustom:CustomJTAG'
-
 Error: Component 'F1' pad '~' not found in footprint 'Capacitors_SMD:C_1206'
 
 Error: Component 'J1' pad '1' not found in footprint 'DFTcustom:AUDIO_TRS_6'
@@ -3327,34 +3319,6 @@ Error: Component 'J4' pad '2' not found in footprint 'DFTcustom:AUDIO_TRS_6'
 Error: Component 'J4' pad '3' not found in footprint 'DFTcustom:AUDIO_TRS_6'
 
 Error: Component 'J4' pad '6' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J5' pad '7' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'J5' pad '10' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'J5' pad '13' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'J5' pad '16' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'J5' pad '18' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'J5' pad '15' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'J5' pad '17' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'J5' pad '19' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'J5' pad '11' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'J5' pad '12' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'J5' pad '14' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'J5' pad '9' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'J5' pad '6' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'J5' pad '8' not found in footprint 'DFTcustom:MICRO HDMI'
 
 Error: Component 'J5' pad 'SHD' not found in footprint 'DFTcustom:MICRO HDMI'
 
