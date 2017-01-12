@@ -1,4 +1,4 @@
-update=1/12/2017 11:04:47 AM
+update=Thu 12 Jan 2017 03:51:24 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -106,3 +106,4 @@ LibName64=lib/fb_powerout
 LibName65=lib/ferrite
 LibName66=lib/df_device
 LibName67=lib/JACK_TRS_5PINS
+LibName68=lib/MEMSMIC
