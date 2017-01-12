@@ -1,4 +1,4 @@
-(module "MICRO HDMI" (layer F.Cu) (tedit 5876AEA0)
+(module MICRO_HDMI (layer F.Cu) (tedit 5876AEA0)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

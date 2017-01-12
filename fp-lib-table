@@ -5,4 +5,5 @@
   (lib (name LGA12R50P4X4_200X200X86)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\other.pretty\\LGA12R50P4X4_200X200X86.mod")(options "")(descr ""))
   (lib (name GSB3211311WEU)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\other.pretty\\GSB3211311WEU.mod")(options "")(descr ""))
   (lib (name UDFN-6)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\other.pretty\\UDFN-6.mod")(options "")(descr ""))
+  (lib (name micro_hdmi)(type KiCad)(uri "$(KIPRJMOD)\\footprints\\micro_hdmi.pretty")(options "")(descr ""))
 )
