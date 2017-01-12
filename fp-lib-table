@@ -1,3 +1,12 @@
 (fp_lib_table
-  (lib (name DFTcustom)(type KiCad)(uri "$(KIPRJMOD)/footprints/DFTcustom.pretty")(options "")(descr ""))
+  (lib (name DFTcustom)(type KiCad)(uri "$(KIPRJMOD)\\footprints\\DFTcustom.pretty")(options "")(descr ""))
+  (lib (name 48258-0001)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\legacy\\48258-0001.mod")(options "")(descr ""))
+  (lib (name beagledancer)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\legacy\\beagledancer.mod")(options "")(descr ""))
+  (lib (name CYUSB3014-BZXCT)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\legacy\\CYUSB3014-BZXCT.mod")(options "")(descr ""))
+  (lib (name GSB3211311WEU)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\legacy\\GSB3211311WEU.mod")(options "")(descr ""))
+  (lib (name LGA12R50P4X4_200X200X86)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\legacy\\LGA12R50P4X4_200X200X86.mod")(options "")(descr ""))
+  (lib (name QFN-20-4MM)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\legacy\\QFN-20-4MM.mod")(options "")(descr ""))
+  (lib (name TQFP-32)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\legacy\\TQFP-32.mod")(options "")(descr ""))
+  (lib (name TQFP32-5MM)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\legacy\\TQFP32-5MM.mod")(options "")(descr ""))
+  (lib (name UDFN-6)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\legacy\\UDFN-6.mod")(options "")(descr ""))
 )
