@@ -293,7 +293,7 @@ Grounded MODE -> 2-wire operation
 Text Notes 4800 5800 2    60   ~ 0
 Address: 0011010b
 $Comp
-L AGND #PWR21
+L AGND #PWR027
 U 1 1 5862EAC0
 P 2800 5700
 F 0 "#PWR027" H 2800 5700 40  0001 C CNN

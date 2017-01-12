@@ -1,4 +1,4 @@
-Info: Reading netlist file "C:\Users\jcloi\Documents\KiCad\board_design\DFTBoard.net".
+Info: Reading netlist file "C:\Users\lgcro_000\Documents\DFT\board_design\DFTBoard.net".
 
 Info: Using references to match components and footprints.
 
@@ -1186,6 +1186,10 @@ Info: Checking netlist component footprint "F1:/586C0171/58647AB8:Capacitors_SMD
 
 Adding new component "F1:/586C0171/58647AB8" footprint "Capacitors_SMD:C_1206".
 
+Changing component "F1:/586C0171/58647AB8" pin "1" net name from "" to "Net-(F1-Pad1)".
+
+Changing component "F1:/586C0171/58647AB8" pin "2" net name from "" to "HDMI_5V0".
+
 Info: Checking netlist component footprint "FB1:/5852A88E/58748272:Diodes_SMD:D_0603".
 
 Adding new component "FB1:/5852A88E/58748272" footprint "Diodes_SMD:D_0603".
@@ -1584,25 +1588,71 @@ Changing component "IC3:/5852A88E/5852FF1B" pin "L10" net name from "" to "GD_11
 
 Changing component "IC3:/5852A88E/5852FF1B" pin "L11" net name from "" to "AGND".
 
-Info: Checking netlist component footprint "J1:/58508444/5862E79D:DFTcustom:AUDIO_TRS_6".
+Info: Checking netlist component footprint "J1:/58508444/5877E58B:DFTcustom:AUDIO_TRS_6".
 
-Adding new component "J1:/58508444/5862E79D" footprint "DFTcustom:AUDIO_TRS_6".
+Adding new component "J1:/58508444/5877E58B" footprint "DFTcustom:AUDIO_TRS_6".
 
-Info: Checking netlist component footprint "J2:/58508444/58757C93:DFTcustom:AUDIO_TRS_6".
+Changing component "J1:/58508444/5877E58B" pin "RB" net name from "" to "Net-(IC1-Pad2)".
 
-Adding new component "J2:/58508444/58757C93" footprint "DFTcustom:AUDIO_TRS_6".
+Changing component "J1:/58508444/5877E58B" pin "TB" net name from "" to "Net-(J1-PadTB)".
 
-Info: Checking netlist component footprint "J3:/58508444/58757508:DFTcustom:AUDIO_TRS_6".
+Changing component "J1:/58508444/5877E58B" pin "T" net name from "" to "Net-(IC1-Pad1)".
 
-Adding new component "J3:/58508444/58757508" footprint "DFTcustom:AUDIO_TRS_6".
+Changing component "J1:/58508444/5877E58B" pin "R" net name from "" to "Net-(IC1-Pad2)".
 
-Info: Checking netlist component footprint "J4:/58508444/5862EC38:DFTcustom:AUDIO_TRS_6".
+Changing component "J1:/58508444/5877E58B" pin "S" net name from "" to "AGND".
 
-Adding new component "J4:/58508444/5862EC38" footprint "DFTcustom:AUDIO_TRS_6".
+Info: Checking netlist component footprint "J2:/58508444/5877E044:DFTcustom:AUDIO_TRS_6".
 
-Info: Checking netlist component footprint "J5:/586C0171/5864322C:DFTcustom:MICRO HDMI".
+Adding new component "J2:/58508444/5877E044" footprint "DFTcustom:AUDIO_TRS_6".
 
-Adding new component "J5:/586C0171/5864322C" footprint "DFTcustom:MICRO HDMI".
+Changing component "J2:/58508444/5877E044" pin "RB" net name from "" to "Net-(J2-PadRB)".
+
+Changing component "J2:/58508444/5877E044" pin "TB" net name from "" to "Net-(C37-Pad2)".
+
+Changing component "J2:/58508444/5877E044" pin "T" net name from "" to "Net-(C37-Pad2)".
+
+Changing component "J2:/58508444/5877E044" pin "R" net name from "" to "Net-(C38-Pad2)".
+
+Changing component "J2:/58508444/5877E044" pin "S" net name from "" to "Net-(C34-Pad1)".
+
+Info: Checking netlist component footprint "J3:/58508444/5877D72D:DFTcustom:AUDIO_TRS_6".
+
+Adding new component "J3:/58508444/5877D72D" footprint "DFTcustom:AUDIO_TRS_6".
+
+Changing component "J3:/58508444/5877D72D" pin "RB" net name from "" to "AGND".
+
+Changing component "J3:/58508444/5877D72D" pin "TB" net name from "" to "Net-(J3-PadTB)".
+
+Changing component "J3:/58508444/5877D72D" pin "T" net name from "" to "Net-(IC1-Pad29)".
+
+Changing component "J3:/58508444/5877D72D" pin "R" net name from "" to "AGND".
+
+Changing component "J3:/58508444/5877D72D" pin "S" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "J4:/58508444/5877DC82:DFTcustom:AUDIO_TRS_6".
+
+Adding new component "J4:/58508444/5877DC82" footprint "DFTcustom:AUDIO_TRS_6".
+
+Changing component "J4:/58508444/5877DC82" pin "RB" net name from "" to "AGND".
+
+Changing component "J4:/58508444/5877DC82" pin "TB" net name from "" to "Net-(J4-PadTB)".
+
+Changing component "J4:/58508444/5877DC82" pin "T" net name from "" to "Net-(IC1-Pad30)".
+
+Changing component "J4:/58508444/5877DC82" pin "R" net name from "" to "AGND".
+
+Changing component "J4:/58508444/5877DC82" pin "S" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "J5:/586C0171/5864322C:DFTcustom:MICRO_HDMI".
+
+Adding new component "J5:/586C0171/5864322C" footprint "DFTcustom:MICRO_HDMI".
+
+Changing component "J5:/586C0171/5864322C" pin "SHD" net name from "" to "Net-(C108-Pad2)".
+
+Changing component "J5:/586C0171/5864322C" pin "SHD" net name from "" to "Net-(C108-Pad2)".
+
+Changing component "J5:/586C0171/5864322C" pin "SHD" net name from "" to "Net-(C108-Pad2)".
 
 Changing component "J5:/586C0171/5864322C" pin "18" net name from "" to "Net-(J5-Pad18)".
 
@@ -1641,6 +1691,8 @@ Changing component "J5:/586C0171/5864322C" pin "3" net name from "" to "Net-(J5-
 Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
 
 Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
+
+Changing component "J5:/586C0171/5864322C" pin "SHD" net name from "" to "Net-(C108-Pad2)".
 
 Info: Checking netlist component footprint "J6:/5852A88E/58703A94:GSB3211311WEU:AMPHENOL_GSB3211311WEU".
 
@@ -1728,9 +1780,19 @@ Changing component "MIC1:/58508444/586E9C41" pin "2" net name from "" to "Net-(C
 
 Changing component "MIC1:/58508444/586E9C41" pin "1" net name from "" to "AGND".
 
-Info: Checking netlist component footprint "NCP1:/5862C4CE/5862DF64:UDFN-6:UDFN-6".
+Info: Checking netlist component footprint "NCP1:/5862C4CE/5862DF64:DFTcustom:TSOP-5".
 
-Adding new component "NCP1:/5862C4CE/5862DF64" footprint "UDFN-6:UDFN-6".
+Adding new component "NCP1:/5862C4CE/5862DF64" footprint "DFTcustom:TSOP-5".
+
+Changing component "NCP1:/5862C4CE/5862DF64" pin "1" net name from "" to "+5V".
+
+Changing component "NCP1:/5862C4CE/5862DF64" pin "2" net name from "" to "AGND".
+
+Changing component "NCP1:/5862C4CE/5862DF64" pin "3" net name from "" to "AGND".
+
+Changing component "NCP1:/5862C4CE/5862DF64" pin "4" net name from "" to "USB_FAULT".
+
+Changing component "NCP1:/5862C4CE/5862DF64" pin "5" net name from "" to "Net-(J7-Pad1)".
 
 Info: Checking netlist component footprint "Q1:/5852A88E/5866096E:TO_SOT_Packages_SMD:SOT-23".
 
@@ -1972,7 +2034,7 @@ Adding new component "R24:/58508444/586315C6" footprint "Resistors_SMD:R_1206".
 
 Changing component "R24:/58508444/586315C6" pin "1" net name from "" to "+1.8V".
 
-Changing component "R24:/58508444/586315C6" pin "2" net name from "" to "Net-(J1-Pad5)".
+Changing component "R24:/58508444/586315C6" pin "2" net name from "" to "Net-(J1-PadTB)".
 
 Info: Checking netlist component footprint "R25:/58508444/5863175D:Resistors_SMD:R_1206".
 
@@ -1980,13 +2042,13 @@ Adding new component "R25:/58508444/5863175D" footprint "Resistors_SMD:R_1206".
 
 Changing component "R25:/58508444/5863175D" pin "1" net name from "" to "JD_IN".
 
-Changing component "R25:/58508444/5863175D" pin "2" net name from "" to "Net-(J1-Pad5)".
+Changing component "R25:/58508444/5863175D" pin "2" net name from "" to "Net-(J1-PadTB)".
 
 Info: Checking netlist component footprint "R26:/58508444/5862FD7D:Resistors_SMD:R_1206".
 
 Adding new component "R26:/58508444/5862FD7D" footprint "Resistors_SMD:R_1206".
 
-Changing component "R26:/58508444/5862FD7D" pin "1" net name from "" to "Net-(J2-Pad5)".
+Changing component "R26:/58508444/5862FD7D" pin "1" net name from "" to "Net-(J3-PadTB)".
 
 Changing component "R26:/58508444/5862FD7D" pin "2" net name from "" to "+3V3".
 
@@ -1994,7 +2056,7 @@ Info: Checking netlist component footprint "R27:/58508444/5862FDDA:Resistors_SMD
 
 Adding new component "R27:/58508444/5862FDDA" footprint "Resistors_SMD:R_1206".
 
-Changing component "R27:/58508444/5862FDDA" pin "1" net name from "" to "Net-(J3-Pad5)".
+Changing component "R27:/58508444/5862FDDA" pin "1" net name from "" to "Net-(J4-PadTB)".
 
 Changing component "R27:/58508444/5862FDDA" pin "2" net name from "" to "+3V3".
 
@@ -2002,7 +2064,7 @@ Info: Checking netlist component footprint "R28:/58508444/5862FE2F:Resistors_SMD
 
 Adding new component "R28:/58508444/5862FE2F" footprint "Resistors_SMD:R_1206".
 
-Changing component "R28:/58508444/5862FE2F" pin "1" net name from "" to "Net-(J4-Pad6)".
+Changing component "R28:/58508444/5862FE2F" pin "1" net name from "" to "Net-(J2-PadRB)".
 
 Changing component "R28:/58508444/5862FE2F" pin "2" net name from "" to "+3V3".
 
@@ -2012,7 +2074,7 @@ Adding new component "R29:/58508444/5863022C" footprint "Resistors_SMD:R_1206".
 
 Changing component "R29:/58508444/5863022C" pin "1" net name from "" to "JD_ROUT".
 
-Changing component "R29:/58508444/5863022C" pin "2" net name from "" to "Net-(J2-Pad5)".
+Changing component "R29:/58508444/5863022C" pin "2" net name from "" to "Net-(J3-PadTB)".
 
 Info: Checking netlist component footprint "R30:/58508444/5863028A:Resistors_SMD:R_1206".
 
@@ -2020,7 +2082,7 @@ Adding new component "R30:/58508444/5863028A" footprint "Resistors_SMD:R_1206".
 
 Changing component "R30:/58508444/5863028A" pin "1" net name from "" to "JD_LOUT".
 
-Changing component "R30:/58508444/5863028A" pin "2" net name from "" to "Net-(J3-Pad5)".
+Changing component "R30:/58508444/5863028A" pin "2" net name from "" to "Net-(J4-PadTB)".
 
 Info: Checking netlist component footprint "R31:/58508444/586302E7:Resistors_SMD:R_1206".
 
@@ -2028,7 +2090,7 @@ Adding new component "R31:/58508444/586302E7" footprint "Resistors_SMD:R_1206".
 
 Changing component "R31:/58508444/586302E7" pin "1" net name from "" to "JD_HOUT".
 
-Changing component "R31:/58508444/586302E7" pin "2" net name from "" to "Net-(J4-Pad6)".
+Changing component "R31:/58508444/586302E7" pin "2" net name from "" to "Net-(J2-PadRB)".
 
 Info: Checking netlist component footprint "R32:/5850844D/5858B039:Resistors_SMD:R_1206".
 
@@ -2474,17 +2536,57 @@ Info: Checking netlist component footprint "ROT1:/586C33AF/586C33B8:DFTcustom:ri
 
 Adding new component "ROT1:/586C33AF/586C33B8" footprint "DFTcustom:rightangleencoders".
 
+Changing component "ROT1:/586C33AF/586C33B8" pin "S1" net name from "" to "ENCC0_SW".
+
+Changing component "ROT1:/586C33AF/586C33B8" pin "S2" net name from "" to "AGND".
+
+Changing component "ROT1:/586C33AF/586C33B8" pin "B" net name from "" to "Net-(R59-Pad2)".
+
+Changing component "ROT1:/586C33AF/586C33B8" pin "A" net name from "" to "Net-(R57-Pad2)".
+
+Changing component "ROT1:/586C33AF/586C33B8" pin "C" net name from "" to "AGND".
+
 Info: Checking netlist component footprint "ROT2:/586C33AF/586C5B3D:DFTcustom:rightangleencoders".
 
 Adding new component "ROT2:/586C33AF/586C5B3D" footprint "DFTcustom:rightangleencoders".
+
+Changing component "ROT2:/586C33AF/586C5B3D" pin "S1" net name from "" to "ENCC2_SW".
+
+Changing component "ROT2:/586C33AF/586C5B3D" pin "S2" net name from "" to "AGND".
+
+Changing component "ROT2:/586C33AF/586C5B3D" pin "B" net name from "" to "Net-(R60-Pad2)".
+
+Changing component "ROT2:/586C33AF/586C5B3D" pin "A" net name from "" to "Net-(R58-Pad2)".
+
+Changing component "ROT2:/586C33AF/586C5B3D" pin "C" net name from "" to "AGND".
 
 Info: Checking netlist component footprint "ROT3:/586C33AF/586C56F2:DFTcustom:rightangleencoders".
 
 Adding new component "ROT3:/586C33AF/586C56F2" footprint "DFTcustom:rightangleencoders".
 
+Changing component "ROT3:/586C33AF/586C56F2" pin "S1" net name from "" to "ENCC1_SW".
+
+Changing component "ROT3:/586C33AF/586C56F2" pin "S2" net name from "" to "AGND".
+
+Changing component "ROT3:/586C33AF/586C56F2" pin "B" net name from "" to "Net-(R69-Pad2)".
+
+Changing component "ROT3:/586C33AF/586C56F2" pin "A" net name from "" to "Net-(R67-Pad2)".
+
+Changing component "ROT3:/586C33AF/586C56F2" pin "C" net name from "" to "AGND".
+
 Info: Checking netlist component footprint "ROT4:/586C33AF/586C6258:DFTcustom:rightangleencoders".
 
 Adding new component "ROT4:/586C33AF/586C6258" footprint "DFTcustom:rightangleencoders".
+
+Changing component "ROT4:/586C33AF/586C6258" pin "S1" net name from "" to "ENCC3_SW".
+
+Changing component "ROT4:/586C33AF/586C6258" pin "S2" net name from "" to "AGND".
+
+Changing component "ROT4:/586C33AF/586C6258" pin "B" net name from "" to "Net-(R70-Pad2)".
+
+Changing component "ROT4:/586C33AF/586C6258" pin "A" net name from "" to "Net-(R68-Pad2)".
+
+Changing component "ROT4:/586C33AF/586C6258" pin "C" net name from "" to "AGND".
 
 Info: Checking netlist component footprint "RV1:/5852A88E/58714969:DFTcustom:TC33X-2-103E".
 
@@ -3032,25 +3134,41 @@ Changing component "U2:/58508456/5852F5FB" pin "2" net name from "" to "AGND".
 
 Changing component "U2:/58508456/5852F5FB" pin "1" net name from "" to "AGND".
 
-Info: Checking netlist component footprint "U3:/58508456/58665D58:DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)".
+Info: Checking netlist component footprint "U3:/58508456/58665D58:SMD_Packages:SO-16-N".
 
-Adding new component "U3:/58508456/58665D58" footprint "DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)".
+Adding new component "U3:/58508456/58665D58" footprint "SMD_Packages:SO-16-N".
 
-Changing component "U3:/58508456/58665D58" pin "5" net name from "" to "Net-(U3-Pad5)".
+Changing component "U3:/58508456/58665D58" pin "16" net name from "" to "SPI_CLK".
 
-Changing component "U3:/58508456/58665D58" pin "6" net name from "" to "Net-(U3-Pad6)".
+Changing component "U3:/58508456/58665D58" pin "14" net name from "" to "Net-(U3-Pad14)".
 
-Changing component "U3:/58508456/58665D58" pin "7" net name from "" to "SPIMEM_SS".
+Changing component "U3:/58508456/58665D58" pin "13" net name from "" to "Net-(U3-Pad13)".
+
+Changing component "U3:/58508456/58665D58" pin "12" net name from "" to "Net-(U3-Pad12)".
+
+Changing component "U3:/58508456/58665D58" pin "11" net name from "" to "Net-(U3-Pad11)".
+
+Changing component "U3:/58508456/58665D58" pin "10" net name from "" to "AGND".
+
+Changing component "U3:/58508456/58665D58" pin "9" net name from "" to "Net-(R75-Pad2)".
 
 Changing component "U3:/58508456/58665D58" pin "8" net name from "" to "SPI_MISO".
 
-Changing component "U3:/58508456/58665D58" pin "1" net name from "" to "Net-(R82-Pad1)".
+Changing component "U3:/58508456/58665D58" pin "7" net name from "" to "SPIMEM_SS".
 
-Changing component "U3:/58508456/58665D58" pin "2" net name from "" to "+1.8V".
+Changing component "U3:/58508456/58665D58" pin "6" net name from "" to "Net-(U3-Pad6)".
+
+Changing component "U3:/58508456/58665D58" pin "5" net name from "" to "Net-(U3-Pad5)".
+
+Changing component "U3:/58508456/58665D58" pin "4" net name from "" to "Net-(U3-Pad4)".
 
 Changing component "U3:/58508456/58665D58" pin "3" net name from "" to "Net-(U3-Pad3)".
 
-Changing component "U3:/58508456/58665D58" pin "4" net name from "" to "Net-(U3-Pad4)".
+Changing component "U3:/58508456/58665D58" pin "2" net name from "" to "+1.8V".
+
+Changing component "U3:/58508456/58665D58" pin "1" net name from "" to "Net-(R82-Pad1)".
+
+Changing component "U3:/58508456/58665D58" pin "15" net name from "" to "SPI_MOSI".
 
 Info: Checking netlist component footprint "U5:/5852F1DA/5852F314:TO_SOT_Packages_SMD:SOT-23-5".
 
@@ -3270,143 +3388,25 @@ Changing component "Y2:/5862C4CE/5862C6D3" pin "2" net name from "" to "Net-(C10
 
 Changing component "Y2:/5862C4CE/5862C6D3" pin "1" net name from "" to "Net-(C102-Pad2)".
 
-Error: Component 'F1' pad '~' not found in footprint 'Capacitors_SMD:C_1206'
-
-Error: Component 'J1' pad '1' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J1' pad '4' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J1' pad '6' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J1' pad '3' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J1' pad '5' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J1' pad '2' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J2' pad '1' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J2' pad '3' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J2' pad '4' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J2' pad '6' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J2' pad '2' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J2' pad '5' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J3' pad '1' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J3' pad '3' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J3' pad '4' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J3' pad '6' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J3' pad '2' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J3' pad '5' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J4' pad '4' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J4' pad '1' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J4' pad '5' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J4' pad '2' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J4' pad '3' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J4' pad '6' not found in footprint 'DFTcustom:AUDIO_TRS_6'
-
-Error: Component 'J5' pad 'SHD' not found in footprint 'DFTcustom:MICRO HDMI'
-
-Error: Component 'NCP1' pad '2' not found in footprint 'UDFN-6:UDFN-6'
-
-Error: Component 'NCP1' pad '3' not found in footprint 'UDFN-6:UDFN-6'
-
-Error: Component 'NCP1' pad '1' not found in footprint 'UDFN-6:UDFN-6'
-
-Error: Component 'NCP1' pad '4' not found in footprint 'UDFN-6:UDFN-6'
-
-Error: Component 'NCP1' pad '5' not found in footprint 'UDFN-6:UDFN-6'
-
-Error: Component 'ROT1' pad '5' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT1' pad '3' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT1' pad '1' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT1' pad '4' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT1' pad '2' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT2' pad '3' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT2' pad '5' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT2' pad '1' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT2' pad '4' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT2' pad '2' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT3' pad '3' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT3' pad '5' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT3' pad '1' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT3' pad '4' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT3' pad '2' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT4' pad '5' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT4' pad '3' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT4' pad '1' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT4' pad '4' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'ROT4' pad '2' not found in footprint 'DFTcustom:rightangleencoders'
-
-Error: Component 'U3' pad '10' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
-
-Error: Component 'U3' pad '9' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
-
-Error: Component 'U3' pad '16' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
-
-Error: Component 'U3' pad '14' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
-
-Error: Component 'U3' pad '13' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
-
-Error: Component 'U3' pad '12' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
-
-Error: Component 'U3' pad '11' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
-
-Error: Component 'U3' pad '15' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
-
 Error: Component 'U12' pad '6' not found in footprint 'TO_SOT_Packages_SMD:SC-70'
 
 Error: Component 'U13' pad '4' not found in footprint 'TO_SOT_Packages_SMD:SOT-23'
 
 Error: Component 'U14' pad 'P' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
 
-Error: Component 'U14' pad '3' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
-
 Error: Component 'U14' pad '4' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
 
-Error: Component 'U14' pad '5' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
+Error: Component 'U14' pad '3' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
 
 Error: Component 'U14' pad '7' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
 
 Error: Component 'U14' pad '8' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
 
+Error: Component 'U14' pad '5' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
+
 Error: Component 'U14' pad '6' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
 
-Error: Component 'U14' pad '2' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
-
 Error: Component 'U14' pad '1' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
+
+Error: Component 'U14' pad '2' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
 
