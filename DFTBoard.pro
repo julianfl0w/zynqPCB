@@ -1,4 +1,4 @@
-update=1/9/2017 12:56:04 PM
+update=1/12/2017 11:04:47 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -105,3 +105,4 @@ LibName63=lib/passiveinductor
 LibName64=lib/fb_powerout
 LibName65=lib/ferrite
 LibName66=lib/df_device
+LibName67=lib/JACK_TRS_5PINS

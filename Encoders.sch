@@ -57,6 +57,7 @@ LIBS:passiveinductor
 LIBS:fb_powerout
 LIBS:ferrite
 LIBS:df_device
+LIBS:JACK_TRS_5PINS
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -77,7 +78,7 @@ U 1 1 586C33B8
 P 3450 2600
 F 0 "ROT1" H 3360 2850 60  0000 C CNN
 F 1 "ROTARY-ENCODER" H 3450 2320 60  0000 C CNN
-F 2 "encoder:rightangle encoders" H 3450 2600 60  0001 C CNN
+F 2 "DFTcustom:rightangleencoders" H 3450 2600 60  0001 C CNN
 F 3 "" H 3450 2600 60  0000 C CNN
 	1    3450 2600
 	1    0    0    -1  
@@ -273,7 +274,7 @@ U 1 1 586C56F2
 P 7750 2600
 F 0 "ROT3" H 7660 2850 60  0000 C CNN
 F 1 "ROTARY-ENCODER" H 7750 2320 60  0000 C CNN
-F 2 "encoder:rightangle encoders" H 7750 2600 60  0001 C CNN
+F 2 "DFTcustom:rightangleencoders" H 7750 2600 60  0001 C CNN
 F 3 "" H 7750 2600 60  0000 C CNN
 	1    7750 2600
 	1    0    0    -1  
@@ -469,7 +470,7 @@ U 1 1 586C5B3D
 P 3450 4850
 F 0 "ROT2" H 3360 5100 60  0000 C CNN
 F 1 "ROTARY-ENCODER" H 3450 4570 60  0000 C CNN
-F 2 "encoder:rightangle encoders" H 3450 4850 60  0001 C CNN
+F 2 "DFTcustom:rightangleencoders" H 3450 4850 60  0001 C CNN
 F 3 "" H 3450 4850 60  0000 C CNN
 	1    3450 4850
 	1    0    0    -1  
@@ -665,7 +666,7 @@ U 1 1 586C6258
 P 7750 4850
 F 0 "ROT4" H 7660 5100 60  0000 C CNN
 F 1 "ROTARY-ENCODER" H 7750 4570 60  0000 C CNN
-F 2 "encoder:rightangle encoders" H 7750 4850 60  0001 C CNN
+F 2 "DFTcustom:rightangleencoders" H 7750 4850 60  0001 C CNN
 F 3 "" H 7750 4850 60  0000 C CNN
 	1    7750 4850
 	1    0    0    -1  

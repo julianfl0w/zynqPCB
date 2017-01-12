@@ -1,8 +1,8 @@
-(module CX3225GB19200P0HPQCC (layer F.Cu) (tedit 58756ACF)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+(module CX3225GB19200P0HPQCC (layer F.Cu) (tedit 58767F2B)
+  (fp_text reference REF** (at -1.27 2.54) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value CX3225GB19200P0HPQCC (at 0 -0.5) (layer F.Fab)
+  (fp_text value CX3225GB19200P0HPQCC (at 0 -3.81) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -3.302 0.762) (end 0.762 0.762) (layer F.SilkS) (width 0.15))

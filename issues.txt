@@ -1,0 +1,3448 @@
+Info: Reading netlist file "C:\Users\jcloi\Documents\KiCad\board_design\DFTBoard.net".
+
+Info: Using references to match components and footprints.
+
+Info: Checking netlist component footprint "C1:/58508414/58508495/586C7651:Capacitors_SMD:C_1210".
+
+Adding new component "C1:/58508414/58508495/586C7651" footprint "Capacitors_SMD:C_1210".
+
+Changing component "C1:/58508414/58508495/586C7651" pin "1" net name from "" to "+1.8V".
+
+Changing component "C1:/58508414/58508495/586C7651" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C2:/58508414/58508498/586C79D7:Capacitors_SMD:C_1210".
+
+Adding new component "C2:/58508414/58508498/586C79D7" footprint "Capacitors_SMD:C_1210".
+
+Changing component "C2:/58508414/58508498/586C79D7" pin "1" net name from "" to "+1.8V".
+
+Changing component "C2:/58508414/58508498/586C79D7" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C3:/58508414/58508498/586C7A9D:Capacitors_SMD:C_0805".
+
+Adding new component "C3:/58508414/58508498/586C7A9D" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C3:/58508414/58508498/586C7A9D" pin "1" net name from "" to "+1.8V".
+
+Changing component "C3:/58508414/58508498/586C7A9D" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C4:/58508414/58508498/586C7B06:Capacitors_SMD:C_0805".
+
+Adding new component "C4:/58508414/58508498/586C7B06" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C4:/58508414/58508498/586C7B06" pin "1" net name from "" to "+1.8V".
+
+Changing component "C4:/58508414/58508498/586C7B06" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C5:/58508414/58508498/586C7BA4:Capacitors_SMD:C_0603".
+
+Adding new component "C5:/58508414/58508498/586C7BA4" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C5:/58508414/58508498/586C7BA4" pin "1" net name from "" to "+1.8V".
+
+Changing component "C5:/58508414/58508498/586C7BA4" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C6:/58508414/58508498/586C7C39:Capacitors_SMD:C_0603".
+
+Adding new component "C6:/58508414/58508498/586C7C39" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C6:/58508414/58508498/586C7C39" pin "1" net name from "" to "+1.8V".
+
+Changing component "C6:/58508414/58508498/586C7C39" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C7:/58508414/58508498/586C7CA7:Capacitors_SMD:C_0603".
+
+Adding new component "C7:/58508414/58508498/586C7CA7" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C7:/58508414/58508498/586C7CA7" pin "1" net name from "" to "+1.8V".
+
+Changing component "C7:/58508414/58508498/586C7CA7" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C8:/58508414/58508498/586C7D02:Capacitors_SMD:C_0603".
+
+Adding new component "C8:/58508414/58508498/586C7D02" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C8:/58508414/58508498/586C7D02" pin "1" net name from "" to "+1.8V".
+
+Changing component "C8:/58508414/58508498/586C7D02" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C9:/58508414/585C37C3/586C64D4:Capacitors_SMD:C_0603".
+
+Adding new component "C9:/58508414/585C37C3/586C64D4" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C9:/58508414/585C37C3/586C64D4" pin "1" net name from "" to "+1.8V".
+
+Changing component "C9:/58508414/585C37C3/586C64D4" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C10:/58508414/585C37C3/586C4F58:Capacitors_SMD:C_0603".
+
+Adding new component "C10:/58508414/585C37C3/586C4F58" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C10:/58508414/585C37C3/586C4F58" pin "1" net name from "" to "+1.0V".
+
+Changing component "C10:/58508414/585C37C3/586C4F58" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C11:/58508414/585C37C3/586C646F:Capacitors_SMD:C_0603".
+
+Adding new component "C11:/58508414/585C37C3/586C646F" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C11:/58508414/585C37C3/586C646F" pin "1" net name from "" to "+1.8V".
+
+Changing component "C11:/58508414/585C37C3/586C646F" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C12:/58508414/585C37C3/586C4F27:Capacitors_SMD:C_0603".
+
+Adding new component "C12:/58508414/585C37C3/586C4F27" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C12:/58508414/585C37C3/586C4F27" pin "1" net name from "" to "+1.0V".
+
+Changing component "C12:/58508414/585C37C3/586C4F27" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C13:/58508414/585C37C3/586C63D5:Capacitors_SMD:C_0603".
+
+Adding new component "C13:/58508414/585C37C3/586C63D5" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C13:/58508414/585C37C3/586C63D5" pin "1" net name from "" to "+1.8V".
+
+Changing component "C13:/58508414/585C37C3/586C63D5" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C14:/58508414/585C37C3/586C4EEB:Capacitors_SMD:C_0603".
+
+Adding new component "C14:/58508414/585C37C3/586C4EEB" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C14:/58508414/585C37C3/586C4EEB" pin "1" net name from "" to "+1.0V".
+
+Changing component "C14:/58508414/585C37C3/586C4EEB" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C15:/58508414/585C37C3/586C632B:Capacitors_SMD:C_0805".
+
+Adding new component "C15:/58508414/585C37C3/586C632B" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C15:/58508414/585C37C3/586C632B" pin "1" net name from "" to "+1.8V".
+
+Changing component "C15:/58508414/585C37C3/586C632B" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C16:/58508414/585C37C3/586C4EC0:Capacitors_SMD:C_0603".
+
+Adding new component "C16:/58508414/585C37C3/586C4EC0" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C16:/58508414/585C37C3/586C4EC0" pin "1" net name from "" to "+1.0V".
+
+Changing component "C16:/58508414/585C37C3/586C4EC0" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C17:/58508414/585C37C3/586C62B7:Capacitors_SMD:C_0805".
+
+Adding new component "C17:/58508414/585C37C3/586C62B7" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C17:/58508414/585C37C3/586C62B7" pin "1" net name from "" to "+1.8V".
+
+Changing component "C17:/58508414/585C37C3/586C62B7" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C18:/58508414/585C37C3/586C4E7F:Capacitors_SMD:C_0603".
+
+Adding new component "C18:/58508414/585C37C3/586C4E7F" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C18:/58508414/585C37C3/586C4E7F" pin "1" net name from "" to "+1.0V".
+
+Changing component "C18:/58508414/585C37C3/586C4E7F" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C19:/58508414/585C37C3/586C6210:Capacitors_SMD:C_1210".
+
+Adding new component "C19:/58508414/585C37C3/586C6210" footprint "Capacitors_SMD:C_1210".
+
+Changing component "C19:/58508414/585C37C3/586C6210" pin "1" net name from "" to "+1.8V".
+
+Changing component "C19:/58508414/585C37C3/586C6210" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C20:/58508414/585C37C3/586C4E13:Capacitors_SMD:C_0805".
+
+Adding new component "C20:/58508414/585C37C3/586C4E13" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C20:/58508414/585C37C3/586C4E13" pin "1" net name from "" to "+1.0V".
+
+Changing component "C20:/58508414/585C37C3/586C4E13" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C21:/58508414/585C37C3/586C4DED:Capacitors_SMD:C_0805".
+
+Adding new component "C21:/58508414/585C37C3/586C4DED" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C21:/58508414/585C37C3/586C4DED" pin "1" net name from "" to "+1.0V".
+
+Changing component "C21:/58508414/585C37C3/586C4DED" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C22:/58508414/585C37C3/586C4D8F:Capacitors_SMD:C_0805".
+
+Adding new component "C22:/58508414/585C37C3/586C4D8F" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C22:/58508414/585C37C3/586C4D8F" pin "1" net name from "" to "+1.0V".
+
+Changing component "C22:/58508414/585C37C3/586C4D8F" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C23:/58508414/585C37C3/586C5D7A:Capacitors_SMD:C_0603".
+
+Adding new component "C23:/58508414/585C37C3/586C5D7A" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C23:/58508414/585C37C3/586C5D7A" pin "1" net name from "" to "+1.0V".
+
+Changing component "C23:/58508414/585C37C3/586C5D7A" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C24:/58508414/585C37C3/586C4CA1:Capacitors_SMD:C_1206".
+
+Adding new component "C24:/58508414/585C37C3/586C4CA1" footprint "Capacitors_SMD:C_1206".
+
+Changing component "C24:/58508414/585C37C3/586C4CA1" pin "1" net name from "" to "+1.0V".
+
+Changing component "C24:/58508414/585C37C3/586C4CA1" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C25:/58508414/585C37C3/586C5C1A:Capacitors_SMD:C_1210".
+
+Adding new component "C25:/58508414/585C37C3/586C5C1A" footprint "Capacitors_SMD:C_1210".
+
+Changing component "C25:/58508414/585C37C3/586C5C1A" pin "1" net name from "" to "+1.0V".
+
+Changing component "C25:/58508414/585C37C3/586C5C1A" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C26:/58508444/58584CCA:Capacitors_SMD:C_0201".
+
+Adding new component "C26:/58508444/58584CCA" footprint "Capacitors_SMD:C_0201".
+
+Changing component "C26:/58508444/58584CCA" pin "1" net name from "" to "AGND".
+
+Changing component "C26:/58508444/58584CCA" pin "2" net name from "" to "Net-(C26-Pad2)".
+
+Info: Checking netlist component footprint "C27:/58508444/58583D08:Capacitors_SMD:C_0603".
+
+Adding new component "C27:/58508444/58583D08" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C27:/58508444/58583D08" pin "1" net name from "" to "Net-(C26-Pad2)".
+
+Changing component "C27:/58508444/58583D08" pin "2" net name from "" to "Net-(C27-Pad2)".
+
+Info: Checking netlist component footprint "C28:/58508444/58583E3F:Capacitors_SMD:C_0603".
+
+Adding new component "C28:/58508444/58583E3F" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C28:/58508444/58583E3F" pin "1" net name from "" to "AGND".
+
+Changing component "C28:/58508444/58583E3F" pin "2" net name from "" to "Net-(C28-Pad2)".
+
+Info: Checking netlist component footprint "C29:/58508444/58588324:Capacitors_SMD:C_0805".
+
+Adding new component "C29:/58508444/58588324" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C29:/58508444/58588324" pin "1" net name from "" to "+3V3".
+
+Changing component "C29:/58508444/58588324" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C30:/58508444/585882C4:Capacitors_SMD:C_0805".
+
+Adding new component "C30:/58508444/585882C4" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C30:/58508444/585882C4" pin "1" net name from "" to "+3V3".
+
+Changing component "C30:/58508444/585882C4" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C31:/58508444/5874D553:Capacitors_SMD:C_0805".
+
+Adding new component "C31:/58508444/5874D553" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C31:/58508444/5874D553" pin "1" net name from "" to "JD_IN".
+
+Changing component "C31:/58508444/5874D553" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C32:/58508444/58588259:Capacitors_SMD:C_0805".
+
+Adding new component "C32:/58508444/58588259" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C32:/58508444/58588259" pin "1" net name from "" to "+1.8V".
+
+Changing component "C32:/58508444/58588259" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C33:/58508444/5858819B:Capacitors_SMD:C_0805".
+
+Adding new component "C33:/58508444/5858819B" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C33:/58508444/5858819B" pin "1" net name from "" to "+1.8V".
+
+Changing component "C33:/58508444/5858819B" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C34:/58508444/586BD031:Capacitors_SMD:C_0805".
+
+Adding new component "C34:/58508444/586BD031" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C34:/58508444/586BD031" pin "1" net name from "" to "Net-(C34-Pad1)".
+
+Changing component "C34:/58508444/586BD031" pin "2" net name from "" to "Net-(C34-Pad2)".
+
+Info: Checking netlist component footprint "C35:/58508444/585859E7:Capacitors_SMD:C_0805".
+
+Adding new component "C35:/58508444/585859E7" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C35:/58508444/585859E7" pin "1" net name from "" to "Net-(C35-Pad1)".
+
+Changing component "C35:/58508444/585859E7" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C36:/58508444/5858587F:Capacitors_SMD:C_0805".
+
+Adding new component "C36:/58508444/5858587F" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C36:/58508444/5858587F" pin "1" net name from "" to "MICBIAS".
+
+Changing component "C36:/58508444/5858587F" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C37:/58508444/58756378:Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5".
+
+Adding new component "C37:/58508444/58756378" footprint "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5".
+
+Changing component "C37:/58508444/58756378" pin "2" net name from "" to "Net-(C37-Pad2)".
+
+Changing component "C37:/58508444/58756378" pin "1" net name from "" to "Net-(C37-Pad1)".
+
+Info: Checking netlist component footprint "C38:/58508444/587562A1:Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5".
+
+Adding new component "C38:/58508444/587562A1" footprint "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5".
+
+Changing component "C38:/58508444/587562A1" pin "2" net name from "" to "Net-(C38-Pad2)".
+
+Changing component "C38:/58508444/587562A1" pin "1" net name from "" to "Net-(C38-Pad1)".
+
+Info: Checking netlist component footprint "C39:/58508444/5874E569:Capacitors_SMD:C_0805".
+
+Adding new component "C39:/58508444/5874E569" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C39:/58508444/5874E569" pin "1" net name from "" to "JD_ROUT".
+
+Changing component "C39:/58508444/5874E569" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C40:/58508444/5874E8CC:Capacitors_SMD:C_0805".
+
+Adding new component "C40:/58508444/5874E8CC" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C40:/58508444/5874E8CC" pin "1" net name from "" to "JD_LOUT".
+
+Changing component "C40:/58508444/5874E8CC" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C41:/58508444/5874E954:Capacitors_SMD:C_0805".
+
+Adding new component "C41:/58508444/5874E954" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C41:/58508444/5874E954" pin "1" net name from "" to "JD_HOUT".
+
+Changing component "C41:/58508444/5874E954" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C42:/5850844D/585893A6:Capacitors_SMD:C_0603".
+
+Adding new component "C42:/5850844D/585893A6" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C42:/5850844D/585893A6" pin "1" net name from "" to "+3V3".
+
+Changing component "C42:/5850844D/585893A6" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C43:/5850844D/5858C490:Capacitors_SMD:C_0402".
+
+Adding new component "C43:/5850844D/5858C490" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C43:/5850844D/5858C490" pin "1" net name from "" to "Net-(C43-Pad1)".
+
+Changing component "C43:/5850844D/5858C490" pin "2" net name from "" to "AUDIO_IN".
+
+Info: Checking netlist component footprint "C44:/5850844D/5858932C:Capacitors_SMD:C_0603".
+
+Adding new component "C44:/5850844D/5858932C" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C44:/5850844D/5858932C" pin "1" net name from "" to "+3V3".
+
+Changing component "C44:/5850844D/5858932C" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C45:/5850844D/5858ADFB:Capacitors_SMD:C_0603".
+
+Adding new component "C45:/5850844D/5858ADFB" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C45:/5850844D/5858ADFB" pin "1" net name from "" to "Net-(C45-Pad1)".
+
+Changing component "C45:/5850844D/5858ADFB" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C46:/5850844D/5858CA8F:Capacitors_SMD:C_0603".
+
+Adding new component "C46:/5850844D/5858CA8F" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C46:/5850844D/5858CA8F" pin "1" net name from "" to "+5V".
+
+Changing component "C46:/5850844D/5858CA8F" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C47:/5850844D/5858CB3B:Capacitors_SMD:C_0603".
+
+Adding new component "C47:/5850844D/5858CB3B" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C47:/5850844D/5858CB3B" pin "1" net name from "" to "+5V".
+
+Changing component "C47:/5850844D/5858CB3B" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C48:/58508456/586C198B:Capacitors_SMD:C_0402".
+
+Adding new component "C48:/58508456/586C198B" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C48:/58508456/586C198B" pin "1" net name from "" to "+1.8V".
+
+Changing component "C48:/58508456/586C198B" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C49:/58508456/586C1991:Capacitors_SMD:C_0603".
+
+Adding new component "C49:/58508456/586C1991" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C49:/58508456/586C1991" pin "1" net name from "" to "+1.8V".
+
+Changing component "C49:/58508456/586C1991" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C50:/58508456/586C100D:Capacitors_SMD:C_0402".
+
+Adding new component "C50:/58508456/586C100D" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C50:/58508456/586C100D" pin "1" net name from "" to "+1.8V".
+
+Changing component "C50:/58508456/586C100D" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C51:/58508456/586C107B:Capacitors_SMD:C_0603".
+
+Adding new component "C51:/58508456/586C107B" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C51:/58508456/586C107B" pin "1" net name from "" to "+1.8V".
+
+Changing component "C51:/58508456/586C107B" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C52:/5852A88E/5866ADD2:Capacitors_SMD:C_0402".
+
+Adding new component "C52:/5852A88E/5866ADD2" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C52:/5852A88E/5866ADD2" pin "1" net name from "" to "Net-(C52-Pad1)".
+
+Changing component "C52:/5852A88E/5866ADD2" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C53:/5852A88E/5866AE4A:Capacitors_SMD:C_0402".
+
+Adding new component "C53:/5852A88E/5866AE4A" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C53:/5852A88E/5866AE4A" pin "1" net name from "" to "Net-(C53-Pad1)".
+
+Changing component "C53:/5852A88E/5866AE4A" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C54:/5852A88E/586AF161:Capacitors_SMD:C_0402".
+
+Adding new component "C54:/5852A88E/586AF161" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C54:/5852A88E/586AF161" pin "1" net name from "" to "+1.2V".
+
+Changing component "C54:/5852A88E/586AF161" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C55:/5852A88E/586AEC87:Capacitors_SMD:C_0603".
+
+Adding new component "C55:/5852A88E/586AEC87" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C55:/5852A88E/586AEC87" pin "1" net name from "" to "+1.2V".
+
+Changing component "C55:/5852A88E/586AEC87" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C56:/5852A88E/586AF492:Capacitors_SMD:C_0603".
+
+Adding new component "C56:/5852A88E/586AF492" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C56:/5852A88E/586AF492" pin "1" net name from "" to "+1.2V".
+
+Changing component "C56:/5852A88E/586AF492" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C57:/5852A88E/586AF576:Capacitors_SMD:C_0603".
+
+Adding new component "C57:/5852A88E/586AF576" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C57:/5852A88E/586AF576" pin "1" net name from "" to "+1.2V".
+
+Changing component "C57:/5852A88E/586AF576" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C58:/5852A88E/586B4CEA:Capacitors_SMD:C_0603".
+
+Adding new component "C58:/5852A88E/586B4CEA" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C58:/5852A88E/586B4CEA" pin "1" net name from "" to "CVDDQ".
+
+Changing component "C58:/5852A88E/586B4CEA" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C59:/5852A88E/586ACD59:Capacitors_SMD:C_0603".
+
+Adding new component "C59:/5852A88E/586ACD59" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C59:/5852A88E/586ACD59" pin "1" net name from "" to "+1.2V".
+
+Changing component "C59:/5852A88E/586ACD59" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C60:/5852A88E/586B4CE4:Capacitors_SMD:C_0402".
+
+Adding new component "C60:/5852A88E/586B4CE4" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C60:/5852A88E/586B4CE4" pin "1" net name from "" to "CVDDQ".
+
+Changing component "C60:/5852A88E/586B4CE4" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C61:/5852A88E/586ACCEA:Capacitors_SMD:C_0603".
+
+Adding new component "C61:/5852A88E/586ACCEA" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C61:/5852A88E/586ACCEA" pin "1" net name from "" to "+1.2V".
+
+Changing component "C61:/5852A88E/586ACCEA" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C62:/5852A88E/586B496B:Capacitors_SMD:C_0603".
+
+Adding new component "C62:/5852A88E/586B496B" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C62:/5852A88E/586B496B" pin "1" net name from "" to "Net-(C62-Pad1)".
+
+Changing component "C62:/5852A88E/586B496B" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C63:/5852A88E/586BC076:Capacitors_SMD:C_0603".
+
+Adding new component "C63:/5852A88E/586BC076" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C63:/5852A88E/586BC076" pin "1" net name from "" to "+1.8V".
+
+Changing component "C63:/5852A88E/586BC076" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C64:/5852A88E/586ACC82:Capacitors_SMD:C_0603".
+
+Adding new component "C64:/5852A88E/586ACC82" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C64:/5852A88E/586ACC82" pin "1" net name from "" to "+1.2V".
+
+Changing component "C64:/5852A88E/586ACC82" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C65:/5852A88E/586B4965:Capacitors_SMD:C_0603".
+
+Adding new component "C65:/5852A88E/586B4965" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C65:/5852A88E/586B4965" pin "1" net name from "" to "Net-(C62-Pad1)".
+
+Changing component "C65:/5852A88E/586B4965" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C66:/5852A88E/586BC070:Capacitors_SMD:C_0402".
+
+Adding new component "C66:/5852A88E/586BC070" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C66:/5852A88E/586BC070" pin "1" net name from "" to "+1.8V".
+
+Changing component "C66:/5852A88E/586BC070" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C67:/5852A88E/586ACBFD:Capacitors_SMD:C_0603".
+
+Adding new component "C67:/5852A88E/586ACBFD" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C67:/5852A88E/586ACBFD" pin "1" net name from "" to "+1.2V".
+
+Changing component "C67:/5852A88E/586ACBFD" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C68:/5852A88E/586B93A8:Capacitors_SMD:C_0603".
+
+Adding new component "C68:/5852A88E/586B93A8" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C68:/5852A88E/586B93A8" pin "1" net name from "" to "+3V3".
+
+Changing component "C68:/5852A88E/586B93A8" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C69:/5852A88E/586B3972:Capacitors_SMD:C_0603".
+
+Adding new component "C69:/5852A88E/586B3972" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C69:/5852A88E/586B3972" pin "1" net name from "" to "Net-(C69-Pad1)".
+
+Changing component "C69:/5852A88E/586B3972" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C70:/5852A88E/586BBC32:Capacitors_SMD:C_0603".
+
+Adding new component "C70:/5852A88E/586BBC32" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C70:/5852A88E/586BBC32" pin "1" net name from "" to "+1.8V".
+
+Changing component "C70:/5852A88E/586BBC32" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C71:/5852A88E/586AB602:Capacitors_SMD:C_0402".
+
+Adding new component "C71:/5852A88E/586AB602" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C71:/5852A88E/586AB602" pin "1" net name from "" to "+1.2V".
+
+Changing component "C71:/5852A88E/586AB602" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C72:/5852A88E/586B93A2:Capacitors_SMD:C_0402".
+
+Adding new component "C72:/5852A88E/586B93A2" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C72:/5852A88E/586B93A2" pin "1" net name from "" to "+3V3".
+
+Changing component "C72:/5852A88E/586B93A2" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C73:/5852A88E/586AB5FC:Capacitors_SMD:C_0402".
+
+Adding new component "C73:/5852A88E/586AB5FC" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C73:/5852A88E/586AB5FC" pin "1" net name from "" to "+1.2V".
+
+Changing component "C73:/5852A88E/586AB5FC" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C74:/5852A88E/586B38AB:Capacitors_SMD:C_0603".
+
+Adding new component "C74:/5852A88E/586B38AB" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C74:/5852A88E/586B38AB" pin "1" net name from "" to "Net-(C69-Pad1)".
+
+Changing component "C74:/5852A88E/586B38AB" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C75:/5852A88E/586BBC2C:Capacitors_SMD:C_0402".
+
+Adding new component "C75:/5852A88E/586BBC2C" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C75:/5852A88E/586BBC2C" pin "1" net name from "" to "+1.8V".
+
+Changing component "C75:/5852A88E/586BBC2C" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C76:/5852A88E/586B786E:Capacitors_SMD:C_0603".
+
+Adding new component "C76:/5852A88E/586B786E" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C76:/5852A88E/586B786E" pin "1" net name from "" to "+1.8V".
+
+Changing component "C76:/5852A88E/586B786E" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C77:/5852A88E/586AB544:Capacitors_SMD:C_0402".
+
+Adding new component "C77:/5852A88E/586AB544" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C77:/5852A88E/586AB544" pin "1" net name from "" to "+1.2V".
+
+Changing component "C77:/5852A88E/586AB544" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C78:/5852A88E/586B9B14:Capacitors_SMD:C_0603".
+
+Adding new component "C78:/5852A88E/586B9B14" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C78:/5852A88E/586B9B14" pin "1" net name from "" to "+1.8V".
+
+Changing component "C78:/5852A88E/586B9B14" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C79:/5852A88E/586B7868:Capacitors_SMD:C_0402".
+
+Adding new component "C79:/5852A88E/586B7868" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C79:/5852A88E/586B7868" pin "1" net name from "" to "+1.8V".
+
+Changing component "C79:/5852A88E/586B7868" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C80:/5852A88E/586AB53E:Capacitors_SMD:C_0603".
+
+Adding new component "C80:/5852A88E/586AB53E" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C80:/5852A88E/586AB53E" pin "1" net name from "" to "+1.2V".
+
+Changing component "C80:/5852A88E/586AB53E" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C81:/5852A88E/586B040E:Capacitors_SMD:C_0603".
+
+Adding new component "C81:/5852A88E/586B040E" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C81:/5852A88E/586B040E" pin "1" net name from "" to "Net-(C81-Pad1)".
+
+Changing component "C81:/5852A88E/586B040E" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C82:/5852A88E/58688E95:Capacitors_SMD:C_0603".
+
+Adding new component "C82:/5852A88E/58688E95" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C82:/5852A88E/58688E95" pin "1" net name from "" to "Net-(C82-Pad1)".
+
+Changing component "C82:/5852A88E/58688E95" pin "2" net name from "" to "Net-(C82-Pad2)".
+
+Info: Checking netlist component footprint "C83:/5852A88E/5868945B:Capacitors_SMD:C_0603".
+
+Adding new component "C83:/5852A88E/5868945B" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C83:/5852A88E/5868945B" pin "1" net name from "" to "Net-(C83-Pad1)".
+
+Changing component "C83:/5852A88E/5868945B" pin "2" net name from "" to "Net-(C83-Pad2)".
+
+Info: Checking netlist component footprint "C84:/5852A88E/586BF90C:Capacitors_SMD:C_0603".
+
+Adding new component "C84:/5852A88E/586BF90C" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C84:/5852A88E/586BF90C" pin "1" net name from "" to "+5V".
+
+Changing component "C84:/5852A88E/586BF90C" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C85:/5852A88E/586B9B0E:Capacitors_SMD:C_0402".
+
+Adding new component "C85:/5852A88E/586B9B0E" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C85:/5852A88E/586B9B0E" pin "1" net name from "" to "+1.8V".
+
+Changing component "C85:/5852A88E/586B9B0E" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C86:/5852A88E/586B7C12:Capacitors_SMD:C_0603".
+
+Adding new component "C86:/5852A88E/586B7C12" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C86:/5852A88E/586B7C12" pin "1" net name from "" to "+1.8V".
+
+Changing component "C86:/5852A88E/586B7C12" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C87:/5852A88E/586A9D2E:Capacitors_SMD:C_0402".
+
+Adding new component "C87:/5852A88E/586A9D2E" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C87:/5852A88E/586A9D2E" pin "1" net name from "" to "+1.2V".
+
+Changing component "C87:/5852A88E/586A9D2E" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C88:/5852A88E/586B2BA3:Capacitors_SMD:C_0402".
+
+Adding new component "C88:/5852A88E/586B2BA3" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C88:/5852A88E/586B2BA3" pin "1" net name from "" to "Net-(C81-Pad1)".
+
+Changing component "C88:/5852A88E/586B2BA3" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C89:/5852A88E/586A98F8:Capacitors_SMD:C_0603".
+
+Adding new component "C89:/5852A88E/586A98F8" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C89:/5852A88E/586A98F8" pin "1" net name from "" to "+1.2V".
+
+Changing component "C89:/5852A88E/586A98F8" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C90:/5852F1DA/58592EB2:Capacitors_SMD:C_0805".
+
+Adding new component "C90:/5852F1DA/58592EB2" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C90:/5852F1DA/58592EB2" pin "1" net name from "" to "+5V".
+
+Changing component "C90:/5852F1DA/58592EB2" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C91:/5852F1DA/58592FAD:Capacitors_SMD:C_0805".
+
+Adding new component "C91:/5852F1DA/58592FAD" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C91:/5852F1DA/58592FAD" pin "1" net name from "" to "+5V".
+
+Changing component "C91:/5852F1DA/58592FAD" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C92:/5852F1DA/5859393B:Capacitors_SMD:C_0805".
+
+Adding new component "C92:/5852F1DA/5859393B" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C92:/5852F1DA/5859393B" pin "1" net name from "" to "+3V3".
+
+Changing component "C92:/5852F1DA/5859393B" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C93:/5852F1DA/58593A1D:Capacitors_SMD:C_0805".
+
+Adding new component "C93:/5852F1DA/58593A1D" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C93:/5852F1DA/58593A1D" pin "1" net name from "" to "+1.0V".
+
+Changing component "C93:/5852F1DA/58593A1D" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C94:/5852F1DA/58592F69:Capacitors_SMD:C_0805".
+
+Adding new component "C94:/5852F1DA/58592F69" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C94:/5852F1DA/58592F69" pin "1" net name from "" to "+5V".
+
+Changing component "C94:/5852F1DA/58592F69" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C95:/5852F1DA/58592F8A:Capacitors_SMD:C_0805".
+
+Adding new component "C95:/5852F1DA/58592F8A" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C95:/5852F1DA/58592F8A" pin "1" net name from "" to "+5V".
+
+Changing component "C95:/5852F1DA/58592F8A" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C96:/5852F1DA/58593B07:Capacitors_SMD:C_0805".
+
+Adding new component "C96:/5852F1DA/58593B07" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C96:/5852F1DA/58593B07" pin "1" net name from "" to "+1.2V".
+
+Changing component "C96:/5852F1DA/58593B07" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C97:/5852F1DA/58593BBA:Capacitors_SMD:C_0805".
+
+Adding new component "C97:/5852F1DA/58593BBA" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C97:/5852F1DA/58593BBA" pin "1" net name from "" to "+1.8V".
+
+Changing component "C97:/5852F1DA/58593BBA" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C98:/5852FF3B/58598585:Capacitors_SMD:C_0603".
+
+Adding new component "C98:/5852FF3B/58598585" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C98:/5852FF3B/58598585" pin "1" net name from "" to "+3V3".
+
+Changing component "C98:/5852FF3B/58598585" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C99:/5852FF3B/585984E0:Capacitors_SMD:C_0805".
+
+Adding new component "C99:/5852FF3B/585984E0" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C99:/5852FF3B/585984E0" pin "1" net name from "" to "+3V3".
+
+Changing component "C99:/5852FF3B/585984E0" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C100:/5862C4CE/586C2AB4:Capacitors_SMD:C_0603".
+
+Adding new component "C100:/5862C4CE/586C2AB4" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C100:/5862C4CE/586C2AB4" pin "1" net name from "" to "+1.8V".
+
+Changing component "C100:/5862C4CE/586C2AB4" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C101:/5862C4CE/586C2ABA:Capacitors_SMD:C_0603".
+
+Adding new component "C101:/5862C4CE/586C2ABA" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C101:/5862C4CE/586C2ABA" pin "1" net name from "" to "+1.8V".
+
+Changing component "C101:/5862C4CE/586C2ABA" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C102:/5862C4CE/5862D819:Capacitors_SMD:C_0201".
+
+Adding new component "C102:/5862C4CE/5862D819" footprint "Capacitors_SMD:C_0201".
+
+Changing component "C102:/5862C4CE/5862D819" pin "1" net name from "" to "AGND".
+
+Changing component "C102:/5862C4CE/5862D819" pin "2" net name from "" to "Net-(C102-Pad2)".
+
+Info: Checking netlist component footprint "C103:/5862C4CE/5862D86A:Capacitors_SMD:C_0201".
+
+Adding new component "C103:/5862C4CE/5862D86A" footprint "Capacitors_SMD:C_0201".
+
+Changing component "C103:/5862C4CE/5862D86A" pin "1" net name from "" to "AGND".
+
+Changing component "C103:/5862C4CE/5862D86A" pin "2" net name from "" to "Net-(C103-Pad2)".
+
+Info: Checking netlist component footprint "C104:/5862C4CE/5862D41C:Capacitors_SMD:C_0603".
+
+Adding new component "C104:/5862C4CE/5862D41C" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C104:/5862C4CE/5862D41C" pin "1" net name from "" to "+3V3".
+
+Changing component "C104:/5862C4CE/5862D41C" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C105:/5862C4CE/5862D44F:Capacitors_SMD:C_0603".
+
+Adding new component "C105:/5862C4CE/5862D44F" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C105:/5862C4CE/5862D44F" pin "1" net name from "" to "+3V3".
+
+Changing component "C105:/5862C4CE/5862D44F" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C106:/586C0171/58644D90:Capacitors_SMD:C_0603".
+
+Adding new component "C106:/586C0171/58644D90" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C106:/586C0171/58644D90" pin "1" net name from "" to "+3V3".
+
+Changing component "C106:/586C0171/58644D90" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C107:/586C0171/58645D4C:Capacitors_SMD:C_0603".
+
+Adding new component "C107:/586C0171/58645D4C" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C107:/586C0171/58645D4C" pin "1" net name from "" to "Net-(C107-Pad1)".
+
+Changing component "C107:/586C0171/58645D4C" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C108:/586C0171/58643F07:Capacitors_SMD:C_0603".
+
+Adding new component "C108:/586C0171/58643F07" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C108:/586C0171/58643F07" pin "1" net name from "" to "AGND".
+
+Changing component "C108:/586C0171/58643F07" pin "2" net name from "" to "Net-(C108-Pad2)".
+
+Info: Checking netlist component footprint "C109:/586C0171/586CAD3C:Capacitors_SMD:C_1210".
+
+Adding new component "C109:/586C0171/586CAD3C" footprint "Capacitors_SMD:C_1210".
+
+Changing component "C109:/586C0171/586CAD3C" pin "1" net name from "" to "+3V3".
+
+Changing component "C109:/586C0171/586CAD3C" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C110:/586C0171/586CAE7A:Capacitors_SMD:C_0805".
+
+Adding new component "C110:/586C0171/586CAE7A" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C110:/586C0171/586CAE7A" pin "1" net name from "" to "+3V3".
+
+Changing component "C110:/586C0171/586CAE7A" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C111:/586C0171/586CAF03:Capacitors_SMD:C_0805".
+
+Adding new component "C111:/586C0171/586CAF03" footprint "Capacitors_SMD:C_0805".
+
+Changing component "C111:/586C0171/586CAF03" pin "1" net name from "" to "+3V3".
+
+Changing component "C111:/586C0171/586CAF03" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C112:/586C0171/586CAFD4:Capacitors_SMD:C_0603".
+
+Adding new component "C112:/586C0171/586CAFD4" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C112:/586C0171/586CAFD4" pin "1" net name from "" to "+3V3".
+
+Changing component "C112:/586C0171/586CAFD4" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C113:/586C0171/586CB057:Capacitors_SMD:C_0603".
+
+Adding new component "C113:/586C0171/586CB057" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C113:/586C0171/586CB057" pin "1" net name from "" to "+3V3".
+
+Changing component "C113:/586C0171/586CB057" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C114:/586C0171/586CB0F4:Capacitors_SMD:C_0603".
+
+Adding new component "C114:/586C0171/586CB0F4" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C114:/586C0171/586CB0F4" pin "1" net name from "" to "+3V3".
+
+Changing component "C114:/586C0171/586CB0F4" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C115:/586C0171/586CB162:Capacitors_SMD:C_0603".
+
+Adding new component "C115:/586C0171/586CB162" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C115:/586C0171/586CB162" pin "1" net name from "" to "+3V3".
+
+Changing component "C115:/586C0171/586CB162" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C116:/586C0171/586B57AF:Capacitors_SMD:C_0402".
+
+Adding new component "C116:/586C0171/586B57AF" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C116:/586C0171/586B57AF" pin "1" net name from "" to "+5V".
+
+Changing component "C116:/586C0171/586B57AF" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C117:/586C0171/586B5222:Capacitors_SMD:C_0603".
+
+Adding new component "C117:/586C0171/586B5222" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C117:/586C0171/586B5222" pin "1" net name from "" to "+5V".
+
+Changing component "C117:/586C0171/586B5222" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C118:/586C33AF/586C369D:Capacitors_SMD:C_0402".
+
+Adding new component "C118:/586C33AF/586C369D" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C118:/586C33AF/586C369D" pin "1" net name from "" to "ENCC0_Q1".
+
+Changing component "C118:/586C33AF/586C369D" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C119:/586C33AF/586C5B43:Capacitors_SMD:C_0402".
+
+Adding new component "C119:/586C33AF/586C5B43" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C119:/586C33AF/586C5B43" pin "1" net name from "" to "ENCC2_Q1".
+
+Changing component "C119:/586C33AF/586C5B43" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C120:/586C33AF/586C3858:Capacitors_SMD:C_0402".
+
+Adding new component "C120:/586C33AF/586C3858" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C120:/586C33AF/586C3858" pin "1" net name from "" to "ENCC0_Q0".
+
+Changing component "C120:/586C33AF/586C3858" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C121:/586C33AF/586C5B49:Capacitors_SMD:C_0402".
+
+Adding new component "C121:/586C33AF/586C5B49" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C121:/586C33AF/586C5B49" pin "1" net name from "" to "ENCC2_Q0".
+
+Changing component "C121:/586C33AF/586C5B49" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C122:/586C33AF/586C56F8:Capacitors_SMD:C_0402".
+
+Adding new component "C122:/586C33AF/586C56F8" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C122:/586C33AF/586C56F8" pin "1" net name from "" to "ENCC1_Q1".
+
+Changing component "C122:/586C33AF/586C56F8" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C123:/586C33AF/586C625E:Capacitors_SMD:C_0402".
+
+Adding new component "C123:/586C33AF/586C625E" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C123:/586C33AF/586C625E" pin "1" net name from "" to "ENCC3_Q1".
+
+Changing component "C123:/586C33AF/586C625E" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C124:/586C33AF/586C56FE:Capacitors_SMD:C_0402".
+
+Adding new component "C124:/586C33AF/586C56FE" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C124:/586C33AF/586C56FE" pin "1" net name from "" to "ENCC1_Q0".
+
+Changing component "C124:/586C33AF/586C56FE" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C125:/586C33AF/586C6264:Capacitors_SMD:C_0402".
+
+Adding new component "C125:/586C33AF/586C6264" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C125:/586C33AF/586C6264" pin "1" net name from "" to "ENCC3_Q0".
+
+Changing component "C125:/586C33AF/586C6264" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "C126:/586C0171/587406B4:Capacitors_SMD:C_0603".
+
+Adding new component "C126:/586C0171/587406B4" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C126:/586C0171/587406B4" pin "1" net name from "" to "+3V3".
+
+Changing component "C126:/586C0171/587406B4" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "CON1:/58508414/58508495/585C36E8:DFTcustom:CustomJTAG".
+
+Adding new component "CON1:/58508414/58508495/585C36E8" footprint "DFTcustom:CustomJTAG".
+
+Changing component "CON1:/58508414/58508495/585C36E8" pin "2" net name from "" to "AGND".
+
+Changing component "CON1:/58508414/58508495/585C36E8" pin "3" net name from "" to "Net-(CON1-Pad3)".
+
+Changing component "CON1:/58508414/58508495/585C36E8" pin "4" net name from "" to "+1.8V".
+
+Changing component "CON1:/58508414/58508495/585C36E8" pin "5" net name from "" to "Net-(CON1-Pad5)".
+
+Changing component "CON1:/58508414/58508495/585C36E8" pin "6" net name from "" to "Net-(CON1-Pad6)".
+
+Changing component "CON1:/58508414/58508495/585C36E8" pin "7" net name from "" to "Net-(CON1-Pad7)".
+
+Info: Checking netlist component footprint "CON2:/5852A88E/585DDC48:DFTcustom:CustomJTAG".
+
+Adding new component "CON2:/5852A88E/585DDC48" footprint "DFTcustom:CustomJTAG".
+
+Changing component "CON2:/5852A88E/585DDC48" pin "2" net name from "" to "AGND".
+
+Changing component "CON2:/5852A88E/585DDC48" pin "3" net name from "" to "Net-(CON2-Pad3)".
+
+Changing component "CON2:/5852A88E/585DDC48" pin "4" net name from "" to "+1.8V".
+
+Changing component "CON2:/5852A88E/585DDC48" pin "5" net name from "" to "Net-(CON2-Pad5)".
+
+Changing component "CON2:/5852A88E/585DDC48" pin "6" net name from "" to "Net-(CON2-Pad6)".
+
+Changing component "CON2:/5852A88E/585DDC48" pin "7" net name from "" to "Net-(CON2-Pad7)".
+
+Info: Checking netlist component footprint "D1:/58508414/58508495/585C4BD7:LEDs:LED_0603".
+
+Adding new component "D1:/58508414/58508495/585C4BD7" footprint "LEDs:LED_0603".
+
+Changing component "D1:/58508414/58508495/585C4BD7" pin "2" net name from "" to "Net-(D1-Pad2)".
+
+Changing component "D1:/58508414/58508495/585C4BD7" pin "1" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "D2:/58508414/58508495/585C498C:LEDs:LED_0603".
+
+Adding new component "D2:/58508414/58508495/585C498C" footprint "LEDs:LED_0603".
+
+Changing component "D2:/58508414/58508495/585C498C" pin "2" net name from "" to "Net-(D2-Pad2)".
+
+Changing component "D2:/58508414/58508495/585C498C" pin "1" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "D3:/5850844D/58589FFE:DFTcustom:PLCC6-SM-RGB-LED".
+
+Adding new component "D3:/5850844D/58589FFE" footprint "DFTcustom:PLCC6-SM-RGB-LED".
+
+Changing component "D3:/5850844D/58589FFE" pin "1" net name from "" to "Net-(D3-Pad1)".
+
+Changing component "D3:/5850844D/58589FFE" pin "2" net name from "" to "Net-(D3-Pad2)".
+
+Changing component "D3:/5850844D/58589FFE" pin "3" net name from "" to "Net-(D3-Pad3)".
+
+Changing component "D3:/5850844D/58589FFE" pin "4" net name from "" to "+5V".
+
+Changing component "D3:/5850844D/58589FFE" pin "5" net name from "" to "+5V".
+
+Changing component "D3:/5850844D/58589FFE" pin "6" net name from "" to "+5V".
+
+Info: Checking netlist component footprint "D4:/5850844D/5858A0AE:DFTcustom:PLCC6-SM-RGB-LED".
+
+Adding new component "D4:/5850844D/5858A0AE" footprint "DFTcustom:PLCC6-SM-RGB-LED".
+
+Changing component "D4:/5850844D/5858A0AE" pin "1" net name from "" to "Net-(D4-Pad1)".
+
+Changing component "D4:/5850844D/5858A0AE" pin "2" net name from "" to "Net-(D4-Pad2)".
+
+Changing component "D4:/5850844D/5858A0AE" pin "3" net name from "" to "Net-(D4-Pad3)".
+
+Changing component "D4:/5850844D/5858A0AE" pin "4" net name from "" to "+5V".
+
+Changing component "D4:/5850844D/5858A0AE" pin "5" net name from "" to "+5V".
+
+Changing component "D4:/5850844D/5858A0AE" pin "6" net name from "" to "+5V".
+
+Info: Checking netlist component footprint "D5:/5850844D/5858A05C:DFTcustom:PLCC6-SM-RGB-LED".
+
+Adding new component "D5:/5850844D/5858A05C" footprint "DFTcustom:PLCC6-SM-RGB-LED".
+
+Changing component "D5:/5850844D/5858A05C" pin "1" net name from "" to "Net-(D5-Pad1)".
+
+Changing component "D5:/5850844D/5858A05C" pin "2" net name from "" to "Net-(D5-Pad2)".
+
+Changing component "D5:/5850844D/5858A05C" pin "3" net name from "" to "Net-(D5-Pad3)".
+
+Changing component "D5:/5850844D/5858A05C" pin "4" net name from "" to "+5V".
+
+Changing component "D5:/5850844D/5858A05C" pin "5" net name from "" to "+5V".
+
+Changing component "D5:/5850844D/5858A05C" pin "6" net name from "" to "+5V".
+
+Info: Checking netlist component footprint "D6:/586C0171/58649CD2:Diodes_SMD:SOD-523".
+
+Adding new component "D6:/586C0171/58649CD2" footprint "Diodes_SMD:SOD-523".
+
+Changing component "D6:/586C0171/58649CD2" pin "2" net name from "" to "Net-(D6-Pad2)".
+
+Changing component "D6:/586C0171/58649CD2" pin "1" net name from "" to "Net-(D6-Pad1)".
+
+Info: Checking netlist component footprint "D7:/5862C4CE/586FFDD0:LEDs:LED_0603".
+
+Adding new component "D7:/5862C4CE/586FFDD0" footprint "LEDs:LED_0603".
+
+Changing component "D7:/5862C4CE/586FFDD0" pin "2" net name from "" to "Net-(D7-Pad2)".
+
+Changing component "D7:/5862C4CE/586FFDD0" pin "1" net name from "" to "Net-(D7-Pad1)".
+
+Info: Checking netlist component footprint "D8:/5862C4CE/586FFE4F:LEDs:LED_0603".
+
+Adding new component "D8:/5862C4CE/586FFE4F" footprint "LEDs:LED_0603".
+
+Changing component "D8:/5862C4CE/586FFE4F" pin "2" net name from "" to "Net-(D8-Pad2)".
+
+Changing component "D8:/5862C4CE/586FFE4F" pin "1" net name from "" to "Net-(D8-Pad1)".
+
+Info: Checking netlist component footprint "DS1:/5852A88E/585D73E2:DFTcustom:CFAH1602M-TMI-ET".
+
+Adding new component "DS1:/5852A88E/585D73E2" footprint "DFTcustom:CFAH1602M-TMI-ET".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "16" net name from "" to "Net-(DS1-Pad16)".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "15" net name from "" to "Net-(DS1-Pad15)".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "14" net name from "" to "Net-(DS1-Pad14)".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "13" net name from "" to "Net-(DS1-Pad13)".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "12" net name from "" to "Net-(DS1-Pad12)".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "11" net name from "" to "Net-(DS1-Pad11)".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "10" net name from "" to "Net-(DS1-Pad10)".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "9" net name from "" to "Net-(DS1-Pad9)".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "8" net name from "" to "Net-(DS1-Pad8)".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "7" net name from "" to "Net-(DS1-Pad7)".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "6" net name from "" to "Net-(DS1-Pad6)".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "5" net name from "" to "AGND".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "4" net name from "" to "Net-(DS1-Pad4)".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "2" net name from "" to "+3V3".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "3" net name from "" to "Net-(DS1-Pad3)".
+
+Changing component "DS1:/5852A88E/585D73E2" pin "1" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "F1:/586C0171/58647AB8:Capacitors_SMD:C_1206".
+
+Adding new component "F1:/586C0171/58647AB8" footprint "Capacitors_SMD:C_1206".
+
+Info: Checking netlist component footprint "FB1:/5852A88E/58748272:Diodes_SMD:D_0603".
+
+Adding new component "FB1:/5852A88E/58748272" footprint "Diodes_SMD:D_0603".
+
+Changing component "FB1:/5852A88E/58748272" pin "1" net name from "" to "+1.8V".
+
+Changing component "FB1:/5852A88E/58748272" pin "2" net name from "" to "CVDDQ".
+
+Info: Checking netlist component footprint "FB3:/5852A88E/587491B7:Diodes_SMD:D_0603".
+
+Adding new component "FB3:/5852A88E/587491B7" footprint "Diodes_SMD:D_0603".
+
+Changing component "FB3:/5852A88E/587491B7" pin "1" net name from "" to "+1.2V".
+
+Changing component "FB3:/5852A88E/587491B7" pin "2" net name from "" to "Net-(C62-Pad1)".
+
+Info: Checking netlist component footprint "FB4:/5852A88E/58749296:Diodes_SMD:D_0603".
+
+Adding new component "FB4:/5852A88E/58749296" footprint "Diodes_SMD:D_0603".
+
+Changing component "FB4:/5852A88E/58749296" pin "1" net name from "" to "+1.2V".
+
+Changing component "FB4:/5852A88E/58749296" pin "2" net name from "" to "Net-(C69-Pad1)".
+
+Info: Checking netlist component footprint "FB5:/5852A88E/587493AC:Diodes_SMD:D_0603".
+
+Adding new component "FB5:/5852A88E/587493AC" footprint "Diodes_SMD:D_0603".
+
+Changing component "FB5:/5852A88E/587493AC" pin "1" net name from "" to "+1.2V".
+
+Changing component "FB5:/5852A88E/587493AC" pin "2" net name from "" to "Net-(C81-Pad1)".
+
+Info: Checking netlist component footprint "IC1:/58508444/5852C39F:Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm".
+
+Adding new component "IC1:/58508444/5852C39F" footprint "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm".
+
+Changing component "IC1:/58508444/5852C39F" pin "1" net name from "" to "Net-(IC1-Pad1)".
+
+Changing component "IC1:/58508444/5852C39F" pin "2" net name from "" to "Net-(IC1-Pad2)".
+
+Changing component "IC1:/58508444/5852C39F" pin "3" net name from "" to "Net-(IC1-Pad3)".
+
+Changing component "IC1:/58508444/5852C39F" pin "4" net name from "" to "Net-(C27-Pad2)".
+
+Changing component "IC1:/58508444/5852C39F" pin "5" net name from "" to "Net-(C28-Pad2)".
+
+Changing component "IC1:/58508444/5852C39F" pin "6" net name from "" to "Net-(IC1-Pad6)".
+
+Changing component "IC1:/58508444/5852C39F" pin "7" net name from "" to "I2S_LRCLK".
+
+Changing component "IC1:/58508444/5852C39F" pin "8" net name from "" to "I2S_BCLK".
+
+Changing component "IC1:/58508444/5852C39F" pin "9" net name from "" to "I2S_ADCSD".
+
+Changing component "IC1:/58508444/5852C39F" pin "10" net name from "" to "I2S_DACSD".
+
+Changing component "IC1:/58508444/5852C39F" pin "11" net name from "" to "I2S_MCLK".
+
+Changing component "IC1:/58508444/5852C39F" pin "12" net name from "" to "AGND".
+
+Changing component "IC1:/58508444/5852C39F" pin "13" net name from "" to "+1.8V".
+
+Changing component "IC1:/58508444/5852C39F" pin "14" net name from "" to "+1.8V".
+
+Changing component "IC1:/58508444/5852C39F" pin "15" net name from "" to "Net-(IC1-Pad15)".
+
+Changing component "IC1:/58508444/5852C39F" pin "16" net name from "" to "I2C_SCLK".
+
+Changing component "IC1:/58508444/5852C39F" pin "17" net name from "" to "I2C_SDIN".
+
+Changing component "IC1:/58508444/5852C39F" pin "18" net name from "" to "AGND".
+
+Changing component "IC1:/58508444/5852C39F" pin "19" net name from "" to "Net-(IC1-Pad19)".
+
+Changing component "IC1:/58508444/5852C39F" pin "20" net name from "" to "Net-(C34-Pad2)".
+
+Changing component "IC1:/58508444/5852C39F" pin "21" net name from "" to "Net-(IC1-Pad21)".
+
+Changing component "IC1:/58508444/5852C39F" pin "22" net name from "" to "AUDIO_IN".
+
+Changing component "IC1:/58508444/5852C39F" pin "23" net name from "" to "Net-(C38-Pad1)".
+
+Changing component "IC1:/58508444/5852C39F" pin "24" net name from "" to "AGND".
+
+Changing component "IC1:/58508444/5852C39F" pin "25" net name from "" to "Net-(C37-Pad1)".
+
+Changing component "IC1:/58508444/5852C39F" pin "26" net name from "" to "+3V3".
+
+Changing component "IC1:/58508444/5852C39F" pin "27" net name from "" to "Net-(C35-Pad1)".
+
+Changing component "IC1:/58508444/5852C39F" pin "28" net name from "" to "AGND".
+
+Changing component "IC1:/58508444/5852C39F" pin "29" net name from "" to "Net-(IC1-Pad29)".
+
+Changing component "IC1:/58508444/5852C39F" pin "30" net name from "" to "Net-(IC1-Pad30)".
+
+Changing component "IC1:/58508444/5852C39F" pin "31" net name from "" to "+3V3".
+
+Changing component "IC1:/58508444/5852C39F" pin "32" net name from "" to "MICBIAS".
+
+Changing component "IC1:/58508444/5852C39F" pin "33" net name from "" to "AGND".
+
+Changing component "IC1:/58508444/5852C39F" pin "33" net name from "" to "AGND".
+
+Changing component "IC1:/58508444/5852C39F" pin "33" net name from "" to "AGND".
+
+Changing component "IC1:/58508444/5852C39F" pin "33" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "IC2:/5850844D/58506106:QFN-20-4MM:QFN-20-4MM".
+
+Adding new component "IC2:/5850844D/58506106" footprint "QFN-20-4MM:QFN-20-4MM".
+
+Changing component "IC2:/5850844D/58506106" pin "3" net name from "" to "Net-(D3-Pad1)".
+
+Changing component "IC2:/5850844D/58506106" pin "2" net name from "" to "Net-(C45-Pad1)".
+
+Changing component "IC2:/5850844D/58506106" pin "1" net name from "" to "+3V3".
+
+Changing component "IC2:/5850844D/58506106" pin "4" net name from "" to "Net-(D3-Pad2)".
+
+Changing component "IC2:/5850844D/58506106" pin "5" net name from "" to "Net-(D3-Pad3)".
+
+Changing component "IC2:/5850844D/58506106" pin "6" net name from "" to "Net-(D5-Pad1)".
+
+Changing component "IC2:/5850844D/58506106" pin "7" net name from "" to "AGND".
+
+Changing component "IC2:/5850844D/58506106" pin "8" net name from "" to "Net-(D5-Pad2)".
+
+Changing component "IC2:/5850844D/58506106" pin "9" net name from "" to "Net-(D5-Pad3)".
+
+Changing component "IC2:/5850844D/58506106" pin "10" net name from "" to "Net-(D4-Pad1)".
+
+Changing component "IC2:/5850844D/58506106" pin "11" net name from "" to "Net-(D4-Pad2)".
+
+Changing component "IC2:/5850844D/58506106" pin "12" net name from "" to "Net-(D4-Pad3)".
+
+Changing component "IC2:/5850844D/58506106" pin "13" net name from "" to "LED_SD".
+
+Changing component "IC2:/5850844D/58506106" pin "14" net name from "" to "Net-(IC2-Pad14)".
+
+Changing component "IC2:/5850844D/58506106" pin "15" net name from "" to "Net-(IC2-Pad15)".
+
+Changing component "IC2:/5850844D/58506106" pin "16" net name from "" to "Net-(IC2-Pad16)".
+
+Changing component "IC2:/5850844D/58506106" pin "17" net name from "" to "Net-(C43-Pad1)".
+
+Changing component "IC2:/5850844D/58506106" pin "18" net name from "" to "I2C_SCLK".
+
+Changing component "IC2:/5850844D/58506106" pin "19" net name from "" to "I2C_SDIN".
+
+Changing component "IC2:/5850844D/58506106" pin "20" net name from "" to "Net-(IC2-Pad20)".
+
+Info: Checking netlist component footprint "IC3:/5852A88E/5852FF1B:CYUSB3014-BZXCT:BGA121C80P11X11_1000X1000X110".
+
+Adding new component "IC3:/5852A88E/5852FF1B" footprint "CYUSB3014-BZXCT:BGA121C80P11X11_1000X1000X110".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "A1" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "A2" net name from "" to "Net-(C62-Pad1)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "A3" net name from "" to "Net-(IC3-PadA3)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "A4" net name from "" to "Net-(IC3-PadA4)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "A5" net name from "" to "Net-(C83-Pad2)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "A6" net name from "" to "Net-(C82-Pad2)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "A7" net name from "" to "Net-(C81-Pad1)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "A8" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "A9" net name from "" to "Net-(IC3-PadA9)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "A10" net name from "" to "Net-(IC3-PadA10)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "A11" net name from "" to "Net-(IC3-PadA11)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "B1" net name from "" to "+1.8V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "B2" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "B3" net name from "" to "Net-(IC3-PadB3)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "B4" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "B5" net name from "" to "Net-(C69-Pad1)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "B6" net name from "" to "CVDDQ".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "B7" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "B8" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "B9" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "B10" net name from "" to "+1.2V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "B11" net name from "" to "Net-(CON2-Pad8)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "C1" net name from "" to "SPIMEM_SS".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "C2" net name from "" to "SPI_MISO".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "C3" net name from "" to "+1.2V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "C4" net name from "" to "I2S_MCLK".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "C5" net name from "" to "Net-(IC3-PadC5)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "C6" net name from "" to "Net-(C52-Pad1)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "C7" net name from "" to "Net-(C53-Pad1)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "C8" net name from "" to "Net-(IC3-PadC8)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "C9" net name from "" to "Net-(IC3-PadC9)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "C10" net name from "" to "Net-(CON2-Pad3)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "C11" net name from "" to "+1.8V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "D1" net name from "" to "I2S_BCLK".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "D2" net name from "" to "I2S_DACSD".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "D3" net name from "" to "I2S_LRCLK".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "D4" net name from "" to "SPI_CLK".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "D5" net name from "" to "SPI_MOSI".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "D6" net name from "" to "Net-(IC3-PadD6)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "D7" net name from "" to "Net-(IC3-PadD7)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "D8" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "D9" net name from "" to "I2C_SCLK".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "D10" net name from "" to "I2C_SDIN".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "D11" net name from "" to "Net-(IC3-PadD11)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "E1" net name from "" to "SPIUSB_GPX".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "E2" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "E3" net name from "" to "+1.8V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "E4" net name from "" to "SPIUSB_SS".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "E5" net name from "" to "SPIUSB_INT".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "E6" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "E7" net name from "" to "Net-(CON2-Pad9)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "E8" net name from "" to "Net-(CON2-Pad5)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "E9" net name from "" to "+1.2V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "E10" net name from "" to "Net-(IC3-PadE10)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "E11" net name from "" to "+5V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "F1" net name from "" to "+3V3".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "F2" net name from "" to "Net-(DS1-Pad14)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "F3" net name from "" to "Net-(DS1-Pad13)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "F4" net name from "" to "Net-(DS1-Pad6)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "F5" net name from "" to "RF_IRQ".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "F6" net name from "" to "Net-(CON2-Pad1)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "F7" net name from "" to "GD_2".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "F8" net name from "" to "GD_5".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "F9" net name from "" to "GD_1".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "F10" net name from "" to "GD_0".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "F11" net name from "" to "+1.2V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "G1" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "G2" net name from "" to "Net-(DS1-Pad11)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "G3" net name from "" to "Net-(DS1-Pad12)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "G4" net name from "" to "Net-(IC3-PadG4)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "G5" net name from "" to "PWM_LCD_DIM".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "G6" net name from "" to "GPIF_FLAGB".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "G7" net name from "" to "GPIF_FLAGA".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "G8" net name from "" to "GD_15".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "G9" net name from "" to "GD_4".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "G10" net name from "" to "GD_3".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "G11" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "H1" net name from "" to "+1.2V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "H2" net name from "" to "ENCC3_Q1".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "H3" net name from "" to "Net-(DS1-Pad4)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "H4" net name from "" to "Net-(IC3-PadH4)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "H5" net name from "" to "GA_1".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "H6" net name from "" to "USB_FAULT".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "H7" net name from "" to "GPIF_SLRD#".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "H8" net name from "" to "GPIF_PKTEND#".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "H9" net name from "" to "GD_7".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "H10" net name from "" to "GD_6".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "H11" net name from "" to "+1.8V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "J1" net name from "" to "ENCC3_Q0".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "J2" net name from "" to "JD_IN".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "J3" net name from "" to "ENCC3_SW".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "J4" net name from "" to "JD_LOUT".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "J5" net name from "" to "GA_0".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "J6" net name from "" to "GPIF_PCLK".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "J7" net name from "" to "GPIF_SLOE#".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "J8" net name from "" to "GD_14".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "J9" net name from "" to "GD_9".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "J10" net name from "" to "GD_8".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "J11" net name from "" to "+1.2V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "K1" net name from "" to "JD_HOUT".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "K2" net name from "" to "JD_ROUT".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "K3" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "K4" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "K5" net name from "" to "CONFIG_DONE".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "K6" net name from "" to "ENCC2_SW".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "K7" net name from "" to "GPIF_SLWR#".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "K8" net name from "" to "GPIF_SLCS#".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "K9" net name from "" to "GD_13".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "K10" net name from "" to "GD_12".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "K11" net name from "" to "GD_10".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "L1" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "L2" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "L3" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "L4" net name from "" to "Net-(IC3-PadL4)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "L5" net name from "" to "+1.2V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "L6" net name from "" to "AGND".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "L7" net name from "" to "+1.2V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "L8" net name from "" to "Net-(IC3-PadL8)".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "L9" net name from "" to "+1.8V".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "L10" net name from "" to "GD_11".
+
+Changing component "IC3:/5852A88E/5852FF1B" pin "L11" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "J1:/58508444/5862E79D:DFTcustom:AUDIO_TRS_6".
+
+Adding new component "J1:/58508444/5862E79D" footprint "DFTcustom:AUDIO_TRS_6".
+
+Info: Checking netlist component footprint "J2:/58508444/58757C93:DFTcustom:AUDIO_TRS_6".
+
+Adding new component "J2:/58508444/58757C93" footprint "DFTcustom:AUDIO_TRS_6".
+
+Info: Checking netlist component footprint "J3:/58508444/58757508:DFTcustom:AUDIO_TRS_6".
+
+Adding new component "J3:/58508444/58757508" footprint "DFTcustom:AUDIO_TRS_6".
+
+Info: Checking netlist component footprint "J4:/58508444/5862EC38:DFTcustom:AUDIO_TRS_6".
+
+Adding new component "J4:/58508444/5862EC38" footprint "DFTcustom:AUDIO_TRS_6".
+
+Info: Checking netlist component footprint "J5:/586C0171/5864322C:DFTcustom:MICRO HDMI".
+
+Adding new component "J5:/586C0171/5864322C" footprint "DFTcustom:MICRO HDMI".
+
+Changing component "J5:/586C0171/5864322C" pin "3" net name from "" to "Net-(J5-Pad3)".
+
+Changing component "J5:/586C0171/5864322C" pin "3" net name from "" to "Net-(J5-Pad3)".
+
+Changing component "J5:/586C0171/5864322C" pin "3" net name from "" to "Net-(J5-Pad3)".
+
+Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
+
+Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
+
+Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
+
+Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
+
+Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
+
+Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
+
+Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
+
+Changing component "J5:/586C0171/5864322C" pin "4" net name from "" to "AGND".
+
+Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+
+Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+
+Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+
+Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+
+Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+
+Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+
+Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+
+Changing component "J5:/586C0171/5864322C" pin "5" net name from "" to "Net-(J5-Pad5)".
+
+Changing component "J5:/586C0171/5864322C" pin "3" net name from "" to "Net-(J5-Pad3)".
+
+Changing component "J5:/586C0171/5864322C" pin "1" net name from "" to "Net-(J5-Pad1)".
+
+Changing component "J5:/586C0171/5864322C" pin "2" net name from "" to "Net-(J5-Pad2)".
+
+Changing component "J5:/586C0171/5864322C" pin "3" net name from "" to "Net-(J5-Pad3)".
+
+Info: Checking netlist component footprint "J6:/5852A88E/58703A94:GSB3211311WEU:AMPHENOL_GSB3211311WEU".
+
+Adding new component "J6:/5852A88E/58703A94" footprint "GSB3211311WEU:AMPHENOL_GSB3211311WEU".
+
+Changing component "J6:/5852A88E/58703A94" pin "1" net name from "" to "+5V".
+
+Changing component "J6:/5852A88E/58703A94" pin "2" net name from "" to "Net-(IC3-PadA10)".
+
+Changing component "J6:/5852A88E/58703A94" pin "3" net name from "" to "Net-(IC3-PadA9)".
+
+Changing component "J6:/5852A88E/58703A94" pin "4" net name from "" to "AGND".
+
+Changing component "J6:/5852A88E/58703A94" pin "5" net name from "" to "Net-(C82-Pad1)".
+
+Changing component "J6:/5852A88E/58703A94" pin "6" net name from "" to "Net-(C83-Pad1)".
+
+Changing component "J6:/5852A88E/58703A94" pin "7" net name from "" to "AGND".
+
+Changing component "J6:/5852A88E/58703A94" pin "8" net name from "" to "Net-(IC3-PadA3)".
+
+Changing component "J6:/5852A88E/58703A94" pin "9" net name from "" to "Net-(IC3-PadA4)".
+
+Info: Checking netlist component footprint "J7:/5862C4CE/5870A37A:48258-0001:MOLEX_48258-0001".
+
+Adding new component "J7:/5862C4CE/5870A37A" footprint "48258-0001:MOLEX_48258-0001".
+
+Changing component "J7:/5862C4CE/5870A37A" pin "1" net name from "" to "Net-(J7-Pad1)".
+
+Changing component "J7:/5862C4CE/5870A37A" pin "2" net name from "" to "Net-(J7-Pad2)".
+
+Changing component "J7:/5862C4CE/5870A37A" pin "3" net name from "" to "Net-(J7-Pad3)".
+
+Changing component "J7:/5862C4CE/5870A37A" pin "4" net name from "" to "AGND".
+
+Changing component "J7:/5862C4CE/5870A37A" pin "P1" net name from "" to "AGND".
+
+Changing component "J7:/5862C4CE/5870A37A" pin "P2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "JP1:/5852A88E/58640BCD:DFTcustom:JUMPER_2PIN".
+
+Adding new component "JP1:/5852A88E/58640BCD" footprint "DFTcustom:JUMPER_2PIN".
+
+Changing component "JP1:/5852A88E/58640BCD" pin "1" net name from "" to "Net-(IC3-PadG4)".
+
+Changing component "JP1:/5852A88E/58640BCD" pin "2" net name from "" to "Net-(IC3-PadH4)".
+
+Info: Checking netlist component footprint "L1:/5852F1DA/5873DCD8:Capacitors_SMD:C_1812".
+
+Adding new component "L1:/5852F1DA/5873DCD8" footprint "Capacitors_SMD:C_1812".
+
+Changing component "L1:/5852F1DA/5873DCD8" pin "1" net name from "" to "Net-(L1-Pad1)".
+
+Changing component "L1:/5852F1DA/5873DCD8" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "L2:/5852F1DA/5873DF0C:Capacitors_SMD:C_1812".
+
+Adding new component "L2:/5852F1DA/5873DF0C" footprint "Capacitors_SMD:C_1812".
+
+Changing component "L2:/5852F1DA/5873DF0C" pin "1" net name from "" to "Net-(L2-Pad1)".
+
+Changing component "L2:/5852F1DA/5873DF0C" pin "2" net name from "" to "+1.0V".
+
+Info: Checking netlist component footprint "L3:/5852F1DA/5873E01F:Capacitors_SMD:C_1812".
+
+Adding new component "L3:/5852F1DA/5873E01F" footprint "Capacitors_SMD:C_1812".
+
+Changing component "L3:/5852F1DA/5873E01F" pin "1" net name from "" to "Net-(L3-Pad1)".
+
+Changing component "L3:/5852F1DA/5873E01F" pin "2" net name from "" to "+1.2V".
+
+Info: Checking netlist component footprint "L4:/5852F1DA/5873DF92:Capacitors_SMD:C_1812".
+
+Adding new component "L4:/5852F1DA/5873DF92" footprint "Capacitors_SMD:C_1812".
+
+Changing component "L4:/5852F1DA/5873DF92" pin "1" net name from "" to "Net-(L4-Pad1)".
+
+Changing component "L4:/5852F1DA/5873DF92" pin "2" net name from "" to "+1.8V".
+
+Info: Checking netlist component footprint "MIC1:/58508444/586E9C41:DFTcustom:CMI-5247TF-K".
+
+Adding new component "MIC1:/58508444/586E9C41" footprint "DFTcustom:CMI-5247TF-K".
+
+Changing component "MIC1:/58508444/586E9C41" pin "2" net name from "" to "Net-(C26-Pad2)".
+
+Changing component "MIC1:/58508444/586E9C41" pin "1" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "NCP1:/5862C4CE/5862DF64:UDFN-6:UDFN-6".
+
+Adding new component "NCP1:/5862C4CE/5862DF64" footprint "UDFN-6:UDFN-6".
+
+Info: Checking netlist component footprint "Q1:/5852A88E/5866096E:TO_SOT_Packages_SMD:SOT-23".
+
+Adding new component "Q1:/5852A88E/5866096E" footprint "TO_SOT_Packages_SMD:SOT-23".
+
+Changing component "Q1:/5852A88E/5866096E" pin "1" net name from "" to "Net-(Q1-Pad1)".
+
+Changing component "Q1:/5852A88E/5866096E" pin "2" net name from "" to "AGND".
+
+Changing component "Q1:/5852A88E/5866096E" pin "3" net name from "" to "Net-(DS1-Pad16)".
+
+Info: Checking netlist component footprint "Q2:/5862C4CE/586FE70E:TO_SOT_Packages_SMD:SOT-23".
+
+Adding new component "Q2:/5862C4CE/586FE70E" footprint "TO_SOT_Packages_SMD:SOT-23".
+
+Changing component "Q2:/5862C4CE/586FE70E" pin "1" net name from "" to "Net-(Q2-Pad1)".
+
+Changing component "Q2:/5862C4CE/586FE70E" pin "2" net name from "" to "AGND".
+
+Changing component "Q2:/5862C4CE/586FE70E" pin "3" net name from "" to "Net-(D7-Pad1)".
+
+Info: Checking netlist component footprint "Q3:/5862C4CE/586FE81F:TO_SOT_Packages_SMD:SOT-23".
+
+Adding new component "Q3:/5862C4CE/586FE81F" footprint "TO_SOT_Packages_SMD:SOT-23".
+
+Changing component "Q3:/5862C4CE/586FE81F" pin "1" net name from "" to "Net-(Q3-Pad1)".
+
+Changing component "Q3:/5862C4CE/586FE81F" pin "2" net name from "" to "AGND".
+
+Changing component "Q3:/5862C4CE/586FE81F" pin "3" net name from "" to "Net-(D8-Pad1)".
+
+Info: Checking netlist component footprint "Q4:/58508414/58508495/58756D88:TO_SOT_Packages_SMD:SOT-23".
+
+Adding new component "Q4:/58508414/58508495/58756D88" footprint "TO_SOT_Packages_SMD:SOT-23".
+
+Changing component "Q4:/58508414/58508495/58756D88" pin "1" net name from "" to "Net-(Q4-Pad1)".
+
+Changing component "Q4:/58508414/58508495/58756D88" pin "2" net name from "" to "Net-(Q4-Pad2)".
+
+Changing component "Q4:/58508414/58508495/58756D88" pin "3" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "Q5:/58508414/58508495/58759DB1:TO_SOT_Packages_SMD:SOT-23".
+
+Adding new component "Q5:/58508414/58508495/58759DB1" footprint "TO_SOT_Packages_SMD:SOT-23".
+
+Changing component "Q5:/58508414/58508495/58759DB1" pin "1" net name from "" to "Net-(Q5-Pad1)".
+
+Changing component "Q5:/58508414/58508495/58759DB1" pin "2" net name from "" to "Net-(Q5-Pad2)".
+
+Changing component "Q5:/58508414/58508495/58759DB1" pin "3" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "R1:/58508414/58508495/585C4C12:Resistors_SMD:R_1206".
+
+Adding new component "R1:/58508414/58508495/585C4C12" footprint "Resistors_SMD:R_1206".
+
+Changing component "R1:/58508414/58508495/585C4C12" pin "1" net name from "" to "Net-(D1-Pad2)".
+
+Changing component "R1:/58508414/58508495/585C4C12" pin "2" net name from "" to "Net-(Q4-Pad2)".
+
+Info: Checking netlist component footprint "R2:/58508414/58508495/585C4C4D:Resistors_SMD:R_1206".
+
+Adding new component "R2:/58508414/58508495/585C4C4D" footprint "Resistors_SMD:R_1206".
+
+Changing component "R2:/58508414/58508495/585C4C4D" pin "1" net name from "" to "Net-(D2-Pad2)".
+
+Changing component "R2:/58508414/58508495/585C4C4D" pin "2" net name from "" to "Net-(Q5-Pad2)".
+
+Info: Checking netlist component footprint "R3:/58508414/58508495/585C2C5F:Resistors_SMD:R_1206".
+
+Adding new component "R3:/58508414/58508495/585C2C5F" footprint "Resistors_SMD:R_1206".
+
+Changing component "R3:/58508414/58508495/585C2C5F" pin "1" net name from "" to "+1.8V".
+
+Changing component "R3:/58508414/58508495/585C2C5F" pin "2" net name from "" to "CONFIG_INIT".
+
+Info: Checking netlist component footprint "R4:/58508414/58508498/5868A47B:Resistors_SMD:R_1206".
+
+Adding new component "R4:/58508414/58508498/5868A47B" footprint "Resistors_SMD:R_1206".
+
+Changing component "R4:/58508414/58508498/5868A47B" pin "1" net name from "" to "Net-(R4-Pad1)".
+
+Changing component "R4:/58508414/58508498/5868A47B" pin "2" net name from "" to "GD_3".
+
+Info: Checking netlist component footprint "R5:/58508414/58508498/5868A300:Resistors_SMD:R_1206".
+
+Adding new component "R5:/58508414/58508498/5868A300" footprint "Resistors_SMD:R_1206".
+
+Changing component "R5:/58508414/58508498/5868A300" pin "1" net name from "" to "Net-(R5-Pad1)".
+
+Changing component "R5:/58508414/58508498/5868A300" pin "2" net name from "" to "GD_7".
+
+Info: Checking netlist component footprint "R6:/58508414/58508498/5868A615:Resistors_SMD:R_1206".
+
+Adding new component "R6:/58508414/58508498/5868A615" footprint "Resistors_SMD:R_1206".
+
+Changing component "R6:/58508414/58508498/5868A615" pin "1" net name from "" to "Net-(R6-Pad1)".
+
+Changing component "R6:/58508414/58508498/5868A615" pin "2" net name from "" to "GD_11".
+
+Info: Checking netlist component footprint "R7:/58508414/58508498/5868A5FD:Resistors_SMD:R_1206".
+
+Adding new component "R7:/58508414/58508498/5868A5FD" footprint "Resistors_SMD:R_1206".
+
+Changing component "R7:/58508414/58508498/5868A5FD" pin "1" net name from "" to "Net-(R7-Pad1)".
+
+Changing component "R7:/58508414/58508498/5868A5FD" pin "2" net name from "" to "GD_15".
+
+Info: Checking netlist component footprint "R8:/58508414/58508498/5868A475:Resistors_SMD:R_1206".
+
+Adding new component "R8:/58508414/58508498/5868A475" footprint "Resistors_SMD:R_1206".
+
+Changing component "R8:/58508414/58508498/5868A475" pin "1" net name from "" to "Net-(R8-Pad1)".
+
+Changing component "R8:/58508414/58508498/5868A475" pin "2" net name from "" to "GD_2".
+
+Info: Checking netlist component footprint "R9:/58508414/58508498/5868A2D4:Resistors_SMD:R_1206".
+
+Adding new component "R9:/58508414/58508498/5868A2D4" footprint "Resistors_SMD:R_1206".
+
+Changing component "R9:/58508414/58508498/5868A2D4" pin "1" net name from "" to "Net-(R9-Pad1)".
+
+Changing component "R9:/58508414/58508498/5868A2D4" pin "2" net name from "" to "GD_6".
+
+Info: Checking netlist component footprint "R10:/58508414/58508498/5868A60F:Resistors_SMD:R_1206".
+
+Adding new component "R10:/58508414/58508498/5868A60F" footprint "Resistors_SMD:R_1206".
+
+Changing component "R10:/58508414/58508498/5868A60F" pin "1" net name from "" to "Net-(R10-Pad1)".
+
+Changing component "R10:/58508414/58508498/5868A60F" pin "2" net name from "" to "GD_10".
+
+Info: Checking netlist component footprint "R11:/58508414/58508498/5868A5F7:Resistors_SMD:R_1206".
+
+Adding new component "R11:/58508414/58508498/5868A5F7" footprint "Resistors_SMD:R_1206".
+
+Changing component "R11:/58508414/58508498/5868A5F7" pin "1" net name from "" to "Net-(R11-Pad1)".
+
+Changing component "R11:/58508414/58508498/5868A5F7" pin "2" net name from "" to "GD_14".
+
+Info: Checking netlist component footprint "R12:/58508414/58508498/586CA95B:Resistors_SMD:R_1206".
+
+Adding new component "R12:/58508414/58508498/586CA95B" footprint "Resistors_SMD:R_1206".
+
+Changing component "R12:/58508414/58508498/586CA95B" pin "1" net name from "" to "Net-(R12-Pad1)".
+
+Changing component "R12:/58508414/58508498/586CA95B" pin "2" net name from "" to "GA_1".
+
+Info: Checking netlist component footprint "R13:/58508414/58508498/5868A46F:Resistors_SMD:R_1206".
+
+Adding new component "R13:/58508414/58508498/5868A46F" footprint "Resistors_SMD:R_1206".
+
+Changing component "R13:/58508414/58508498/5868A46F" pin "1" net name from "" to "Net-(R13-Pad1)".
+
+Changing component "R13:/58508414/58508498/5868A46F" pin "2" net name from "" to "GD_1".
+
+Info: Checking netlist component footprint "R14:/58508414/58508498/5868A28B:Resistors_SMD:R_1206".
+
+Adding new component "R14:/58508414/58508498/5868A28B" footprint "Resistors_SMD:R_1206".
+
+Changing component "R14:/58508414/58508498/5868A28B" pin "1" net name from "" to "Net-(R14-Pad1)".
+
+Changing component "R14:/58508414/58508498/5868A28B" pin "2" net name from "" to "GD_5".
+
+Info: Checking netlist component footprint "R15:/58508414/58508498/5868A609:Resistors_SMD:R_1206".
+
+Adding new component "R15:/58508414/58508498/5868A609" footprint "Resistors_SMD:R_1206".
+
+Changing component "R15:/58508414/58508498/5868A609" pin "1" net name from "" to "Net-(R15-Pad1)".
+
+Changing component "R15:/58508414/58508498/5868A609" pin "2" net name from "" to "GD_9".
+
+Info: Checking netlist component footprint "R16:/58508414/58508498/5868A5F1:Resistors_SMD:R_1206".
+
+Adding new component "R16:/58508414/58508498/5868A5F1" footprint "Resistors_SMD:R_1206".
+
+Changing component "R16:/58508414/58508498/5868A5F1" pin "1" net name from "" to "Net-(R16-Pad1)".
+
+Changing component "R16:/58508414/58508498/5868A5F1" pin "2" net name from "" to "GD_13".
+
+Info: Checking netlist component footprint "R17:/58508414/58508498/586CA8C5:Resistors_SMD:R_1206".
+
+Adding new component "R17:/58508414/58508498/586CA8C5" footprint "Resistors_SMD:R_1206".
+
+Changing component "R17:/58508414/58508498/586CA8C5" pin "1" net name from "" to "Net-(R17-Pad1)".
+
+Changing component "R17:/58508414/58508498/586CA8C5" pin "2" net name from "" to "GA_0".
+
+Info: Checking netlist component footprint "R18:/58508414/58508498/5868A469:Resistors_SMD:R_1206".
+
+Adding new component "R18:/58508414/58508498/5868A469" footprint "Resistors_SMD:R_1206".
+
+Changing component "R18:/58508414/58508498/5868A469" pin "1" net name from "" to "Net-(R18-Pad1)".
+
+Changing component "R18:/58508414/58508498/5868A469" pin "2" net name from "" to "GD_0".
+
+Info: Checking netlist component footprint "R19:/58508414/58508498/5868A237:Resistors_SMD:R_1206".
+
+Adding new component "R19:/58508414/58508498/5868A237" footprint "Resistors_SMD:R_1206".
+
+Changing component "R19:/58508414/58508498/5868A237" pin "1" net name from "" to "Net-(R19-Pad1)".
+
+Changing component "R19:/58508414/58508498/5868A237" pin "2" net name from "" to "GD_4".
+
+Info: Checking netlist component footprint "R20:/58508414/58508498/5868A603:Resistors_SMD:R_1206".
+
+Adding new component "R20:/58508414/58508498/5868A603" footprint "Resistors_SMD:R_1206".
+
+Changing component "R20:/58508414/58508498/5868A603" pin "1" net name from "" to "Net-(R20-Pad1)".
+
+Changing component "R20:/58508414/58508498/5868A603" pin "2" net name from "" to "GD_8".
+
+Info: Checking netlist component footprint "R21:/58508414/58508498/5868A5EB:Resistors_SMD:R_1206".
+
+Adding new component "R21:/58508414/58508498/5868A5EB" footprint "Resistors_SMD:R_1206".
+
+Changing component "R21:/58508414/58508498/5868A5EB" pin "1" net name from "" to "Net-(R21-Pad1)".
+
+Changing component "R21:/58508414/58508498/5868A5EB" pin "2" net name from "" to "GD_12".
+
+Info: Checking netlist component footprint "R22:/58508444/58584F57:Resistors_SMD:R_1206".
+
+Adding new component "R22:/58508444/58584F57" footprint "Resistors_SMD:R_1206".
+
+Changing component "R22:/58508444/58584F57" pin "1" net name from "" to "Net-(C26-Pad2)".
+
+Changing component "R22:/58508444/58584F57" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "R23:/58508444/5858417F:Resistors_SMD:R_1206".
+
+Adding new component "R23:/58508444/5858417F" footprint "Resistors_SMD:R_1206".
+
+Changing component "R23:/58508444/5858417F" pin "1" net name from "" to "MICBIAS".
+
+Changing component "R23:/58508444/5858417F" pin "2" net name from "" to "Net-(C26-Pad2)".
+
+Info: Checking netlist component footprint "R24:/58508444/586315C6:Resistors_SMD:R_1206".
+
+Adding new component "R24:/58508444/586315C6" footprint "Resistors_SMD:R_1206".
+
+Changing component "R24:/58508444/586315C6" pin "1" net name from "" to "+1.8V".
+
+Changing component "R24:/58508444/586315C6" pin "2" net name from "" to "Net-(J1-Pad5)".
+
+Info: Checking netlist component footprint "R25:/58508444/5863175D:Resistors_SMD:R_1206".
+
+Adding new component "R25:/58508444/5863175D" footprint "Resistors_SMD:R_1206".
+
+Changing component "R25:/58508444/5863175D" pin "1" net name from "" to "JD_IN".
+
+Changing component "R25:/58508444/5863175D" pin "2" net name from "" to "Net-(J1-Pad5)".
+
+Info: Checking netlist component footprint "R26:/58508444/5862FD7D:Resistors_SMD:R_1206".
+
+Adding new component "R26:/58508444/5862FD7D" footprint "Resistors_SMD:R_1206".
+
+Changing component "R26:/58508444/5862FD7D" pin "1" net name from "" to "Net-(J2-Pad5)".
+
+Changing component "R26:/58508444/5862FD7D" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "R27:/58508444/5862FDDA:Resistors_SMD:R_1206".
+
+Adding new component "R27:/58508444/5862FDDA" footprint "Resistors_SMD:R_1206".
+
+Changing component "R27:/58508444/5862FDDA" pin "1" net name from "" to "Net-(J3-Pad5)".
+
+Changing component "R27:/58508444/5862FDDA" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "R28:/58508444/5862FE2F:Resistors_SMD:R_1206".
+
+Adding new component "R28:/58508444/5862FE2F" footprint "Resistors_SMD:R_1206".
+
+Changing component "R28:/58508444/5862FE2F" pin "1" net name from "" to "Net-(J4-Pad6)".
+
+Changing component "R28:/58508444/5862FE2F" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "R29:/58508444/5863022C:Resistors_SMD:R_1206".
+
+Adding new component "R29:/58508444/5863022C" footprint "Resistors_SMD:R_1206".
+
+Changing component "R29:/58508444/5863022C" pin "1" net name from "" to "JD_ROUT".
+
+Changing component "R29:/58508444/5863022C" pin "2" net name from "" to "Net-(J2-Pad5)".
+
+Info: Checking netlist component footprint "R30:/58508444/5863028A:Resistors_SMD:R_1206".
+
+Adding new component "R30:/58508444/5863028A" footprint "Resistors_SMD:R_1206".
+
+Changing component "R30:/58508444/5863028A" pin "1" net name from "" to "JD_LOUT".
+
+Changing component "R30:/58508444/5863028A" pin "2" net name from "" to "Net-(J3-Pad5)".
+
+Info: Checking netlist component footprint "R31:/58508444/586302E7:Resistors_SMD:R_1206".
+
+Adding new component "R31:/58508444/586302E7" footprint "Resistors_SMD:R_1206".
+
+Changing component "R31:/58508444/586302E7" pin "1" net name from "" to "JD_HOUT".
+
+Changing component "R31:/58508444/586302E7" pin "2" net name from "" to "Net-(J4-Pad6)".
+
+Info: Checking netlist component footprint "R32:/5850844D/5858B039:Resistors_SMD:R_1206".
+
+Adding new component "R32:/5850844D/5858B039" footprint "Resistors_SMD:R_1206".
+
+Changing component "R32:/5850844D/5858B039" pin "1" net name from "" to "Net-(IC2-Pad15)".
+
+Changing component "R32:/5850844D/5858B039" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "R33:/5852A88E/5859634E:Resistors_SMD:R_1206".
+
+Adding new component "R33:/5852A88E/5859634E" footprint "Resistors_SMD:R_1206".
+
+Changing component "R33:/5852A88E/5859634E" pin "1" net name from "" to "I2C_SCLK".
+
+Changing component "R33:/5852A88E/5859634E" pin "2" net name from "" to "+1.8V".
+
+Info: Checking netlist component footprint "R34:/5852A88E/585963BD:Resistors_SMD:R_1206".
+
+Adding new component "R34:/5852A88E/585963BD" footprint "Resistors_SMD:R_1206".
+
+Changing component "R34:/5852A88E/585963BD" pin "1" net name from "" to "I2C_SDIN".
+
+Changing component "R34:/5852A88E/585963BD" pin "2" net name from "" to "+1.8V".
+
+Info: Checking netlist component footprint "R35:/5852A88E/58660D7E:Resistors_SMD:R_1206".
+
+Adding new component "R35:/5852A88E/58660D7E" footprint "Resistors_SMD:R_1206".
+
+Changing component "R35:/5852A88E/58660D7E" pin "1" net name from "" to "Net-(Q1-Pad1)".
+
+Changing component "R35:/5852A88E/58660D7E" pin "2" net name from "" to "PWM_LCD_DIM".
+
+Info: Checking netlist component footprint "R36:/5852A88E/58662494:Resistors_SMD:R_1206".
+
+Adding new component "R36:/5852A88E/58662494" footprint "Resistors_SMD:R_1206".
+
+Changing component "R36:/5852A88E/58662494" pin "1" net name from "" to "Net-(DS1-Pad15)".
+
+Changing component "R36:/5852A88E/58662494" pin "2" net name from "" to "+5V".
+
+Info: Checking netlist component footprint "R37:/5852A88E/585BF7B7:Resistors_SMD:R_1206".
+
+Adding new component "R37:/5852A88E/585BF7B7" footprint "Resistors_SMD:R_1206".
+
+Changing component "R37:/5852A88E/585BF7B7" pin "1" net name from "" to "Net-(IC3-PadC8)".
+
+Changing component "R37:/5852A88E/585BF7B7" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "R38:/5852A88E/585BF671:Resistors_SMD:R_1206".
+
+Adding new component "R38:/5852A88E/585BF671" footprint "Resistors_SMD:R_1206".
+
+Changing component "R38:/5852A88E/585BF671" pin "1" net name from "" to "Net-(IC3-PadB3)".
+
+Changing component "R38:/5852A88E/585BF671" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "R39:/5852FF3B/58598665:Resistors_SMD:R_1206".
+
+Adding new component "R39:/5852FF3B/58598665" footprint "Resistors_SMD:R_1206".
+
+Changing component "R39:/5852FF3B/58598665" pin "1" net name from "" to "+1.8V".
+
+Changing component "R39:/5852FF3B/58598665" pin "2" net name from "" to "RF_SD".
+
+Info: Checking netlist component footprint "R40:/5852FF3B/585986E0:Resistors_SMD:R_1206".
+
+Adding new component "R40:/5852FF3B/585986E0" footprint "Resistors_SMD:R_1206".
+
+Changing component "R40:/5852FF3B/585986E0" pin "1" net name from "" to "+1.8V".
+
+Changing component "R40:/5852FF3B/585986E0" pin "2" net name from "" to "RF_IRQ".
+
+Info: Checking netlist component footprint "R41:/5862C4CE/5862CFAD:Resistors_SMD:R_1206".
+
+Adding new component "R41:/5862C4CE/5862CFAD" footprint "Resistors_SMD:R_1206".
+
+Changing component "R41:/5862C4CE/5862CFAD" pin "1" net name from "" to "Net-(J7-Pad2)".
+
+Changing component "R41:/5862C4CE/5862CFAD" pin "2" net name from "" to "Net-(R41-Pad2)".
+
+Info: Checking netlist component footprint "R42:/5862C4CE/5862CF54:Resistors_SMD:R_1206".
+
+Adding new component "R42:/5862C4CE/5862CF54" footprint "Resistors_SMD:R_1206".
+
+Changing component "R42:/5862C4CE/5862CF54" pin "1" net name from "" to "Net-(J7-Pad3)".
+
+Changing component "R42:/5862C4CE/5862CF54" pin "2" net name from "" to "Net-(R42-Pad2)".
+
+Info: Checking netlist component footprint "R43:/5862C4CE/5862E6A7:Resistors_SMD:R_1206".
+
+Adding new component "R43:/5862C4CE/5862E6A7" footprint "Resistors_SMD:R_1206".
+
+Changing component "R43:/5862C4CE/5862E6A7" pin "1" net name from "" to "+5V".
+
+Changing component "R43:/5862C4CE/5862E6A7" pin "2" net name from "" to "USB_FAULT".
+
+Info: Checking netlist component footprint "R44:/586C0171/58644A9F:Resistors_SMD:R_1206".
+
+Adding new component "R44:/586C0171/58644A9F" footprint "Resistors_SMD:R_1206".
+
+Changing component "R44:/586C0171/58644A9F" pin "1" net name from "" to "+3V3".
+
+Changing component "R44:/586C0171/58644A9F" pin "2" net name from "" to "HDMI_SCL".
+
+Info: Checking netlist component footprint "R45:/586C0171/58644A13:Resistors_SMD:R_1206".
+
+Adding new component "R45:/586C0171/58644A13" footprint "Resistors_SMD:R_1206".
+
+Changing component "R45:/586C0171/58644A13" pin "1" net name from "" to "+3V3".
+
+Changing component "R45:/586C0171/58644A13" pin "2" net name from "" to "HDMI_SDA".
+
+Info: Checking netlist component footprint "R46:/586C0171/5864DB8E:Resistors_SMD:R_1206".
+
+Adding new component "R46:/586C0171/5864DB8E" footprint "Resistors_SMD:R_1206".
+
+Changing component "R46:/586C0171/5864DB8E" pin "1" net name from "" to "Net-(J5-Pad1)".
+
+Changing component "R46:/586C0171/5864DB8E" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "R47:/586C0171/58643FF7:Resistors_SMD:R_1206".
+
+Adding new component "R47:/586C0171/58643FF7" footprint "Resistors_SMD:R_1206".
+
+Changing component "R47:/586C0171/58643FF7" pin "1" net name from "" to "AGND".
+
+Changing component "R47:/586C0171/58643FF7" pin "2" net name from "" to "Net-(C108-Pad2)".
+
+Info: Checking netlist component footprint "R48:/586C0171/5864E156:Resistors_SMD:R_1206".
+
+Adding new component "R48:/586C0171/5864E156" footprint "Resistors_SMD:R_1206".
+
+Changing component "R48:/586C0171/5864E156" pin "1" net name from "" to "Net-(R48-Pad1)".
+
+Changing component "R48:/586C0171/5864E156" pin "2" net name from "" to "Net-(J5-Pad1)".
+
+Info: Checking netlist component footprint "R49:/586C0171/58649DBC:Resistors_SMD:R_1206".
+
+Adding new component "R49:/586C0171/58649DBC" footprint "Resistors_SMD:R_1206".
+
+Changing component "R49:/586C0171/58649DBC" pin "1" net name from "" to "Net-(D6-Pad1)".
+
+Changing component "R49:/586C0171/58649DBC" pin "2" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "R50:/586C0171/5864644A:Resistors_SMD:R_1206".
+
+Adding new component "R50:/586C0171/5864644A" footprint "Resistors_SMD:R_1206".
+
+Changing component "R50:/586C0171/5864644A" pin "1" net name from "" to "HDMI_5V0".
+
+Changing component "R50:/586C0171/5864644A" pin "2" net name from "" to "Net-(C107-Pad1)".
+
+Info: Checking netlist component footprint "R51:/586C0171/5864E3D0:Resistors_SMD:R_1206".
+
+Adding new component "R51:/586C0171/5864E3D0" footprint "Resistors_SMD:R_1206".
+
+Changing component "R51:/586C0171/5864E3D0" pin "1" net name from "" to "Net-(R51-Pad1)".
+
+Changing component "R51:/586C0171/5864E3D0" pin "2" net name from "" to "Net-(R51-Pad2)".
+
+Info: Checking netlist component footprint "R52:/586C0171/586462DA:Resistors_SMD:R_1206".
+
+Adding new component "R52:/586C0171/586462DA" footprint "Resistors_SMD:R_1206".
+
+Changing component "R52:/586C0171/586462DA" pin "1" net name from "" to "HDMI_5V0".
+
+Changing component "R52:/586C0171/586462DA" pin "2" net name from "" to "Net-(J5-Pad17)".
+
+Info: Checking netlist component footprint "R53:/586C0171/586462D4:Resistors_SMD:R_1206".
+
+Adding new component "R53:/586C0171/586462D4" footprint "Resistors_SMD:R_1206".
+
+Changing component "R53:/586C0171/586462D4" pin "1" net name from "" to "HDMI_5V0".
+
+Changing component "R53:/586C0171/586462D4" pin "2" net name from "" to "Net-(J5-Pad18)".
+
+Info: Checking netlist component footprint "R54:/586C0171/5864E57B:Resistors_SMD:R_1206".
+
+Adding new component "R54:/586C0171/5864E57B" footprint "Resistors_SMD:R_1206".
+
+Changing component "R54:/586C0171/5864E57B" pin "1" net name from "" to "Net-(R51-Pad1)".
+
+Changing component "R54:/586C0171/5864E57B" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "R55:/586C33AF/586C42C6:Resistors_SMD:R_1206".
+
+Adding new component "R55:/586C33AF/586C42C6" footprint "Resistors_SMD:R_1206".
+
+Changing component "R55:/586C33AF/586C42C6" pin "1" net name from "" to "+1.8V".
+
+Changing component "R55:/586C33AF/586C42C6" pin "2" net name from "" to "ENCC0_SW".
+
+Info: Checking netlist component footprint "R56:/586C33AF/586C5B8B:Resistors_SMD:R_1206".
+
+Adding new component "R56:/586C33AF/586C5B8B" footprint "Resistors_SMD:R_1206".
+
+Changing component "R56:/586C33AF/586C5B8B" pin "1" net name from "" to "+1.8V".
+
+Changing component "R56:/586C33AF/586C5B8B" pin "2" net name from "" to "ENCC2_SW".
+
+Info: Checking netlist component footprint "R57:/586C33AF/586C3A50:Resistors_SMD:R_1206".
+
+Adding new component "R57:/586C33AF/586C3A50" footprint "Resistors_SMD:R_1206".
+
+Changing component "R57:/586C33AF/586C3A50" pin "1" net name from "" to "+1.8V".
+
+Changing component "R57:/586C33AF/586C3A50" pin "2" net name from "" to "Net-(R57-Pad2)".
+
+Info: Checking netlist component footprint "R58:/586C33AF/586C5B63:Resistors_SMD:R_1206".
+
+Adding new component "R58:/586C33AF/586C5B63" footprint "Resistors_SMD:R_1206".
+
+Changing component "R58:/586C33AF/586C5B63" pin "1" net name from "" to "+1.8V".
+
+Changing component "R58:/586C33AF/586C5B63" pin "2" net name from "" to "Net-(R58-Pad2)".
+
+Info: Checking netlist component footprint "R59:/586C33AF/586C3A87:Resistors_SMD:R_1206".
+
+Adding new component "R59:/586C33AF/586C3A87" footprint "Resistors_SMD:R_1206".
+
+Changing component "R59:/586C33AF/586C3A87" pin "1" net name from "" to "+1.8V".
+
+Changing component "R59:/586C33AF/586C3A87" pin "2" net name from "" to "Net-(R59-Pad2)".
+
+Info: Checking netlist component footprint "R60:/586C33AF/586C5B69:Resistors_SMD:R_1206".
+
+Adding new component "R60:/586C33AF/586C5B69" footprint "Resistors_SMD:R_1206".
+
+Changing component "R60:/586C33AF/586C5B69" pin "1" net name from "" to "+1.8V".
+
+Changing component "R60:/586C33AF/586C5B69" pin "2" net name from "" to "Net-(R60-Pad2)".
+
+Info: Checking netlist component footprint "R61:/586C33AF/586C39C5:Resistors_SMD:R_1206".
+
+Adding new component "R61:/586C33AF/586C39C5" footprint "Resistors_SMD:R_1206".
+
+Changing component "R61:/586C33AF/586C39C5" pin "1" net name from "" to "ENCC0_Q0".
+
+Changing component "R61:/586C33AF/586C39C5" pin "2" net name from "" to "Net-(R57-Pad2)".
+
+Info: Checking netlist component footprint "R62:/586C33AF/586C395E:Resistors_SMD:R_1206".
+
+Adding new component "R62:/586C33AF/586C395E" footprint "Resistors_SMD:R_1206".
+
+Changing component "R62:/586C33AF/586C395E" pin "1" net name from "" to "ENCC0_Q1".
+
+Changing component "R62:/586C33AF/586C395E" pin "2" net name from "" to "Net-(R59-Pad2)".
+
+Info: Checking netlist component footprint "R63:/586C33AF/586C5B55:Resistors_SMD:R_1206".
+
+Adding new component "R63:/586C33AF/586C5B55" footprint "Resistors_SMD:R_1206".
+
+Changing component "R63:/586C33AF/586C5B55" pin "1" net name from "" to "ENCC2_Q0".
+
+Changing component "R63:/586C33AF/586C5B55" pin "2" net name from "" to "Net-(R58-Pad2)".
+
+Info: Checking netlist component footprint "R64:/586C33AF/586C5B4F:Resistors_SMD:R_1206".
+
+Adding new component "R64:/586C33AF/586C5B4F" footprint "Resistors_SMD:R_1206".
+
+Changing component "R64:/586C33AF/586C5B4F" pin "1" net name from "" to "ENCC2_Q1".
+
+Changing component "R64:/586C33AF/586C5B4F" pin "2" net name from "" to "Net-(R60-Pad2)".
+
+Info: Checking netlist component footprint "R65:/586C33AF/586C5740:Resistors_SMD:R_1206".
+
+Adding new component "R65:/586C33AF/586C5740" footprint "Resistors_SMD:R_1206".
+
+Changing component "R65:/586C33AF/586C5740" pin "1" net name from "" to "+1.8V".
+
+Changing component "R65:/586C33AF/586C5740" pin "2" net name from "" to "ENCC1_SW".
+
+Info: Checking netlist component footprint "R66:/586C33AF/586C62A6:Resistors_SMD:R_1206".
+
+Adding new component "R66:/586C33AF/586C62A6" footprint "Resistors_SMD:R_1206".
+
+Changing component "R66:/586C33AF/586C62A6" pin "1" net name from "" to "+3V3".
+
+Changing component "R66:/586C33AF/586C62A6" pin "2" net name from "" to "ENCC3_SW".
+
+Info: Checking netlist component footprint "R67:/586C33AF/586C5718:Resistors_SMD:R_1206".
+
+Adding new component "R67:/586C33AF/586C5718" footprint "Resistors_SMD:R_1206".
+
+Changing component "R67:/586C33AF/586C5718" pin "1" net name from "" to "+1.8V".
+
+Changing component "R67:/586C33AF/586C5718" pin "2" net name from "" to "Net-(R67-Pad2)".
+
+Info: Checking netlist component footprint "R68:/586C33AF/586C627E:Resistors_SMD:R_1206".
+
+Adding new component "R68:/586C33AF/586C627E" footprint "Resistors_SMD:R_1206".
+
+Changing component "R68:/586C33AF/586C627E" pin "1" net name from "" to "+3V3".
+
+Changing component "R68:/586C33AF/586C627E" pin "2" net name from "" to "Net-(R68-Pad2)".
+
+Info: Checking netlist component footprint "R69:/586C33AF/586C571E:Resistors_SMD:R_1206".
+
+Adding new component "R69:/586C33AF/586C571E" footprint "Resistors_SMD:R_1206".
+
+Changing component "R69:/586C33AF/586C571E" pin "1" net name from "" to "+1.8V".
+
+Changing component "R69:/586C33AF/586C571E" pin "2" net name from "" to "Net-(R69-Pad2)".
+
+Info: Checking netlist component footprint "R70:/586C33AF/586C6284:Resistors_SMD:R_1206".
+
+Adding new component "R70:/586C33AF/586C6284" footprint "Resistors_SMD:R_1206".
+
+Changing component "R70:/586C33AF/586C6284" pin "1" net name from "" to "+3V3".
+
+Changing component "R70:/586C33AF/586C6284" pin "2" net name from "" to "Net-(R70-Pad2)".
+
+Info: Checking netlist component footprint "R71:/586C33AF/586C570A:Resistors_SMD:R_1206".
+
+Adding new component "R71:/586C33AF/586C570A" footprint "Resistors_SMD:R_1206".
+
+Changing component "R71:/586C33AF/586C570A" pin "1" net name from "" to "ENCC1_Q0".
+
+Changing component "R71:/586C33AF/586C570A" pin "2" net name from "" to "Net-(R67-Pad2)".
+
+Info: Checking netlist component footprint "R72:/586C33AF/586C5704:Resistors_SMD:R_1206".
+
+Adding new component "R72:/586C33AF/586C5704" footprint "Resistors_SMD:R_1206".
+
+Changing component "R72:/586C33AF/586C5704" pin "1" net name from "" to "ENCC1_Q1".
+
+Changing component "R72:/586C33AF/586C5704" pin "2" net name from "" to "Net-(R69-Pad2)".
+
+Info: Checking netlist component footprint "R73:/586C33AF/586C6270:Resistors_SMD:R_1206".
+
+Adding new component "R73:/586C33AF/586C6270" footprint "Resistors_SMD:R_1206".
+
+Changing component "R73:/586C33AF/586C6270" pin "1" net name from "" to "ENCC3_Q0".
+
+Changing component "R73:/586C33AF/586C6270" pin "2" net name from "" to "Net-(R68-Pad2)".
+
+Info: Checking netlist component footprint "R74:/586C33AF/586C626A:Resistors_SMD:R_1206".
+
+Adding new component "R74:/586C33AF/586C626A" footprint "Resistors_SMD:R_1206".
+
+Changing component "R74:/586C33AF/586C626A" pin "1" net name from "" to "ENCC3_Q1".
+
+Changing component "R74:/586C33AF/586C626A" pin "2" net name from "" to "Net-(R70-Pad2)".
+
+Info: Checking netlist component footprint "R75:/58508456/586EBD51:Resistors_SMD:R_1206".
+
+Adding new component "R75:/58508456/586EBD51" footprint "Resistors_SMD:R_1206".
+
+Changing component "R75:/58508456/586EBD51" pin "1" net name from "" to "+1.8V".
+
+Changing component "R75:/58508456/586EBD51" pin "2" net name from "" to "Net-(R75-Pad2)".
+
+Info: Checking netlist component footprint "R76:/5852A88E/586F993C:Resistors_SMD:R_1206".
+
+Adding new component "R76:/5852A88E/586F993C" footprint "Resistors_SMD:R_1206".
+
+Changing component "R76:/5852A88E/586F993C" pin "1" net name from "" to "CVDDQ".
+
+Changing component "R76:/5852A88E/586F993C" pin "2" net name from "" to "Net-(IC3-PadC5)".
+
+Info: Checking netlist component footprint "R77:/5862C4CE/586FF0AC:Resistors_SMD:R_1206".
+
+Adding new component "R77:/5862C4CE/586FF0AC" footprint "Resistors_SMD:R_1206".
+
+Changing component "R77:/5862C4CE/586FF0AC" pin "1" net name from "" to "Net-(Q2-Pad1)".
+
+Changing component "R77:/5862C4CE/586FF0AC" pin "2" net name from "" to "Net-(R77-Pad2)".
+
+Info: Checking netlist component footprint "R78:/5862C4CE/586FFFB1:Resistors_SMD:R_1206".
+
+Adding new component "R78:/5862C4CE/586FFFB1" footprint "Resistors_SMD:R_1206".
+
+Changing component "R78:/5862C4CE/586FFFB1" pin "1" net name from "" to "Net-(D7-Pad2)".
+
+Changing component "R78:/5862C4CE/586FFFB1" pin "2" net name from "" to "+5V".
+
+Info: Checking netlist component footprint "R79:/5862C4CE/586FF211:Resistors_SMD:R_1206".
+
+Adding new component "R79:/5862C4CE/586FF211" footprint "Resistors_SMD:R_1206".
+
+Changing component "R79:/5862C4CE/586FF211" pin "1" net name from "" to "Net-(Q3-Pad1)".
+
+Changing component "R79:/5862C4CE/586FF211" pin "2" net name from "" to "Net-(R79-Pad2)".
+
+Info: Checking netlist component footprint "R80:/5862C4CE/58700040:Resistors_SMD:R_1206".
+
+Adding new component "R80:/5862C4CE/58700040" footprint "Resistors_SMD:R_1206".
+
+Changing component "R80:/5862C4CE/58700040" pin "1" net name from "" to "Net-(D8-Pad2)".
+
+Changing component "R80:/5862C4CE/58700040" pin "2" net name from "" to "+5V".
+
+Info: Checking netlist component footprint "R81:/58508444/58700DBB:Resistors_SMD:R_1206".
+
+Adding new component "R81:/58508444/58700DBB" footprint "Resistors_SMD:R_1206".
+
+Changing component "R81:/58508444/58700DBB" pin "1" net name from "" to "+1.8V".
+
+Changing component "R81:/58508444/58700DBB" pin "2" net name from "" to "Net-(IC1-Pad15)".
+
+Info: Checking netlist component footprint "R82:/58508456/58701B67:Resistors_SMD:R_1206".
+
+Adding new component "R82:/58508456/58701B67" footprint "Resistors_SMD:R_1206".
+
+Changing component "R82:/58508456/58701B67" pin "1" net name from "" to "Net-(R82-Pad1)".
+
+Changing component "R82:/58508456/58701B67" pin "2" net name from "" to "+1.8V".
+
+Info: Checking netlist component footprint "R83:/5850844D/5870DDC1:Resistors_SMD:R_1206".
+
+Adding new component "R83:/5850844D/5870DDC1" footprint "Resistors_SMD:R_1206".
+
+Changing component "R83:/5850844D/5870DDC1" pin "1" net name from "" to "Net-(IC2-Pad16)".
+
+Changing component "R83:/5850844D/5870DDC1" pin "2" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "R84:/5852A88E/58713332:Resistors_SMD:R_1206".
+
+Adding new component "R84:/5852A88E/58713332" footprint "Resistors_SMD:R_1206".
+
+Changing component "R84:/5852A88E/58713332" pin "1" net name from "" to "+1.8V".
+
+Changing component "R84:/5852A88E/58713332" pin "2" net name from "" to "Net-(IC3-PadH4)".
+
+Info: Checking netlist component footprint "R85:/58508414/58508495/58759D1F:Resistors_SMD:R_1206".
+
+Adding new component "R85:/58508414/58508495/58759D1F" footprint "Resistors_SMD:R_1206".
+
+Changing component "R85:/58508414/58508495/58759D1F" pin "1" net name from "" to "Net-(Q4-Pad1)".
+
+Changing component "R85:/58508414/58508495/58759D1F" pin "2" net name from "" to "CONFIG_DONE".
+
+Info: Checking netlist component footprint "R86:/58508414/58508495/58759E3E:Resistors_SMD:R_1206".
+
+Adding new component "R86:/58508414/58508495/58759E3E" footprint "Resistors_SMD:R_1206".
+
+Changing component "R86:/58508414/58508495/58759E3E" pin "1" net name from "" to "Net-(Q5-Pad1)".
+
+Changing component "R86:/58508414/58508495/58759E3E" pin "2" net name from "" to "CONFIG_INIT".
+
+Info: Checking netlist component footprint "ROT1:/586C33AF/586C33B8:DFTcustom:rightangleencoders".
+
+Adding new component "ROT1:/586C33AF/586C33B8" footprint "DFTcustom:rightangleencoders".
+
+Info: Checking netlist component footprint "ROT2:/586C33AF/586C5B3D:DFTcustom:rightangleencoders".
+
+Adding new component "ROT2:/586C33AF/586C5B3D" footprint "DFTcustom:rightangleencoders".
+
+Info: Checking netlist component footprint "ROT3:/586C33AF/586C56F2:DFTcustom:rightangleencoders".
+
+Adding new component "ROT3:/586C33AF/586C56F2" footprint "DFTcustom:rightangleencoders".
+
+Info: Checking netlist component footprint "ROT4:/586C33AF/586C6258:DFTcustom:rightangleencoders".
+
+Adding new component "ROT4:/586C33AF/586C6258" footprint "DFTcustom:rightangleencoders".
+
+Info: Checking netlist component footprint "RV1:/5852A88E/58714969:DFTcustom:TC33X-2-103E".
+
+Adding new component "RV1:/5852A88E/58714969" footprint "DFTcustom:TC33X-2-103E".
+
+Changing component "RV1:/5852A88E/58714969" pin "2" net name from "" to "Net-(DS1-Pad3)".
+
+Changing component "RV1:/5852A88E/58714969" pin "1" net name from "" to "AGND".
+
+Changing component "RV1:/5852A88E/58714969" pin "3" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "U1:/58508414/58508495/585C3B38:SMD_Packages:BGA-256".
+
+Adding new component "U1:/58508414/58508495/585C3B38" footprint "SMD_Packages:BGA-256".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A1" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A2" net name from "" to "Net-(U1-PadA2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A3" net name from "" to "Net-(J5-Pad11)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A4" net name from "" to "Net-(U1-PadA4)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A5" net name from "" to "Net-(U1-PadA5)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A6" net name from "" to "+3V3".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A7" net name from "" to "Net-(J5-Pad8)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A8" net name from "" to "Net-(U1-PadA8)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A9" net name from "" to "Net-(U1-PadA9)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A10" net name from "" to "Net-(U1-PadA10)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A11" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A12" net name from "" to "Net-(U1-PadA12)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A13" net name from "" to "Net-(U1-PadA13)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A14" net name from "" to "Net-(U1-PadA14)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A15" net name from "" to "Net-(U1-PadA15)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "A16" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B1" net name from "" to "Net-(U1-PadB1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C1" net name from "" to "Net-(U1-PadC1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D1" net name from "" to "Net-(U1-PadD1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E1" net name from "" to "Net-(U1-PadE1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F1" net name from "" to "+3V3".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G1" net name from "" to "Net-(U1-PadG1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H1" net name from "" to "Net-(U1-PadH1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J1" net name from "" to "Net-(U1-PadJ1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B16" net name from "" to "Net-(U1-PadB16)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B15" net name from "" to "Net-(U1-PadB15)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B14" net name from "" to "Net-(U1-PadB14)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B13" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B12" net name from "" to "Net-(U1-PadB12)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B11" net name from "" to "Net-(U1-PadB11)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B10" net name from "" to "Net-(U1-PadB10)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B9" net name from "" to "Net-(U1-PadB9)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B8" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B7" net name from "" to "Net-(J5-Pad6)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B6" net name from "" to "Net-(J5-Pad3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B5" net name from "" to "Net-(J5-Pad5)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B2" net name from "" to "Net-(U1-PadB2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B3" net name from "" to "+3V3".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "B4" net name from "" to "Net-(J5-Pad9)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C2" net name from "" to "Net-(U1-PadC2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C3" net name from "" to "Net-(U1-PadC3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C4" net name from "" to "CLK100MHz".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C5" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C6" net name from "" to "Net-(D6-Pad2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C7" net name from "" to "Net-(R51-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C8" net name from "" to "Net-(U1-PadC8)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C9" net name from "" to "Net-(U1-PadC9)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D2" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D3" net name from "" to "Net-(U1-PadD3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D4" net name from "" to "Net-(U1-PadD4)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D5" net name from "" to "HDMI_OUT_EN".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D6" net name from "" to "Net-(U1-PadD6)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D7" net name from "" to "+3V3".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D8" net name from "" to "Net-(U1-PadD8)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D9" net name from "" to "Net-(U1-PadD9)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E2" net name from "" to "Net-(U1-PadE2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E3" net name from "" to "Net-(U1-PadE3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E4" net name from "" to "+3V3".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C10" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D10" net name from "" to "Net-(U1-PadD10)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C11" net name from "" to "Net-(U1-PadC11)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D11" net name from "" to "Net-(U1-PadD11)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D12" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C12" net name from "" to "Net-(U1-PadC12)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C13" net name from "" to "Net-(U1-PadC13)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C14" net name from "" to "Net-(U1-PadC14)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D14" net name from "" to "Net-(U1-PadD14)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D13" net name from "" to "Net-(U1-PadD13)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C15" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D15" net name from "" to "Net-(U1-PadD15)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "D16" net name from "" to "Net-(U1-PadD16)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "C16" net name from "" to "Net-(U1-PadC16)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E13" net name from "" to "Net-(U1-PadE13)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F13" net name from "" to "Net-(U1-PadF13)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G13" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G14" net name from "" to "Net-(U1-PadG14)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F14" net name from "" to "Net-(U1-PadF14)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E14" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E15" net name from "" to "Net-(U1-PadE15)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F15" net name from "" to "Net-(U1-PadF15)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G15" net name from "" to "Net-(U1-PadG15)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G16" net name from "" to "Net-(U1-PadG16)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F16" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E16" net name from "" to "Net-(U1-PadE16)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F2" net name from "" to "Net-(U1-PadF2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F3" net name from "" to "Net-(U1-PadF3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F4" net name from "" to "Net-(U1-PadF4)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G4" net name from "" to "HDMI_SDA".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G3" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G2" net name from "" to "Net-(U1-PadG2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H2" net name from "" to "Net-(U1-PadH2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H3" net name from "" to "Net-(U1-PadH3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H4" net name from "" to "Net-(U1-PadH4)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J4" net name from "" to "Net-(U1-PadJ4)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J3" net name from "" to "Net-(U1-PadJ3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J2" net name from "" to "+3V3".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K1" net name from "" to "Net-(U1-PadK1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K2" net name from "" to "Net-(U1-PadK2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K3" net name from "" to "Net-(U1-PadK3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K4" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L4" net name from "" to "Net-(U1-PadL4)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L3" net name from "" to "Net-(U1-PadL3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L2" net name from "" to "Net-(U1-PadL2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L1" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M1" net name from "" to "Net-(U1-PadM1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M2" net name from "" to "Net-(U1-PadM2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M3" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M4" net name from "" to "Net-(U1-PadM4)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N4" net name from "" to "Net-(U1-PadN4)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P4" net name from "" to "Net-(U1-PadP4)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R4" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R3" net name from "" to "Net-(U1-PadR3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P3" net name from "" to "Net-(U1-PadP3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N3" net name from "" to "Net-(U1-PadN3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N2" net name from "" to "Net-(U1-PadN2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P2" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R2" net name from "" to "Net-(U1-PadR2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N1" net name from "" to "Net-(U1-PadN1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P1" net name from "" to "Net-(U1-PadP1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R1" net name from "" to "Net-(U1-PadR1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T1" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T2" net name from "" to "Net-(U1-PadT2)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T3" net name from "" to "Net-(U1-PadT3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T4" net name from "" to "Net-(U1-PadT4)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E8" net name from "" to "SPI_CLK".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E7" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E6" net name from "" to "Net-(U1-PadE6)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E5" net name from "" to "Net-(J5-Pad14)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F5" net name from "" to "Net-(J5-Pad12)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F6" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F7" net name from "" to "+1.0V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F8" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G5" net name from "" to "HDMI_SCL".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G6" net name from "" to "+1.0V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G7" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G8" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H5" net name from "" to "Net-(U1-PadH5)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H6" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H7" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H8" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J5" net name from "" to "Net-(U1-PadJ5)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J6" net name from "" to "+1.0V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J7" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J8" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K5" net name from "" to "Net-(U1-PadK5)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K6" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K7" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K8" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L5" net name from "" to "Net-(U1-PadL5)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L6" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L7" net name from "" to "Net-(CON1-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L8" net name from "" to "+1.0V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M5" net name from "" to "Net-(U1-PadM5)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M6" net name from "" to "Net-(U1-PadM6)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M7" net name from "" to "Net-(CON1-Pad5)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P5" net name from "" to "Net-(U1-PadP5)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P6" net name from "" to "GPIF_PKTEND#".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R5" net name from "" to "Net-(U1-PadR5)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R6" net name from "" to "Net-(U1-PadR6)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T5" net name from "" to "Net-(U1-PadT5)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T6" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M8" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N5" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N6" net name from "" to "Net-(U1-PadN6)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N7" net name from "" to "Net-(CON1-Pad9)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P11" net name from "" to "I2S_DACSD".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P10" net name from "" to "Net-(U1-PadP10)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P9" net name from "" to "Net-(U1-PadP9)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P8" net name from "" to "Net-(U1-PadP8)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P7" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R7" net name from "" to "Net-(U1-PadR7)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R8" net name from "" to "Net-(U1-PadR8)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R9" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R10" net name from "" to "Net-(U1-PadR10)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R11" net name from "" to "Net-(U1-PadR11)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T7" net name from "" to "GPIF_SLRD#".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T8" net name from "" to "GPIF_SLWR#".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T9" net name from "" to "GPIF_PCLK".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T10" net name from "" to "GPIF_SLOE#".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T11" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N8" net name from "" to "Net-(CON1-Pad3)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E9" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E10" net name from "" to "+1.0V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E11" net name from "" to "Net-(U1-PadE11)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "E12" net name from "" to "Net-(U1-PadE12)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P12" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F9" net name from "" to "+1.0V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F10" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F11" net name from "" to "+1.0V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "F12" net name from "" to "Net-(U1-PadF12)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J9" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G12" net name from "" to "Net-(U1-PadG12)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G11" net name from "" to "Net-(U1-PadG11)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G10" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "G9" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R12" net name from "" to "Net-(U1-PadR12)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T12" net name from "" to "Net-(U1-PadT12)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H9" net name from "" to "+1.0V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H10" net name from "" to "CONFIG_DONE".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H11" net name from "" to "Net-(U1-PadH11)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H12" net name from "" to "Net-(U1-PadH12)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J10" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J11" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J12" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H13" net name from "" to "Net-(U1-PadH13)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J13" net name from "" to "GPIF_FLAGA".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K13" net name from "" to "Net-(R5-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L13" net name from "" to "Net-(R9-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M13" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N13" net name from "" to "Net-(R12-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P13" net name from "" to "Net-(R17-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R13" net name from "" to "Net-(U1-PadR13)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T13" net name from "" to "Net-(U1-PadT13)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N9" net name from "" to "Net-(U1-PadN9)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M9" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L9" net name from "" to "CONFIG_PROGRAM".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K9" net name from "" to "+1.0V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K10" net name from "" to "CONFIG_INIT".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L10" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M10" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N10" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T14" net name from "" to "Net-(U1-PadT14)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R14" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P14" net name from "" to "I2S_LRCLK".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N14" net name from "" to "I2S_MCLK".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M14" net name from "" to "Net-(R19-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L14" net name from "" to "Net-(R14-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K14" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J14" net name from "" to "GPIF_FLAGB".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H14" net name from "" to "Net-(U1-PadH14)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H15" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J15" net name from "" to "Net-(U1-PadJ15)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K15" net name from "" to "Net-(R13-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L15" net name from "" to "Net-(R4-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M15" net name from "" to "Net-(R8-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N15" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P15" net name from "" to "Net-(R16-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R15" net name from "" to "Net-(R7-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T15" net name from "" to "Net-(U1-PadT15)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N11" net name from "" to "I2S_ADCSD".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M11" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L11" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K11" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K12" net name from "" to "GPIF_SLCS#".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L12" net name from "" to "Net-(R15-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M12" net name from "" to "Net-(R20-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N12" net name from "" to "I2S_BCLK".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "T16" net name from "" to "AGND".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "R16" net name from "" to "Net-(R11-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "P16" net name from "" to "Net-(R21-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "N16" net name from "" to "Net-(R10-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "M16" net name from "" to "Net-(R6-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "L16" net name from "" to "+1.8V".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "K16" net name from "" to "Net-(R18-Pad1)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "J16" net name from "" to "Net-(U1-PadJ16)".
+
+Changing component "U1:/58508414/58508495/585C3B38" pin "H16" net name from "" to "Net-(U1-PadH16)".
+
+Info: Checking netlist component footprint "U2:/58508456/5852F5FB:SMD_Packages:SOIC-8-N".
+
+Adding new component "U2:/58508456/5852F5FB" footprint "SMD_Packages:SOIC-8-N".
+
+Changing component "U2:/58508456/5852F5FB" pin "8" net name from "" to "+1.8V".
+
+Changing component "U2:/58508456/5852F5FB" pin "7" net name from "" to "I2CMEM_WP".
+
+Changing component "U2:/58508456/5852F5FB" pin "6" net name from "" to "I2C_SCLK".
+
+Changing component "U2:/58508456/5852F5FB" pin "5" net name from "" to "I2C_SDIN".
+
+Changing component "U2:/58508456/5852F5FB" pin "4" net name from "" to "AGND".
+
+Changing component "U2:/58508456/5852F5FB" pin "3" net name from "" to "AGND".
+
+Changing component "U2:/58508456/5852F5FB" pin "2" net name from "" to "AGND".
+
+Changing component "U2:/58508456/5852F5FB" pin "1" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "U3:/58508456/58665D58:DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)".
+
+Adding new component "U3:/58508456/58665D58" footprint "DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)".
+
+Changing component "U3:/58508456/58665D58" pin "5" net name from "" to "Net-(U3-Pad5)".
+
+Changing component "U3:/58508456/58665D58" pin "6" net name from "" to "Net-(U3-Pad6)".
+
+Changing component "U3:/58508456/58665D58" pin "7" net name from "" to "SPIMEM_SS".
+
+Changing component "U3:/58508456/58665D58" pin "8" net name from "" to "SPI_MISO".
+
+Changing component "U3:/58508456/58665D58" pin "1" net name from "" to "Net-(R82-Pad1)".
+
+Changing component "U3:/58508456/58665D58" pin "2" net name from "" to "+1.8V".
+
+Changing component "U3:/58508456/58665D58" pin "3" net name from "" to "Net-(U3-Pad3)".
+
+Changing component "U3:/58508456/58665D58" pin "4" net name from "" to "Net-(U3-Pad4)".
+
+Info: Checking netlist component footprint "U5:/5852F1DA/5852F314:TO_SOT_Packages_SMD:SOT-23-5".
+
+Adding new component "U5:/5852F1DA/5852F314" footprint "TO_SOT_Packages_SMD:SOT-23-5".
+
+Changing component "U5:/5852F1DA/5852F314" pin "1" net name from "" to "+5V".
+
+Changing component "U5:/5852F1DA/5852F314" pin "2" net name from "" to "AGND".
+
+Changing component "U5:/5852F1DA/5852F314" pin "3" net name from "" to "+5V".
+
+Changing component "U5:/5852F1DA/5852F314" pin "4" net name from "" to "+3V3".
+
+Changing component "U5:/5852F1DA/5852F314" pin "5" net name from "" to "Net-(L1-Pad1)".
+
+Info: Checking netlist component footprint "U6:/5852F1DA/5852F383:TO_SOT_Packages_SMD:SOT-23-5".
+
+Adding new component "U6:/5852F1DA/5852F383" footprint "TO_SOT_Packages_SMD:SOT-23-5".
+
+Changing component "U6:/5852F1DA/5852F383" pin "1" net name from "" to "+5V".
+
+Changing component "U6:/5852F1DA/5852F383" pin "2" net name from "" to "AGND".
+
+Changing component "U6:/5852F1DA/5852F383" pin "3" net name from "" to "+5V".
+
+Changing component "U6:/5852F1DA/5852F383" pin "4" net name from "" to "+1.0V".
+
+Changing component "U6:/5852F1DA/5852F383" pin "5" net name from "" to "Net-(L2-Pad1)".
+
+Info: Checking netlist component footprint "U7:/5852F1DA/5852F1EA:TO_SOT_Packages_SMD:SOT-23-5".
+
+Adding new component "U7:/5852F1DA/5852F1EA" footprint "TO_SOT_Packages_SMD:SOT-23-5".
+
+Changing component "U7:/5852F1DA/5852F1EA" pin "1" net name from "" to "+5V".
+
+Changing component "U7:/5852F1DA/5852F1EA" pin "2" net name from "" to "AGND".
+
+Changing component "U7:/5852F1DA/5852F1EA" pin "3" net name from "" to "+5V".
+
+Changing component "U7:/5852F1DA/5852F1EA" pin "4" net name from "" to "+1.2V".
+
+Changing component "U7:/5852F1DA/5852F1EA" pin "5" net name from "" to "Net-(L3-Pad1)".
+
+Info: Checking netlist component footprint "U8:/5852F1DA/5852F28D:TO_SOT_Packages_SMD:SOT-23-5".
+
+Adding new component "U8:/5852F1DA/5852F28D" footprint "TO_SOT_Packages_SMD:SOT-23-5".
+
+Changing component "U8:/5852F1DA/5852F28D" pin "1" net name from "" to "+5V".
+
+Changing component "U8:/5852F1DA/5852F28D" pin "2" net name from "" to "AGND".
+
+Changing component "U8:/5852F1DA/5852F28D" pin "3" net name from "" to "+5V".
+
+Changing component "U8:/5852F1DA/5852F28D" pin "4" net name from "" to "+1.8V".
+
+Changing component "U8:/5852F1DA/5852F28D" pin "5" net name from "" to "Net-(L4-Pad1)".
+
+Info: Checking netlist component footprint "U9:/5852FF3B/58530049:DFTcustom:LGA12".
+
+Adding new component "U9:/5852FF3B/58530049" footprint "DFTcustom:LGA12".
+
+Changing component "U9:/5852FF3B/58530049" pin "1" net name from "" to "+3V3".
+
+Changing component "U9:/5852FF3B/58530049" pin "2" net name from "" to "AGND".
+
+Changing component "U9:/5852FF3B/58530049" pin "3" net name from "" to "AGND".
+
+Changing component "U9:/5852FF3B/58530049" pin "4" net name from "" to "AGND".
+
+Changing component "U9:/5852FF3B/58530049" pin "7" net name from "" to "RF_IRQ".
+
+Changing component "U9:/5852FF3B/58530049" pin "8" net name from "" to "Net-(U9-Pad8)".
+
+Changing component "U9:/5852FF3B/58530049" pin "9" net name from "" to "I2C_SDIN".
+
+Changing component "U9:/5852FF3B/58530049" pin "10" net name from "" to "I2C_SCLK".
+
+Changing component "U9:/5852FF3B/58530049" pin "5" net name from "" to "RF_SD".
+
+Changing component "U9:/5852FF3B/58530049" pin "6" net name from "" to "AGND".
+
+Changing component "U9:/5852FF3B/58530049" pin "11" net name from "" to "+3V3".
+
+Changing component "U9:/5852FF3B/58530049" pin "12" net name from "" to "AGND".
+
+Info: Checking netlist component footprint "U10:/5862C4CE/5862C4D9:TQFP32-5MM:TQFP32-5MM".
+
+Adding new component "U10:/5862C4CE/5862C4D9" footprint "TQFP32-5MM:TQFP32-5MM".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "1" net name from "" to "ENCC2_Q1".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "2" net name from "" to "+1.8V".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "3" net name from "" to "AGND".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "4" net name from "" to "LED_SD".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "5" net name from "" to "RF_SD".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "6" net name from "" to "I2CMEM_WP".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "7" net name from "" to "CONFIG_INIT".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "8" net name from "" to "CONFIG_PROGRAM".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "9" net name from "" to "Net-(R77-Pad2)".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "10" net name from "" to "Net-(R79-Pad2)".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "11" net name from "" to "Net-(U10-Pad11)".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "12" net name from "" to "+1.8V".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "13" net name from "" to "SPI_CLK".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "14" net name from "" to "SPIUSB_SS".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "15" net name from "" to "SPI_MISO".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "16" net name from "" to "SPI_MOSI".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "17" net name from "" to "SPIUSB_GPX".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "18" net name from "" to "SPIUSB_INT".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "19" net name from "" to "AGND".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "20" net name from "" to "Net-(R41-Pad2)".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "21" net name from "" to "Net-(R42-Pad2)".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "22" net name from "" to "Net-(U10-Pad22)".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "23" net name from "" to "+3V3".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "24" net name from "" to "Net-(C103-Pad2)".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "25" net name from "" to "Net-(C102-Pad2)".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "26" net name from "" to "ENCC0_SW".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "27" net name from "" to "ENCC0_Q0".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "28" net name from "" to "ENCC0_Q1".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "29" net name from "" to "ENCC1_SW".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "30" net name from "" to "ENCC1_Q0".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "31" net name from "" to "ENCC1_Q1".
+
+Changing component "U10:/5862C4CE/5862C4D9" pin "32" net name from "" to "ENCC2_Q0".
+
+Info: Checking netlist component footprint "U11:/586C0171/5864447F:DFTcustom:SO-8".
+
+Adding new component "U11:/586C0171/5864447F" footprint "DFTcustom:SO-8".
+
+Changing component "U11:/586C0171/5864447F" pin "1" net name from "" to "AGND".
+
+Changing component "U11:/586C0171/5864447F" pin "2" net name from "" to "+3V3".
+
+Changing component "U11:/586C0171/5864447F" pin "3" net name from "" to "HDMI_SCL".
+
+Changing component "U11:/586C0171/5864447F" pin "4" net name from "" to "HDMI_SDA".
+
+Changing component "U11:/586C0171/5864447F" pin "5" net name from "" to "Net-(J5-Pad18)".
+
+Changing component "U11:/586C0171/5864447F" pin "6" net name from "" to "Net-(J5-Pad17)".
+
+Changing component "U11:/586C0171/5864447F" pin "7" net name from "" to "Net-(C107-Pad1)".
+
+Changing component "U11:/586C0171/5864447F" pin "8" net name from "" to "Net-(C107-Pad1)".
+
+Info: Checking netlist component footprint "U12:/586C0171/5864DEEC:TO_SOT_Packages_SMD:SC-70".
+
+Adding new component "U12:/586C0171/5864DEEC" footprint "TO_SOT_Packages_SMD:SC-70".
+
+Changing component "U12:/586C0171/5864DEEC" pin "1" net name from "" to "Net-(J5-Pad1)".
+
+Info: Checking netlist component footprint "U13:/586C0171/5864E00F:TO_SOT_Packages_SMD:SOT-23".
+
+Adding new component "U13:/586C0171/5864E00F" footprint "TO_SOT_Packages_SMD:SOT-23".
+
+Changing component "U13:/586C0171/5864E00F" pin "1" net name from "" to "HDMI_OUT_EN".
+
+Changing component "U13:/586C0171/5864E00F" pin "2" net name from "" to "Net-(R51-Pad1)".
+
+Info: Checking netlist component footprint "U14:/586C0171/58647C9D:DFTcustom:WLCSP4_P0.5mm".
+
+Adding new component "U14:/586C0171/58647C9D" footprint "DFTcustom:WLCSP4_P0.5mm".
+
+Info: Checking netlist component footprint "X1:/586C0171/5873F26B:DFTcustom:KC5032A".
+
+Adding new component "X1:/586C0171/5873F26B" footprint "DFTcustom:KC5032A".
+
+Changing component "X1:/586C0171/5873F26B" pin "2" net name from "" to "AGND".
+
+Changing component "X1:/586C0171/5873F26B" pin "3" net name from "" to "CLK100MHz".
+
+Changing component "X1:/586C0171/5873F26B" pin "4" net name from "" to "+3V3".
+
+Changing component "X1:/586C0171/5873F26B" pin "1" net name from "" to "+3V3".
+
+Info: Checking netlist component footprint "Y1:/5852A88E/585BF9F7:DFTcustom:CX3225GB19200P0HPQCC".
+
+Adding new component "Y1:/5852A88E/585BF9F7" footprint "DFTcustom:CX3225GB19200P0HPQCC".
+
+Changing component "Y1:/5852A88E/585BF9F7" pin "1" net name from "" to "Net-(C52-Pad1)".
+
+Changing component "Y1:/5852A88E/585BF9F7" pin "2" net name from "" to "Net-(C53-Pad1)".
+
+Info: Checking netlist component footprint "Y2:/5862C4CE/5862C6D3:DFTcustom:ABLS-12.000MHZ".
+
+Adding new component "Y2:/5862C4CE/5862C6D3" footprint "DFTcustom:ABLS-12.000MHZ".
+
+Changing component "Y2:/5862C4CE/5862C6D3" pin "2" net name from "" to "Net-(C103-Pad2)".
+
+Changing component "Y2:/5862C4CE/5862C6D3" pin "1" net name from "" to "Net-(C102-Pad2)".
+
+Error: Component 'CON1' pad '10' not found in footprint 'DFTcustom:CustomJTAG'
+
+Error: Component 'CON1' pad '8' not found in footprint 'DFTcustom:CustomJTAG'
+
+Error: Component 'CON1' pad '1' not found in footprint 'DFTcustom:CustomJTAG'
+
+Error: Component 'CON1' pad '9' not found in footprint 'DFTcustom:CustomJTAG'
+
+Error: Component 'CON2' pad '10' not found in footprint 'DFTcustom:CustomJTAG'
+
+Error: Component 'CON2' pad '8' not found in footprint 'DFTcustom:CustomJTAG'
+
+Error: Component 'CON2' pad '1' not found in footprint 'DFTcustom:CustomJTAG'
+
+Error: Component 'CON2' pad '9' not found in footprint 'DFTcustom:CustomJTAG'
+
+Error: Component 'F1' pad '~' not found in footprint 'Capacitors_SMD:C_1206'
+
+Error: Component 'J1' pad '1' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J1' pad '4' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J1' pad '6' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J1' pad '3' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J1' pad '5' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J1' pad '2' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J2' pad '1' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J2' pad '3' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J2' pad '4' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J2' pad '6' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J2' pad '2' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J2' pad '5' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J3' pad '1' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J3' pad '3' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J3' pad '4' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J3' pad '6' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J3' pad '2' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J3' pad '5' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J4' pad '4' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J4' pad '1' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J4' pad '5' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J4' pad '2' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J4' pad '3' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J4' pad '6' not found in footprint 'DFTcustom:AUDIO_TRS_6'
+
+Error: Component 'J5' pad '7' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad '10' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad '13' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad '16' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad '18' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad '15' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad '17' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad '19' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad '11' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad '12' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad '14' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad '9' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad '6' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad '8' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'J5' pad 'SHD' not found in footprint 'DFTcustom:MICRO HDMI'
+
+Error: Component 'NCP1' pad '2' not found in footprint 'UDFN-6:UDFN-6'
+
+Error: Component 'NCP1' pad '3' not found in footprint 'UDFN-6:UDFN-6'
+
+Error: Component 'NCP1' pad '1' not found in footprint 'UDFN-6:UDFN-6'
+
+Error: Component 'NCP1' pad '4' not found in footprint 'UDFN-6:UDFN-6'
+
+Error: Component 'NCP1' pad '5' not found in footprint 'UDFN-6:UDFN-6'
+
+Error: Component 'ROT1' pad '5' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT1' pad '3' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT1' pad '1' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT1' pad '4' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT1' pad '2' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT2' pad '3' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT2' pad '5' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT2' pad '1' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT2' pad '4' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT2' pad '2' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT3' pad '3' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT3' pad '5' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT3' pad '1' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT3' pad '4' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT3' pad '2' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT4' pad '5' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT4' pad '3' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT4' pad '1' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT4' pad '4' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'ROT4' pad '2' not found in footprint 'DFTcustom:rightangleencoders'
+
+Error: Component 'U3' pad '10' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
+
+Error: Component 'U3' pad '9' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
+
+Error: Component 'U3' pad '16' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
+
+Error: Component 'U3' pad '14' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
+
+Error: Component 'U3' pad '13' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
+
+Error: Component 'U3' pad '12' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
+
+Error: Component 'U3' pad '11' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
+
+Error: Component 'U3' pad '15' not found in footprint 'DFTcustom:V-PDFN-8 6mmx5mm Sawm (MLP8)'
+
+Error: Component 'U12' pad '6' not found in footprint 'TO_SOT_Packages_SMD:SC-70'
+
+Error: Component 'U13' pad '4' not found in footprint 'TO_SOT_Packages_SMD:SOT-23'
+
+Error: Component 'U14' pad 'P' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
+
+Error: Component 'U14' pad '3' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
+
+Error: Component 'U14' pad '4' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
+
+Error: Component 'U14' pad '5' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
+
+Error: Component 'U14' pad '7' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
+
+Error: Component 'U14' pad '8' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
+
+Error: Component 'U14' pad '6' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
+
+Error: Component 'U14' pad '2' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
+
+Error: Component 'U14' pad '1' not found in footprint 'DFTcustom:WLCSP4_P0.5mm'
+
