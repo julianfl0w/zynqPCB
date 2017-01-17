@@ -1,4 +1,4 @@
-update=Thu 12 Jan 2017 03:51:24 PM EST
+update=1/16/2017 11:58:49 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -107,3 +107,4 @@ LibName65=lib/ferrite
 LibName66=lib/df_device
 LibName67=lib/JACK_TRS_5PINS
 LibName68=lib/MEMSMIC
+LibName69=lib/illuminatedswitch
