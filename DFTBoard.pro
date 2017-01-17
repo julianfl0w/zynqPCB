@@ -1,4 +1,4 @@
-update=1/16/2017 11:58:49 AM
+update=1/17/2017 5:53:11 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -108,3 +108,4 @@ LibName66=lib/df_device
 LibName67=lib/JACK_TRS_5PINS
 LibName68=lib/MEMSMIC
 LibName69=lib/illuminatedswitch
+LibName70=lib/gndtie
