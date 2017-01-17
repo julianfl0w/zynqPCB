@@ -942,4 +942,44 @@ Wire Wire Line
 Wire Wire Line
 	2850 4550 2150 4550
 Connection ~ 2150 4550
+Text Label 7100 3400 0    60   ~ 0
+VMID
+Text Label 7100 3600 0    60   ~ 0
+MICBIAS
+Text Label 7100 3950 0    60   ~ 0
+ROUT1
+Text Label 7100 4050 0    60   ~ 0
+LOUT1
+Text Label 7150 4350 0    60   ~ 0
+HPROUT_CAP
+Text Label 7150 4450 0    60   ~ 0
+HPLOUT_CAP
+Text Label 8250 5100 0    60   ~ 0
+HPROUT
+Text Label 8200 5300 0    60   ~ 0
+HPLOUT
+Text Label 9200 4900 0    60   ~ 0
+HPSWITCH
+Text Label 8900 4150 0    60   ~ 0
+LSWITCH
+Text Label 8900 3400 0    60   ~ 0
+RSWITCH
+Text Label 4000 5400 0    60   ~ 0
+LINE_COM
+Text Label 2900 5100 0    60   ~ 0
+INSWITCH
+Text Label 3050 5200 0    60   ~ 0
+JACK_IN_P
+Text Label 3050 5300 0    60   ~ 0
+JACK_IN_N
+Text Label 4650 5300 0    60   ~ 0
+CSB
+Text Label 4550 5000 0    60   ~ 0
+HP_COM
+Text Label 3250 4100 0    60   ~ 0
+MIC_IN_P
+Text Label 3250 4200 0    60   ~ 0
+MIC_IN_N
+Text Label 2450 4100 0    60   ~ 0
+SFG
 $EndSCHEMATC

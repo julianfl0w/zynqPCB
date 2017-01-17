@@ -674,4 +674,22 @@ Text Label 5850 4300 0    60   ~ 0
 SPIUSB_DT_P
 Text Label 5850 4400 0    60   ~ 0
 SPIUSB_DT_N
+Text Label 3400 4300 0    60   ~ 0
+RES
+Text Label 2800 4600 0    60   ~ 0
+BLUE_LED_R
+Text Label 2800 5100 0    60   ~ 0
+BLUE_LED_D
+Text Label 2500 5400 0    60   ~ 0
+BLUE_LED_G
+Text Label 2350 4100 0    60   ~ 0
+GPOUT6_BLUE_LED
+Text Label 1850 4000 0    60   ~ 0
+GPOUT5_RED_LED
+Text Label 1300 5400 0    60   ~ 0
+RED_LED_G
+Text Label 1650 5100 0    60   ~ 0
+RED_LED_D
+Text Label 1650 4600 0    60   ~ 0
+RED_LED_R
 $EndSCHEMATC
