@@ -1,10 +1,11 @@
-(module WM7121PE (layer F.Cu) (tedit 5877F02A)
+(module WM7121PE (layer F.Cu) (tedit 58813448)
   (fp_text reference REF** (at -0.75 2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value WM7121PE (at -0.75 -4) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_circle (center -3.15 -2.15) (end -3.05 -2.1) (layer F.SilkS) (width 0.15))
   (fp_line (start 1 -2.5) (end -3.5 -2.5) (layer F.SilkS) (width 0.15))
   (fp_line (start 1 0.75) (end 1 -2.5) (layer F.SilkS) (width 0.15))
   (fp_line (start -3.5 0.75) (end 1 0.75) (layer F.SilkS) (width 0.15))

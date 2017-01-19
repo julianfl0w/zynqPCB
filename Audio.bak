@@ -876,17 +876,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 4650 2150 4450
 Connection ~ 2100 4650
-$Comp
-L +3.3V #PWR044
-U 1 1 58787639
-P 2100 3650
-F 0 "#PWR044" H 2100 3500 50  0001 C CNN
-F 1 "+3.3V" H 2100 3790 50  0000 C CNN
-F 2 "" H 2100 3650 50  0000 C CNN
-F 3 "" H 2100 3650 50  0000 C CNN
-	1    2100 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2100 3800 2100 3650
 $Comp
@@ -907,8 +896,6 @@ Wire Wire Line
 Connection ~ 2150 4550
 Text Label 7100 3400 0    60   ~ 0
 VMID
-Text Label 7100 3600 0    60   ~ 0
-MICBIAS
 Text Label 7100 3950 0    60   ~ 0
 ROUT1
 Text Label 7100 4050 0    60   ~ 0
@@ -984,4 +971,13 @@ Wire Wire Line
 	7100 2900 7100 3000
 Wire Wire Line
 	7350 2800 7350 2850
+Text GLabel 7050 3750 2    60   Output ~ 0
+MICBIAS
+Wire Wire Line
+	7050 3750 7000 3750
+Wire Wire Line
+	7000 3750 7000 3600
+Connection ~ 7000 3600
+Text GLabel 2100 3650 1    60   Input ~ 0
+MICBIAS
 $EndSCHEMATC
