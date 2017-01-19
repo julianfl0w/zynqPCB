@@ -159,7 +159,7 @@ D Fuse
 $ENDCMP
 #
 $CMP GNDTIE
-D Unpolarized capacitor
+D Ground Tie
 $ENDCMP
 #
 $CMP Jumper_NC_Small
