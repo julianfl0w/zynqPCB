@@ -61,6 +61,7 @@ LIBS:JACK_TRS_5PINS
 LIBS:MEMSMIC
 LIBS:illuminatedswitch
 LIBS:gndtie
+LIBS:powerswitch
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -368,8 +369,6 @@ F 3 "" H 10400 3650 50  0000 C CNN
 	1    10400 3650
 	0    1    1    0   
 $EndComp
-NoConn ~ 5950 3750
-NoConn ~ 5950 3850
 Text GLabel 5950 4850 0    60   Input ~ 0
 TEMPO_SW
 Text GLabel 10050 3400 2    60   Output ~ 0
@@ -474,7 +473,7 @@ Wire Wire Line
 	2900 1450 2700 1450
 Text GLabel 5950 5750 0    60   Input ~ 0
 GPIF_SLWR#T
-Text GLabel 5950 5850 0    60   Input ~ 0
+Text GLabel 5950 3850 0    60   Input ~ 0
 GPIF_SLRD#T
 Text GLabel 5950 5950 0    60   Input ~ 0
 GPIF_SLOE#T
@@ -542,7 +541,7 @@ Text GLabel 3950 1450 2    60   Output ~ 0
 GPIF_PCLKT
 Text GLabel 5950 1550 0    60   Input ~ 0
 GPIF_SLCS#T
-Text GLabel 5950 1650 0    60   Input ~ 0
+Text GLabel 5950 3750 0    60   Input ~ 0
 GPIF_PKTEND#T
 Text GLabel 5950 1750 0    60   Output ~ 0
 GPIF_FLAGBT
@@ -914,4 +913,6 @@ Text Label 9800 3650 0    60   ~ 0
 TEMPO_LED_R
 Text Label 8950 3650 0    60   ~ 0
 TEMPO_LED_D
+NoConn ~ 5950 1650
+NoConn ~ 5950 5850
 $EndSCHEMATC

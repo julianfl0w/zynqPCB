@@ -1,4 +1,4 @@
-update=1/17/2017 5:53:11 PM
+update=1/19/2017 12:22:50 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -109,3 +109,4 @@ LibName67=lib/JACK_TRS_5PINS
 LibName68=lib/MEMSMIC
 LibName69=lib/illuminatedswitch
 LibName70=lib/gndtie
+LibName71=lib/powerswitch

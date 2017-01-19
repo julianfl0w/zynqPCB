@@ -162,6 +162,10 @@ $CMP GNDTIE
 D Ground Tie
 $ENDCMP
 #
+$CMP GNDTIE_2TERM
+D Ground Tie
+$ENDCMP
+#
 $CMP Jumper_NC_Small
 D Jumper normally close
 K Jumper, Link
