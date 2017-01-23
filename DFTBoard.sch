@@ -62,11 +62,14 @@ LIBS:MEMSMIC
 LIBS:illuminatedswitch
 LIBS:gndtie
 LIBS:powerswitch
+LIBS:winbond
+LIBS:cy7c65634-28ltxc
+LIBS:powerjumper
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title ""
 Date ""
 Rev ""
@@ -135,5 +138,11 @@ S 7600 2000 1050 950
 U 586C33AF
 F0 "Encoders" 60
 F1 "Encoders.sch" 60
+$EndSheet
+$Sheet
+S 7600 3650 1050 950 
+U 58818A06
+F0 "RAM" 60
+F1 "RAM.sch" 60
 $EndSheet
 $EndSCHEMATC

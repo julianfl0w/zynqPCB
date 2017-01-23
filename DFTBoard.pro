@@ -1,4 +1,4 @@
-update=1/19/2017 12:22:50 PM
+update=1/22/2017 9:44:19 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -110,3 +110,6 @@ LibName68=lib/MEMSMIC
 LibName69=lib/illuminatedswitch
 LibName70=lib/gndtie
 LibName71=lib/powerswitch
+LibName72=lib/winbond
+LibName73=lib/cy7c65634-28ltxc
+LibName74=lib/powerjumper
