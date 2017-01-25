@@ -261,11 +261,10 @@ F 3 "" H 5400 7300 50  0000 C CNN
 $EndComp
 Text GLabel 5950 3950 0    60   Input ~ 0
 I2S_LRCLK
-Text GLabel 5950 4050 0    60   Input ~ 0
-I2S_MCLK
 Text GLabel 5950 4150 0    60   Input ~ 0
+I2S_MCLK
+Text GLabel 5950 4050 0    60   Input ~ 0
 I2S_BCLK
-NoConn ~ 5950 4650
 NoConn ~ 5950 4450
 Text GLabel 5950 4550 0    60   Input ~ 0
 I2S_DACSD
@@ -382,46 +381,7 @@ Text GLabel 9150 4150 2    60   Input ~ 0
 TEMPO_LED
 Text GLabel 5950 4750 0    60   Input ~ 0
 I2S_ADCSD
-NoConn ~ 5950 4250
-NoConn ~ 5950 4350
 NoConn ~ 5950 5650
-NoConn ~ 5950 4950
-Text GLabel 5950 3650 0    60   BiDi ~ 0
-GD_0T
-Text GLabel 5950 3550 0    60   BiDi ~ 0
-GD_1T
-Text GLabel 5950 3450 0    60   BiDi ~ 0
-GD_2T
-Text GLabel 5950 3250 0    60   BiDi ~ 0
-GD_3T
-Text GLabel 5950 3150 0    60   BiDi ~ 0
-GD_4T
-Text GLabel 5950 3350 0    60   BiDi ~ 0
-GD_5T
-Text GLabel 5950 2750 0    60   BiDi ~ 0
-GD_6T
-Text GLabel 5950 2350 0    60   BiDi ~ 0
-GD_7T
-Text GLabel 5950 2550 0    60   BiDi ~ 0
-GD_8T
-Text GLabel 5950 2450 0    60   BiDi ~ 0
-GD_9T
-Text GLabel 5950 2650 0    60   BiDi ~ 0
-GD_10T
-Text GLabel 5950 1950 0    60   BiDi ~ 0
-GD_11T
-Text GLabel 5950 2150 0    60   BiDi ~ 0
-GD_12T
-Text GLabel 5950 2050 0    60   BiDi ~ 0
-GD_13T
-Text GLabel 5950 2250 0    60   BiDi ~ 0
-GD_14T
-Text GLabel 5950 2950 0    60   BiDi ~ 0
-GD_15T
-Text GLabel 5950 2850 0    60   BiDi ~ 0
-GA_0T
-Text GLabel 5950 3050 0    60   BiDi ~ 0
-GA_1T
 $Comp
 L R R30
 U 1 1 587FFB23
@@ -474,14 +434,6 @@ Wire Wire Line
 	3150 1350 2700 1350
 Wire Wire Line
 	2900 1450 2700 1450
-Text GLabel 5950 5750 0    60   Input ~ 0
-GPIF_SLWR#T
-Text GLabel 5950 3850 0    60   Input ~ 0
-GPIF_SLRD#T
-Text GLabel 5950 5950 0    60   Input ~ 0
-GPIF_SLOE#T
-Text GLabel 5950 6050 0    60   Input ~ 0
-GPIF_PCLKT
 $Comp
 L R R31
 U 1 1 58802EE3
@@ -542,14 +494,6 @@ Text GLabel 3950 1350 2    60   Output ~ 0
 GPIF_SLOE#T
 Text GLabel 3950 1450 2    60   Output ~ 0
 GPIF_PCLKT
-Text GLabel 5950 1550 0    60   Input ~ 0
-GPIF_SLCS#T
-Text GLabel 5950 3750 0    60   Input ~ 0
-GPIF_PKTEND#T
-Text GLabel 5950 1750 0    60   Output ~ 0
-GPIF_FLAGBT
-Text GLabel 5950 1850 0    60   Output ~ 0
-GPIF_FLAGAT
 Text GLabel 3850 2550 2    60   BiDi ~ 0
 GD_0T
 Text GLabel 3850 2650 2    60   BiDi ~ 0
@@ -918,4 +862,60 @@ Text Label 8950 3650 0    60   ~ 0
 TEMPO_LED_D
 NoConn ~ 5950 1650
 NoConn ~ 5950 5850
+NoConn ~ 5950 5750
+NoConn ~ 5950 5950
+NoConn ~ 5950 6050
+Text GLabel 5950 2250 0    60   Input ~ 0
+GPIF_SLRD#T
+Text GLabel 5950 2450 0    60   Input ~ 0
+GPIF_SLOE#T
+Text GLabel 5950 2550 0    60   BiDi ~ 0
+GD_14T
+Text GLabel 5950 3050 0    60   Input ~ 0
+GPIF_PKTEND#T
+Text GLabel 5950 2150 0    60   Input ~ 0
+GPIF_SLCS#T
+Text GLabel 5950 2350 0    60   BiDi ~ 0
+GD_13T
+Text GLabel 5950 2950 0    60   BiDi ~ 0
+GD_9T
+Text GLabel 5950 3850 0    60   BiDi ~ 0
+GD_11T
+Text GLabel 5950 2750 0    60   BiDi ~ 0
+GD_12T
+Text GLabel 5950 3150 0    60   BiDi ~ 0
+GD_10T
+Text GLabel 5950 3250 0    60   BiDi ~ 0
+GD_8T
+Text GLabel 5950 3350 0    60   BiDi ~ 0
+GD_6T
+Text GLabel 5950 3450 0    60   BiDi ~ 0
+GD_7T
+Text GLabel 5950 3750 0    60   BiDi ~ 0
+GD_15T
+Text GLabel 5950 3650 0    60   BiDi ~ 0
+GD_3T
+Text GLabel 5950 2850 0    60   BiDi ~ 0
+GD_4T
+Text GLabel 5950 3550 0    60   BiDi ~ 0
+GD_5T
+Text GLabel 5950 4350 0    60   BiDi ~ 0
+GD_0T
+Text GLabel 5950 4650 0    60   BiDi ~ 0
+GD_2T
+Text GLabel 5950 2050 0    60   Output ~ 0
+GPIF_FLAGAT
+Text GLabel 5950 4250 0    60   Input ~ 0
+GPIF_PCLKT
+Text GLabel 5950 1750 0    60   BiDi ~ 0
+GA_1T
+Text GLabel 5950 1850 0    60   BiDi ~ 0
+GA_0T
+Text GLabel 5950 2650 0    60   Input ~ 0
+GPIF_SLWR#T
+Text GLabel 5950 1950 0    60   Output ~ 0
+GPIF_FLAGBT
+Text GLabel 5950 4950 0    60   BiDi ~ 0
+GD_1T
+NoConn ~ 5950 1550
 $EndSCHEMATC

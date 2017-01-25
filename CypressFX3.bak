@@ -1632,9 +1632,9 @@ Text GLabel 7850 1100 2    60   Input ~ 0
 SSRX_N
 Text GLabel 7850 1200 2    60   Input ~ 0
 SSRX_P
-Text GLabel 9200 1750 0    60   Output ~ 0
-SSRX_N
 Text GLabel 9200 1850 0    60   Output ~ 0
+SSRX_N
+Text GLabel 9200 1750 0    60   Output ~ 0
 SSRX_P
 Wire Wire Line
 	8350 1400 8450 1400
@@ -1644,9 +1644,9 @@ Text GLabel 8450 1400 2    60   Output ~ 0
 SSTX_N
 Text GLabel 8450 1500 2    60   Output ~ 0
 SSTX_P
-Text GLabel 9200 1650 0    60   Input ~ 0
-SSTX_N
 Text GLabel 9200 1550 0    60   Input ~ 0
+SSTX_N
+Text GLabel 9200 1650 0    60   Input ~ 0
 SSTX_P
 Text GLabel 9200 2050 0    60   BiDi ~ 0
 FXD_P
@@ -1747,7 +1747,7 @@ FXD_P
 Text GLabel 7850 1800 2    60   BiDi ~ 0
 FXD_N
 Text Notes 7950 2000 0    60   ~ 0
-SSRX SWAPPED ON PURPOSE
+SSTX SWAPPED ON PURPOSE
 Text Label 7900 1500 0    60   ~ 0
 SSTXAC_P
 Text Label 4650 5700 0    60   ~ 0
@@ -1828,4 +1828,6 @@ Text GLabel 5600 650  2    60   Input ~ 0
 CVDDQ
 Wire Wire Line
 	5600 650  5500 650 
+Text Label 9550 3750 0    60   ~ 0
+VBATT
 $EndSCHEMATC

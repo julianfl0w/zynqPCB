@@ -412,7 +412,6 @@ NoConn ~ 5350 3850
 NoConn ~ 5350 3950
 NoConn ~ 5350 4050
 NoConn ~ 5350 4150
-NoConn ~ 5350 4350
 NoConn ~ 5350 4650
 NoConn ~ 5350 4750
 NoConn ~ 5350 4850
@@ -622,7 +621,7 @@ F 3 "" H 7250 5000 50  0000 C CNN
 $EndComp
 Text GLabel 8600 5150 2    60   Output ~ 0
 CLK100MHz
-Text GLabel 5350 4250 0    60   Input ~ 0
+Text GLabel 5350 4350 0    60   Input ~ 0
 CLK100MHz
 $Comp
 L +3.3V #PWR0170
@@ -1046,4 +1045,5 @@ Text Label 3550 4850 0    60   ~ 0
 HDMI_DETECT_B1
 Text Label 2900 5250 0    60   ~ 0
 HDMI_DETECT_B2
+NoConn ~ 5350 4250
 $EndSCHEMATC

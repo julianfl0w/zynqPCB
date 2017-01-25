@@ -332,4 +332,8 @@ Wire Wire Line
 Wire Wire Line
 	6900 3850 6900 3700
 Connection ~ 6900 3700
+Text Label 6450 3850 0    60   ~ 0
+SPIMEM_RST
+Text Label 4450 4000 0    60   ~ 0
+SPIMEM_WP
 $EndSCHEMATC

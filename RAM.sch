@@ -79,17 +79,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L xc7a50tftg256 U1
-U 3 1 58818CA5
-P 9150 1050
-F 0 "U1" H 9350 1300 60  0000 L CNN
-F 1 "xc7a50tftg256" H 9350 1200 60  0000 L CNN
-F 2 "SMD_Packages:BGA-256" H 9150 1050 60  0001 C CNN
-F 3 "" H 9150 1050 60  0001 C CNN
-	3    9150 1050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9150 6050 8950 6050
 $Comp
@@ -168,10 +157,6 @@ Text GLabel 6550 2800 2    60   BiDi ~ 0
 RAM_LDQS_P
 Text GLabel 6550 2900 2    60   BiDi ~ 0
 RAM_LDQS_N
-Text GLabel 9150 3450 0    60   Output ~ 0
-RAM_CK_N
-Text GLabel 9150 3550 0    60   Output ~ 0
-RAM_CK_P
 Text GLabel 6550 1500 2    60   BiDi ~ 0
 RAM_UDQS_P
 Text GLabel 6550 1600 2    60   BiDi ~ 0
@@ -328,50 +313,6 @@ Text GLabel 4600 2550 2    60   Input ~ 0
 RAM_BA1
 Text GLabel 4600 2650 2    60   Input ~ 0
 RAM_BA0
-Text GLabel 9150 1350 0    60   BiDi ~ 0
-RAM_LDQS_P
-Text GLabel 9150 1250 0    60   BiDi ~ 0
-RAM_LDQS_N
-Text GLabel 9150 1550 0    60   BiDi ~ 0
-RAM_UDQS_P
-Text GLabel 9150 1450 0    60   BiDi ~ 0
-RAM_UDQS_N
-Text GLabel 9150 1650 0    60   Output ~ 0
-RAM_LDM
-Text GLabel 9150 1750 0    60   Output ~ 0
-RAM_UDM
-Text GLabel 9150 1850 0    60   BiDi ~ 0
-RAM_DQ0
-Text GLabel 9150 1950 0    60   BiDi ~ 0
-RAM_DQ1
-Text GLabel 9150 2050 0    60   BiDi ~ 0
-RAM_DQ2
-Text GLabel 9150 2150 0    60   BiDi ~ 0
-RAM_DQ3
-Text GLabel 9150 2250 0    60   BiDi ~ 0
-RAM_DQ4
-Text GLabel 9150 2350 0    60   BiDi ~ 0
-RAM_DQ5
-Text GLabel 9150 2450 0    60   BiDi ~ 0
-RAM_DQ6
-Text GLabel 9150 2550 0    60   BiDi ~ 0
-RAM_DQ7
-Text GLabel 9150 2650 0    60   BiDi ~ 0
-RAM_DQ8
-Text GLabel 9150 2750 0    60   BiDi ~ 0
-RAM_DQ9
-Text GLabel 9150 2850 0    60   BiDi ~ 0
-RAM_DQ10
-Text GLabel 9150 2950 0    60   BiDi ~ 0
-RAM_DQ11
-Text GLabel 9150 3050 0    60   BiDi ~ 0
-RAM_DQ12
-Text GLabel 9150 3150 0    60   BiDi ~ 0
-RAM_DQ13
-Text GLabel 9150 3250 0    60   BiDi ~ 0
-RAM_DQ14
-Text GLabel 9150 3350 0    60   BiDi ~ 0
-RAM_DQ15
 Text GLabel 4600 2050 2    60   Input ~ 0
 RAM_WE#
 Text GLabel 4600 2150 2    60   Input ~ 0
@@ -397,50 +338,10 @@ Wire Wire Line
 	4850 1450 4600 1450
 Text GLabel 4600 1750 2    60   Input ~ 0
 RAM_CKE
-Text GLabel 9150 3650 0    60   Output ~ 0
-RAM_A0
-Text GLabel 9150 3750 0    60   Output ~ 0
-RAM_A1
-Text GLabel 9150 3850 0    60   Output ~ 0
-RAM_A2
-Text GLabel 9150 3950 0    60   Output ~ 0
-RAM_A3
-Text GLabel 9150 4050 0    60   Output ~ 0
+Text GLabel 9150 5650 0    60   Output ~ 0
 RAM_A4
-Text GLabel 9150 4150 0    60   Output ~ 0
-RAM_A5
-Text GLabel 9150 4250 0    60   Output ~ 0
-RAM_A6
 Text GLabel 9150 4350 0    60   Output ~ 0
 RAM_A7
-Text GLabel 9150 4450 0    60   Output ~ 0
-RAM_A8
-Text GLabel 9150 4550 0    60   Output ~ 0
-RAM_A9
-Text GLabel 9150 4650 0    60   Output ~ 0
-RAM_A10
-Text GLabel 9150 4750 0    60   Output ~ 0
-RAM_A11
-Text GLabel 9150 4850 0    60   Output ~ 0
-RAM_A12
-Text GLabel 9150 5150 0    60   Output ~ 0
-RAM_BA1
-Text GLabel 9150 5050 0    60   Output ~ 0
-RAM_BA0
-Text GLabel 9150 5450 0    60   Output ~ 0
-RAM_CK_N
-Text GLabel 9150 5550 0    60   Output ~ 0
-RAM_CK_P
-Text GLabel 9150 5650 0    60   Output ~ 0
-RAM_WE#
-Text GLabel 9150 5750 0    60   Output ~ 0
-RAM_CAS#
-Text GLabel 9150 5850 0    60   Output ~ 0
-RAM_RAS#
-Text GLabel 9150 5250 0    60   Output ~ 0
-RAM_CS#
-Text GLabel 9150 5350 0    60   Output ~ 0
-RAM_CKE
 $Comp
 L +1.8V #PWR0193
 U 1 1 588297F8
@@ -798,4 +699,103 @@ F 3 "" H 7400 5350 60  0001 C CNN
 	1    7400 5350
 	1    0    0    -1  
 $EndComp
+Text Label 1800 4800 0    60   ~ 0
+VREF
+$Comp
+L xc7a50tftg256 U1
+U 3 1 58818CA5
+P 9150 1050
+F 0 "U1" H 9350 1300 60  0000 L CNN
+F 1 "xc7a50tftg256" H 9350 1200 60  0000 L CNN
+F 2 "SMD_Packages:BGA-256" H 9150 1050 60  0001 C CNN
+F 3 "" H 9150 1050 60  0001 C CNN
+	3    9150 1050
+	1    0    0    -1  
+$EndComp
+Text GLabel 9150 1250 0    60   BiDi ~ 0
+RAM_UDQS_N
+Text GLabel 9150 1550 0    60   Output ~ 0
+RAM_UDM
+Text GLabel 9150 2350 0    60   BiDi ~ 0
+RAM_DQ14
+Text GLabel 9150 1350 0    60   BiDi ~ 0
+RAM_UDQS_P
+Text GLabel 9150 2250 0    60   BiDi ~ 0
+RAM_DQ15
+Text GLabel 9150 1450 0    60   BiDi ~ 0
+RAM_DQ9
+Text GLabel 9150 1750 0    60   BiDi ~ 0
+RAM_DQ8
+Text GLabel 9150 3850 0    60   BiDi ~ 0
+RAM_DQ11
+Text GLabel 9150 1650 0    60   BiDi ~ 0
+RAM_DQ12
+Text GLabel 9150 1950 0    60   BiDi ~ 0
+RAM_DQ13
+Text GLabel 9150 3950 0    60   BiDi ~ 0
+RAM_DQ10
+Text GLabel 9150 2050 0    60   BiDi ~ 0
+RAM_LDQS_N
+Text GLabel 9150 1850 0    60   Output ~ 0
+RAM_LDM
+Text GLabel 9150 3350 0    60   BiDi ~ 0
+RAM_DQ6
+Text GLabel 9150 3750 0    60   BiDi ~ 0
+RAM_DQ7
+Text GLabel 9150 2150 0    60   BiDi ~ 0
+RAM_LDQS_P
+Text GLabel 9150 3250 0    60   BiDi ~ 0
+RAM_DQ1
+Text GLabel 9150 2550 0    60   BiDi ~ 0
+RAM_DQ0
+Text GLabel 9150 2450 0    60   BiDi ~ 0
+RAM_DQ3
+Text GLabel 9150 2650 0    60   BiDi ~ 0
+RAM_DQ4
+Text GLabel 9150 2850 0    60   BiDi ~ 0
+RAM_DQ5
+Text GLabel 9150 2950 0    60   BiDi ~ 0
+RAM_DQ2
+Text GLabel 9150 3550 0    60   Output ~ 0
+RAM_CK_P
+Text GLabel 9150 2750 0    60   Output ~ 0
+RAM_RAS#
+Text GLabel 9150 3450 0    60   Output ~ 0
+RAM_CK_N
+Text GLabel 9150 4150 0    60   Output ~ 0
+RAM_CKE
+Text GLabel 9150 4050 0    60   Output ~ 0
+RAM_WE#
+Text GLabel 9150 4450 0    60   Output ~ 0
+RAM_CAS#
+Text GLabel 9150 3650 0    60   Output ~ 0
+RAM_BA1
+Text GLabel 9150 4650 0    60   Output ~ 0
+RAM_A1
+Text GLabel 9150 4550 0    60   Output ~ 0
+RAM_A10
+Text GLabel 9150 5250 0    60   Output ~ 0
+RAM_BA0
+Text GLabel 9150 4750 0    60   Output ~ 0
+RAM_A3
+Text GLabel 9150 4250 0    60   Output ~ 0
+RAM_A5
+Text GLabel 9150 4850 0    60   Output ~ 0
+RAM_A9
+Text GLabel 9150 5450 0    60   Output ~ 0
+RAM_A12
+Text GLabel 9150 5850 0    60   Output ~ 0
+RAM_CS#
+Text GLabel 9150 5350 0    60   Output ~ 0
+RAM_A2
+Text GLabel 9150 5550 0    60   Output ~ 0
+RAM_A0
+Text GLabel 9150 5150 0    60   Output ~ 0
+RAM_A6
+Text GLabel 9150 5050 0    60   Output ~ 0
+RAM_A11
+Text GLabel 9150 5750 0    60   Output ~ 0
+RAM_A8
+NoConn ~ 9150 3050
+NoConn ~ 9150 3150
 $EndSCHEMATC

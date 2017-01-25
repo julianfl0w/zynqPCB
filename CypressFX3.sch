@@ -1828,4 +1828,6 @@ Text GLabel 5600 650  2    60   Input ~ 0
 CVDDQ
 Wire Wire Line
 	5600 650  5500 650 
+Text Label 9550 3750 0    60   ~ 0
+VBATT
 $EndSCHEMATC
