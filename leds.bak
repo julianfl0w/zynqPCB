@@ -66,6 +66,7 @@ LIBS:winbond
 LIBS:cy7c65634-28ltxc
 LIBS:powerjumper
 LIBS:au-y1008-2
+LIBS:hdmi_conn
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -411,4 +412,6 @@ Text Label 2700 4450 0    60   ~ 0
 R_EXT
 Text Label 2900 4550 0    60   ~ 0
 C_FILT
+Text Label 2550 5000 0    60   ~ 0
+AUDIO_INC
 $EndSCHEMATC

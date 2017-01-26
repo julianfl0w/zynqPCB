@@ -1,4 +1,4 @@
-update=1/25/2017 6:27:09 PM
+update=1/26/2017 12:37:17 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -114,3 +114,4 @@ LibName72=lib/winbond
 LibName73=lib/cy7c65634-28ltxc
 LibName74=lib/powerjumper
 LibName75=lib/au-y1008-2
+LibName76=lib/hdmi_conn
