@@ -65,6 +65,7 @@ LIBS:powerswitch
 LIBS:winbond
 LIBS:cy7c65634-28ltxc
 LIBS:powerjumper
+LIBS:au-y1008-2
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

@@ -65,6 +65,7 @@ LIBS:powerswitch
 LIBS:winbond
 LIBS:cy7c65634-28ltxc
 LIBS:powerjumper
+LIBS:au-y1008-2
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -263,7 +264,7 @@ Text GLabel 5950 3950 0    60   Input ~ 0
 I2S_LRCLK
 Text GLabel 5950 4150 0    60   Input ~ 0
 I2S_MCLK
-Text GLabel 5950 4050 0    60   Input ~ 0
+Text GLabel 5950 4250 0    60   Input ~ 0
 I2S_BCLK
 NoConn ~ 5950 4450
 Text GLabel 5950 4550 0    60   Input ~ 0
@@ -905,7 +906,7 @@ Text GLabel 5950 4650 0    60   BiDi ~ 0
 GD_2T
 Text GLabel 5950 2050 0    60   Output ~ 0
 GPIF_FLAGAT
-Text GLabel 5950 4250 0    60   Input ~ 0
+Text GLabel 5950 4050 0    60   Input ~ 0
 GPIF_PCLKT
 Text GLabel 5950 1750 0    60   BiDi ~ 0
 GA_1T

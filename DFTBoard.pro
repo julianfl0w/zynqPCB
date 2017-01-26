@@ -1,4 +1,4 @@
-update=1/22/2017 9:44:19 PM
+update=1/25/2017 6:27:09 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -113,3 +113,4 @@ LibName71=lib/powerswitch
 LibName72=lib/winbond
 LibName73=lib/cy7c65634-28ltxc
 LibName74=lib/powerjumper
+LibName75=lib/au-y1008-2
