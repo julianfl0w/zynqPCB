@@ -67,6 +67,7 @@ LIBS:cy7c65634-28ltxc
 LIBS:powerjumper
 LIBS:au-y1008-2
 LIBS:hdmi_conn
+LIBS:wayne_and_layne_kicad_symbols
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -263,8 +264,6 @@ F 3 "" H 5400 7300 50  0000 C CNN
 $EndComp
 Text GLabel 5950 3950 0    60   Input ~ 0
 I2S_LRCLK
-Text GLabel 5950 4150 0    60   Input ~ 0
-I2S_MCLK
 Text GLabel 5950 4250 0    60   Input ~ 0
 I2S_BCLK
 NoConn ~ 5950 4450
@@ -822,7 +821,7 @@ U 1 1 588349DA
 P 10000 3650
 F 0 "R33" H 10030 3670 50  0000 L CNN
 F 1 "165" H 10030 3610 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206" H 10000 3650 50  0001 C CNN
+F 2 "Resistors_SMD:R_0402" H 10000 3650 50  0001 C CNN
 F 3 "" H 10000 3650 50  0000 C CNN
 	1    10000 3650
 	0    1    1    0   
@@ -920,4 +919,5 @@ GPIF_FLAGBT
 Text GLabel 5950 4950 0    60   BiDi ~ 0
 GD_1T
 NoConn ~ 5950 1550
+NoConn ~ 5950 4150
 $EndSCHEMATC

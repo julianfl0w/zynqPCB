@@ -67,6 +67,7 @@ LIBS:cy7c65634-28ltxc
 LIBS:powerjumper
 LIBS:au-y1008-2
 LIBS:hdmi_conn
+LIBS:wayne_and_layne_kicad_symbols
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
