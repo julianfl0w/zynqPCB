@@ -181,7 +181,6 @@ $ENDCMP
 #
 $CMP FPF1321
 D power switch
-K POWER, PWR
 $ENDCMP
 #
 $CMP GND

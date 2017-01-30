@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATTINY1634-MN
+D QFN/MLF20, 16k Flash, 1k SRAM, 256B EEPROM, ADC, ACI, dW
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/Images/Atmel-8303-8-bit-AVR-Microcontroller-tinyAVR-ATtiny1634_Datasheet.pdf
+$ENDCMP
+#
+$CMP IS31FL3199
+D QFN/MLF20, 16k Flash, 1k SRAM, 256B EEPROM, ADC, ACI, dW
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/Images/Atmel-8303-8-bit-AVR-Microcontroller-tinyAVR-ATtiny1634_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
