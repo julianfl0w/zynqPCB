@@ -1,4 +1,4 @@
-update=1/26/2017 11:35:27 PM
+update=1/31/2017 12:10:15 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -116,3 +116,4 @@ LibName74=lib/powerjumper
 LibName75=lib/au-y1008-2
 LibName76=lib/hdmi_conn
 LibName77=lib/wayne_and_layne_kicad_symbols
+LibName78=lib/m24m02-dr

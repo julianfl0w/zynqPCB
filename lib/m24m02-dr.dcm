@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M24M02-DR
+D I2C Serial EEPROM
+K EEPROM Serial
+$ENDCMP
+#
+#End Doc Library

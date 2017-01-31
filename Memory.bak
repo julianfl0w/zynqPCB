@@ -68,6 +68,7 @@ LIBS:powerjumper
 LIBS:au-y1008-2
 LIBS:hdmi_conn
 LIBS:wayne_and_layne_kicad_symbols
+LIBS:m24m02-dr
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -82,20 +83,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L 24C512 U2
-U 1 1 5852F5FB
-P 5450 1850
-F 0 "U2" H 5600 2200 50  0000 C CNN
-F 1 "24FC128" H 5650 1500 50  0000 C CNN
-F 2 "SMD_Packages:SOIC-8-N" H 5450 1850 50  0001 C CNN
-F 3 "" H 5450 1850 50  0000 C CNN
-	1    5450 1850
-	1    0    0    -1  
-$EndComp
-Text GLabel 6150 1950 2    60   Input ~ 0
+Text GLabel 4750 1850 0    60   Input ~ 0
 I2C_SCLK
-Text GLabel 6150 2050 2    60   Input ~ 0
+Text GLabel 6150 1700 2    60   Input ~ 0
 I2C_SDIN
 $Comp
 L +1.8V #PWR062
@@ -111,13 +101,13 @@ $EndComp
 $Comp
 L GND-RESCUE-DFTBoard #PWR063
 U 1 1 58594FE3
-P 4600 1950
-F 0 "#PWR063" H 4600 1950 30  0001 C CNN
-F 1 "GND" H 4600 1880 30  0001 C CNN
-F 2 "" H 4600 1950 60  0001 C CNN
-F 3 "" H 4600 1950 60  0001 C CNN
-	1    4600 1950
-	1    0    0    -1  
+P 4600 1650
+F 0 "#PWR063" H 4600 1650 30  0001 C CNN
+F 1 "GND" H 4600 1580 30  0001 C CNN
+F 2 "" H 4600 1650 60  0001 C CNN
+F 3 "" H 4600 1650 60  0001 C CNN
+	1    4600 1650
+	0    1    1    0   
 $EndComp
 $Comp
 L GND-RESCUE-DFTBoard #PWR064
@@ -131,18 +121,10 @@ F 3 "" H 5450 2350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 1850 4600 1850
-Wire Wire Line
-	4600 1650 4600 1950
-Wire Wire Line
-	4750 1750 4600 1750
-Connection ~ 4600 1850
-Wire Wire Line
 	4750 1650 4600 1650
-Connection ~ 4600 1750
-Text Notes 4150 2150 0    60   ~ 0
+Text Notes 4150 2250 0    60   ~ 0
 Address: 1010000
-Text GLabel 6150 1750 2    60   Input ~ 0
+Text GLabel 4750 2050 0    60   Input ~ 0
 I2CMEM_WP
 Text GLabel 6400 4150 2    60   Input ~ 0
 SPI_MOSI
@@ -339,4 +321,15 @@ Text Label 6450 3850 0    60   ~ 0
 SPIMEM_RST
 Text Label 4450 4000 0    60   ~ 0
 SPIMEM_WP
+$Comp
+L M24M02-DR U?
+U 1 1 5890D70E
+P 5450 1850
+F 0 "U?" H 5600 2200 50  0000 C CNN
+F 1 "M24M02-DR" H 5550 1850 50  0000 C CNN
+F 2 "" H 5450 1850 50  0000 C CNN
+F 3 "" H 5450 1850 50  0000 C CNN
+	1    5450 1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
