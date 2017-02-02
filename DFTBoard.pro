@@ -1,4 +1,4 @@
-update=2/1/2017 3:09:01 PM
+update=2/2/2017 6:33:31 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -118,3 +118,4 @@ LibName76=lib/hdmi_conn
 LibName77=lib/wayne_and_layne_kicad_symbols
 LibName78=lib/m24m02-dr
 LibName79=lib/fxo-hc73
+LibName80=lib/crystal_small_4pad
