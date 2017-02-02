@@ -1,5 +1,4 @@
 (fp_lib_table
-  (lib (name DFTcustom)(type KiCad)(uri "$(KIPRJMOD)\\footprints\\DFTcustom.pretty")(options "")(descr ""))
   (lib (name 48258-0001)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\legacy\\48258-0001.mod")(options "")(descr ""))
   (lib (name beagledancer)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\legacy\\beagledancer.mod")(options "")(descr ""))
   (lib (name CYUSB3014-BZXCT)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\legacy\\CYUSB3014-BZXCT.mod")(options "")(descr ""))

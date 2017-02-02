@@ -69,6 +69,7 @@ LIBS:au-y1008-2
 LIBS:hdmi_conn
 LIBS:wayne_and_layne_kicad_symbols
 LIBS:m24m02-dr
+LIBS:fxo-hc73
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
