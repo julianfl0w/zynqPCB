@@ -432,7 +432,7 @@ Text GLabel 3200 2100 0    60   Output ~ 0
 RF_SD
 Text GLabel 3200 2200 0    60   Output ~ 0
 I2CMEM_WP
-Text GLabel 3200 2300 0    60   Output ~ 0
+Text GLabel 3200 2300 0    60   Input ~ 0
 CONFIG_INIT
 Text GLabel 3200 2400 0    60   Output ~ 0
 CONFIG_PROGRAM

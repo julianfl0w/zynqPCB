@@ -139,7 +139,7 @@ F 3 "" H 5450 1600 50  0000 C CNN
 	1    5450 1600
 	-1   0    0    1   
 $EndComp
-Text GLabel 5300 3350 0    60   Input ~ 0
+Text GLabel 5300 3350 0    60   Output ~ 0
 CONFIG_INIT
 Wire Wire Line
 	4350 3550 5300 3550
