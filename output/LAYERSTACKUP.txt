@@ -1,0 +1,12 @@
+Layers, from top to bottom:
+
+TOP_AGND
+GND0
+SIGNAL1
+5V
+3.3V
+SIGNAL2
+GND1
+SIGNAL3
+1.8V
+BOTTOM_1012
