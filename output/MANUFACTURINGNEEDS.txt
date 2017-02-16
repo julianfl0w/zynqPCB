@@ -5,13 +5,18 @@ PCB:
 10 layers, .062 inches / 1.6mm total
 1Oz copper
 No impedance control
-.25mm (10 mil) drill, .125mm (5 mil) trace/clearance
+.25mm (10 mil) drill, .125mm (5 mil trace)/(3 mil clearance)
 Dielectric: FR4
 Lead-free HASL coating
 
 Parts (approx):
-Count: 329
+BOM lines: 71
+Count: 324
+Double side
+Lead free
+BGA/FINE Pitch: 2
+Smallest PKG: 0201
 Through-hole parts: 15
 Through-holes: ~110
 SMD parts: 314
-SMD pads: ~1000?
+SMD pads: 1276
