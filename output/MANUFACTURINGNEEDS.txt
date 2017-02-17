@@ -15,6 +15,7 @@ Count: 324
 Double side
 Lead free
 BGA/FINE Pitch: 2
+Smallest pitch: .8mm
 Smallest PKG: 0201
 Through-hole parts: 15
 Through-holes: ~110

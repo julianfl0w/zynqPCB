@@ -466,7 +466,7 @@ Text GLabel 5350 2650 0    60   BiDi ~ 0
 TMDS_DAT0_N
 Text GLabel 1950 3750 2    60   BiDi ~ 0
 TMDS_DAT1_N
-Text GLabel 5350 2050 0    60   BiDi ~ 0
+Text GLabel 5350 2250 0    60   BiDi ~ 0
 TMDS_DAT1_N
 Wire Wire Line
 	2800 7200 2800 6900
@@ -617,7 +617,7 @@ Wire Wire Line
 	3750 6850 3750 6950
 Text GLabel 1950 3550 2    60   BiDi ~ 0
 TMDS_DAT1_P
-Text GLabel 5350 2150 0    60   BiDi ~ 0
+Text GLabel 5350 2350 0    60   BiDi ~ 0
 TMDS_DAT1_P
 Text GLabel 1950 3450 2    60   BiDi ~ 0
 TMDS_DAT2_N
@@ -625,11 +625,11 @@ Wire Wire Line
 	1950 4450 3700 4450
 Text GLabel 5350 2750 0    60   BiDi ~ 0
 TMDS_DAT0_P
-Text GLabel 5350 2250 0    60   BiDi ~ 0
+Text GLabel 5350 2050 0    60   BiDi ~ 0
 TMDS_DAT2_N
 Text GLabel 1950 3250 2    60   BiDi ~ 0
 TMDS_DAT2_P
-Text GLabel 5350 2350 0    60   BiDi ~ 0
+Text GLabel 5350 2150 0    60   BiDi ~ 0
 TMDS_DAT2_P
 Text GLabel 1950 4150 2    60   BiDi ~ 0
 TMDS_CLK_P
@@ -737,7 +737,7 @@ U 1 1 58932E80
 P 8600 5350
 F 0 "C151" H 8610 5420 50  0000 L CNN
 F 1 "15pF" H 8610 5270 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0201" H 8600 5350 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0402" H 8600 5350 50  0001 C CNN
 F 3 "" H 8600 5350 50  0000 C CNN
 	1    8600 5350
 	1    0    0    -1  
