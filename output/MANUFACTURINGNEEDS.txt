@@ -2,21 +2,21 @@ Board Specs:
 
 PCB:
 188mm x 60mm (7.4” x 2.36”)
-10 layers, .062 inches / 1.6mm total
+8 layers, .062 inches / 1.6mm total
 1Oz copper
 No impedance control
 .25mm (10 mil) drill, .125mm (5 mil trace)/(3 mil clearance)
 Dielectric: FR4
-Lead-free HASL coating
+ENIG Finish
 
 Parts (approx):
 BOM lines: 71
 Count: 324
 Double side
 Lead free
-BGA/FINE Pitch: 2
+BGA/FINE Pitch: 6
 Smallest pitch: .8mm
-Smallest PKG: 0201
+Smallest PKG: 0402
 Through-hole parts: 15
 Through-holes: ~110
 SMD parts: 314

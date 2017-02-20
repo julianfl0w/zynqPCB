@@ -60,7 +60,6 @@ LIBS:df_device
 LIBS:JACK_TRS_5PINS
 LIBS:MEMSMIC
 LIBS:illuminatedswitch
-LIBS:gndtie
 LIBS:powerswitch
 LIBS:winbond
 LIBS:cy7c65634-28ltxc
@@ -71,6 +70,8 @@ LIBS:wayne_and_layne_kicad_symbols
 LIBS:m24m02-dr
 LIBS:fxo-hc73
 LIBS:crystal_small_4pad
+LIBS:tps22963c
+LIBS:gndtie
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

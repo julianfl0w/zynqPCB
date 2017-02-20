@@ -60,7 +60,6 @@ LIBS:df_device
 LIBS:JACK_TRS_5PINS
 LIBS:MEMSMIC
 LIBS:illuminatedswitch
-LIBS:gndtie
 LIBS:powerswitch
 LIBS:winbond
 LIBS:cy7c65634-28ltxc
@@ -71,6 +70,8 @@ LIBS:wayne_and_layne_kicad_symbols
 LIBS:m24m02-dr
 LIBS:fxo-hc73
 LIBS:crystal_small_4pad
+LIBS:tps22963c
+LIBS:gndtie
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1213,20 +1214,14 @@ Connection ~ 2500 4850
 $Comp
 L R_Small R71
 U 1 1 588E998E
-P 2250 4450
-F 0 "R71" H 2280 4470 50  0000 L CNN
-F 1 "4.7k" H 2280 4410 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" H 2250 4450 50  0001 C CNN
-F 3 "" H 2250 4450 50  0000 C CNN
-	1    2250 4450
+P 2250 4400
+F 0 "R71" H 2280 4420 50  0000 L CNN
+F 1 "4.7k" H 2280 4360 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 2250 4400 50  0001 C CNN
+F 3 "" H 2250 4400 50  0000 C CNN
+	1    2250 4400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2250 4550 2250 4850
-Connection ~ 2250 4850
-Wire Wire Line
-	2250 4350 2250 3850
-Connection ~ 2250 3850
 $Comp
 L R_Small R70
 U 1 1 588EA084
@@ -1335,8 +1330,6 @@ Text Label 4400 3550 0    60   ~ 0
 XTO
 Text Label 4400 3650 0    60   ~ 0
 XTI
-Text Label 2550 3850 0    60   ~ 0
-LLINEIN_C
 Text Label 2550 4050 0    60   ~ 0
 RLINEIN_C
 Text Label 4300 5050 0    60   ~ 0
@@ -1398,4 +1391,44 @@ F 3 "" H 3050 5100 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	3050 5000 3050 5100
+Wire Wire Line
+	2350 3700 2350 3850
+Connection ~ 2350 3850
+$Comp
+L +1.8V #PWR081
+U 1 1 58AC439D
+P 2350 3350
+F 0 "#PWR081" H 2350 3490 20  0001 C CNN
+F 1 "+1.8V" H 2350 3460 30  0000 C CNN
+F 2 "" H 2350 3350 60  0001 C CNN
+F 3 "" H 2350 3350 60  0001 C CNN
+	1    2350 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3350 2350 3500
+$Comp
+L R_Small R54
+U 1 1 58AC619E
+P 2350 3600
+F 0 "R54" H 2380 3620 50  0000 L CNN
+F 1 "4.7k" H 2380 3560 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 2350 3600 50  0001 C CNN
+F 3 "" H 2350 3600 50  0000 C CNN
+	1    2350 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 4300 2250 3850
+Connection ~ 2250 3850
+Wire Wire Line
+	2250 4500 2250 4850
+Connection ~ 2250 4850
+Text GLabel 2750 3650 2    60   Output ~ 0
+LLINEIN_C
+Wire Wire Line
+	2750 3650 2600 3650
+Wire Wire Line
+	2600 3650 2600 3850
+Connection ~ 2600 3850
 $EndSCHEMATC
