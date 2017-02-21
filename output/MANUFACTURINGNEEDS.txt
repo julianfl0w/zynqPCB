@@ -5,9 +5,10 @@ PCB:
 8 layers, .062 inches / 1.6mm total
 1Oz copper
 No impedance control
-.25mm (10 mil) drill, .125mm (5 mil trace)/(3 mil clearance)
+.25mm (10 mil) drill, .102mm (4 mil) trace/.102mm (4 mil) clearance)
 Dielectric: FR4
 ENIG Finish
+Via-In-Pad required
 
 Parts (approx):
 BOM lines: 71
@@ -21,3 +22,5 @@ Through-hole parts: 15
 Through-holes: ~110
 SMD parts: 314
 SMD pads: 1276
+
+smallest via: 45 dia, 22 drill
