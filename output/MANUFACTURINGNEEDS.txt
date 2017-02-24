@@ -5,16 +5,16 @@ PCB:
 8 layers, .062 inches / 1.6mm total
 1Oz copper
 No impedance control
-.25mm (10 mil) drill, .102mm (4 mil) trace/.102mm (4 mil) clearance)
+.22mm (8.6 mil) drill, .102mm (4 mil) trace/.102mm (4 mil) clearance
 Dielectric: FR4
 ENIG Finish
 Via-In-Pad required
+Untented Vias requested
 
-Parts (approx):
+Parts:
 BOM lines: 71
-Count: 324
-Double side
-Lead free
+Count: 326
+Double side mounting
 BGA/FINE Pitch: 6
 Smallest pitch: .8mm
 Smallest PKG: 0402
