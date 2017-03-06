@@ -1,5 +1,5 @@
-(module WBGA-84 (layer F.Cu) (tedit 570E3078)
-  (solder_mask_margin 0.05)
+(module WBGA-84 (layer F.Cu) (tedit 58B845E4)
+  (solder_mask_margin 0.07)
   (fp_text reference REF** (at 0 -2.54) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
