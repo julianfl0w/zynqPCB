@@ -1,4 +1,4 @@
-### Module positions - created on 03/06/17 10:00:38 ###
+### Module positions - created on 03/13/17 11:47:39 ###
 ### Printed by Pcbnew version kicad 4.0.4-stable
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -99,6 +99,7 @@ D4        LED_RGB           PLCC6-SM-RGB-LED               159.7239  -131.8508  
 D5        LED_RGB           PLCC6-SM-RGB-LED               174.3489  -124.5492   90.0000  bottom
 FB1       FERRITE           D_0603                         241.3000  -134.2000   90.0000  bottom
 FB3       FERRITE           D_0603                         246.0000  -142.3000   90.0000  bottom
+J7        HDMI Recept.      10029449-111RLF                180.1500   -96.5000    0.0000  bottom
 L1        2.2uH             C_1812                         170.0500  -136.9000  270.0000  bottom
 L2        2.2uH             C_1812                         180.7500  -136.2000  270.0000  bottom
 L3        2.2uH             C_1812                         191.5000  -146.1000  270.0000  bottom

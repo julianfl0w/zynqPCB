@@ -831,28 +831,6 @@ F 3 "" H 7650 4500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CP_Small C144
-U 1 1 588BDDF1
-P 7300 4100
-F 0 "C144" H 7310 4170 50  0000 L CNN
-F 1 "220uF Tant." H 7310 4020 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-T_EIA-3528-12_Reflow" H 7300 4100 50  0001 C CNN
-F 3 "" H 7300 4100 50  0000 C CNN
-	1    7300 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CP_Small C147
-U 1 1 588BE148
-P 7600 4200
-F 0 "C147" H 7610 4270 50  0000 L CNN
-F 1 "220uF Tant." H 7610 4120 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-T_EIA-3528-12_Reflow" H 7600 4200 50  0001 C CNN
-F 3 "" H 7600 4200 50  0000 C CNN
-	1    7600 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
 L C C143
 U 1 1 588BFACF
 P 7150 3100
@@ -1431,4 +1409,26 @@ Wire Wire Line
 Wire Wire Line
 	2600 3650 2600 3850
 Connection ~ 2600 3850
+$Comp
+L CP1_Small C144
+U 1 1 58B5E540
+P 7300 4100
+F 0 "C144" H 7310 4170 50  0000 L CNN
+F 1 "220uF Tant." H 7310 4020 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-T_EIA-3528-12_Reflow" H 7300 4100 50  0001 C CNN
+F 3 "" H 7300 4100 50  0000 C CNN
+	1    7300 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1_Small C147
+U 1 1 58B5ECD7
+P 7600 4200
+F 0 "C147" H 7610 4270 50  0000 L CNN
+F 1 "220uF Tant." H 7610 4120 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-T_EIA-3528-12_Reflow" H 7600 4200 50  0001 C CNN
+F 3 "" H 7600 4200 50  0000 C CNN
+	1    7600 4200
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
