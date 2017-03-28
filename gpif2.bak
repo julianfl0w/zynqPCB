@@ -116,9 +116,9 @@ Text GLabel 2700 1550 0    60   Input ~ 0
 GPIF_SLCS#
 Text GLabel 2700 1650 0    60   Input ~ 0
 GPIF_PKTEND#
-Text GLabel 2700 1750 0    60   Output ~ 0
+Text GLabel 2700 1750 0    60   Input ~ 0
 GPIF_FLAGB
-Text GLabel 2700 1850 0    60   Output ~ 0
+Text GLabel 2700 1850 0    60   Input ~ 0
 GPIF_FLAGA
 Text GLabel 2700 1150 0    60   Input ~ 0
 GPIF_SLWR#
@@ -262,7 +262,7 @@ Text GLabel 5950 3950 0    60   Input ~ 0
 I2S_LRCLK
 Text GLabel 5950 4250 0    60   Input ~ 0
 I2S_BCLK
-Text GLabel 5950 4550 0    60   Input ~ 0
+Text GLabel 5950 4550 0    60   Output ~ 0
 I2S_DACSD
 Text GLabel 2600 2550 0    60   BiDi ~ 0
 GD_0
@@ -529,9 +529,9 @@ Text GLabel 3950 1550 2    60   Output ~ 0
 GPIF_SLCS#T
 Text GLabel 3950 1650 2    60   Output ~ 0
 GPIF_PKTEND#T
-Text GLabel 3950 1750 2    60   Input ~ 0
+Text GLabel 3950 1750 2    60   Output ~ 0
 GPIF_FLAGBT
-Text GLabel 3950 1850 2    60   Input ~ 0
+Text GLabel 3950 1850 2    60   Output ~ 0
 GPIF_FLAGAT
 Wire Wire Line
 	3950 1650 3700 1650
@@ -895,7 +895,7 @@ Text GLabel 5950 4350 0    60   BiDi ~ 0
 GD_0T
 Text GLabel 5950 4650 0    60   BiDi ~ 0
 GD_2T
-Text GLabel 5950 2050 0    60   Output ~ 0
+Text GLabel 5950 2050 0    60   Input ~ 0
 GPIF_FLAGAT
 Text GLabel 5950 4050 0    60   Input ~ 0
 GPIF_PCLKT
@@ -905,7 +905,7 @@ Text GLabel 5950 1850 0    60   BiDi ~ 0
 GA_0T
 Text GLabel 5950 2650 0    60   Input ~ 0
 GPIF_SLWR#T
-Text GLabel 5950 1950 0    60   Output ~ 0
+Text GLabel 5950 1950 0    60   Input ~ 0
 GPIF_FLAGBT
 Text GLabel 5950 4950 0    60   BiDi ~ 0
 GD_1T

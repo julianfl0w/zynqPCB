@@ -261,9 +261,9 @@ Text GLabel 2250 2750 2    60   Output ~ 0
 GPIF_SLOE#
 Text GLabel 2250 2850 2    60   Output ~ 0
 GPIF_SLRD#
-Text GLabel 2250 2950 2    60   Input ~ 0
+Text GLabel 2250 2950 2    60   Output ~ 0
 GPIF_FLAGA
-Text GLabel 2250 3050 2    60   Input ~ 0
+Text GLabel 2250 3050 2    60   Output ~ 0
 GPIF_FLAGB
 NoConn ~ 2250 4050
 $Comp

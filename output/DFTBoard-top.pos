@@ -1,4 +1,4 @@
-### Module positions - created on 03/13/17 11:47:39 ###
+### Module positions - created on 03/28/17 10:50:18 ###
 ### Printed by Pcbnew version kicad 4.0.4-stable
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -65,8 +65,8 @@ C147      220uF Tant.    CP_Tantalum_Case-T_EIA-3528-12_Reflow   144.6750  -110.
 C149      20pF           C_0402                                  129.2500  -148.0500   90.0000  top
 C150      20pF           C_0402                                  115.2500  -148.0500  270.0000  top
 C152      2.2uF          C_0402                                  128.1000  -126.3500  180.0000  top
-C153      4.7uF          C_0805                                  259.2500  -148.0000  270.0000  top
-C154      4.7uF          C_0805                                  117.5000  -139.5000    0.0000  top
+C153      4.7uF          C_0805                                  256.4000  -141.6000  180.0000  top
+C154      4.7uF          C_0805                                  117.5000  -139.5000  180.0000  top
 C155      4.7uF          C_0805                                  262.7500  -149.0000  270.0000  top
 C156      4.7uF          C_0805                                  111.5000  -138.0000   90.0000  top
 D2        BLUE LED       LED_0603                                183.0500  -125.7000    0.0000  top

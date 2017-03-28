@@ -92,7 +92,7 @@ Text GLabel 6700 3500 2    60   Input ~ 0
 I2S_BCLK
 Text GLabel 6700 3800 2    60   Output ~ 0
 I2S_ADCSD
-Text GLabel 6700 3600 2    60   Input ~ 0
+Text GLabel 6700 3600 2    60   Output ~ 0
 I2S_DACSD
 $Comp
 L R R37
