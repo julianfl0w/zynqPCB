@@ -1,0 +1,11 @@
+(module JUMPER_3PIN (layer F.Cu) (tedit 5907A228)
+  (fp_text reference REF** (at 0.0508 1.524) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value JUMPER_3PIN (at -0.0508 -1.8796) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at -2.54 0) (size 1.524 1.524) (drill 1.2) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 1.2) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 2.5 0) (size 1.524 1.524) (drill 1.2) (layers *.Cu *.Mask))
+)

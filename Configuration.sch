@@ -48,7 +48,6 @@ LIBS:hdmi_BiDir_n
 LIBS:LevelShifter Components
 LIBS:N25Q128A
 LIBS:sparkfun
-LIBS:GSB3211311WEU
 LIBS:48258-0001
 LIBS:ArduinoSpecAn-cache
 LIBS:passiveelectret
@@ -72,11 +71,13 @@ LIBS:fxo-hc73
 LIBS:crystal_small_4pad
 LIBS:tps22963c
 LIBS:gndtie
+LIBS:GSB3211311WEU
+LIBS:DFTCustom
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 16
+Sheet 3 15
 Title ""
 Date ""
 Rev ""
@@ -181,7 +182,7 @@ U 1 1 585C36E8
 P 2050 4000
 F 0 "CON1" H 1880 4330 50  0000 C CNN
 F 1 "AVR-JTAG-10" H 1710 3670 50  0000 L BNN
-F 2 "DFTcustom:CustomJTAG" V 1480 4020 50  0001 C CNN
+F 2 "DFTcustom:XilinxJTAG" V 1480 4020 50  0001 C CNN
 F 3 "" H 2050 4000 50  0000 C CNN
 	1    2050 4000
 	-1   0    0    -1  
@@ -395,7 +396,7 @@ Text GLabel 2600 4000 2    60   Output ~ 0
 AX_TMS
 Wire Wire Line
 	2600 4000 2250 4000
-Text GLabel 2800 1700 0    60   Input ~ 0
+Text GLabel 2600 1700 0    60   Input ~ 0
 CONFIG_DONE
 Text GLabel 5600 1900 2    60   Input ~ 0
 CONFIG_INIT
@@ -488,6 +489,33 @@ Connection ~ 4500 2850
 Wire Wire Line
 	5200 3250 5300 3250
 Connection ~ 5200 3150
-Text Notes 2050 3200 0    60   ~ 0
-CONFIG_INIT AND CONFIG_DONE AND SS SHOULD HAVE PULL-UPS!
+$Comp
+L R R77
+U 1 1 5908E731
+P 2700 1400
+F 0 "R77" V 2780 1400 50  0000 C CNN
+F 1 "4.7k" V 2700 1400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2630 1400 50  0001 C CNN
+F 3 "" H 2700 1400 50  0000 C CNN
+	1    2700 1400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 1550 2700 1700
+$Comp
+L +1.8V #PWR012
+U 1 1 5908E738
+P 2700 1100
+F 0 "#PWR012" H 2700 1240 20  0001 C CNN
+F 1 "+1.8V" H 2700 1210 30  0000 C CNN
+F 2 "" H 2700 1100 60  0001 C CNN
+F 3 "" H 2700 1100 60  0001 C CNN
+	1    2700 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1100 2700 1250
+Wire Wire Line
+	2600 1700 2800 1700
+Connection ~ 2700 1700
 $EndSCHEMATC
