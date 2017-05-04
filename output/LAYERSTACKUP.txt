@@ -1,0 +1,10 @@
+Layers, from top to bottom:
+
+1 TOP_AGND
+2 Core_Supply_5V
+3 SIGNAL1
+4 GND0
+5 SIGNAL2
+6 GND1
+7 SIGNAL3
+8 BOTTOM_33_18

@@ -48,7 +48,6 @@ LIBS:hdmi_BiDir_n
 LIBS:LevelShifter Components
 LIBS:N25Q128A
 LIBS:sparkfun
-LIBS:GSB3211311WEU
 LIBS:48258-0001
 LIBS:ArduinoSpecAn-cache
 LIBS:passiveelectret
@@ -60,7 +59,6 @@ LIBS:df_device
 LIBS:JACK_TRS_5PINS
 LIBS:MEMSMIC
 LIBS:illuminatedswitch
-LIBS:gndtie
 LIBS:powerswitch
 LIBS:winbond
 LIBS:cy7c65634-28ltxc
@@ -70,11 +68,16 @@ LIBS:hdmi_conn
 LIBS:wayne_and_layne_kicad_symbols
 LIBS:m24m02-dr
 LIBS:fxo-hc73
+LIBS:crystal_small_4pad
+LIBS:tps22963c
+LIBS:gndtie
+LIBS:GSB3211311WEU
+LIBS:DFTCustom
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 16
+Sheet 2 15
 Title ""
 Date ""
 Rev ""
@@ -107,5 +110,11 @@ S 4900 3800 1200 1200
 U 585C547A
 F0 "FPGA UNUSED IO" 60
 F1 "FPGA Unused IO.sch" 60
+$EndSheet
+$Sheet
+S 6650 2000 1150 1200
+U 59084F78
+F0 "OSCLEDS" 60
+F1 "OSC_and_LEDs.sch" 60
 $EndSheet
 $EndSCHEMATC

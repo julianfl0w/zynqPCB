@@ -48,7 +48,6 @@ LIBS:hdmi_BiDir_n
 LIBS:LevelShifter Components
 LIBS:N25Q128A
 LIBS:sparkfun
-LIBS:GSB3211311WEU
 LIBS:48258-0001
 LIBS:ArduinoSpecAn-cache
 LIBS:passiveelectret
@@ -60,7 +59,6 @@ LIBS:df_device
 LIBS:JACK_TRS_5PINS
 LIBS:MEMSMIC
 LIBS:illuminatedswitch
-LIBS:gndtie
 LIBS:powerswitch
 LIBS:winbond
 LIBS:cy7c65634-28ltxc
@@ -70,11 +68,16 @@ LIBS:hdmi_conn
 LIBS:wayne_and_layne_kicad_symbols
 LIBS:m24m02-dr
 LIBS:fxo-hc73
+LIBS:crystal_small_4pad
+LIBS:tps22963c
+LIBS:gndtie
+LIBS:GSB3211311WEU
+LIBS:DFTCustom
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 16
+Sheet 1 15
 Title ""
 Date ""
 Rev ""
@@ -97,19 +100,13 @@ F0 "Audio" 60
 F1 "Audio.sch" 60
 $EndSheet
 $Sheet
-S 1600 3550 1100 1050
-U 5850844D
-F0 "LEDs" 60
-F1 "leds.sch" 60
-$EndSheet
-$Sheet
-S 5600 3650 1000 950 
+S 3600 3650 1000 950 
 U 58508456
 F0 "Memory" 60
 F1 "Memory.sch" 60
 $EndSheet
 $Sheet
-S 3600 3600 1050 1000
+S 1600 3600 1050 1000
 U 5852A88E
 F0 "Cypress FX3" 60
 F1 "CypressFX3.sch" 60
@@ -133,19 +130,13 @@ F0 "SPIUSBBRIDGE" 60
 F1 "SPI_USB_Bridge.sch" 60
 $EndSheet
 $Sheet
-S 5600 1950 1050 1000
-U 586C0171
-F0 "HDMI" 60
-F1 "hdmi.sch" 60
-$EndSheet
-$Sheet
-S 7600 2000 1050 950 
+S 5600 1950 1000 1050
 U 586C33AF
 F0 "Encoders" 60
 F1 "Encoders.sch" 60
 $EndSheet
 $Sheet
-S 7600 3650 1050 950 
+S 5600 3650 1050 950 
 U 58818A06
 F0 "RAM" 60
 F1 "RAM.sch" 60
