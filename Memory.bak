@@ -258,7 +258,7 @@ Wire Wire Line
 	7350 3700 7350 3800
 Connection ~ 7350 3700
 Wire Wire Line
-	6400 3850 6550 3850
+	6400 3850 6900 3850
 Wire Wire Line
 	4900 4000 4250 4000
 $Comp
@@ -290,24 +290,9 @@ Wire Wire Line
 	4250 3700 4250 3600
 Wire Wire Line
 	4250 4000 4250 3900
-$Comp
-L R_Small R45
-U 1 1 588121A2
-P 6650 3850
-F 0 "R45" H 6680 3870 50  0000 L CNN
-F 1 "10k" H 6680 3810 50  0000 L CNN
-F 2 "Resistors_SMD:R_0402" H 6650 3850 50  0001 C CNN
-F 3 "" H 6650 3850 50  0000 C CNN
-	1    6650 3850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6750 3850 6900 3850
 Wire Wire Line
 	6900 3850 6900 3700
 Connection ~ 6900 3700
-Text Label 6450 3850 0    60   ~ 0
-SPIMEM_RST
 Text Label 4450 4000 0    60   ~ 0
 SPIMEM_WP
 $Comp
