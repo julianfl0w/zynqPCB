@@ -1,4 +1,4 @@
-update=5/1/2017 9:36:16 PM
+update=8/2/2017 1:28:31 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -121,3 +121,4 @@ LibName79=lib/tps22963c
 LibName80=lib/gndtie
 LibName81=lib/GSB3211311WEU
 LibName82=lib/DFTCustom
+LibName83=lib/TLV320AIC3104

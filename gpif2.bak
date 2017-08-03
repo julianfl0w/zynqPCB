@@ -73,6 +73,7 @@ LIBS:tps22963c
 LIBS:gndtie
 LIBS:GSB3211311WEU
 LIBS:DFTCustom
+LIBS:TLV320AIC3104
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -127,7 +128,7 @@ Text GLabel 2700 1250 0    60   Input ~ 0
 GPIF_SLRD#
 Text GLabel 2700 1350 0    60   Input ~ 0
 GPIF_SLOE#
-Text GLabel 2700 1450 0    60   Input ~ 0
+Text GLabel 2700 1450 0    60   Output ~ 0
 GPIF_PCLK
 NoConn ~ 5950 6250
 $Comp
@@ -488,7 +489,7 @@ Text GLabel 3950 1250 2    60   Output ~ 0
 GPIF_SLRD#T
 Text GLabel 3950 1350 2    60   Output ~ 0
 GPIF_SLOE#T
-Text GLabel 3950 1450 2    60   Output ~ 0
+Text GLabel 3950 1450 2    60   Input ~ 0
 GPIF_PCLKT
 Text GLabel 3850 2550 2    60   BiDi ~ 0
 GD_0T
@@ -898,7 +899,7 @@ Text GLabel 5950 4650 0    60   BiDi ~ 0
 GD_2T
 Text GLabel 5950 2050 0    60   Input ~ 0
 GPIF_FLAGAT
-Text GLabel 5950 4050 0    60   Input ~ 0
+Text GLabel 5950 4050 0    60   Output ~ 0
 GPIF_PCLKT
 Text GLabel 5950 1550 0    60   BiDi ~ 0
 GA_1T

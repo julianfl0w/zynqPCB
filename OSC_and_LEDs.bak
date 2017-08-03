@@ -73,6 +73,7 @@ LIBS:tps22963c
 LIBS:gndtie
 LIBS:GSB3211311WEU
 LIBS:DFTCustom
+LIBS:TLV320AIC3104
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -628,17 +629,17 @@ Connection ~ 7350 1200
 Wire Wire Line
 	6900 1200 7350 1200
 Text Label 5350 1700 0    60   ~ 0
-LED_1R
+LED_1RC
 Text Label 5350 2850 0    60   ~ 0
-LED_2R
+LED_2RC
 Text Label 5350 1800 0    60   ~ 0
-LED_1G
+LED_1GC
 Text Label 5350 1900 0    60   ~ 0
-LED_1B
+LED_1BC
 Text Label 5350 2950 0    60   ~ 0
-LED_2G
+LED_2GC
 Text Label 5350 3050 0    60   ~ 0
-LED_2B
+LED_2BC
 $Comp
 L IRLML2502 Q15
 U 1 1 59086639
@@ -973,4 +974,16 @@ F 3 "" H 8100 950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8100 4950
+Text Label 6250 1600 0    60   ~ 0
+LED_1RA
+Text Label 6250 1800 0    60   ~ 0
+LED_1GA
+Text Label 6250 2000 0    60   ~ 0
+LED_1BA
+Text Label 6250 2750 0    60   ~ 0
+LED_2RA
+Text Label 6250 2950 0    60   ~ 0
+LED_2GA
+Text Label 6250 3150 0    60   ~ 0
+LED_2BA
 $EndSCHEMATC
