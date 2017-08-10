@@ -1,4 +1,4 @@
-update=8/2/2017 1:28:31 PM
+update=8/9/2017 3:44:03 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -122,3 +122,9 @@ LibName80=lib/gndtie
 LibName81=lib/GSB3211311WEU
 LibName82=lib/DFTCustom
 LibName83=lib/TLV320AIC3104
+LibName84=lib/tpa2010d1
+LibName85=lib/lis2hh12
+LibName86=lib/Ghost
+LibName87=lib/asflmb
+LibName88=lib/er-con06hb-1
+LibName89=lib/jack_trs_4pins

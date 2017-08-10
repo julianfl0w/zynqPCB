@@ -74,6 +74,12 @@ LIBS:gndtie
 LIBS:GSB3211311WEU
 LIBS:DFTCustom
 LIBS:TLV320AIC3104
+LIBS:tpa2010d1
+LIBS:lis2hh12
+LIBS:Ghost
+LIBS:asflmb
+LIBS:er-con06hb-1
+LIBS:jack_trs_4pins
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -121,8 +127,8 @@ $EndSheet
 $Sheet
 S 1600 1950 1150 1050
 U 5852FF3B
-F0 "rangefinder" 60
-F1 "rangefinder.sch" 60
+F0 "Sensors" 60
+F1 "sensors.sch" 60
 $EndSheet
 $Sheet
 S 3600 5150 1050 1000
