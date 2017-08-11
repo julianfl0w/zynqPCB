@@ -1136,13 +1136,13 @@ Text GLabel 9600 2400 0    60   Output ~ 0
 LCD_DorI
 Text GLabel 9600 3300 0    60   Output ~ 0
 LCD_CS
-Text GLabel 9600 4800 0    60   Output ~ 0
-RGB_DE
-Text GLabel 9600 4700 0    60   Output ~ 0
-RGB_DOTCLK
-Text GLabel 9600 5200 0    60   Output ~ 0
-RGB_HSYNC
 Text GLabel 9600 5300 0    60   Output ~ 0
+RGB_DE
+Text GLabel 9600 5200 0    60   Output ~ 0
+RGB_DOTCLK
+Text GLabel 9600 4700 0    60   Output ~ 0
+RGB_HSYNC
+Text GLabel 9600 4800 0    60   Output ~ 0
 RGB_VSYNC
 Text GLabel 9600 5400 0    60   Output ~ 0
 LCD_RST

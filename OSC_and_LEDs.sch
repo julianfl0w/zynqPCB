@@ -209,8 +209,6 @@ Text GLabel 2600 1500 2    60   Output ~ 0
 CLK100MHz
 Text GLabel 9600 3400 0    60   Input ~ 0
 CLK100MHz
-Wire Wire Line
-	9350 5850 9350 6200
 Connection ~ 10350 6100
 Connection ~ 10100 6100
 Connection ~ 9850 6100
@@ -290,7 +288,6 @@ F 3 "" H 2400 1900 50  0000 C CNN
 	1    2400 1900
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9600 5800
 Wire Wire Line
 	5150 5800 5150 5700
 Wire Wire Line
@@ -702,9 +699,6 @@ Wire Wire Line
 Connection ~ 7450 1300
 Wire Wire Line
 	9100 6100 10600 6100
-Wire Wire Line
-	9350 5900 9600 5900
-Connection ~ 9350 5900
 $Comp
 L GND #PWR046
 U 1 1 598ADA0E
@@ -803,12 +797,12 @@ $EndComp
 $Comp
 L +1.8V #PWR049
 U 1 1 598B6CF5
-P 9350 5850
-F 0 "#PWR049" H 9350 5990 20  0001 C CNN
-F 1 "+1.8V" H 9350 5960 30  0000 C CNN
-F 2 "" H 9350 5850 60  0001 C CNN
-F 3 "" H 9350 5850 60  0001 C CNN
-	1    9350 5850
+P 9600 6100
+F 0 "#PWR049" H 9600 6240 20  0001 C CNN
+F 1 "+1.8V" H 9600 6210 30  0000 C CNN
+F 2 "" H 9600 6100 60  0001 C CNN
+F 3 "" H 9600 6100 60  0001 C CNN
+	1    9600 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1021,43 +1015,7 @@ Connection ~ 7800 5850
 Wire Wire Line
 	7750 5900 7750 5800
 Connection ~ 7750 5850
-$Comp
-L +1.8V #PWR055
-U 1 1 598CFD34
-P 7450 5550
-F 0 "#PWR055" H 7450 5690 20  0001 C CNN
-F 1 "+1.8V" H 7450 5660 30  0000 C CNN
-F 2 "" H 7450 5550 60  0001 C CNN
-F 3 "" H 7450 5550 60  0001 C CNN
-	1    7450 5550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7450 5500 7450 5600
-Wire Wire Line
-	7450 5500 7300 5500
-Wire Wire Line
-	7450 5600 7300 5600
-Connection ~ 7450 5550
-$Comp
-L GND #PWR056
-U 1 1 598D049B
-P 7450 5350
-F 0 "#PWR056" H 7450 5100 50  0001 C CNN
-F 1 "GND" H 7450 5200 50  0000 C CNN
-F 2 "" H 7450 5350 50  0000 C CNN
-F 3 "" H 7450 5350 50  0000 C CNN
-	1    7450 5350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7300 5300 7450 5300
-Wire Wire Line
-	7450 5300 7450 5400
-Wire Wire Line
-	7450 5400 7300 5400
-Connection ~ 7450 5350
-Text Notes 7650 5500 0    60   ~ 0
+Text Notes 8600 6850 0    60   ~ 0
 8080-I 18-bit Interface
 Text GLabel 7300 4800 2    60   Input ~ 0
 RGB_DE
@@ -1147,7 +1105,6 @@ RGB_VSYNC
 Text GLabel 9600 5400 0    60   Output ~ 0
 LCD_RST
 NoConn ~ 9600 4600
-NoConn ~ 9600 5500
 NoConn ~ 7300 1500
 NoConn ~ 7300 1600
 NoConn ~ 7300 1700
@@ -1501,6 +1458,134 @@ $EndComp
 NoConn ~ 2550 4300
 Text GLabel 9600 2500 0    60   Output ~ 0
 I2S_BCLK
+Text GLabel 9600 1100 0    60   Output ~ 0
+TEMPO_LED
+Text GLabel 2550 4100 0    60   Output ~ 0
+I2S_LRCLK
+Text GLabel 9600 1500 0    60   Input ~ 0
+LED_2R_CTRL
+Text GLabel 9600 1600 0    60   Input ~ 0
+LED_2G_CTRL
+Text GLabel 9600 1700 0    60   Input ~ 0
+LED_2B_CTRL
+Text GLabel 2550 3900 0    60   Input ~ 0
+I2S_ADCSD
+NoConn ~ 2550 2900
+NoConn ~ 9600 900 
+NoConn ~ 9600 1200
+NoConn ~ 9600 1300
+NoConn ~ 9600 1400
+NoConn ~ 9600 1800
+NoConn ~ 9600 1900
+NoConn ~ 9600 2000
+NoConn ~ 9600 2200
+NoConn ~ 9600 2600
+NoConn ~ 9600 2700
+NoConn ~ 9600 3600
+Wire Wire Line
+	8450 6900 8450 6750
+Connection ~ 8500 6900
+$Comp
+L +1.8V #PWR055
+U 1 1 598CFD34
+P 8500 6900
+F 0 "#PWR055" H 8500 7040 20  0001 C CNN
+F 1 "+1.8V" H 8500 7010 30  0000 C CNN
+F 2 "" H 8500 6900 60  0001 C CNN
+F 3 "" H 8500 6900 60  0001 C CNN
+	1    8500 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8550 6900 8550 6750
+Wire Wire Line
+	8550 6900 8450 6900
+Wire Wire Line
+	8200 6900 8200 6750
+Connection ~ 8250 6900
+Wire Wire Line
+	8300 6750 8300 6900
+Wire Wire Line
+	8300 6900 8200 6900
+$Comp
+L GND #PWR056
+U 1 1 598D049B
+P 8250 6900
+F 0 "#PWR056" H 8250 6650 50  0001 C CNN
+F 1 "GND" H 8250 6750 50  0000 C CNN
+F 2 "" H 8250 6900 50  0000 C CNN
+F 3 "" H 8250 6900 50  0000 C CNN
+	1    8250 6900
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 6450 1    60   Input ~ 0
+LCD_IM3
+Text GLabel 8300 6450 1    60   Input ~ 0
+LCD_IM2
+Text GLabel 8450 6450 1    60   Input ~ 0
+LCD_IM1
+Text GLabel 8550 6450 1    60   Input ~ 0
+LCD_IM0
+$Comp
+L R R?
+U 1 1 598E0C58
+P 8200 6600
+F 0 "R?" V 8280 6600 50  0000 C CNN
+F 1 "10k" V 8200 6600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 8130 6600 50  0001 C CNN
+F 3 "" H 8200 6600 50  0000 C CNN
+	1    8200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 598E0CC1
+P 8300 6600
+F 0 "R?" V 8380 6600 50  0000 C CNN
+F 1 "10k" V 8300 6600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 8230 6600 50  0001 C CNN
+F 3 "" H 8300 6600 50  0000 C CNN
+	1    8300 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 598E0E36
+P 8450 6600
+F 0 "R?" V 8530 6600 50  0000 C CNN
+F 1 "10k" V 8450 6600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 8380 6600 50  0001 C CNN
+F 3 "" H 8450 6600 50  0000 C CNN
+	1    8450 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 598E0EDE
+P 8550 6600
+F 0 "R?" V 8630 6600 50  0000 C CNN
+F 1 "10k" V 8550 6600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 8480 6600 50  0001 C CNN
+F 3 "" H 8550 6600 50  0000 C CNN
+	1    8550 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 7300 5300 2    60   Input ~ 0
+LCD_IM3
+Text GLabel 7300 5400 2    60   Input ~ 0
+LCD_IM2
+Text GLabel 7300 5500 2    60   Input ~ 0
+LCD_IM1
+Text GLabel 7300 5600 2    60   Input ~ 0
+LCD_IM0
+Text GLabel 9600 5700 0    60   Output ~ 0
+LCD_IM3
+Text GLabel 9600 5800 0    60   Output ~ 0
+LCD_IM2
+Text GLabel 9600 1000 0    60   Output ~ 0
+LCD_IM1
+Text GLabel 9600 5500 0    60   Output ~ 0
+LCD_IM0
 $Comp
 L xc7a50tftg256 U?
 U 5 1 590851FD
@@ -1514,30 +1599,8 @@ F 3 "" H 9600 900 60  0001 C CNN
 	5    9600 900 
 	1    0    0    -1  
 $EndComp
-Text GLabel 9600 1100 0    60   Output ~ 0
-TEMPO_LED
-NoConn ~ 9600 5700
-Text GLabel 2550 4100 0    60   Output ~ 0
-I2S_LRCLK
-Text GLabel 9600 1500 0    60   Input ~ 0
-LED_2R_CTRL
-Text GLabel 9600 1600 0    60   Input ~ 0
-LED_2G_CTRL
-Text GLabel 9600 1700 0    60   Input ~ 0
-LED_2B_CTRL
-Text GLabel 2550 3900 0    60   Input ~ 0
-I2S_ADCSD
-NoConn ~ 2550 2900
-NoConn ~ 9600 900 
-NoConn ~ 9600 1000
-NoConn ~ 9600 1200
-NoConn ~ 9600 1300
-NoConn ~ 9600 1400
-NoConn ~ 9600 1800
-NoConn ~ 9600 1900
-NoConn ~ 9600 2000
-NoConn ~ 9600 2200
-NoConn ~ 9600 2600
-NoConn ~ 9600 2700
-NoConn ~ 9600 3600
+Wire Wire Line
+	9600 5900 9350 5900
+Wire Wire Line
+	9350 5900 9350 6200
 $EndSCHEMATC
