@@ -84,7 +84,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 15
+Sheet 2 14
 Title ""
 Date ""
 Rev ""
@@ -113,13 +113,7 @@ F0 "FPGA_POWER" 60
 F1 "FPGA_POWER.sch" 60
 $EndSheet
 $Sheet
-S 4900 3800 1200 1200
-U 585C547A
-F0 "FPGA UNUSED IO" 60
-F1 "FPGA Unused IO.sch" 60
-$EndSheet
-$Sheet
-S 6650 2000 1150 1200
+S 4900 3750 1150 1200
 U 59084F78
 F0 "OSCLEDS" 60
 F1 "OSC_and_LEDs.sch" 60
