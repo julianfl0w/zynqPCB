@@ -101,13 +101,13 @@ F0 "FPGA" 60
 F1 "FPGA.sch" 60
 $EndSheet
 $Sheet
-S 5600 5200 1000 950
+S 5600 5200 1000 950 
 U 58508444
 F0 "Audio" 60
 F1 "Audio.sch" 60
 $EndSheet
 $Sheet
-S 3600 3650 1000 950
+S 3600 3650 1000 950 
 U 58508456
 F0 "Memory" 60
 F1 "Memory.sch" 60
@@ -143,7 +143,7 @@ F0 "Encoders" 60
 F1 "Encoders.sch" 60
 $EndSheet
 $Sheet
-S 5600 3650 1050 950
+S 5600 3650 1050 950 
 U 58818A06
 F0 "RAM" 60
 F1 "RAM.sch" 60
