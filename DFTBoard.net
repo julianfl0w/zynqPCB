@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/jcloi/Documents/KiCad/board_design/DFTBoard.sch)
-    (date "8/11/2017 2:53:54 PM")
+    (date "8/11/2017 5:04:32 PM")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2366,10 +2366,10 @@
         (pin (num 3) (name LEDA2) (type input))
         (pin (num 4) (name LEDA3) (type input))
         (pin (num 5) (name LEDA4) (type input))
-        (pin (num 6) (name IM0) (type power_in))
-        (pin (num 7) (name IM1) (type power_in))
-        (pin (num 8) (name IM2) (type power_in))
-        (pin (num 9) (name IM3) (type power_in))
+        (pin (num 6) (name IM0) (type input))
+        (pin (num 7) (name IM1) (type input))
+        (pin (num 8) (name IM2) (type input))
+        (pin (num 9) (name IM3) (type input))
         (pin (num 10) (name RESET) (type input))
         (pin (num 11) (name VSYNC) (type input))
         (pin (num 12) (name HSYNC) (type input))
