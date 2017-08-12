@@ -84,7 +84,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 14
+Sheet 8 14
 Title ""
 Date ""
 Rev ""
@@ -94,10 +94,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4750 1850 0    60   Input ~ 0
-I2C_SCLK
-Text GLabel 6150 1700 2    60   Input ~ 0
-I2C_SDIN
 $Comp
 L +1.8V #PWR095
 U 1 1 58594FA1
@@ -120,14 +116,6 @@ F 3 "" H 5450 2350 60  0001 C CNN
 	1    5450 2350
 	1    0    0    -1  
 $EndComp
-Text Notes 4150 2250 0    60   ~ 0
-Address: 1010000
-Text GLabel 6400 4150 2    60   Input ~ 0
-SPI_MOSI
-Text GLabel 4900 3850 0    60   Output ~ 0
-SPI_MISO
-Text GLabel 4900 3700 0    60   Input ~ 0
-SPIMEM_SS
 $Comp
 L GND #PWR097
 U 1 1 58666BA4
@@ -139,8 +127,6 @@ F 3 "" H 4700 4350 50  0000 C CNN
 	1    4700 4350
 	1    0    0    -1  
 $EndComp
-Text GLabel 6400 4000 2    60   Input ~ 0
-SPI_CLK
 $Comp
 L +1.8V #PWR098
 U 1 1 5868C7CB
@@ -159,7 +145,12 @@ P 5800 1250
 F 0 "C47" H 5810 1320 50  0000 L CNN
 F 1 ".01uF" H 5810 1170 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5800 1250 50  0001 C CNN
-F 3 "" H 5800 1250 50  0000 C CNN
+F 3 "" H 5800 1250 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM155R71H103KA88D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-4516-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    5800 1250
 	1    0    0    -1  
 $EndComp
@@ -170,16 +161,15 @@ P 6150 1250
 F 0 "C48" H 6160 1320 50  0000 L CNN
 F 1 ".1uF" H 6160 1170 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6150 1250 50  0001 C CNN
-F 3 "" H 6150 1250 50  0000 C CNN
+F 3 "" H 6150 1250 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM188R71C104KA01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-1532-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    6150 1250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 1100 5450 1350
-Wire Wire Line
-	5450 1150 6150 1150
-Connection ~ 5450 1150
-Connection ~ 5800 1150
 $Comp
 L GND-RESCUE-DFTBoard #PWR099
 U 1 1 586C114A
@@ -191,15 +181,6 @@ F 3 "" H 6000 1500 60  0001 C CNN
 	1    6000 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6150 1350 6150 1400
-Wire Wire Line
-	6150 1400 5800 1400
-Wire Wire Line
-	5800 1400 5800 1350
-Wire Wire Line
-	6000 1500 6000 1400
-Connection ~ 6000 1400
 $Comp
 L C_Small C50
 U 1 1 586C1991
@@ -207,7 +188,12 @@ P 7700 3900
 F 0 "C50" H 7710 3970 50  0000 L CNN
 F 1 ".1uF" H 7710 3820 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7700 3900 50  0001 C CNN
-F 3 "" H 7700 3900 50  0000 C CNN
+F 3 "" H 7700 3900 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM188R71C104KA01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-1532-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    7700 3900
 	1    0    0    -1  
 $EndComp
@@ -222,15 +208,6 @@ F 3 "" H 7550 4150 60  0001 C CNN
 	1    7550 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7700 4000 7700 4050
-Wire Wire Line
-	7700 4050 7350 4050
-Wire Wire Line
-	7350 4050 7350 4000
-Wire Wire Line
-	7550 4150 7550 4050
-Connection ~ 7550 4050
 $Comp
 L C_Small C49
 U 1 1 586C198B
@@ -238,7 +215,12 @@ P 7350 3900
 F 0 "C49" H 7360 3970 50  0000 L CNN
 F 1 ".01uF" H 7360 3820 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 7350 3900 50  0001 C CNN
-F 3 "" H 7350 3900 50  0000 C CNN
+F 3 "" H 7350 3900 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM155R71H103KA88D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-4516-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    7350 3900
 	1    0    0    -1  
 $EndComp
@@ -249,25 +231,15 @@ P 5650 4050
 F 0 "U3" H 5650 4150 50  0000 C CNN
 F 1 "W25Q128FW" H 5650 4350 50  0000 C CNN
 F 2 "Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm" H 5650 4250 50  0001 C CNN
-F 3 "DOCUMENTATION" H 5650 4250 50  0001 C CNN
+F 3 "" H 5650 4250 50  0001 C CNN
+F 4 "Winbond Electronics Corp" H 0   0   50  0001 C CNN "MFR"
+F 5 "W25Q128FWSIG" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "W25Q128FWSIG-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    5650 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4900 4150 4700 4150
-Wire Wire Line
-	4700 4150 4700 4350
-Wire Wire Line
-	7700 3700 7700 3800
-Wire Wire Line
-	6400 3700 7700 3700
-Wire Wire Line
-	7350 3700 7350 3800
-Connection ~ 7350 3700
-Wire Wire Line
-	6400 3850 6900 3850
-Wire Wire Line
-	4250 4000 4900 4000
 $Comp
 L +1.8V #PWR0101
 U 1 1 5881768D
@@ -279,16 +251,6 @@ F 3 "" H 4250 3600 60  0001 C CNN
 	1    4250 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7550 3650 7550 3700
-Connection ~ 7550 3700
-Wire Wire Line
-	4250 3600 4250 4000
-Wire Wire Line
-	6900 3850 6900 3700
-Connection ~ 6900 3700
-Text Label 4450 4000 0    60   ~ 0
-SPIMEM_WP
 $Comp
 L M24M02-DR U2
 U 1 1 5890D70E
@@ -296,10 +258,78 @@ P 5450 1850
 F 0 "U2" H 5600 2200 50  0000 C CNN
 F 1 "M24M02-DR" H 5550 1850 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5450 1850 50  0001 C CNN
-F 3 "" H 5450 1850 50  0000 C CNN
+F 3 "" H 5450 1850 50  0001 C CNN
+F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "M24M02-DRMN6TP" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "497-11600-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    5450 1850
 	1    0    0    -1  
 $EndComp
+Text GLabel 4750 1850 0    60   Input ~ 0
+I2C_SCLK
+Text GLabel 6150 1700 2    60   Input ~ 0
+I2C_SDIN
+Text Notes 4150 2250 0    60   ~ 0
+Address: 1010000
+Text GLabel 6400 4150 2    60   Input ~ 0
+SPI_MOSI
+Text GLabel 4900 3850 0    60   Output ~ 0
+SPI_MISO
+Text GLabel 4900 3700 0    60   Input ~ 0
+SPIMEM_SS
+Text GLabel 6400 4000 2    60   Input ~ 0
+SPI_CLK
+Text Label 4450 4000 0    60   ~ 0
+SPIMEM_WP
+Wire Wire Line
+	5450 1100 5450 1350
+Wire Wire Line
+	5450 1150 6150 1150
+Wire Wire Line
+	6150 1350 6150 1400
+Wire Wire Line
+	6150 1400 5800 1400
+Wire Wire Line
+	5800 1400 5800 1350
+Wire Wire Line
+	6000 1500 6000 1400
+Wire Wire Line
+	7700 4000 7700 4050
+Wire Wire Line
+	7700 4050 7350 4050
+Wire Wire Line
+	7350 4050 7350 4000
+Wire Wire Line
+	7550 4150 7550 4050
+Wire Wire Line
+	4900 4150 4700 4150
+Wire Wire Line
+	4700 4150 4700 4350
+Wire Wire Line
+	7700 3700 7700 3800
+Wire Wire Line
+	6400 3700 7700 3700
+Wire Wire Line
+	7350 3700 7350 3800
+Wire Wire Line
+	6400 3850 6900 3850
+Wire Wire Line
+	4250 4000 4900 4000
+Wire Wire Line
+	7550 3650 7550 3700
+Wire Wire Line
+	4250 3600 4250 4000
+Wire Wire Line
+	6900 3850 6900 3700
+Connection ~ 5450 1150
+Connection ~ 5800 1150
+Connection ~ 6000 1400
+Connection ~ 7550 4050
+Connection ~ 7350 3700
+Connection ~ 7550 3700
+Connection ~ 6900 3700
 NoConn ~ 4750 1650
 NoConn ~ 4750 2050
 $EndSCHEMATC
