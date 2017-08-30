@@ -1481,13 +1481,13 @@ Text GLabel 4950 1700 0    60   BiDi ~ 0
 I2C_SDIN
 Text GLabel 9600 2500 0    60   Output ~ 0
 I2S_BCLK
-Text GLabel 9600 2600 0    60   Output ~ 0
+Text GLabel 9600 1100 0    60   Output ~ 0
 TEMPO_LED
 Text GLabel 2550 4100 0    60   Output ~ 0
 I2S_LRCLK
-Text GLabel 9600 1800 0    60   Input ~ 0
+Text GLabel 9600 1500 0    60   Input ~ 0
 LED_2R_CTRL
-Text GLabel 9600 2700 0    60   Input ~ 0
+Text GLabel 9600 1600 0    60   Input ~ 0
 LED_2G_CTRL
 Text GLabel 9600 1700 0    60   Input ~ 0
 LED_2B_CTRL
@@ -1845,6 +1845,16 @@ NoConn ~ 2550 3500
 NoConn ~ 2550 4400
 NoConn ~ 2550 4300
 NoConn ~ 2550 2900
+NoConn ~ 9600 900 
+NoConn ~ 9600 1200
+NoConn ~ 9600 1300
+NoConn ~ 9600 1400
+NoConn ~ 9600 1800
+NoConn ~ 9600 1900
+NoConn ~ 9600 2000
+NoConn ~ 9600 2200
+NoConn ~ 9600 2600
+NoConn ~ 9600 2700
 NoConn ~ 9600 3600
 $Comp
 L R R78
@@ -1944,14 +1954,4 @@ F 8 "" H -5100 1700 50  0001 C CNN "SPURL"
 	1    1000 7400
 	0    1    1    0   
 $EndComp
-NoConn ~ 9600 900 
-NoConn ~ 9600 1100
-NoConn ~ 9600 1200
-NoConn ~ 9600 1300
-NoConn ~ 9600 1400
-NoConn ~ 9600 1500
-NoConn ~ 9600 1600
-NoConn ~ 9600 1900
-NoConn ~ 9600 2000
-NoConn ~ 9600 2200
 $EndSCHEMATC

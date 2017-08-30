@@ -169,9 +169,20 @@ F 3 "" H 2050 5250 60  0001 C CNN
 $EndComp
 $Comp
 L +1.8V #PWR0213
+U 1 1 58828F8D
+P 4850 1250
+F 0 "#PWR0213" H 4850 1390 20  0001 C CNN
+F 1 "+1.8V" H 4850 1360 30  0000 C CNN
+F 2 "" H 4850 1250 60  0001 C CNN
+F 3 "" H 4850 1250 60  0001 C CNN
+	1    4850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.8V #PWR0214
 U 1 1 588297F8
 P 8950 6050
-F 0 "#PWR0213" H 8950 6190 20  0001 C CNN
+F 0 "#PWR0214" H 8950 6190 20  0001 C CNN
 F 1 "+1.8V" H 8950 6160 30  0000 C CNN
 F 2 "" H 8950 6050 60  0001 C CNN
 F 3 "" H 8950 6050 60  0001 C CNN
@@ -211,10 +222,10 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0214
+L GND #PWR0215
 U 1 1 58829F20
 P 1300 5300
-F 0 "#PWR0214" H 1300 5050 50  0001 C CNN
+F 0 "#PWR0215" H 1300 5050 50  0001 C CNN
 F 1 "GND" H 1300 5150 50  0000 C CNN
 F 2 "" H 1300 5300 50  0000 C CNN
 F 3 "" H 1300 5300 50  0000 C CNN
@@ -222,10 +233,10 @@ F 3 "" H 1300 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1.8V #PWR0215
+L +1.8V #PWR0216
 U 1 1 5882A093
 P 1300 4300
-F 0 "#PWR0215" H 1300 4440 20  0001 C CNN
+F 0 "#PWR0216" H 1300 4440 20  0001 C CNN
 F 1 "+1.8V" H 1300 4410 30  0000 C CNN
 F 2 "" H 1300 4300 60  0001 C CNN
 F 3 "" H 1300 4300 60  0001 C CNN
@@ -361,10 +372,10 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0216
+L GND #PWR0217
 U 1 1 588352D5
 P 1100 6350
-F 0 "#PWR0216" H 1100 6100 50  0001 C CNN
+F 0 "#PWR0217" H 1100 6100 50  0001 C CNN
 F 1 "GND" H 1100 6200 50  0000 C CNN
 F 2 "" H 1100 6350 50  0000 C CNN
 F 3 "" H 1100 6350 50  0000 C CNN
@@ -484,10 +495,10 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0217
+L GND #PWR0218
 U 1 1 5887E465
 P 7400 6250
-F 0 "#PWR0217" H 7400 6000 50  0001 C CNN
+F 0 "#PWR0218" H 7400 6000 50  0001 C CNN
 F 1 "GND" H 7400 6100 50  0000 C CNN
 F 2 "" H 7400 6250 50  0000 C CNN
 F 3 "" H 7400 6250 50  0000 C CNN
@@ -495,10 +506,10 @@ F 3 "" H 7400 6250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1.8V #PWR0218
+L +1.8V #PWR0219
 U 1 1 5887E495
 P 7400 5350
-F 0 "#PWR0218" H 7400 5490 20  0001 C CNN
+F 0 "#PWR0219" H 7400 5490 20  0001 C CNN
 F 1 "+1.8V" H 7400 5460 30  0000 C CNN
 F 2 "" H 7400 5350 60  0001 C CNN
 F 3 "" H 7400 5350 60  0001 C CNN
@@ -506,10 +517,26 @@ F 3 "" H 7400 5350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0219
+L xc7a50tftg256 U1
+U 3 1 58818CA5
+P 9150 1050
+F 0 "U1" H 9350 1300 60  0000 L CNN
+F 1 "xc7a50tftg256" H 9350 1200 60  0000 L CNN
+F 2 "SMD_Packages:BGA-256" H 9150 1050 60  0001 C CNN
+F 3 "" H 9150 1050 60  0001 C CNN
+F 4 "Xilinx" H 0   0   50  0001 C CNN "MFR"
+F 5 "XC7A50T-1FTG256C" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "122-1916-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	3    9150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0220
 U 1 1 58945519
 P 9150 1150
-F 0 "#PWR0219" H 9150 900 50  0001 C CNN
+F 0 "#PWR0220" H 9150 900 50  0001 C CNN
 F 1 "GND" H 9150 1000 50  0000 C CNN
 F 2 "" H 9150 1150 50  0000 C CNN
 F 3 "" H 9150 1150 50  0000 C CNN
@@ -517,10 +544,10 @@ F 3 "" H 9150 1150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PWR_FLAG #FLG0220
+L PWR_FLAG #FLG0221
 U 1 1 5987690E
 P 1350 6350
-F 0 "#FLG0220" H 1350 6445 50  0001 C CNN
+F 0 "#FLG0221" H 1350 6445 50  0001 C CNN
 F 1 "PWR_FLAG" H 1350 6530 50  0000 C CNN
 F 2 "" H 1350 6350 50  0000 C CNN
 F 3 "" H 1350 6350 50  0000 C CNN
@@ -615,118 +642,96 @@ Text GLabel 4600 1650 2    60   Input ~ 0
 RAM_CS#
 Text GLabel 4600 1750 2    60   Input ~ 0
 RAM_CKE
+Text GLabel 9150 5650 0    60   Output ~ 0
+RAM_A4
+Text GLabel 9150 4350 0    60   Output ~ 0
+RAM_A7
 Text Label 1800 4800 0    60   ~ 0
 VREF
-Text GLabel 9150 4050 0    60   BiDi ~ 0
+Text GLabel 9150 1250 0    60   BiDi ~ 0
 RAM_UDQS_N
-Text GLabel 9150 4150 0    60   BiDi ~ 0
+Text GLabel 9150 1550 0    60   Output ~ 0
+RAM_UDM
+Text GLabel 9150 2350 0    60   BiDi ~ 0
+RAM_DQ14
+Text GLabel 9150 1350 0    60   BiDi ~ 0
 RAM_UDQS_P
-Text GLabel 9150 2850 0    60   BiDi ~ 0
+Text GLabel 9150 2250 0    60   BiDi ~ 0
+RAM_DQ15
+Text GLabel 9150 1450 0    60   BiDi ~ 0
+RAM_DQ9
+Text GLabel 9150 1750 0    60   BiDi ~ 0
+RAM_DQ8
+Text GLabel 9150 3850 0    60   BiDi ~ 0
+RAM_DQ11
+Text GLabel 9150 1650 0    60   BiDi ~ 0
+RAM_DQ12
+Text GLabel 9150 1950 0    60   BiDi ~ 0
+RAM_DQ13
+Text GLabel 9150 3950 0    60   BiDi ~ 0
+RAM_DQ10
+Text GLabel 9150 2050 0    60   BiDi ~ 0
 RAM_LDQS_N
-Text GLabel 9150 2950 0    60   BiDi ~ 0
+Text GLabel 9150 1850 0    60   Output ~ 0
+RAM_LDM
+Text GLabel 9150 3350 0    60   BiDi ~ 0
+RAM_DQ6
+Text GLabel 9150 3750 0    60   BiDi ~ 0
+RAM_DQ7
+Text GLabel 9150 2150 0    60   BiDi ~ 0
 RAM_LDQS_P
-Text GLabel 9150 4650 0    60   BiDi ~ 0
+Text GLabel 9150 3250 0    60   BiDi ~ 0
 RAM_DQ1
-Text GLabel 9150 4550 0    60   BiDi ~ 0
+Text GLabel 9150 2550 0    60   BiDi ~ 0
 RAM_DQ0
-Text GLabel 9150 3150 0    60   BiDi ~ 0
+Text GLabel 9150 2450 0    60   BiDi ~ 0
 RAM_DQ3
-Text GLabel 9150 4450 0    60   BiDi ~ 0
+Text GLabel 9150 2650 0    60   BiDi ~ 0
 RAM_DQ4
-Text GLabel 9150 2750 0    60   BiDi ~ 0
+Text GLabel 9150 2850 0    60   BiDi ~ 0
 RAM_DQ5
-Text GLabel 9150 3050 0    60   BiDi ~ 0
+Text GLabel 9150 2950 0    60   BiDi ~ 0
 RAM_DQ2
 Text GLabel 9150 3550 0    60   Output ~ 0
 RAM_CK_P
-Text GLabel 9150 3650 0    60   Output ~ 0
+Text GLabel 9150 2750 0    60   Output ~ 0
 RAM_RAS#
 Text GLabel 9150 3450 0    60   Output ~ 0
 RAM_CK_N
-Text GLabel 9150 2650 0    60   Output ~ 0
+Text GLabel 9150 4150 0    60   Output ~ 0
 RAM_CKE
-Text GLabel 9150 2450 0    60   Output ~ 0
+Text GLabel 9150 4050 0    60   Output ~ 0
 RAM_WE#
-Text GLabel 9150 2050 0    60   Output ~ 0
+Text GLabel 9150 4450 0    60   Output ~ 0
 RAM_CAS#
-Text GLabel 9150 2150 0    60   Output ~ 0
+Text GLabel 9150 3650 0    60   Output ~ 0
 RAM_BA1
-Text GLabel 9150 3350 0    60   Output ~ 0
+Text GLabel 9150 4650 0    60   Output ~ 0
 RAM_A1
-Text GLabel 9150 3850 0    60   Output ~ 0
+Text GLabel 9150 4550 0    60   Output ~ 0
 RAM_A10
-Text GLabel 9150 3250 0    60   Output ~ 0
-RAM_BA0
-Text GLabel 9150 3950 0    60   Output ~ 0
-RAM_CS#
-Text GLabel 9150 1850 0    60   Output ~ 0
-RAM_A2
-NoConn ~ 4600 2850
-Text GLabel 4600 1450 2    60   Input ~ 0
-RAM_ODT
-Text GLabel 9150 2550 0    60   Output ~ 0
-RAM_ODT
 Text GLabel 9150 5250 0    60   Output ~ 0
-RAM_LDM
-Text GLabel 9150 4250 0    60   BiDi ~ 0
-RAM_DQ6
-Text GLabel 9150 5050 0    60   Output ~ 0
-RAM_UDM
-Text GLabel 9150 5150 0    60   BiDi ~ 0
-RAM_DQ14
-Text GLabel 9150 5950 0    60   BiDi ~ 0
-RAM_DQ15
-Text GLabel 9150 4850 0    60   BiDi ~ 0
-RAM_DQ8
-Text GLabel 9150 5850 0    60   BiDi ~ 0
-RAM_DQ11
-Text GLabel 9150 5350 0    60   BiDi ~ 0
-RAM_DQ12
-Text GLabel 9150 5450 0    60   BiDi ~ 0
-RAM_DQ10
-NoConn ~ 9150 5750
-Text GLabel 9150 5550 0    60   BiDi ~ 0
-RAM_DQ9
-Text GLabel 9150 4350 0    60   BiDi ~ 0
-RAM_DQ13
-Text GLabel 9150 4750 0    60   BiDi ~ 0
-RAM_DQ7
-Text GLabel 9150 1250 0    60   Output ~ 0
-RAM_A4
-Text GLabel 9150 1750 0    60   Output ~ 0
-RAM_A7
-Text GLabel 9150 1950 0    60   Output ~ 0
+RAM_BA0
+Text GLabel 9150 4750 0    60   Output ~ 0
 RAM_A3
-Text GLabel 9150 1650 0    60   Output ~ 0
+Text GLabel 9150 4250 0    60   Output ~ 0
 RAM_A5
-Text GLabel 9150 1450 0    60   Output ~ 0
+Text GLabel 9150 4850 0    60   Output ~ 0
 RAM_A9
-Text GLabel 9150 1550 0    60   Output ~ 0
+Text GLabel 9150 5450 0    60   Output ~ 0
 RAM_A12
-Text GLabel 9150 2250 0    60   Output ~ 0
-RAM_A6
-Text GLabel 9150 2350 0    60   Output ~ 0
-RAM_A11
-Text GLabel 9150 1350 0    60   Output ~ 0
-RAM_A8
-Text GLabel 9150 1050 0    60   Output ~ 0
+Text GLabel 9150 5850 0    60   Output ~ 0
+RAM_CS#
+Text GLabel 9150 5350 0    60   Output ~ 0
+RAM_A2
+Text GLabel 9150 5550 0    60   Output ~ 0
 RAM_A0
-$Comp
-L xc7a50tftg256 U1
-U 3 1 58818CA5
-P 9150 1050
-F 0 "U1" H 9350 1300 60  0000 L CNN
-F 1 "xc7a50tftg256" H 9350 1200 60  0000 L CNN
-F 2 "SMD_Packages:BGA-256" H 9150 1050 60  0001 C CNN
-F 3 "" H 9150 1050 60  0001 C CNN
-F 4 "Xilinx" H 0   0   50  0001 C CNN "MFR"
-F 5 "XC7A50T-1FTG256C" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "122-1916-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	3    9150 1050
-	1    0    0    -1  
-$EndComp
+Text GLabel 9150 5150 0    60   Output ~ 0
+RAM_A6
+Text GLabel 9150 5050 0    60   Output ~ 0
+RAM_A11
+Text GLabel 9150 5750 0    60   Output ~ 0
+RAM_A8
 Wire Wire Line
 	9150 6050 8950 6050
 Wire Wire Line
@@ -795,6 +800,10 @@ Wire Wire Line
 	2250 6800 2050 6800
 Wire Wire Line
 	2250 6900 2050 6900
+Wire Wire Line
+	4850 1250 4850 1450
+Wire Wire Line
+	4850 1450 4600 1450
 Wire Wire Line
 	2050 7000 2050 5250
 Wire Wire Line
@@ -927,7 +936,10 @@ Connection ~ 7650 6150
 Connection ~ 7400 6150
 Connection ~ 7150 6150
 Connection ~ 1350 6250
-NoConn ~ 9150 5650
-NoConn ~ 9150 3750
+NoConn ~ 9150 5950
 NoConn ~ 9150 4950
+NoConn ~ 4600 2850
+NoConn ~ 9150 3050
+NoConn ~ 9150 3150
+NoConn ~ 9150 1050
 $EndSCHEMATC
