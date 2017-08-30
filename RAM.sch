@@ -168,17 +168,6 @@ F 3 "" H 2050 5250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1.8V #PWR0213
-U 1 1 58828F8D
-P 4850 1250
-F 0 "#PWR0213" H 4850 1390 20  0001 C CNN
-F 1 "+1.8V" H 4850 1360 30  0000 C CNN
-F 2 "" H 4850 1250 60  0001 C CNN
-F 3 "" H 4850 1250 60  0001 C CNN
-	1    4850 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L +1.8V #PWR0214
 U 1 1 588297F8
 P 8950 6050
@@ -801,10 +790,6 @@ Wire Wire Line
 Wire Wire Line
 	2250 6900 2050 6900
 Wire Wire Line
-	4850 1250 4850 1450
-Wire Wire Line
-	4850 1450 4600 1450
-Wire Wire Line
 	2050 7000 2050 5250
 Wire Wire Line
 	1300 4650 1300 4950
@@ -939,7 +924,10 @@ Connection ~ 1350 6250
 NoConn ~ 9150 5950
 NoConn ~ 9150 4950
 NoConn ~ 4600 2850
-NoConn ~ 9150 3050
 NoConn ~ 9150 3150
 NoConn ~ 9150 1050
+Text GLabel 4600 1450 2    60   Input ~ 0
+RAM_ODT
+Text GLabel 9150 3050 0    60   Output ~ 0
+RAM_ODT
 $EndSCHEMATC
