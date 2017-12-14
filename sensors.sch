@@ -35,7 +35,6 @@ LIBS:wm8758b
 LIBS:SC189
 LIBS:s70fl01gs
 LIBS:PROpendous-cache
-LIBS:logo
 LIBS:JTAG
 LIBS:Audio-cache
 LIBS:beagledancer
@@ -414,11 +413,11 @@ Connection ~ 6050 5250
 Connection ~ 4050 4750
 Connection ~ 6050 4650
 Connection ~ 6150 4650
-NoConn ~ 5900 3900
 NoConn ~ 4750 5150
 NoConn ~ 4750 5250
 Text Notes 6100 4000 0    60   ~ 0
 address 0x52
 Text Notes 6200 5250 0    60   ~ 0
 address 0b0011101
+NoConn ~ 5900 3900
 $EndSCHEMATC

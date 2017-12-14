@@ -35,7 +35,6 @@ LIBS:wm8758b
 LIBS:SC189
 LIBS:s70fl01gs
 LIBS:PROpendous-cache
-LIBS:logo
 LIBS:JTAG
 LIBS:Audio-cache
 LIBS:beagledancer

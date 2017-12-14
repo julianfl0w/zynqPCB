@@ -35,7 +35,6 @@ LIBS:wm8758b
 LIBS:SC189
 LIBS:s70fl01gs
 LIBS:PROpendous-cache
-LIBS:logo
 LIBS:JTAG
 LIBS:Audio-cache
 LIBS:beagledancer
@@ -627,7 +626,6 @@ F 4 "EastRising" H 0   0   50  0001 C CNN "MFR"
 F 5 "ER-CON50HT-1" H 0   0   50  0001 C CNN "MPN"
 F 6 "BuyDisplay" H 0   0   50  0001 C CNN "SPR"
 F 7 "ER-CON50HT-1" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    6950 4350
 	-1   0    0    1   
 $EndComp
