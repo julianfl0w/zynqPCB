@@ -1,0 +1,334 @@
+EESchema Schematic File Version 2
+LIBS:DFTBoard-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:xilinx
+LIBS:xilinx7
+LIBS:IS31FL3199_LED_driver
+LIBS:wm8758b
+LIBS:SC189
+LIBS:s70fl01gs
+LIBS:PROpendous-cache
+LIBS:JTAG
+LIBS:Audio-cache
+LIBS:beagledancer
+LIBS:DFTBoard-cache
+LIBS:Memory-cache
+LIBS:usb_condom_extended_v1-cache
+LIBS:tinkerforge
+LIBS:si570
+LIBS:hdmi_BiDir_n
+LIBS:LevelShifter Components
+LIBS:N25Q128A
+LIBS:sparkfun
+LIBS:48258-0001
+LIBS:ArduinoSpecAn-cache
+LIBS:passiveelectret
+LIBS:passiveind
+LIBS:passiveinductor
+LIBS:fb_powerout
+LIBS:ferrite
+LIBS:df_device
+LIBS:JACK_TRS_5PINS
+LIBS:MEMSMIC
+LIBS:illuminatedswitch
+LIBS:powerswitch
+LIBS:winbond
+LIBS:cy7c65634-28ltxc
+LIBS:powerjumper
+LIBS:au-y1008-2
+LIBS:hdmi_conn
+LIBS:wayne_and_layne_kicad_symbols
+LIBS:m24m02-dr
+LIBS:fxo-hc73
+LIBS:crystal_small_4pad
+LIBS:tps22963c
+LIBS:gndtie
+LIBS:GSB3211311WEU
+LIBS:DFTCustom
+LIBS:TLV320AIC3104
+LIBS:tpa2010d1
+LIBS:lis2hh12
+LIBS:Ghost
+LIBS:asflmb
+LIBS:er-con06hb-1
+LIBS:jack_trs_4pins
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L +1.8V #PWR096
+U 1 1 58594FA1
+P 5450 1100
+F 0 "#PWR096" H 5450 1240 20  0001 C CNN
+F 1 "+1.8V" H 5450 1210 30  0000 C CNN
+F 2 "" H 5450 1100 60  0001 C CNN
+F 3 "" H 5450 1100 60  0001 C CNN
+	1    5450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-DFTBoard #PWR097
+U 1 1 58594FFB
+P 5450 2350
+F 0 "#PWR097" H 5450 2350 30  0001 C CNN
+F 1 "GND" H 5450 2280 30  0001 C CNN
+F 2 "" H 5450 2350 60  0001 C CNN
+F 3 "" H 5450 2350 60  0001 C CNN
+	1    5450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR098
+U 1 1 58666BA4
+P 4700 4350
+F 0 "#PWR098" H 4700 4100 50  0001 C CNN
+F 1 "GND" H 4700 4200 50  0000 C CNN
+F 2 "" H 4700 4350 50  0000 C CNN
+F 3 "" H 4700 4350 50  0000 C CNN
+	1    4700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.8V #PWR099
+U 1 1 5868C7CB
+P 7550 3650
+F 0 "#PWR099" H 7550 3790 20  0001 C CNN
+F 1 "+1.8V" H 7550 3760 30  0000 C CNN
+F 2 "" H 7550 3650 60  0001 C CNN
+F 3 "" H 7550 3650 60  0001 C CNN
+	1    7550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C47
+U 1 1 586C100D
+P 5800 1250
+F 0 "C47" H 5810 1320 50  0000 L CNN
+F 1 ".01uF" H 5810 1170 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5800 1250 50  0001 C CNN
+F 3 "" H 5800 1250 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM155R71H103KA88D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-4516-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    5800 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C48
+U 1 1 586C107B
+P 6150 1250
+F 0 "C48" H 6160 1320 50  0000 L CNN
+F 1 ".1uF" H 6160 1170 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6150 1250 50  0001 C CNN
+F 3 "" H 6150 1250 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM188R71C104KA01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-1532-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    6150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-DFTBoard #PWR0100
+U 1 1 586C114A
+P 6000 1500
+F 0 "#PWR0100" H 6000 1500 30  0001 C CNN
+F 1 "GND" H 6000 1430 30  0001 C CNN
+F 2 "" H 6000 1500 60  0001 C CNN
+F 3 "" H 6000 1500 60  0001 C CNN
+	1    6000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C50
+U 1 1 586C1991
+P 7700 3900
+F 0 "C50" H 7710 3970 50  0000 L CNN
+F 1 ".1uF" H 7710 3820 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7700 3900 50  0001 C CNN
+F 3 "" H 7700 3900 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM188R71C104KA01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-1532-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    7700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-DFTBoard #PWR0101
+U 1 1 586C1999
+P 7550 4150
+F 0 "#PWR0101" H 7550 4150 30  0001 C CNN
+F 1 "GND" H 7550 4080 30  0001 C CNN
+F 2 "" H 7550 4150 60  0001 C CNN
+F 3 "" H 7550 4150 60  0001 C CNN
+	1    7550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C49
+U 1 1 586C198B
+P 7350 3900
+F 0 "C49" H 7360 3970 50  0000 L CNN
+F 1 ".01uF" H 7360 3820 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7350 3900 50  0001 C CNN
+F 3 "" H 7350 3900 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM155R71H103KA88D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-4516-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    7350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L W25Q128FW U3
+U 1 1 58816E80
+P 5650 4050
+F 0 "U3" H 5650 4150 50  0000 C CNN
+F 1 "W25Q128FW" H 5650 4350 50  0000 C CNN
+F 2 "Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm" H 5650 4250 50  0001 C CNN
+F 3 "" H 5650 4250 50  0001 C CNN
+F 4 "Winbond Electronics Corp" H 0   0   50  0001 C CNN "MFR"
+F 5 "W25Q128FWSIG" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "W25Q128FWSIG-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    5650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.8V #PWR0102
+U 1 1 5881768D
+P 4250 3600
+F 0 "#PWR0102" H 4250 3740 20  0001 C CNN
+F 1 "+1.8V" H 4250 3710 30  0000 C CNN
+F 2 "" H 4250 3600 60  0001 C CNN
+F 3 "" H 4250 3600 60  0001 C CNN
+	1    4250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L M24M02-DR U2
+U 1 1 5890D70E
+P 5450 1850
+F 0 "U2" H 5600 2200 50  0000 C CNN
+F 1 "M24M02-DR" H 5550 1850 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5450 1850 50  0001 C CNN
+F 3 "" H 5450 1850 50  0001 C CNN
+F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "M24M02-DRMN6TP" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "497-11600-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    5450 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 1850 0    60   Input ~ 0
+I2C_SCLK
+Text GLabel 6150 1700 2    60   Input ~ 0
+I2C_SDIN
+Text Notes 4150 2250 0    60   ~ 0
+Address: 1010000
+Text GLabel 6400 4150 2    60   Input ~ 0
+SPI_MOSI
+Text GLabel 4900 3850 0    60   Output ~ 0
+SPI_MISO
+Text GLabel 4900 3700 0    60   Input ~ 0
+SPIMEM_SS
+Text GLabel 6400 4000 2    60   Input ~ 0
+SPI_CLK
+Text Label 4450 4000 0    60   ~ 0
+SPIMEM_WP
+Wire Wire Line
+	5450 1100 5450 1350
+Wire Wire Line
+	5450 1150 6150 1150
+Wire Wire Line
+	6150 1350 6150 1400
+Wire Wire Line
+	6150 1400 5800 1400
+Wire Wire Line
+	5800 1400 5800 1350
+Wire Wire Line
+	6000 1500 6000 1400
+Wire Wire Line
+	7700 4000 7700 4050
+Wire Wire Line
+	7700 4050 7350 4050
+Wire Wire Line
+	7350 4050 7350 4000
+Wire Wire Line
+	7550 4150 7550 4050
+Wire Wire Line
+	4900 4150 4700 4150
+Wire Wire Line
+	4700 4150 4700 4350
+Wire Wire Line
+	7700 3700 7700 3800
+Wire Wire Line
+	6400 3700 7700 3700
+Wire Wire Line
+	7350 3700 7350 3800
+Wire Wire Line
+	6400 3850 6900 3850
+Wire Wire Line
+	4250 4000 4900 4000
+Wire Wire Line
+	7550 3650 7550 3700
+Wire Wire Line
+	4250 3600 4250 4000
+Wire Wire Line
+	6900 3850 6900 3700
+Connection ~ 5450 1150
+Connection ~ 5800 1150
+Connection ~ 6000 1400
+Connection ~ 7550 4050
+Connection ~ 7350 3700
+Connection ~ 7550 3700
+Connection ~ 6900 3700
+NoConn ~ 4750 1650
+NoConn ~ 4750 2050
+$EndSCHEMATC

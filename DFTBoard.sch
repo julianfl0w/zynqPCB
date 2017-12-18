@@ -79,11 +79,13 @@ LIBS:Ghost
 LIBS:asflmb
 LIBS:er-con06hb-1
 LIBS:jack_trs_4pins
+LIBS:NorBot
+LIBS:CC2500
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 14
+Sheet 1 15
 Title ""
 Date ""
 Rev ""
@@ -146,5 +148,11 @@ S 5600 3600 1050 1000
 U 58818A06
 F0 "RAM" 60
 F1 "RAM.sch" 60
+$EndSheet
+$Sheet
+S 7350 1950 1000 1050
+U 5A36F1BB
+F0 "Radio" 60
+F1 "CC2500.sch" 60
 $EndSheet
 $EndSCHEMATC

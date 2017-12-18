@@ -79,11 +79,13 @@ LIBS:Ghost
 LIBS:asflmb
 LIBS:er-con06hb-1
 LIBS:jack_trs_4pins
+LIBS:NorBot
+LIBS:CC2500
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 14
+Sheet 6 15
 Title ""
 Date ""
 Rev ""
@@ -1852,7 +1854,6 @@ NoConn ~ 9600 1900
 NoConn ~ 9600 2000
 NoConn ~ 9600 2200
 NoConn ~ 9600 2600
-NoConn ~ 9600 2700
 NoConn ~ 9600 3600
 $Comp
 L R R78
@@ -1952,4 +1953,6 @@ F 8 "" H -5100 1700 50  0001 C CNN "SPURL"
 	1    1000 7400
 	0    1    1    0   
 $EndComp
+Text GLabel 9600 2700 0    60   Input ~ 0
+IR_OUT
 $EndSCHEMATC
