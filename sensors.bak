@@ -81,6 +81,7 @@ LIBS:er-con06hb-1
 LIBS:jack_trs_4pins
 LIBS:NorBot
 LIBS:CC2500
+LIBS:SparkFun-Sensors
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -277,89 +278,6 @@ Text GLabel 4750 4950 0    60   Input ~ 0
 I2C_SDIN
 Text GLabel 4750 4650 0    60   Input ~ 0
 I2C_SCLK
-Wire Wire Line
-	4700 3700 4550 3700
-Wire Wire Line
-	4550 3600 4550 4150
-Wire Wire Line
-	4700 3800 4550 3800
-Wire Wire Line
-	4700 3900 4550 3900
-Wire Wire Line
-	4700 4000 4550 4000
-Wire Wire Line
-	3700 3600 4700 3600
-Wire Wire Line
-	3700 3300 4700 3300
-Wire Wire Line
-	3700 3600 3700 3500
-Wire Wire Line
-	4000 3600 4000 3500
-Wire Wire Line
-	4700 3400 4550 3400
-Wire Wire Line
-	4550 3400 4550 3300
-Wire Wire Line
-	6100 2600 6100 2550
-Wire Wire Line
-	6100 2550 6300 2550
-Wire Wire Line
-	6300 2550 6300 2600
-Wire Wire Line
-	6100 3300 6100 2900
-Wire Wire Line
-	6300 3400 6300 2900
-Wire Wire Line
-	4000 3200 4000 3300
-Wire Wire Line
-	6400 3400 5900 3400
-Wire Wire Line
-	5950 5050 6050 5050
-Wire Wire Line
-	6050 5050 6050 5400
-Wire Wire Line
-	5950 5150 6050 5150
-Wire Wire Line
-	5950 5250 6050 5250
-Wire Wire Line
-	4750 4750 4050 4750
-Wire Wire Line
-	4050 4500 4050 4850
-Wire Wire Line
-	4050 4850 4750 4850
-Wire Wire Line
-	6150 4950 6150 4850
-Wire Wire Line
-	6450 4950 6450 4850
-Wire Wire Line
-	5950 4750 6050 4750
-Wire Wire Line
-	6050 4750 6050 4650
-Wire Wire Line
-	5950 4650 6450 4650
-Wire Wire Line
-	6150 4500 6150 4650
-Wire Wire Line
-	4750 5050 4450 5050
-Wire Wire Line
-	4450 5050 4450 5350
-Wire Wire Line
-	6100 3300 5900 3300
-Connection ~ 4550 3800
-Connection ~ 4550 3900
-Connection ~ 4550 4000
-Connection ~ 4550 3700
-Connection ~ 4000 3300
-Connection ~ 4550 3600
-Connection ~ 4000 3600
-Connection ~ 4550 3300
-Connection ~ 6200 2550
-Connection ~ 6300 3400
-Connection ~ 6050 5150
-Connection ~ 6050 5250
-Connection ~ 4050 4750
-Connection ~ 6050 4650
-Connection ~ 6150 4650
 NoConn ~ 4750 5150
 NoConn ~ 4750 5250
 Text Notes 6100 4000 0    60   ~ 0
@@ -444,17 +362,6 @@ F 3 "" H 7150 4700 50  0001 C CNN
 	1    7150 4700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7250 4500 7150 4500
-Wire Wire Line
-	7150 4500 7150 4700
-Wire Wire Line
-	7250 4600 7150 4600
-Connection ~ 7150 4600
-Wire Wire Line
-	7250 4300 7100 4300
-Wire Wire Line
-	7100 4300 7100 4100
 $Comp
 L R R36
 U 1 1 5A33AB4F
@@ -471,10 +378,6 @@ F 8 "" H 3450 -1100 50  0001 C CNN "SPURL"
 	1    8350 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8200 4300 8350 4300
-Wire Wire Line
-	8350 4300 8350 4400
 $Comp
 L R R44
 U 1 1 5A33ACEC
@@ -491,8 +394,6 @@ F 8 "" H -850 3050 50  0001 C CNN "SPURL"
 	1    8350 4950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8350 4700 8350 4800
 $Comp
 L GND #PWR0159
 U 1 1 5A33AD51
@@ -506,9 +407,6 @@ F 3 "" H 8350 5100 50  0001 C CNN
 $EndComp
 Text GLabel 8500 4750 2    60   Output ~ 0
 IR_OUT
-Wire Wire Line
-	8500 4750 8350 4750
-Connection ~ 8350 4750
 Text Notes 8550 4550 0    60   ~ 0
 2.2V voltage divider. too high?
 $Comp
@@ -522,4 +420,236 @@ F 3 "" H 7100 4100 50  0000 C CNN
 	1    7100 4100
 	1    0    0    -1  
 $EndComp
+$Comp
+L APDS-9960 U14
+U 1 1 5A3C088A
+P 8300 2950
+F 0 "U14" H 8200 3350 50  0000 L BNN
+F 1 "APDS-9960" H 7900 2550 50  0000 L BNN
+F 2 "APDS-9960" H 8330 3100 20  0001 C CNN
+F 3 "" H 8300 2950 60  0001 C CNN
+	1    8300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C137
+U 1 1 5A3C2566
+P 7400 2850
+F 0 "C137" H 7425 2950 50  0000 L CNN
+F 1 "1uF" H 7425 2750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7438 2700 50  0001 C CNN
+F 3 "" H 7400 2850 50  0001 C CNN
+F 4 "Murata" H 1400 -2500 50  0001 C CNN "MFR"
+F 5 "GRM188R71C105KE15D" H 1400 -2500 50  0001 C CNN "MPN"
+F 6 "Digikey" H 1400 -2500 50  0001 C CNN "SPR"
+F 7 "490-10734-1-ND" H 1400 -2500 50  0001 C CNN "SPN"
+F 8 "" H 1400 -2500 50  0001 C CNN "SPURL"
+	1    7400 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C138
+U 1 1 5A3C258E
+P 7550 3450
+F 0 "C138" H 7575 3550 50  0000 L CNN
+F 1 "1uF" H 7575 3350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7588 3300 50  0001 C CNN
+F 3 "" H 7550 3450 50  0001 C CNN
+F 4 "Murata" H 1550 -1900 50  0001 C CNN "MFR"
+F 5 "GRM188R71C105KE15D" H 1550 -1900 50  0001 C CNN "MPN"
+F 6 "Digikey" H 1550 -1900 50  0001 C CNN "SPR"
+F 7 "490-10734-1-ND" H 1550 -1900 50  0001 C CNN "SPN"
+F 8 "" H 1550 -1900 50  0001 C CNN "SPURL"
+	1    7550 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR0161
+U 1 1 5A3C2717
+P 7550 3600
+F 0 "#PWR0161" H 7550 3350 50  0001 C CNN
+F 1 "GND" H 7550 3450 50  0000 C CNN
+F 2 "" H 7550 3600 50  0001 C CNN
+F 3 "" H 7550 3600 50  0001 C CNN
+	1    7550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR0162
+U 1 1 5A3C3F6D
+P 7400 2600
+F 0 "#PWR0162" H 7400 2450 50  0001 C CNN
+F 1 "+3.3V" H 7400 2740 50  0000 C CNN
+F 2 "" H 7400 2600 50  0000 C CNN
+F 3 "" H 7400 2600 50  0000 C CNN
+	1    7400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0163
+U 1 1 5A3C4066
+P 7400 3050
+F 0 "#PWR0163" H 7400 2800 50  0001 C CNN
+F 1 "GND" H 7400 2900 50  0000 C CNN
+F 2 "" H 7400 3050 50  0001 C CNN
+F 3 "" H 7400 3050 50  0001 C CNN
+	1    7400 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3700 4550 3700
+Wire Wire Line
+	4550 3600 4550 4150
+Wire Wire Line
+	4700 3800 4550 3800
+Wire Wire Line
+	4700 3900 4550 3900
+Wire Wire Line
+	4700 4000 4550 4000
+Wire Wire Line
+	3700 3600 4700 3600
+Wire Wire Line
+	3700 3300 4700 3300
+Wire Wire Line
+	3700 3600 3700 3500
+Wire Wire Line
+	4000 3600 4000 3500
+Wire Wire Line
+	4700 3400 4550 3400
+Wire Wire Line
+	4550 3400 4550 3300
+Wire Wire Line
+	6100 2600 6100 2550
+Wire Wire Line
+	6100 2550 6300 2550
+Wire Wire Line
+	6300 2550 6300 2600
+Wire Wire Line
+	6100 3300 6100 2900
+Wire Wire Line
+	6300 3400 6300 2900
+Wire Wire Line
+	4000 3200 4000 3300
+Wire Wire Line
+	6400 3400 5900 3400
+Wire Wire Line
+	5950 5050 6050 5050
+Wire Wire Line
+	6050 5050 6050 5400
+Wire Wire Line
+	5950 5150 6050 5150
+Wire Wire Line
+	5950 5250 6050 5250
+Wire Wire Line
+	4750 4750 4050 4750
+Wire Wire Line
+	4050 4500 4050 4850
+Wire Wire Line
+	4050 4850 4750 4850
+Wire Wire Line
+	6150 4950 6150 4850
+Wire Wire Line
+	6450 4950 6450 4850
+Wire Wire Line
+	5950 4750 6050 4750
+Wire Wire Line
+	6050 4750 6050 4650
+Wire Wire Line
+	5950 4650 6450 4650
+Wire Wire Line
+	6150 4500 6150 4650
+Wire Wire Line
+	4750 5050 4450 5050
+Wire Wire Line
+	4450 5050 4450 5350
+Wire Wire Line
+	6100 3300 5900 3300
+Connection ~ 4550 3800
+Connection ~ 4550 3900
+Connection ~ 4550 4000
+Connection ~ 4550 3700
+Connection ~ 4000 3300
+Connection ~ 4550 3600
+Connection ~ 4000 3600
+Connection ~ 4550 3300
+Connection ~ 6200 2550
+Connection ~ 6300 3400
+Connection ~ 6050 5150
+Connection ~ 6050 5250
+Connection ~ 4050 4750
+Connection ~ 6050 4650
+Connection ~ 6150 4650
+Wire Wire Line
+	7250 4500 7150 4500
+Wire Wire Line
+	7150 4500 7150 4700
+Wire Wire Line
+	7250 4600 7150 4600
+Connection ~ 7150 4600
+Wire Wire Line
+	7250 4300 7100 4300
+Wire Wire Line
+	7100 4300 7100 4100
+Wire Wire Line
+	8200 4300 8350 4300
+Wire Wire Line
+	8350 4300 8350 4400
+Wire Wire Line
+	8350 4700 8350 4800
+Wire Wire Line
+	8500 4750 8350 4750
+Connection ~ 8350 4750
+Wire Wire Line
+	7800 3150 7550 3150
+Wire Wire Line
+	7550 3150 7550 3300
+Wire Wire Line
+	7600 2950 7800 2950
+Wire Wire Line
+	7600 3000 7600 2950
+Wire Wire Line
+	7050 3000 7600 3000
+Wire Wire Line
+	7050 2700 7600 2700
+Wire Wire Line
+	7600 2700 7600 2750
+Wire Wire Line
+	7600 2750 7800 2750
+Wire Wire Line
+	7400 2600 7400 2700
+Wire Wire Line
+	7400 3000 7400 3050
+Wire Wire Line
+	7700 2750 7700 3150
+Connection ~ 7700 3150
+Connection ~ 7700 2750
+Text GLabel 8800 3050 2    60   Input ~ 0
+I2C_SCLK
+Text GLabel 8800 3150 2    60   Input ~ 0
+I2C_SDIN
+NoConn ~ 8800 2950
+Wire Wire Line
+	8800 2850 8900 2850
+Wire Wire Line
+	8900 2850 8900 2750
+Wire Wire Line
+	8900 2750 8800 2750
+$Comp
+L C C136
+U 1 1 5A3C4743
+P 7050 2850
+F 0 "C136" H 7075 2950 50  0000 L CNN
+F 1 "10uF" H 7075 2750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7088 2700 50  0001 C CNN
+F 3 "" H 7050 2850 50  0001 C CNN
+F 4 "Murata" H -200 -1800 50  0001 C CNN "MFR"
+F 5 "GRM21BR61A106KE19L" H -200 -1800 50  0001 C CNN "MPN"
+F 6 "Digikey" H -200 -1800 50  0001 C CNN "SPR"
+F 7 "490-1709-1-ND" H -200 -1800 50  0001 C CNN "SPN"
+F 8 "" H -200 -1800 50  0001 C CNN "SPURL"
+	1    7050 2850
+	-1   0    0    1   
+$EndComp
+Connection ~ 7400 2700
+Connection ~ 7400 3000
 $EndSCHEMATC

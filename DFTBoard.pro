@@ -1,4 +1,4 @@
-update=12/17/2017 1:47:42 PM
+update=12/21/2017 2:14:36 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -129,3 +129,4 @@ LibName87=lib/er-con06hb-1
 LibName88=lib/jack_trs_4pins
 LibName89=lib/NorBot
 LibName90=lib/CC2500
+LibName91=lib/SparkFun-Sensors
