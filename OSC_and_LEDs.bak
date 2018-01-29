@@ -86,7 +86,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 15
+Sheet 6 13
 Title ""
 Date ""
 Rev ""
@@ -1304,24 +1304,6 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    8550 6600
 	1    0    0    -1  
 $EndComp
-$Comp
-L xc7a50tftg256 U?
-U 5 1 590851FD
-P 9600 900
-AR Path="/586C0171/590851FD" Ref="U?"  Part="5" 
-AR Path="/58508414/59084F78/590851FD" Ref="U1"  Part="5" 
-F 0 "U1" H 9800 1150 60  0000 L CNN
-F 1 "xc7a50tftg256" H 9800 1050 60  0000 L CNN
-F 2 "SMD_Packages:BGA-256" H 9600 900 60  0001 C CNN
-F 3 "" H 9600 900 60  0001 C CNN
-F 4 "Xilinx" H 0   0   50  0001 C CNN "MFR"
-F 5 "XC7A50T-1FTG256C" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "122-1916-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	5    9600 900 
-	1    0    0    -1  
-$EndComp
 Text GLabel 2600 1500 2    60   Output ~ 0
 CLK100MHz
 Text GLabel 9600 3400 0    60   Input ~ 0
@@ -1954,6 +1936,24 @@ F 8 "" H -5100 1700 50  0001 C CNN "SPURL"
 	1    1000 7400
 	0    1    1    0   
 $EndComp
-Text GLabel 9600 2700 0    60   Input ~ 0
-IR_OUT
+NoConn ~ 9600 2700
+$Comp
+L xc7a50tftg256 U?
+U 5 1 5A654BFE
+P 9600 900
+AR Path="/586C0171/5A654BFE" Ref="U?"  Part="5" 
+AR Path="/58508414/59084F78/5A654BFE" Ref="U1"  Part="5" 
+AR Path="/58508414/58508498/5A654BFE" Ref="U?"  Part="5" 
+F 0 "U1" H 9800 1150 60  0000 L CNN
+F 1 "xc7a50tftg256" H 9800 1050 60  0000 L CNN
+F 2 "SMD_Packages:BGA-256" H 9600 900 60  0001 C CNN
+F 3 "" H 9600 900 60  0001 C CNN
+F 4 "Xilinx" H 0   0   50  0001 C CNN "MFR"
+F 5 "XC7A50T-1FTG256C" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "122-1916-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	5    9600 900 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

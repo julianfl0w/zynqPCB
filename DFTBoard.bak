@@ -86,7 +86,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 13
 Title ""
 Date ""
 Rev ""
@@ -139,21 +139,9 @@ F0 "SPIUSBBRIDGE" 60
 F1 "SPI_USB_Bridge.sch" 60
 $EndSheet
 $Sheet
-S 5600 1950 1050 1050
-U 586C33AF
-F0 "Encoders" 60
-F1 "Encoders.sch" 60
-$EndSheet
-$Sheet
 S 5600 3600 1050 1000
 U 58818A06
 F0 "RAM" 60
 F1 "RAM.sch" 60
-$EndSheet
-$Sheet
-S 7350 1950 1000 1050
-U 5A36F1BB
-F0 "Radio" 60
-F1 "CC2500.sch" 60
 $EndSheet
 $EndSCHEMATC

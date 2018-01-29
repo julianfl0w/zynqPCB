@@ -86,7 +86,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 15
+Sheet 4 13
 Title ""
 Date ""
 Rev ""
@@ -96,22 +96,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L xc7a50tftg256 U1
-U 2 1 585C370B
-P 5950 1550
-F 0 "U1" H 6150 1800 60  0000 L CNN
-F 1 "xc7a50tftg256" H 6150 1700 60  0000 L CNN
-F 2 "SMD_Packages:BGA-256" H 5950 1550 60  0001 C CNN
-F 3 "" H 5950 1550 60  0001 C CNN
-F 4 "Xilinx" H 0   0   50  0001 C CNN "MFR"
-F 5 "XC7A50T-1FTG256C" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "122-1916-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	2    5950 1550
-	1    0    0    -1  
-$EndComp
 $Comp
 L +1.8V #PWR07
 U 1 1 585C5E93
@@ -1009,60 +993,58 @@ Text Label 9800 3650 0    60   ~ 0
 TEMPO_LED_R
 Text Label 8950 3650 0    60   ~ 0
 TEMPO_LED_D
-Text GLabel 5950 2250 0    60   Input ~ 0
+Text GLabel 5950 3750 0    60   Input ~ 0
 GPIF_SLRD#T
-Text GLabel 5950 2450 0    60   Input ~ 0
+Text GLabel 5950 3850 0    60   Input ~ 0
 GPIF_SLOE#T
-Text GLabel 5950 2550 0    60   BiDi ~ 0
-GD_14T
-Text GLabel 5950 3050 0    60   Input ~ 0
-GPIF_PKTEND#T
-Text GLabel 5950 2150 0    60   Input ~ 0
-GPIF_SLCS#T
-Text GLabel 5950 2350 0    60   BiDi ~ 0
-GD_13T
-Text GLabel 5950 2950 0    60   BiDi ~ 0
-GD_9T
-Text GLabel 5950 3850 0    60   BiDi ~ 0
-GD_11T
-Text GLabel 5950 2750 0    60   BiDi ~ 0
-GD_12T
-Text GLabel 5950 3150 0    60   BiDi ~ 0
-GD_10T
-Text GLabel 5950 3250 0    60   BiDi ~ 0
-GD_8T
-Text GLabel 5950 3350 0    60   BiDi ~ 0
-GD_6T
-Text GLabel 5950 3450 0    60   BiDi ~ 0
-GD_7T
-Text GLabel 5950 3750 0    60   BiDi ~ 0
-GD_15T
 Text GLabel 5950 3650 0    60   BiDi ~ 0
-GD_3T
-Text GLabel 5950 2850 0    60   BiDi ~ 0
-GD_4T
+GD_14T
+Text GLabel 5950 4650 0    60   Input ~ 0
+GPIF_PKTEND#T
+Text GLabel 5950 3450 0    60   Input ~ 0
+GPIF_SLCS#T
+Text GLabel 5950 3350 0    60   BiDi ~ 0
+GD_13T
+Text GLabel 5950 3050 0    60   BiDi ~ 0
+GD_9T
+Text GLabel 5950 3250 0    60   BiDi ~ 0
+GD_11T
+Text GLabel 5950 3150 0    60   BiDi ~ 0
+GD_12T
+Text GLabel 5950 2950 0    60   BiDi ~ 0
+GD_10T
+Text GLabel 5950 2750 0    60   BiDi ~ 0
+GD_8T
+Text GLabel 5950 2650 0    60   BiDi ~ 0
+GD_6T
+Text GLabel 5950 2550 0    60   BiDi ~ 0
+GD_7T
 Text GLabel 5950 3550 0    60   BiDi ~ 0
+GD_15T
+Text GLabel 5950 1950 0    60   BiDi ~ 0
+GD_3T
+Text GLabel 5950 2450 0    60   BiDi ~ 0
+GD_4T
+Text GLabel 5950 2350 0    60   BiDi ~ 0
 GD_5T
-Text GLabel 5950 4350 0    60   BiDi ~ 0
+Text GLabel 5950 1850 0    60   BiDi ~ 0
 GD_0T
-Text GLabel 5950 4650 0    60   BiDi ~ 0
+Text GLabel 5950 2050 0    60   BiDi ~ 0
 GD_2T
-Text GLabel 5950 2050 0    60   Input ~ 0
+Text GLabel 5950 2250 0    60   Input ~ 0
 GPIF_FLAGAT
 Text GLabel 5950 4050 0    60   Output ~ 0
 GPIF_PCLKT
 Text GLabel 5950 1550 0    60   BiDi ~ 0
 GA_1T
-Text GLabel 5950 1850 0    60   BiDi ~ 0
+Text GLabel 5950 2850 0    60   BiDi ~ 0
 GA_0T
-Text GLabel 5950 2650 0    60   Input ~ 0
+Text GLabel 5950 4350 0    60   Input ~ 0
 GPIF_SLWR#T
-Text GLabel 5950 1950 0    60   Input ~ 0
+Text GLabel 5950 2150 0    60   Input ~ 0
 GPIF_FLAGBT
-Text GLabel 5950 4950 0    60   BiDi ~ 0
+Text GLabel 5950 1750 0    60   BiDi ~ 0
 GD_1T
-Text GLabel 5950 1750 0    60   Input ~ 0
-SPI_MISO
 Text GLabel 5950 5150 0    60   Output ~ 0
 LED_1B_CTRL
 Text GLabel 5950 5950 0    60   Output ~ 0
@@ -1234,4 +1216,23 @@ NoConn ~ 5950 6150
 NoConn ~ 5950 4750
 NoConn ~ 5950 4250
 NoConn ~ 5950 3950
+NoConn ~ 5950 4950
+$Comp
+L xc7a50tftg256 U1
+U 2 1 5A654857
+P 5950 1550
+AR Path="/58508414/58508498/5A654857" Ref="U1"  Part="2" 
+AR Path="/58508414/59084F78/5A654857" Ref="U?"  Part="2" 
+F 0 "U1" H 6150 1800 60  0000 L CNN
+F 1 "xc7a50tftg256" H 6150 1700 60  0000 L CNN
+F 2 "SMD_Packages:BGA-256" H 5950 1550 60  0001 C CNN
+F 3 "" H 5950 1550 60  0001 C CNN
+F 4 "Xilinx" H 0   0   50  0001 C CNN "MFR"
+F 5 "XC7A50T-1FTG256C" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "122-1916-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	2    5950 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
