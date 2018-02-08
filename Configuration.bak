@@ -99,13 +99,13 @@ $EndDescr
 $Comp
 L +1.8V #PWR01
 U 1 1 585C3A3C
-P 4350 3400
-F 0 "#PWR01" H 4350 3540 20  0001 C CNN
-F 1 "+1.8V" H 4350 3510 30  0000 C CNN
-F 2 "" H 4350 3400 60  0001 C CNN
-F 3 "" H 4350 3400 60  0001 C CNN
-	1    4350 3400
-	1    0    0    -1  
+P 5300 3650
+F 0 "#PWR01" H 5300 3790 20  0001 C CNN
+F 1 "+1.8V" H 5300 3760 30  0000 C CNN
+F 2 "" H 5300 3650 60  0001 C CNN
+F 3 "" H 5300 3650 60  0001 C CNN
+	1    5300 3650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L xc7a50tftg256 U1
@@ -211,11 +211,11 @@ F 3 "" H 4350 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5300 2750 0    60   Input ~ 0
-SPI_CLK
+GPIF_PCLKT
 Text GLabel 5300 2950 0    60   Output ~ 0
 CONFIG_DONE
 Text Notes 3750 3550 0    60   ~ 0
-111 => Slave Serial
+110 =>Slave SelectMAP
 Text GLabel 5300 3750 0    60   Input ~ 0
 CONFIG_PROGRAM
 Text Notes 1800 3300 0    60   ~ 0
@@ -239,10 +239,6 @@ AX_TDO
 Text GLabel 2600 4000 2    60   Output ~ 0
 AX_TMS
 Wire Wire Line
-	4350 3550 5300 3550
-Wire Wire Line
-	4350 3650 5300 3650
-Wire Wire Line
 	5300 4750 5200 4750
 Wire Wire Line
 	5200 4550 5200 4850
@@ -252,8 +248,6 @@ Wire Wire Line
 	5300 4550 5200 4550
 Wire Wire Line
 	5300 4250 4350 4250
-Wire Wire Line
-	4350 3400 4350 4300
 Wire Wire Line
 	4500 3050 5300 3050
 Wire Wire Line
@@ -287,8 +281,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 4000 2250 4000
 Wire Wire Line
-	4350 3450 5300 3450
-Wire Wire Line
 	4350 2850 4350 2900
 Wire Wire Line
 	5050 4850 5300 4850
@@ -306,14 +298,46 @@ Connection ~ 5200 4650
 Connection ~ 5200 4250
 Connection ~ 5050 4850
 Connection ~ 1550 4200
-Connection ~ 4350 4250
-Connection ~ 4350 3450
-Connection ~ 4350 3550
-Connection ~ 4350 3650
 Connection ~ 5200 3050
 Connection ~ 4500 2850
 Connection ~ 5200 3150
 NoConn ~ 2000 4000
 NoConn ~ 2000 4100
 NoConn ~ 2250 4100
+Wire Wire Line
+	4350 4200 4350 4300
+$Comp
+L +1.8V #PWR07
+U 1 1 5A73FF61
+P 4350 4200
+F 0 "#PWR07" H 4350 4340 20  0001 C CNN
+F 1 "+1.8V" H 4350 4310 30  0000 C CNN
+F 2 "" H 4350 4200 60  0001 C CNN
+F 3 "" H 4350 4200 60  0001 C CNN
+	1    4350 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 4250
+$Comp
+L GND #PWR08
+U 1 1 5A74051B
+P 5300 3450
+F 0 "#PWR08" H 5300 3200 50  0001 C CNN
+F 1 "GND" H 5300 3300 50  0000 C CNN
+F 2 "" H 5300 3450 50  0000 C CNN
+F 3 "" H 5300 3450 50  0000 C CNN
+	1    5300 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L +1.8V #PWR09
+U 1 1 5A7485CE
+P 5300 3550
+F 0 "#PWR09" H 5300 3690 20  0001 C CNN
+F 1 "+1.8V" H 5300 3660 30  0000 C CNN
+F 2 "" H 5300 3550 60  0001 C CNN
+F 3 "" H 5300 3550 60  0001 C CNN
+	1    5300 3550
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

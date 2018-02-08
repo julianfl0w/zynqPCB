@@ -1,4 +1,4 @@
-update=12/21/2017 2:14:36 PM
+update=2/5/2018 1:59:35 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=/home/jcloiacon/dft/kicad/kicad-library;lib
@@ -130,3 +120,13 @@ LibName88=lib/jack_trs_4pins
 LibName89=lib/NorBot
 LibName90=lib/CC2500
 LibName91=lib/SparkFun-Sensors
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
