@@ -620,8 +620,6 @@ Text GLabel 4900 3100 2    60   Output ~ 0
 SPIUSB_INT
 Text GLabel 4900 3200 2    60   Output ~ 0
 SPIUSB_GPX
-Text GLabel 3200 2400 0    60   Output ~ 0
-CONFIG_PROGRAM
 Text GLabel 9050 1450 2    60   Output ~ 0
 SPIUSB_VBUS
 Text GLabel 8050 4050 2    60   Input ~ 0
@@ -894,7 +892,7 @@ U 1 1 5A63EFEC
 P 7750 4250
 F 0 "J7" H 7550 4700 50  0000 L CNN
 F 1 "USB_A" H 7550 4600 50  0000 L CNN
-F 2 "" H 7900 4200 50  0001 C CNN
+F 2 "DFTcustom:USB-A-Receptacle-FCI_87583" H 7900 4200 50  0001 C CNN
 F 3 "" H 7900 4200 50  0001 C CNN
 	1    7750 4250
 	1    0    0    -1  
@@ -935,4 +933,5 @@ NoConn ~ 4900 2300
 NoConn ~ 3200 1700
 Wire Wire Line
 	9050 1650 9200 1650
+NoConn ~ 3200 2400
 $EndSCHEMATC

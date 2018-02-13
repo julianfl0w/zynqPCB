@@ -536,10 +536,6 @@ F 3 "" H 9150 1150 50  0000 C CNN
 $EndComp
 Text GLabel 6550 3700 2    60   BiDi ~ 0
 RAM_DQ0
-Text GLabel 4600 1850 2    60   Input ~ 0
-RAM_CK_N
-Text GLabel 4600 1950 2    60   Input ~ 0
-RAM_CK_P
 Text GLabel 6550 3600 2    60   BiDi ~ 0
 RAM_DQ1
 Text GLabel 6550 3500 2    60   BiDi ~ 0
@@ -660,12 +656,8 @@ Text GLabel 9150 3950 0    60   BiDi ~ 0
 RAM_DQ5
 Text GLabel 9150 3850 0    60   BiDi ~ 0
 RAM_DQ2
-Text GLabel 9150 1750 0    60   Output ~ 0
-RAM_CK_P
 Text GLabel 9150 3150 0    60   Output ~ 0
 RAM_RAS#
-Text GLabel 9150 1650 0    60   Output ~ 0
-RAM_CK_N
 Text GLabel 9150 3050 0    60   Output ~ 0
 RAM_CKE
 Text GLabel 9150 2650 0    60   Output ~ 0
@@ -945,4 +937,34 @@ Text GLabel 9150 1350 0    60   Output ~ 0
 RAM_A8
 Text GLabel 9150 1550 0    60   Output ~ 0
 RAM_A12
+Text GLabel 9150 1750 0    60   Output ~ 0
+RAM_CK_P
+Text GLabel 9150 1650 0    60   Output ~ 0
+RAM_CK_N
+Text GLabel 8000 1000 2    60   Input ~ 0
+RAM_CK_P
+Text GLabel 7700 1000 0    60   Input ~ 0
+RAM_CK_N
+Text GLabel 4600 1950 2    60   Input ~ 0
+RAM_CK_P
+Text GLabel 4600 1850 2    60   Input ~ 0
+RAM_CK_N
+$Comp
+L R R77
+U 1 1 5A7D1ACF
+P 7850 1000
+F 0 "R77" V 7930 1000 50  0000 C CNN
+F 1 "100" V 7850 1000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 7780 1000 50  0001 C CNN
+F 3 "" H 7850 1000 50  0001 C CNN
+F 4 "Yageo" H 1750 -6050 50  0001 C CNN "MFR"
+F 5 "RC0402FR-07100RL" H 1750 -6050 50  0001 C CNN "MPN"
+F 6 "Digikey" H 1750 -6050 50  0001 C CNN "SPR"
+F 7 "311-100LRCT-ND" H 1750 -6050 50  0001 C CNN "SPN"
+F 8 "" H 1750 -6050 50  0001 C CNN "SPURL"
+	1    7850 1000
+	0    1    1    0   
+$EndComp
+Text Notes 6950 850  0    60   ~ 0
+Differential termination at end / first break
 $EndSCHEMATC
