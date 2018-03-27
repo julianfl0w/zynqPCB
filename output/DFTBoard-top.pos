@@ -1,4 +1,4 @@
-### Module positions - created on Tue Mar 20 12:56:16 2018 ###
+### Module positions - created on Fri Mar 23 14:58:55 2018 ###
 ### Printed by Pcbnew version kicad 4.0.7-e2-6376~58~ubuntu16.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -113,7 +113,7 @@ R41       10k            R_0402                                   54.6500    40.
 R42       10k            R_0402                                   55.9000    41.2000   90.0000  top
 R43       100            R_0402                                   44.1536    33.7850  180.0000  top
 R47       100            R_0402                                   45.8500    30.2500    0.0000  top
-R49       100k           R_0402                                   23.5000    38.2000  270.0000  top
+R49       100k           R_0402                                   20.5000    42.0000  180.0000  top
 R50       49.9k          R_0402                                   26.4000    41.7500  180.0000  top
 R51       100k           R_0402                                   28.7727    24.5324   90.0000  top
 R52       49.9k          R_0402                                   29.2227    22.9824  180.0000  top
