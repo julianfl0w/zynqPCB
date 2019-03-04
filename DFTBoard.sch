@@ -17,8 +17,8 @@ $EndDescr
 $Sheet
 S 3450 1950 1100 1000
 U 58508414
-F0 "FPGA" 60
-F1 "FPGA.sch" 60
+F0 "Power" 60
+F1 "power.sch" 60
 $EndSheet
 $Sheet
 S 5300 3600 1050 1000
@@ -50,22 +50,4 @@ U 5C7C62AE
 F0 "LCD50" 60
 F1 "LCD50.sch" 60
 $EndSheet
-Text GLabel 8150 4050 0    60   Input ~ 0
-TEMPO_SW
-Text GLabel 8150 4250 0    60   Output ~ 0
-LED_1B_CTRL
-Text GLabel 8150 4600 0    60   Output ~ 0
-LED_1G_CTRL
-Text GLabel 8150 4150 0    60   Output ~ 0
-LED_1R_CTRL
-Text GLabel 8150 4500 0    60   Output ~ 0
-I2S_LRCLK
-Text GLabel 8150 4400 0    60   Input ~ 0
-I2S_ADCSD
-Text GLabel 8150 5100 0    60   Output ~ 0
-I2S_BCLK
-Text GLabel 8150 4700 0    60   Output ~ 0
-I2S_DACSD
-Text GLabel 8150 4800 0    60   Output ~ 0
-I2S_MCLK
 $EndSCHEMATC
