@@ -1,6 +1,88 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:DFTBoard-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:xilinx
+LIBS:xilinx7
+LIBS:IS31FL3199_LED_driver
+LIBS:wm8758b
+LIBS:SC189
+LIBS:s70fl01gs
+LIBS:PROpendous-cache
+LIBS:JTAG
+LIBS:Audio-cache
+LIBS:beagledancer
 LIBS:DFTBoard-cache
-EELAYER 26 0
+LIBS:Memory-cache
+LIBS:usb_condom_extended_v1-cache
+LIBS:tinkerforge
+LIBS:si570
+LIBS:hdmi_BiDir_n
+LIBS:LevelShifter Components
+LIBS:N25Q128A
+LIBS:sparkfun
+LIBS:48258-0001
+LIBS:ArduinoSpecAn-cache
+LIBS:passiveelectret
+LIBS:passiveind
+LIBS:passiveinductor
+LIBS:fb_powerout
+LIBS:ferrite
+LIBS:df_device
+LIBS:JACK_TRS_5PINS
+LIBS:MEMSMIC
+LIBS:illuminatedswitch
+LIBS:powerswitch
+LIBS:winbond
+LIBS:cy7c65634-28ltxc
+LIBS:powerjumper
+LIBS:au-y1008-2
+LIBS:hdmi_conn
+LIBS:wayne_and_layne_kicad_symbols
+LIBS:m24m02-dr
+LIBS:fxo-hc73
+LIBS:crystal_small_4pad
+LIBS:tps22963c
+LIBS:gndtie
+LIBS:GSB3211311WEU
+LIBS:DFTCustom
+LIBS:TLV320AIC3104
+LIBS:tpa2010d1
+LIBS:lis2hh12
+LIBS:Ghost
+LIBS:asflmb
+LIBS:er-con06hb-1
+LIBS:jack_trs_4pins
+LIBS:NorBot
+LIBS:CC2500
+LIBS:SparkFun-Sensors
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +97,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DFTBoard-rescue:MAX3421 U10
+L MAX3421 U10
 U 1 1 5862C4D9
 P 4050 2450
 F 0 "U10" H 4050 2750 60  0000 C CNN
@@ -31,7 +113,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:+1.8V #PWR0149
+L +1.8V #PWR0149
 U 1 1 5862C5D3
 P 1850 1550
 F 0 "#PWR0149" H 1850 1690 20  0001 C CNN
@@ -42,7 +124,7 @@ F 3 "" H 1850 1550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR0150
+L GND #PWR0150
 U 1 1 5862C61D
 P 1850 2350
 F 0 "#PWR0150" H 1850 2100 50  0001 C CNN
@@ -53,7 +135,7 @@ F 3 "" H 1850 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR0151
+L GND #PWR0151
 U 1 1 5862C682
 P 5650 3350
 F 0 "#PWR0151" H 5650 3100 50  0001 C CNN
@@ -64,7 +146,7 @@ F 3 "" H 5650 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:Crystal_Small Y2
+L Crystal_Small Y2
 U 1 1 5862C6D3
 P 6300 2450
 F 0 "Y2" H 6300 2550 50  0000 C CNN
@@ -80,7 +162,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R67
+L R_Small R67
 U 1 1 5862CF54
 P 5600 2800
 F 0 "R67" V 5500 2800 50  0000 L CNN
@@ -96,7 +178,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R68
+L R_Small R68
 U 1 1 5862CFAD
 P 5600 2900
 F 0 "R68" V 5700 2900 50  0000 L CNN
@@ -112,7 +194,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:C C121
+L C C121
 U 1 1 5862D41C
 P 6600 2950
 F 0 "C121" H 6625 3050 50  0000 L CNN
@@ -128,7 +210,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C C122
+L C C122
 U 1 1 5862D44F
 P 6900 2950
 F 0 "C122" H 6925 3050 50  0000 L CNN
@@ -144,7 +226,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR0152
+L GND #PWR0152
 U 1 1 5862D52A
 P 6750 3200
 F 0 "#PWR0152" H 6750 2950 50  0001 C CNN
@@ -155,7 +237,7 @@ F 3 "" H 6750 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small C119
+L C_Small C119
 U 1 1 5862D819
 P 6450 2150
 F 0 "C119" H 6460 2220 50  0000 L CNN
@@ -171,7 +253,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small C120
+L C_Small C120
 U 1 1 5862D86A
 P 6650 2150
 F 0 "C120" H 6660 2220 50  0000 L CNN
@@ -187,7 +269,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR0153
+L GND #PWR0153
 U 1 1 5862DAA7
 P 6250 1950
 F 0 "#PWR0153" H 6250 1700 50  0001 C CNN
@@ -198,7 +280,7 @@ F 3 "" H 6250 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:+5V #PWR0154
+L +5V #PWR0154
 U 1 1 5862DFFF
 P 7900 1250
 F 0 "#PWR0154" H 7900 1100 50  0001 C CNN
@@ -209,7 +291,7 @@ F 3 "" H 7900 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:NCP361 NCP1
+L NCP361 NCP1
 U 1 1 5862DF64
 P 8600 1550
 F 0 "NCP1" H 8600 1300 60  0000 C CNN
@@ -225,7 +307,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR0155
+L GND #PWR0155
 U 1 1 5862E157
 P 8000 1800
 F 0 "#PWR0155" H 8000 1550 50  0001 C CNN
@@ -236,7 +318,7 @@ F 3 "" H 8000 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:R R65
+L R R65
 U 1 1 5862E6A7
 P 9200 1900
 F 0 "R65" V 9280 1900 50  0000 C CNN
@@ -252,7 +334,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L DFTBoard-rescue:+5V #PWR0156
+L +5V #PWR0156
 U 1 1 5862E815
 P 9200 2150
 F 0 "#PWR0156" H 9200 2000 50  0001 C CNN
@@ -263,7 +345,7 @@ F 3 "" H 9200 2150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DFTBoard-rescue:C C117
+L C C117
 U 1 1 586C2AB4
 P 1700 2000
 F 0 "C117" H 1725 2100 50  0000 L CNN
@@ -279,7 +361,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C C118
+L C C118
 U 1 1 586C2ABA
 P 2000 2000
 F 0 "C118" H 2025 2100 50  0000 L CNN
@@ -295,7 +377,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:IRLML2502 Q10
+L IRLML2502 Q10
 U 1 1 586FE70E
 P 1950 7050
 F 0 "Q10" H 1950 6901 40  0000 R CNN
@@ -311,7 +393,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:IRLML2502 Q8
+L IRLML2502 Q8
 U 1 1 586FE81F
 P 1950 5250
 F 0 "Q8" H 1950 5101 40  0000 R CNN
@@ -327,7 +409,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR0157
+L GND #PWR0157
 U 1 1 586FEB40
 P 2050 7300
 F 0 "#PWR0157" H 2050 7050 50  0001 C CNN
@@ -338,7 +420,7 @@ F 3 "" H 2050 7300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR0158
+L GND #PWR0158
 U 1 1 586FEDFD
 P 2050 5500
 F 0 "#PWR0158" H 2050 5250 50  0001 C CNN
@@ -349,7 +431,7 @@ F 3 "" H 2050 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R74
+L R_Small R74
 U 1 1 586FF0AC
 P 1600 7100
 F 0 "R74" H 1630 7120 50  0000 L CNN
@@ -365,7 +447,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R71
+L R_Small R71
 U 1 1 586FF211
 P 1600 5300
 F 0 "R71" H 1630 5320 50  0000 L CNN
@@ -381,7 +463,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:LED D5
+L LED D5
 U 1 1 586FFDD0
 P 2050 6550
 F 0 "D5" H 2050 6650 50  0000 C CNN
@@ -397,7 +479,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:LED D3
+L LED D3
 U 1 1 586FFE4F
 P 2050 4750
 F 0 "D3" H 2050 4850 50  0000 C CNN
@@ -413,7 +495,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R73
+L R_Small R73
 U 1 1 586FFFB1
 P 2050 6150
 F 0 "R73" H 2080 6170 50  0000 L CNN
@@ -429,7 +511,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R69
+L R_Small R69
 U 1 1 58700040
 P 2050 4350
 F 0 "R69" H 2080 4370 50  0000 L CNN
@@ -445,7 +527,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L DFTBoard-rescue:+5V #PWR0159
+L +5V #PWR0159
 U 1 1 58700335
 P 2050 5950
 F 0 "#PWR0159" H 2050 5800 50  0001 C CNN
@@ -456,7 +538,7 @@ F 3 "" H 2050 5950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:+5V #PWR0160
+L +5V #PWR0160
 U 1 1 58700402
 P 2050 4200
 F 0 "#PWR0160" H 2050 4050 50  0001 C CNN
@@ -467,7 +549,7 @@ F 3 "" H 2050 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:+3.3V #PWR0161
+L +3.3V #PWR0161
 U 1 1 58742C2F
 P 6950 2600
 F 0 "#PWR0161" H 6950 2450 50  0001 C CNN
@@ -478,7 +560,7 @@ F 3 "" H 6950 2600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R R66
+L R R66
 U 1 1 587E3793
 P 2450 2800
 F 0 "R66" V 2530 2800 50  0000 C CNN
@@ -494,7 +576,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:+1.8V #PWR0162
+L +1.8V #PWR0162
 U 1 1 58830992
 P 2300 2800
 F 0 "#PWR0162" H 2300 2940 20  0001 C CNN
@@ -505,7 +587,7 @@ F 3 "" H 2300 2800 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR0163
+L GND #PWR0163
 U 1 1 58830D05
 P 2550 1950
 F 0 "#PWR0163" H 2550 1700 50  0001 C CNN
@@ -516,7 +598,7 @@ F 3 "" H 2550 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:+1.8V #PWR0164
+L +1.8V #PWR0164
 U 1 1 58830E48
 P 2550 1800
 F 0 "#PWR0164" H 2550 1940 20  0001 C CNN
@@ -690,7 +772,7 @@ NoConn ~ 3200 2200
 NoConn ~ 3200 2300
 NoConn ~ 3200 2100
 $Comp
-L DFTBoard-rescue:IRLML2502 Q9
+L IRLML2502 Q9
 U 1 1 59926715
 P 3450 5250
 F 0 "Q9" H 3450 5101 40  0000 R CNN
@@ -706,7 +788,7 @@ F 8 "" H 1500 0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR0165
+L GND #PWR0165
 U 1 1 5992671B
 P 3550 5500
 F 0 "#PWR0165" H 3550 5250 50  0001 C CNN
@@ -717,7 +799,7 @@ F 3 "" H 3550 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R72
+L R_Small R72
 U 1 1 59926726
 P 3100 5300
 F 0 "R72" H 3130 5320 50  0000 L CNN
@@ -733,7 +815,7 @@ F 8 "" H 1500 0   50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:LED D4
+L LED D4
 U 1 1 59926731
 P 3550 4750
 F 0 "D4" H 3550 4850 50  0000 C CNN
@@ -749,7 +831,7 @@ F 8 "" H 1500 0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R70
+L R_Small R70
 U 1 1 5992673C
 P 3550 4350
 F 0 "R70" H 3580 4370 50  0000 L CNN
@@ -765,7 +847,7 @@ F 8 "" H 1500 0   50  0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L DFTBoard-rescue:+5V #PWR0166
+L +5V #PWR0166
 U 1 1 59926742
 P 3550 4200
 F 0 "#PWR0166" H 3550 4050 50  0001 C CNN
@@ -805,7 +887,7 @@ Wire Wire Line
 	2050 4900 2050 5050
 NoConn ~ 3200 2000
 $Comp
-L DFTBoard-rescue:USB_A J7
+L USB_A J7
 U 1 1 5A63EFEC
 P 7750 4250
 F 0 "J7" H 7550 4700 50  0000 L CNN
@@ -816,7 +898,7 @@ F 3 "" H 7900 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR0167
+L GND #PWR0167
 U 1 1 5A63F101
 P 7650 4650
 F 0 "#PWR0167" H 7650 4400 50  0001 C CNN
@@ -827,7 +909,7 @@ F 3 "" H 7650 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR0168
+L GND #PWR0168
 U 1 1 5A63F169
 P 7750 4650
 F 0 "#PWR0168" H 7750 4400 50  0001 C CNN

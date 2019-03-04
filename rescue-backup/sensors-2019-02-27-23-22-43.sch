@@ -1,6 +1,88 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:DFTBoard-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:xilinx
+LIBS:xilinx7
+LIBS:IS31FL3199_LED_driver
+LIBS:wm8758b
+LIBS:SC189
+LIBS:s70fl01gs
+LIBS:PROpendous-cache
+LIBS:JTAG
+LIBS:Audio-cache
+LIBS:beagledancer
 LIBS:DFTBoard-cache
-EELAYER 26 0
+LIBS:Memory-cache
+LIBS:usb_condom_extended_v1-cache
+LIBS:tinkerforge
+LIBS:si570
+LIBS:hdmi_BiDir_n
+LIBS:LevelShifter Components
+LIBS:N25Q128A
+LIBS:sparkfun
+LIBS:48258-0001
+LIBS:ArduinoSpecAn-cache
+LIBS:passiveelectret
+LIBS:passiveind
+LIBS:passiveinductor
+LIBS:fb_powerout
+LIBS:ferrite
+LIBS:df_device
+LIBS:JACK_TRS_5PINS
+LIBS:MEMSMIC
+LIBS:illuminatedswitch
+LIBS:powerswitch
+LIBS:winbond
+LIBS:cy7c65634-28ltxc
+LIBS:powerjumper
+LIBS:au-y1008-2
+LIBS:hdmi_conn
+LIBS:wayne_and_layne_kicad_symbols
+LIBS:m24m02-dr
+LIBS:fxo-hc73
+LIBS:crystal_small_4pad
+LIBS:tps22963c
+LIBS:gndtie
+LIBS:GSB3211311WEU
+LIBS:DFTCustom
+LIBS:TLV320AIC3104
+LIBS:tpa2010d1
+LIBS:lis2hh12
+LIBS:Ghost
+LIBS:asflmb
+LIBS:er-con06hb-1
+LIBS:jack_trs_4pins
+LIBS:NorBot
+LIBS:CC2500
+LIBS:SparkFun-Sensors
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +97,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DFTBoard-rescue:VL53L0X U9
+L VL53L0X U9
 U 1 1 58530049
 P 5300 3700
 F 0 "U9" H 5600 4250 60  0000 C CNN
@@ -31,7 +113,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small C115
+L C_Small C115
 U 1 1 585984E0
 P 4000 3400
 F 0 "C115" H 4010 3470 50  0000 L CNN
@@ -47,7 +129,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small C114
+L C_Small C114
 U 1 1 58598585
 P 3700 3400
 F 0 "C114" H 3710 3470 50  0000 L CNN
@@ -63,7 +145,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:R R63
+L R R63
 U 1 1 58598665
 P 6100 2750
 F 0 "R63" V 6180 2750 50  0000 C CNN
@@ -79,7 +161,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:R R64
+L R R64
 U 1 1 585986E0
 P 6300 2750
 F 0 "R64" V 6380 2750 50  0000 C CNN
@@ -95,7 +177,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:+1.8V #PWR0143
+L +1.8V #PWR0143
 U 1 1 585987BD
 P 6200 2550
 F 0 "#PWR0143" H 6200 2690 20  0001 C CNN
@@ -106,7 +188,7 @@ F 3 "" H 6200 2550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:+3.3V #PWR0144
+L +3.3V #PWR0144
 U 1 1 587438B2
 P 4000 3200
 F 0 "#PWR0144" H 4000 3050 50  0001 C CNN
@@ -124,7 +206,7 @@ Text Notes 6100 4000 0    60   ~ 0
 address 0x52
 NoConn ~ 5900 3900
 $Comp
-L DFTBoard-rescue:GND #PWR0145
+L GND #PWR0145
 U 1 1 5A331874
 P 4550 4150
 F 0 "#PWR0145" H 4550 3900 50  0001 C CNN
@@ -135,7 +217,7 @@ F 3 "" H 4550 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:APDS-9960 U8
+L APDS-9960 U8
 U 1 1 5A3C088A
 P 8300 2950
 F 0 "U8" H 8200 3350 50  0000 L BNN
@@ -146,7 +228,7 @@ F 3 "" H 8300 2950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C C113
+L C C113
 U 1 1 5A3C2566
 P 7400 2850
 F 0 "C113" H 7425 2950 50  0000 L CNN
@@ -162,7 +244,7 @@ F 8 "" H 1400 -2500 50  0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L DFTBoard-rescue:C C116
+L C C116
 U 1 1 5A3C258E
 P 7550 3450
 F 0 "C116" H 7575 3550 50  0000 L CNN
@@ -178,7 +260,7 @@ F 8 "" H 1550 -1900 50  0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR0146
+L GND #PWR0146
 U 1 1 5A3C2717
 P 7550 3600
 F 0 "#PWR0146" H 7550 3350 50  0001 C CNN
@@ -189,7 +271,7 @@ F 3 "" H 7550 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:+3.3V #PWR0147
+L +3.3V #PWR0147
 U 1 1 5A3C3F6D
 P 7400 2600
 F 0 "#PWR0147" H 7400 2450 50  0001 C CNN
@@ -200,7 +282,7 @@ F 3 "" H 7400 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR0148
+L GND #PWR0148
 U 1 1 5A3C4066
 P 7400 3050
 F 0 "#PWR0148" H 7400 2800 50  0001 C CNN
@@ -291,7 +373,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 2750 8800 2750
 $Comp
-L DFTBoard-rescue:C C112
+L C C112
 U 1 1 5A3C4743
 P 7050 2850
 F 0 "C112" H 7075 2950 50  0000 L CNN

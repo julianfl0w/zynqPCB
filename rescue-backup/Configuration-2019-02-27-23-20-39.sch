@@ -1,6 +1,88 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:DFTBoard-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:xilinx
+LIBS:xilinx7
+LIBS:IS31FL3199_LED_driver
+LIBS:wm8758b
+LIBS:SC189
+LIBS:s70fl01gs
+LIBS:PROpendous-cache
+LIBS:JTAG
+LIBS:Audio-cache
+LIBS:beagledancer
 LIBS:DFTBoard-cache
-EELAYER 26 0
+LIBS:Memory-cache
+LIBS:usb_condom_extended_v1-cache
+LIBS:tinkerforge
+LIBS:si570
+LIBS:hdmi_BiDir_n
+LIBS:LevelShifter Components
+LIBS:N25Q128A
+LIBS:sparkfun
+LIBS:48258-0001
+LIBS:ArduinoSpecAn-cache
+LIBS:passiveelectret
+LIBS:passiveind
+LIBS:passiveinductor
+LIBS:fb_powerout
+LIBS:ferrite
+LIBS:df_device
+LIBS:JACK_TRS_5PINS
+LIBS:MEMSMIC
+LIBS:illuminatedswitch
+LIBS:powerswitch
+LIBS:winbond
+LIBS:cy7c65634-28ltxc
+LIBS:powerjumper
+LIBS:au-y1008-2
+LIBS:hdmi_conn
+LIBS:wayne_and_layne_kicad_symbols
+LIBS:m24m02-dr
+LIBS:fxo-hc73
+LIBS:crystal_small_4pad
+LIBS:tps22963c
+LIBS:gndtie
+LIBS:GSB3211311WEU
+LIBS:DFTCustom
+LIBS:TLV320AIC3104
+LIBS:tpa2010d1
+LIBS:lis2hh12
+LIBS:Ghost
+LIBS:asflmb
+LIBS:er-con06hb-1
+LIBS:jack_trs_4pins
+LIBS:NorBot
+LIBS:CC2500
+LIBS:SparkFun-Sensors
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +97,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DFTBoard-rescue:+1.8V #PWR01
+L +1.8V #PWR01
 U 1 1 585C3A3C
 P 5300 3650
 F 0 "#PWR01" H 5300 3790 20  0001 C CNN
@@ -26,7 +108,7 @@ F 3 "" H 5300 3650 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:xc7a50tftg256 U1
+L xc7a50tftg256 U1
 U 1 1 585C3B38
 P 5300 2750
 F 0 "U1" H 5500 3000 60  0000 L CNN
@@ -42,7 +124,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR02
+L GND #PWR02
 U 1 1 585C2834
 P 5050 4950
 F 0 "#PWR02" H 5050 4700 50  0001 C CNN
@@ -53,7 +135,7 @@ F 3 "" H 5050 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:AVR-JTAG-10 CON1
+L AVR-JTAG-10 CON1
 U 1 1 585C36E8
 P 2050 4000
 F 0 "CON1" H 1880 4330 50  0000 C CNN
@@ -69,7 +151,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR03
+L GND #PWR03
 U 1 1 585C40A7
 P 1550 4400
 F 0 "#PWR03" H 1550 4150 50  0001 C CNN
@@ -80,7 +162,7 @@ F 3 "" H 1550 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:+1.8V #PWR04
+L +1.8V #PWR04
 U 1 1 585C40DD
 P 1650 3650
 F 0 "#PWR04" H 1650 3790 20  0001 C CNN
@@ -91,7 +173,7 @@ F 3 "" H 1650 3650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small C1
+L C_Small C1
 U 1 1 586C7651
 P 4350 4400
 F 0 "C1" H 4360 4470 50  0000 L CNN
@@ -107,7 +189,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR05
+L GND #PWR05
 U 1 1 586C7770
 P 4350 4550
 F 0 "#PWR05" H 4350 4300 50  0001 C CNN
@@ -118,7 +200,7 @@ F 3 "" H 4350 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND #PWR06
+L GND #PWR06
 U 1 1 587E913C
 P 4350 2900
 F 0 "#PWR06" H 4350 2650 50  0001 C CNN
@@ -159,17 +241,17 @@ AX_TMS
 Wire Wire Line
 	5300 4750 5200 4750
 Wire Wire Line
-	5200 4550 5200 4650
+	5200 4550 5200 4850
 Wire Wire Line
 	5300 4650 5200 4650
 Wire Wire Line
 	5300 4550 5200 4550
 Wire Wire Line
-	5300 4250 5200 4250
+	5300 4250 4350 4250
 Wire Wire Line
-	4500 3050 5200 3050
+	4500 3050 5300 3050
 Wire Wire Line
-	4350 2850 4500 2850
+	4350 2850 5300 2850
 Wire Wire Line
 	5300 4450 5200 4450
 Wire Wire Line
@@ -177,11 +259,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 4350 5050 4350
 Wire Wire Line
-	5050 4350 5050 4850
+	5050 4350 5050 4950
 Wire Wire Line
 	2000 3800 1550 3800
 Wire Wire Line
-	1550 3800 1550 4200
+	1550 3800 1550 4400
 Wire Wire Line
 	2000 4200 1550 4200
 Wire Wire Line
@@ -201,11 +283,11 @@ Wire Wire Line
 Wire Wire Line
 	4350 2850 4350 2900
 Wire Wire Line
-	5050 4850 5200 4850
+	5050 4850 5300 4850
 Wire Wire Line
 	5300 3150 5200 3150
 Wire Wire Line
-	5200 3050 5200 3150
+	5200 3050 5200 3250
 Wire Wire Line
 	4500 2850 4500 3050
 Wire Wire Line
@@ -223,9 +305,9 @@ NoConn ~ 2000 4000
 NoConn ~ 2000 4100
 NoConn ~ 2250 4100
 Wire Wire Line
-	4350 4200 4350 4250
+	4350 4200 4350 4300
 $Comp
-L DFTBoard-rescue:+1.8V #PWR07
+L +1.8V #PWR07
 U 1 1 5A73FF61
 P 4350 4200
 F 0 "#PWR07" H 4350 4340 20  0001 C CNN
@@ -237,7 +319,7 @@ F 3 "" H 4350 4200 60  0001 C CNN
 $EndComp
 Connection ~ 4350 4250
 $Comp
-L DFTBoard-rescue:GND #PWR08
+L GND #PWR08
 U 1 1 5A74051B
 P 5300 3450
 F 0 "#PWR08" H 5300 3200 50  0001 C CNN
@@ -248,7 +330,7 @@ F 3 "" H 5300 3450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:+1.8V #PWR09
+L +1.8V #PWR09
 U 1 1 5A7485CE
 P 5300 3550
 F 0 "#PWR09" H 5300 3690 20  0001 C CNN
@@ -257,37 +339,5 @@ F 2 "" H 5300 3550 60  0001 C CNN
 F 3 "" H 5300 3550 60  0001 C CNN
 	1    5300 3550
 	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5200 4850 5300 4850
-Wire Wire Line
-	5200 4750 5200 4850
-Wire Wire Line
-	5200 4650 5200 4750
-Wire Wire Line
-	5200 4250 4350 4250
-Wire Wire Line
-	5050 4850 5050 4950
-Wire Wire Line
-	1550 4200 1550 4400
-Wire Wire Line
-	5200 3050 5300 3050
-Wire Wire Line
-	4500 2850 5300 2850
-Wire Wire Line
-	5200 3150 5200 3250
-Wire Wire Line
-	4350 4250 4350 4300
-$Comp
-L xilinx7:xc7z020clg400 U?
-U 1 1 5C7A900B
-P 6400 2750
-F 0 "U?" H 7331 1753 60  0000 L CNN
-F 1 "xc7z020clg400" H 7331 1647 60  0000 L CNN
-F 2 "" H 6400 2750 60  0001 C CNN
-F 3 "" H 6400 2750 60  0001 C CNN
-F 4 "xc7z020clg400" H 6600 2700 60  0001 L CNN "manf#"
-	1    6400 2750
-	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

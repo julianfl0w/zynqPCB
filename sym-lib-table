@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name DFTBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/DFTBoard-rescue.lib)(options "")(descr ""))
+)
