@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3450 1950 1100 1000
+S 3450 1950 1100 1050
 U 58508414
 F0 "Power" 60
 F1 "power.sch" 60
@@ -29,8 +29,8 @@ $EndSheet
 $Sheet
 S 1600 3600 1100 1000
 U 5852A88E
-F0 "SD_USB" 60
-F1 "SD_USB.sch" 60
+F0 "USB" 59
+F1 "USB.sch" 60
 $EndSheet
 $Sheet
 S 1600 1950 1100 1050
@@ -45,9 +45,15 @@ F0 "DDR3" 60
 F1 "DDR3.sch" 60
 $EndSheet
 $Sheet
-S 5300 1950 1050 1000
+S 5300 1950 1050 1050
 U 5C7C62AE
 F0 "LCD50" 60
 F1 "LCD50.sch" 60
+$EndSheet
+$Sheet
+S 1600 5150 1100 1000
+U 5CA1ABAE
+F0 "Storage" 60
+F1 "Storage.sch" 60
 $EndSheet
 $EndSCHEMATC

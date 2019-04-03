@@ -1,4 +1,12 @@
 (sym_lib_table
   (lib (name DFTBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/DFTBoard-rescue.lib)(options "")(descr ""))
   (lib (name TexasInstruments)(type Legacy)(uri ${KIPRJMOD}/lib/TexasInstruments.lib)(options "")(descr ""))
+  (lib (name Microchip)(type Legacy)(uri ${KIPRJMOD}/lib/Microchip.lib)(options "")(descr ""))
+  (lib (name IS43TR16256AL-125KBL)(type Legacy)(uri /home/julian/Documents/dt01zynq/lib/IS43TR16256AL-125KBL.lib)(options "")(descr ""))
+  (lib (name MT41K256M16HA-125_E)(type Legacy)(uri /home/julian/Documents/dt01zynq/lib/MT41K256M16HA-125_E.lib)(options "")(descr ""))
+  (lib (name tps51200DRCR)(type Legacy)(uri ${KIPRJMOD}/lib/tps51200DRCR.lib)(options "")(descr ""))
+  (lib (name Micrel)(type Legacy)(uri ${KIPRJMOD}/lib/Micrel.lib)(options "")(descr ""))
+  (lib (name Connector)(type Legacy)(uri ${KIPRJMOD}/lib/Connector.lib)(options "")(descr ""))
+  (lib (name Abracon)(type Legacy)(uri ${KIPRJMOD}/lib/Abracon.lib)(options "")(descr ""))
+  (lib (name DFTCustom)(type Legacy)(uri ${KIPRJMOD}/lib/DFTCustom.lib)(options "")(descr ""))
 )
