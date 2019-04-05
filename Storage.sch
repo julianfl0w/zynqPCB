@@ -113,7 +113,7 @@ AR Path="/5852A88E/5CA20F53" Ref="U?"  Part="5"
 AR Path="/5CA1ABAE/5CA20F53" Ref="U8"  Part="5" 
 F 0 "U8" H 5850 1800 60  0000 L CNN
 F 1 "xc7z020clg400" H 5600 1700 60  0000 L CNN
-F 2 "Package_BGA:BGA-400_21.0x21.0mm_Layout20x20_P1.0mm" H 5300 1550 60  0001 C CNN
+F 2 "DFTcustom:BGA400_0.8p_17mmx17mm" H 5300 1550 60  0001 C CNN
 F 3 "" H 5300 1550 60  0001 C CNN
 	5    5300 1550
 	1    0    0    -1  
@@ -685,8 +685,6 @@ NoConn ~ 5300 2850
 NoConn ~ 5300 2950
 Text Notes 4500 3000 0    60   ~ 0
 I2C3v3 or GPIO \ncan go here\n
-Text Notes 2350 5650 0    60   ~ 0
-TODO: SD Terminations?\n
 Text GLabel 5300 3250 0    60   Input ~ 0
 ZYNQ_POR
 $EndSCHEMATC
