@@ -40,7 +40,7 @@ SD_D3
 Text GLabel 4050 5450 0    60   BiDi ~ 0
 SD_CMD
 $Comp
-L DFTBoard-rescue:GND-RESCUE-DFTBoard- #PWR?
+L power:GND #PWR?
 U 1 1 5CA20F30
 P 4050 5750
 AR Path="/5852A88E/5CA20F30" Ref="#PWR?"  Part="1" 
@@ -59,7 +59,7 @@ SD_D0
 Text GLabel 4050 5950 0    60   BiDi ~ 0
 SD_D1
 $Comp
-L DFTBoard-rescue:GND-RESCUE-DFTBoard- #PWR?
+L power:GND #PWR?
 U 1 1 5CA20F39
 P 5800 6300
 AR Path="/5852A88E/5CA20F39" Ref="#PWR?"  Part="1" 
@@ -78,7 +78,7 @@ Wire Wire Line
 Text GLabel 5300 2550 0    60   BiDi ~ 0
 RF_IRQ
 $Comp
-L DFTBoard-rescue:GND-RESCUE-DFTBoard- #PWR?
+L power:GND #PWR?
 U 1 1 5CA20F42
 P 4050 6050
 AR Path="/5852A88E/5CA20F42" Ref="#PWR?"  Part="1" 
@@ -93,7 +93,7 @@ $EndComp
 Text GLabel 3750 6150 0    60   BiDi ~ 0
 SD_CD
 $Comp
-L DFTBoard-rescue:+3.3V #PWR?
+L power:+3V3 #PWR?
 U 1 1 5CA20F4B
 P 4050 5550
 AR Path="/5852A88E/5CA20F4B" Ref="#PWR?"  Part="1" 
@@ -113,7 +113,7 @@ AR Path="/5852A88E/5CA20F53" Ref="U?"  Part="5"
 AR Path="/5CA1ABAE/5CA20F53" Ref="U8"  Part="5" 
 F 0 "U8" H 5850 1800 60  0000 L CNN
 F 1 "xc7z020clg400" H 5600 1700 60  0000 L CNN
-F 2 "Package_BGA:BGA-400_21.0x21.0mm_Layout20x20_P1.0mm" H 5300 1550 60  0001 C CNN
+F 2 "DFTcustom:BGA400_0.8p_17mmx17mm" H 5300 1550 60  0001 C CNN
 F 3 "" H 5300 1550 60  0001 C CNN
 	5    5300 1550
 	1    0    0    -1  
@@ -121,7 +121,7 @@ $EndComp
 Text GLabel 5300 3150 0    60   BiDi ~ 0
 RF2_IRQ
 $Comp
-L DFTBoard-rescue:C_Small- C?
+L Device:C_Small C?
 U 1 1 5CA20F60
 P 5050 3450
 AR Path="/58508414/5CA20F60" Ref="C?"  Part="1" 
@@ -140,7 +140,7 @@ F 8 "" H 1550 -1600 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C?
+L Device:C_Small C?
 U 1 1 5CA20F6C
 P 4550 3450
 AR Path="/58508414/5CA20F6C" Ref="C?"  Part="1" 
@@ -148,7 +148,7 @@ AR Path="/5852A88E/5CA20F6C" Ref="C?"  Part="1"
 AR Path="/5CA1ABAE/5CA20F6C" Ref="C121"  Part="1" 
 F 0 "C121" H 4560 3520 50  0000 L CNN
 F 1 ".47uF" H 4560 3370 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4550 3450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4550 3450 50  0001 C CNN
 F 3 "" H 4550 3450 50  0001 C CNN
 F 4 "Murata" H 2600 -2300 50  0001 C CNN "MFR"
 F 5 "GRM188R71C474KA88D" H 2600 -2300 50  0001 C CNN "MPN"
@@ -159,7 +159,7 @@ F 8 "" H 2600 -2300 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C?
+L Device:C_Small C?
 U 1 1 5CA20F78
 P 4800 3450
 AR Path="/58508414/5CA20F78" Ref="C?"  Part="1" 
@@ -167,7 +167,7 @@ AR Path="/5852A88E/5CA20F78" Ref="C?"  Part="1"
 AR Path="/5CA1ABAE/5CA20F78" Ref="C122"  Part="1" 
 F 0 "C122" H 4810 3520 50  0000 L CNN
 F 1 "4.7uF" H 4810 3370 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4800 3450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4800 3450 50  0001 C CNN
 F 3 "" H 4800 3450 50  0001 C CNN
 F 4 "Murata" H 2250 -2300 50  0001 C CNN "MFR"
 F 5 "GRM21BR61A475KA73L" H 2250 -2300 50  0001 C CNN "MPN"
@@ -196,7 +196,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 3600 4800 3650
 $Comp
-L DFTBoard-rescue:GND-RESCUE-DFTBoard- #PWR?
+L power:GND #PWR?
 U 1 1 5CA20F89
 P 4800 3650
 AR Path="/58508414/5CA20F89" Ref="#PWR?"  Part="1" 
@@ -213,7 +213,7 @@ Wire Wire Line
 	5300 3350 5050 3350
 Connection ~ 5050 3350
 $Comp
-L DFTBoard-rescue:+3.3V #PWR?
+L power:+3V3 #PWR?
 U 1 1 5CA20F91
 P 4550 3350
 AR Path="/5852A88E/5CA20F91" Ref="#PWR?"  Part="1" 
@@ -251,7 +251,7 @@ Connection ~ 3900 6150
 Wire Wire Line
 	3900 6150 3750 6150
 $Comp
-L DFTBoard-rescue:+3.3V #PWR?
+L power:+3V3 #PWR?
 U 1 1 5CA20FAB
 P 3900 6450
 AR Path="/5852A88E/5CA20FAB" Ref="#PWR?"  Part="1" 
@@ -264,7 +264,7 @@ F 3 "" H 3900 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R?
+L Device:R_Small R?
 U 1 1 5CA20FB1
 P 1600 2450
 AR Path="/5852A88E/5CA20FB1" Ref="R?"  Part="1" 
@@ -279,7 +279,7 @@ $EndComp
 Wire Wire Line
 	1850 2450 1700 2450
 $Comp
-L DFTBoard-rescue:R_Small R?
+L Device:R_Small R?
 U 1 1 5CA20FB9
 P 1600 2550
 AR Path="/5852A88E/5CA20FB9" Ref="R?"  Part="1" 
@@ -294,7 +294,7 @@ $EndComp
 Wire Wire Line
 	1850 2550 1700 2550
 $Comp
-L DFTBoard-rescue:GND-RESCUE-DFTBoard- #PWR?
+L power:GND #PWR?
 U 1 1 5CA20FC1
 P 1300 2450
 AR Path="/5852A88E/5CA20FC1" Ref="#PWR?"  Part="1" 
@@ -307,7 +307,7 @@ F 3 "" H 1300 2450 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R?
+L Device:R_Small R?
 U 1 1 5CA20FC7
 P 1600 2350
 AR Path="/5852A88E/5CA20FC7" Ref="R?"  Part="1" 
@@ -322,7 +322,7 @@ $EndComp
 Wire Wire Line
 	1850 2350 1700 2350
 $Comp
-L DFTBoard-rescue:R_Small R?
+L Device:R_Small R?
 U 1 1 5CA20FCF
 P 1600 1950
 AR Path="/5852A88E/5CA20FCF" Ref="R?"  Part="1" 
@@ -337,7 +337,7 @@ $EndComp
 Wire Wire Line
 	1850 1950 1700 1950
 $Comp
-L DFTBoard-rescue:R_Small R?
+L Device:R_Small R?
 U 1 1 5CA20FD7
 P 1600 2050
 AR Path="/5852A88E/5CA20FD7" Ref="R?"  Part="1" 
@@ -352,7 +352,7 @@ $EndComp
 Wire Wire Line
 	1850 2050 1700 2050
 $Comp
-L DFTBoard-rescue:R_Small R?
+L Device:R_Small R?
 U 1 1 5CA20FDF
 P 1600 2150
 AR Path="/5852A88E/5CA20FDF" Ref="R?"  Part="1" 
@@ -365,7 +365,7 @@ F 3 "" H 1600 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R?
+L Device:R_Small R?
 U 1 1 5CA20FE6
 P 1600 2250
 AR Path="/5852A88E/5CA20FE6" Ref="R?"  Part="1" 
@@ -382,7 +382,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 2250 1700 2250
 $Comp
-L DFTBoard-rescue:+3.3V #PWR?
+L power:+3V3 #PWR?
 U 1 1 5CA20FEF
 P 1300 2350
 AR Path="/5852A88E/5CA20FEF" Ref="#PWR?"  Part="1" 
@@ -480,7 +480,7 @@ BOOTSPI_DQ2_BMODE2
 Text GLabel 4600 4600 2    60   BiDi ~ 0
 BOOTSPI_DQ3_BMODE0
 $Comp
-L DFTBoard-rescue:+3.3V #PWR?
+L power:+3V3 #PWR?
 U 1 1 5CA21030
 P 3200 4300
 AR Path="/5852A88E/5CA21030" Ref="#PWR?"  Part="1" 
@@ -495,7 +495,7 @@ $EndComp
 Text GLabel 3200 4400 0    60   Input ~ 0
 BOOTSPI_CS
 $Comp
-L DFTBoard-rescue:GND-RESCUE-DFTBoard- #PWR?
+L power:GND #PWR?
 U 1 1 5CA21037
 P 3200 4600
 AR Path="/5852A88E/5CA21037" Ref="#PWR?"  Part="1" 
@@ -523,7 +523,7 @@ F 5 "ASDMB-{freq}MHZ-{temp}{stab}-{load}-{pkg}" H 3000 450 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND-RESCUE-DFTBoard- #PWR?
+L power:GND #PWR?
 U 1 1 5CA403E2
 P 2500 1450
 AR Path="/58508414/5CA403E2" Ref="#PWR?"  Part="1" 
@@ -537,7 +537,7 @@ F 3 "" H 2500 1450 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:+3.3V #PWR?
+L power:+3V3 #PWR?
 U 1 1 5CA404EC
 P 2500 950
 AR Path="/5852A88E/5CA404EC" Ref="#PWR?"  Part="1" 
@@ -550,14 +550,14 @@ F 3 "" H 2500 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C?
+L Device:C_Small C?
 U 1 1 5CA4098B
 P 1900 1150
 AR Path="/58818A06/5CA4098B" Ref="C?"  Part="1" 
 AR Path="/5CA1ABAE/5CA4098B" Ref="C120"  Part="1" 
 F 0 "C120" H 1910 1220 50  0000 L CNN
 F 1 ".01uF" H 1910 1070 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1900 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1900 1150 50  0001 C CNN
 F 3 "" H 1900 1150 50  0001 C CNN
 F 4 "Murata" H 300 -3400 50  0001 C CNN "MFR"
 F 5 "Digikey" H 300 -3400 50  0001 C CNN "SPR"
@@ -565,7 +565,7 @@ F 5 "Digikey" H 300 -3400 50  0001 C CNN "SPR"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:+3.3V #PWR?
+L power:+3V3 #PWR?
 U 1 1 5CA412C3
 P 1900 1050
 AR Path="/5852A88E/5CA412C3" Ref="#PWR?"  Part="1" 
@@ -578,7 +578,7 @@ F 3 "" H 1900 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND-RESCUE-DFTBoard- #PWR?
+L power:GND #PWR?
 U 1 1 5CA41304
 P 1900 1250
 AR Path="/58508414/5CA41304" Ref="#PWR?"  Part="1" 
@@ -607,7 +607,7 @@ F 3 "~" H 5200 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R- R?
+L Device:R R?
 U 1 1 5CA43B34
 P 2350 1350
 AR Path="/5852A88E/5CA43B34" Ref="R?"  Part="1" 
@@ -625,7 +625,7 @@ F 8 "" H 0   -5950 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L DFTBoard-rescue:+3.3V #PWR?
+L power:+3V3 #PWR?
 U 1 1 5CA445CF
 P 2200 1350
 AR Path="/5852A88E/5CA445CF" Ref="#PWR?"  Part="1" 
@@ -649,7 +649,7 @@ F 3 "" H 2300 3450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND-RESCUE-DFTBoard- #PWR?
+L power:GND #PWR?
 U 1 1 5CA4AD9E
 P 2700 3100
 AR Path="/58508414/5CA4AD9E" Ref="#PWR?"  Part="1" 
@@ -665,7 +665,7 @@ $EndComp
 NoConn ~ 2700 3200
 NoConn ~ 2700 3600
 $Comp
-L DFTBoard-rescue:+3.3V #PWR?
+L power:+3V3 #PWR?
 U 1 1 5CA4C036
 P 2700 3300
 AR Path="/5852A88E/5CA4C036" Ref="#PWR?"  Part="1" 
@@ -685,8 +685,6 @@ NoConn ~ 5300 2850
 NoConn ~ 5300 2950
 Text Notes 4500 3000 0    60   ~ 0
 I2C3v3 or GPIO \ncan go here\n
-Text Notes 2350 5650 0    60   ~ 0
-TODO: SD Terminations?\n
 Text GLabel 5300 3250 0    60   Input ~ 0
 ZYNQ_POR
 $EndSCHEMATC

@@ -105,7 +105,7 @@
       (tstamp 5C7BE5D0))
     (comp (ref C29)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -116,7 +116,7 @@
       (tstamp 5C7BED00))
     (comp (ref C28)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -127,7 +127,7 @@
       (tstamp 5C7BED0C))
     (comp (ref C27)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -138,7 +138,7 @@
       (tstamp 5C7BED18))
     (comp (ref C25)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -149,7 +149,7 @@
       (tstamp 5C7BED24))
     (comp (ref C23)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -160,7 +160,7 @@
       (tstamp 5C7BED30))
     (comp (ref C21)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -171,7 +171,7 @@
       (tstamp 5C7BED3C))
     (comp (ref C17)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -182,7 +182,7 @@
       (tstamp 5C7BED48))
     (comp (ref C19)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -204,7 +204,7 @@
       (tstamp 5C7BED66))
     (comp (ref C31)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -226,7 +226,7 @@
       (tstamp 5C7BED84))
     (comp (ref C24)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -237,7 +237,7 @@
       (tstamp 5C7BED90))
     (comp (ref C22)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -248,7 +248,7 @@
       (tstamp 5C7BED9C))
     (comp (ref C20)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -259,7 +259,7 @@
       (tstamp 5C7BEDA8))
     (comp (ref C18)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -270,7 +270,7 @@
       (tstamp 5C7BEDB4))
     (comp (ref C16)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -303,7 +303,7 @@
       (tstamp 5C7C34A4))
     (comp (ref C6)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -314,7 +314,7 @@
       (tstamp 5C7C34B0))
     (comp (ref C7)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -325,7 +325,7 @@
       (tstamp 5C7C34BC))
     (comp (ref C10)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -336,7 +336,7 @@
       (tstamp 5C7C34C8))
     (comp (ref C11)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -347,7 +347,7 @@
       (tstamp 5C7C34D4))
     (comp (ref C12)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -358,7 +358,7 @@
       (tstamp 5C7C34E0))
     (comp (ref C13)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -417,7 +417,7 @@
       (tstamp 5C7D1CB4))
     (comp (ref C1)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -428,7 +428,7 @@
       (tstamp 5C7D1CCC))
     (comp (ref C8)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -439,7 +439,7 @@
       (tstamp 5C7D1CD8))
     (comp (ref C9)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -450,7 +450,7 @@
       (tstamp 5C7D1CE4))
     (comp (ref C2)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -461,7 +461,7 @@
       (tstamp 5C7D1CF0))
     (comp (ref C4)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -472,7 +472,7 @@
       (tstamp 5C7D1CFC))
     (comp (ref C5)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -483,7 +483,7 @@
       (tstamp 5C7D1D08))
     (comp (ref C14)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -494,7 +494,7 @@
       (tstamp 5C7D1D14))
     (comp (ref C15)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -643,7 +643,7 @@
       (tstamp 5863175D))
     (comp (ref C35)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -654,7 +654,7 @@
       (tstamp 5874D553))
     (comp (ref C53)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -665,7 +665,7 @@
       (tstamp 5874E569))
     (comp (ref C54)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -720,7 +720,7 @@
       (tstamp 58786ED4))
     (comp (ref C44)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -731,7 +731,7 @@
       (tstamp 588D48D0))
     (comp (ref C47)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -742,7 +742,7 @@
       (tstamp 588D55C1))
     (comp (ref C46)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -753,7 +753,7 @@
       (tstamp 588D86AF))
     (comp (ref C48)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -764,7 +764,7 @@
       (tstamp 588D8CBD))
     (comp (ref C45)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -775,7 +775,7 @@
       (tstamp 588DA9D9))
     (comp (ref C43)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -786,7 +786,7 @@
       (tstamp 588DA9DF))
     (comp (ref C50)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -797,7 +797,7 @@
       (tstamp 588E3BBC))
     (comp (ref C38)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -808,7 +808,7 @@
       (tstamp 588BFACF))
     (comp (ref C40)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -852,7 +852,7 @@
       (tstamp 58B5ECD7))
     (comp (ref C49)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -874,7 +874,7 @@
       (tstamp 5990BCEA))
     (comp (ref C36)
       (value 1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C105KE15D)
@@ -885,7 +885,7 @@
       (tstamp 59945ED4))
     (comp (ref C39)
       (value 1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C105KE15D)
@@ -896,7 +896,7 @@
       (tstamp 59946320))
     (comp (ref C37)
       (value 1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C105KE15D)
@@ -907,7 +907,7 @@
       (tstamp 5995CA0B))
     (comp (ref C41)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -929,7 +929,7 @@
       (tstamp 59824813))
     (comp (ref C42)
       (value 1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C105KE15D)
@@ -1147,7 +1147,7 @@
       (tstamp 5C826F88))
     (comp (ref C55)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1158,7 +1158,7 @@
       (tstamp 5C84DE27))
     (comp (ref C57)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1169,7 +1169,7 @@
       (tstamp 5C850765))
     (comp (ref C56)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1202,7 +1202,7 @@
       (tstamp 58530049))
     (comp (ref C59)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -1213,7 +1213,7 @@
       (tstamp 585984E0))
     (comp (ref C58)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1246,7 +1246,7 @@
       (tstamp 585986E0))
     (comp (ref C61)
       (value 1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C105KE15D)
@@ -1257,7 +1257,7 @@
       (tstamp 5A3C2566))
     (comp (ref C62)
       (value 1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C105KE15D)
@@ -1268,7 +1268,7 @@
       (tstamp 5A3C258E))
     (comp (ref C60)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -1363,7 +1363,7 @@
       (tstamp 58829DD9))
     (comp (ref C65)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1374,7 +1374,7 @@
       (tstamp 5882A26A))
     (comp (ref C66)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1385,7 +1385,7 @@
       (tstamp 5882A2B4))
     (comp (ref C75)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1396,7 +1396,7 @@
       (tstamp 5882A2F8))
     (comp (ref C76)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1407,7 +1407,7 @@
       (tstamp 5882A33B))
     (comp (ref C73)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1418,7 +1418,7 @@
       (tstamp 58834B7E))
     (comp (ref C71)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1429,7 +1429,7 @@
       (tstamp 58834CD6))
     (comp (ref C67)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -1440,7 +1440,7 @@
       (tstamp 58834D12))
     (comp (ref C63)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -1462,7 +1462,7 @@
       (tstamp 5887E41B))
     (comp (ref C80)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -1473,7 +1473,7 @@
       (tstamp 5887E422))
     (comp (ref C81)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -1484,7 +1484,7 @@
       (tstamp 5887E429))
     (comp (ref C82)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -1495,7 +1495,7 @@
       (tstamp 5887E430))
     (comp (ref C83)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -1506,7 +1506,7 @@
       (tstamp 5887E437))
     (comp (ref C84)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -1517,7 +1517,7 @@
       (tstamp 5887E43E))
     (comp (ref C85)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -1573,7 +1573,7 @@
       (tstamp 5C8E21B4))
     (comp (ref C68)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1584,7 +1584,7 @@
       (tstamp 5C8E21CB))
     (comp (ref C69)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1595,7 +1595,7 @@
       (tstamp 5C8E21D6))
     (comp (ref C77)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1606,7 +1606,7 @@
       (tstamp 5C8E21E1))
     (comp (ref C78)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1617,7 +1617,7 @@
       (tstamp 5C8E21EC))
     (comp (ref C74)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1628,7 +1628,7 @@
       (tstamp 5C8E21F7))
     (comp (ref C72)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1639,7 +1639,7 @@
       (tstamp 5C8E2202))
     (comp (ref C70)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -1650,7 +1650,7 @@
       (tstamp 5C8E220D))
     (comp (ref C64)
       (value 10uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A106KE19L)
@@ -1672,7 +1672,7 @@
       (tstamp 5908520B))
     (comp (ref C94)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -1683,7 +1683,7 @@
       (tstamp 59085212))
     (comp (ref C95)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -1694,7 +1694,7 @@
       (tstamp 59085219))
     (comp (ref C96)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -1705,7 +1705,7 @@
       (tstamp 59085220))
     (comp (ref C97)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -1716,7 +1716,7 @@
       (tstamp 59085227))
     (comp (ref C98)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -1727,7 +1727,7 @@
       (tstamp 5908522E))
     (comp (ref C99)
       (value .47uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C474KA88D)
@@ -1738,7 +1738,7 @@
       (tstamp 59085235))
     (comp (ref C88)
       (value 1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C105KE15D)
@@ -1837,7 +1837,7 @@
       (tstamp 598A6D9E))
     (comp (ref C90)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -1848,7 +1848,7 @@
       (tstamp 598BDB12))
     (comp (ref C89)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1859,7 +1859,7 @@
       (tstamp 598BDB19))
     (comp (ref C92)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -1870,7 +1870,7 @@
       (tstamp 598BE44E))
     (comp (ref C91)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)
@@ -1936,7 +1936,7 @@
       (tstamp 598EFBB1))
     (comp (ref C87)
       (value 4.7uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM21BR61A475KA73L)
@@ -1947,7 +1947,7 @@
       (tstamp 598FD60E))
     (comp (ref C86)
       (value .1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint Capacitor_SMD:C_0603_1608Metric)
       (fields
         (field (name MFR) Murata)
         (field (name MPN) GRM188R71C104KA01D)

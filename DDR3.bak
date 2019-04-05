@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DFTBoard-rescue:R_Small- R47
+L Device:R_Small R47
 U 1 1 58829D91
 P 2800 6850
 F 0 "R47" H 2830 6870 50  0000 L CNN
@@ -28,7 +28,7 @@ F 5 "Digikey" H 1500 2300 50  0001 C CNN "SPR"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND- #PWR0154
+L power:GND #PWR0154
 U 1 1 58829F20
 P 2800 7600
 F 0 "#PWR0154" H 2800 7350 50  0001 C CNN
@@ -39,12 +39,12 @@ F 3 "" H 2800 7600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C94
+L Device:C_Small C94
 U 1 1 5882A26A
 P 2500 6850
 F 0 "C94" H 2510 6920 50  0000 L CNN
 F 1 ".1uF" H 2510 6770 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2500 6850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2500 6850 50  0001 C CNN
 F 3 "" H 2500 6850 50  0001 C CNN
 F 4 "Murata" H 1500 2300 50  0001 C CNN "MFR"
 F 5 "GRM188R71C104KA01D" H 1500 2300 50  0001 C CNN "MPN"
@@ -55,12 +55,12 @@ F 8 "" H 1500 2300 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C95
+L Device:C_Small C95
 U 1 1 5882A2B4
 P 2500 7350
 F 0 "C95" H 2510 7420 50  0000 L CNN
 F 1 ".1uF" H 2510 7270 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2500 7350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2500 7350 50  0001 C CNN
 F 3 "" H 2500 7350 50  0001 C CNN
 F 4 "Murata" H 1500 2300 50  0001 C CNN "MFR"
 F 5 "GRM188R71C104KA01D" H 1500 2300 50  0001 C CNN "MPN"
@@ -71,12 +71,12 @@ F 8 "" H 1500 2300 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C96
+L Device:C_Small C96
 U 1 1 5882A2F8
 P 3100 6850
 F 0 "C96" H 3110 6920 50  0000 L CNN
 F 1 ".1uF" H 3110 6770 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3100 6850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3100 6850 50  0001 C CNN
 F 3 "" H 3100 6850 50  0001 C CNN
 F 4 "Murata" H 1500 2300 50  0001 C CNN "MFR"
 F 5 "GRM188R71C104KA01D" H 1500 2300 50  0001 C CNN "MPN"
@@ -87,12 +87,12 @@ F 8 "" H 1500 2300 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C97
+L Device:C_Small C97
 U 1 1 5882A33B
 P 3100 7350
 F 0 "C97" H 3110 7420 50  0000 L CNN
 F 1 ".1uF" H 3110 7270 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3100 7350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3100 7350 50  0001 C CNN
 F 3 "" H 3100 7350 50  0001 C CNN
 F 4 "Murata" H 1500 2300 50  0001 C CNN "MFR"
 F 5 "GRM188R71C104KA01D" H 1500 2300 50  0001 C CNN "MPN"
@@ -103,12 +103,12 @@ F 8 "" H 1500 2300 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C100
+L Device:C_Small C100
 U 1 1 5887E429
 P 8050 6100
 F 0 "C100" H 8060 6170 50  0000 L CNN
 F 1 "4.7uF" H 8060 6020 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8050 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8050 6100 50  0001 C CNN
 F 3 "" H 8050 6100 50  0001 C CNN
 F 4 "Murata" H 650 150 50  0001 C CNN "MFR"
 F 5 "GRM21BR61A475KA73L" H 650 150 50  0001 C CNN "MPN"
@@ -119,12 +119,12 @@ F 8 "" H 650 150 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C101
+L Device:C_Small C101
 U 1 1 5887E430
 P 8300 6100
 F 0 "C101" H 8310 6170 50  0000 L CNN
 F 1 ".47uF" H 8310 6020 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8300 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8300 6100 50  0001 C CNN
 F 3 "" H 8300 6100 50  0001 C CNN
 F 4 "Murata" H 650 150 50  0001 C CNN "MFR"
 F 5 "GRM188R71C474KA88D" H 650 150 50  0001 C CNN "MPN"
@@ -135,12 +135,12 @@ F 8 "" H 650 150 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C102
+L Device:C_Small C102
 U 1 1 5887E437
 P 8550 6100
 F 0 "C102" H 8560 6170 50  0000 L CNN
 F 1 ".47uF" H 8560 6020 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8550 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8550 6100 50  0001 C CNN
 F 3 "" H 8550 6100 50  0001 C CNN
 F 4 "Murata" H 650 150 50  0001 C CNN "MFR"
 F 5 "GRM188R71C474KA88D" H 650 150 50  0001 C CNN "MPN"
@@ -151,12 +151,12 @@ F 8 "" H 650 150 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C103
+L Device:C_Small C103
 U 1 1 5887E43E
 P 8800 6100
 F 0 "C103" H 8810 6170 50  0000 L CNN
 F 1 ".47uF" H 8810 6020 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8800 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8800 6100 50  0001 C CNN
 F 3 "" H 8800 6100 50  0001 C CNN
 F 4 "Murata" H 650 150 50  0001 C CNN "MFR"
 F 5 "GRM188R71C474KA88D" H 650 150 50  0001 C CNN "MPN"
@@ -167,12 +167,12 @@ F 8 "" H 650 150 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C104
+L Device:C_Small C104
 U 1 1 5887E445
 P 9050 6100
 F 0 "C104" H 9060 6170 50  0000 L CNN
 F 1 ".47uF" H 9060 6020 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9050 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9050 6100 50  0001 C CNN
 F 3 "" H 9050 6100 50  0001 C CNN
 F 4 "Murata" H 650 150 50  0001 C CNN "MFR"
 F 5 "GRM188R71C474KA88D" H 650 150 50  0001 C CNN "MPN"
@@ -183,7 +183,7 @@ F 8 "" H 650 150 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND- #PWR0162
+L power:GND #PWR0162
 U 1 1 5887E465
 P 8050 6400
 F 0 "#PWR0162" H 8050 6150 50  0001 C CNN
@@ -387,7 +387,7 @@ DDR3_CK_P
 Text GLabel 4050 2550 0    60   Input ~ 0
 DDR3_CK_N
 $Comp
-L DFTBoard-rescue:R- R50
+L Device:R R50
 U 1 1 5A7D1ACF
 P 5800 1050
 F 0 "R50" V 5880 1050 50  0000 C CNN
@@ -410,7 +410,7 @@ U 7 1 5C7D3F59
 P 10150 450
 F 0 "U8" H 10350 700 60  0000 L CNN
 F 1 "xc7z020clg400" H 10350 600 60  0000 L CNN
-F 2 "Package_BGA:BGA-400_21.0x21.0mm_Layout20x20_P1.0mm" H 10150 450 60  0001 C CNN
+F 2 "DFTcustom:BGA400_0.8p_17mmx17mm" H 10150 450 60  0001 C CNN
 F 3 "" H 10150 450 60  0001 C CNN
 	7    10150 450 
 	1    0    0    -1  
@@ -560,7 +560,7 @@ DDR3_CS#
 Text Notes 7150 1150 0    60   ~ 0
 Terminations as described in UG933\nand shown in ZC702 schematic
 $Comp
-L DFTBoard-rescue:C_Small- C?
+L Device:C_Small C?
 U 1 1 5CB10B71
 P 7800 6100
 AR Path="/58508414/5CB10B71" Ref="C?"  Part="1" 
@@ -611,7 +611,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 5750 3850 5850
 $Comp
-L DFTBoard-rescue:GND- #PWR0155
+L power:GND #PWR0155
 U 1 1 5C8E3DDA
 P 3850 6150
 F 0 "#PWR0155" H 3850 5900 50  0001 C CNN
@@ -730,7 +730,7 @@ DDR3_DQ1
 Text GLabel 5450 2850 2    60   BiDi ~ 0
 DDR3_DQ0
 $Comp
-L DFTBoard-rescue:GND- #PWR0157
+L power:GND #PWR0157
 U 1 1 588278E2
 P 5550 6200
 F 0 "#PWR0157" H 5550 5950 50  0001 C CNN
@@ -770,7 +770,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 5900 2550 5900
 $Comp
-L DFTBoard-rescue:GND- #PWR0151
+L power:GND #PWR0151
 U 1 1 5C8EEF2B
 P 2550 6150
 F 0 "#PWR0151" H 2550 5900 50  0001 C CNN
@@ -850,7 +850,7 @@ Wire Wire Line
 Wire Wire Line
 	850  5700 850  5800
 $Comp
-L DFTBoard-rescue:GND- #PWR0149
+L power:GND #PWR0149
 U 1 1 5C8FB945
 P 850 6100
 F 0 "#PWR0149" H 850 5850 50  0001 C CNN
@@ -870,12 +870,12 @@ Connection ~ 2450 2200
 Text Label 5600 2200 0    60   ~ 0
 VREF
 $Comp
-L DFTBoard-rescue:C_Small- C93
+L Device:C_Small C93
 U 1 1 5C964448
 P 2450 2300
 F 0 "C93" H 2460 2370 50  0000 L CNN
 F 1 ".01uF" H 2460 2220 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2450 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2450 2300 50  0001 C CNN
 F 3 "" H 2450 2300 50  0001 C CNN
 F 4 "Murata" H 850 -2250 50  0001 C CNN "MFR"
 F 5 "Digikey" H 850 -2250 50  0001 C CNN "SPR"
@@ -883,7 +883,7 @@ F 5 "Digikey" H 850 -2250 50  0001 C CNN "SPR"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND- #PWR0150
+L power:GND #PWR0150
 U 1 1 5C96467C
 P 2450 2400
 F 0 "#PWR0150" H 2450 2150 50  0001 C CNN
@@ -894,12 +894,12 @@ F 3 "" H 2450 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C106
+L Device:C_Small C106
 U 1 1 5C96471D
 P 9050 7650
 F 0 "C106" H 9060 7720 50  0000 L CNN
 F 1 ".01uF" H 9060 7570 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9050 7650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9050 7650 50  0001 C CNN
 F 3 "" H 9050 7650 50  0001 C CNN
 F 4 "Murata" H 7450 3100 50  0001 C CNN "MFR"
 F 5 "Digikey" H 7450 3100 50  0001 C CNN "SPR"
@@ -907,12 +907,12 @@ F 5 "Digikey" H 7450 3100 50  0001 C CNN "SPR"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C105
+L Device:C_Small C105
 U 1 1 5C96492F
 P 8750 7550
 F 0 "C105" H 8760 7620 50  0000 L CNN
 F 1 ".01uF" H 8760 7470 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8750 7550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8750 7550 50  0001 C CNN
 F 3 "" H 8750 7550 50  0001 C CNN
 F 4 "Murata" H 7150 3000 50  0001 C CNN "MFR"
 F 5 "Digikey" H 7150 3000 50  0001 C CNN "SPR"
@@ -920,7 +920,7 @@ F 5 "Digikey" H 7150 3000 50  0001 C CNN "SPR"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND- #PWR0164
+L power:GND #PWR0164
 U 1 1 5C9719EC
 P 9050 7750
 F 0 "#PWR0164" H 9050 7500 50  0001 C CNN
@@ -931,7 +931,7 @@ F 3 "" H 9050 7750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:GND- #PWR0163
+L power:GND #PWR0163
 U 1 1 5C971AD3
 P 8750 7650
 F 0 "#PWR0163" H 8750 7400 50  0001 C CNN
@@ -983,7 +983,7 @@ F 3 "" H 9650 7650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:GND- #PWR0166
+L power:GND #PWR0166
 U 1 1 5C97700F
 P 9650 7750
 F 0 "#PWR0166" H 9650 7500 50  0001 C CNN
@@ -1005,12 +1005,12 @@ F 3 "" H 10050 8050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L DFTBoard-rescue:C_Small- C98
+L Device:C_Small C98
 U 1 1 5C97BD40
 P 5500 2300
 F 0 "C98" H 5510 2370 50  0000 L CNN
 F 1 ".01uF" H 5510 2220 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5500 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5500 2300 50  0001 C CNN
 F 3 "" H 5500 2300 50  0001 C CNN
 F 4 "Murata" H 3900 -2250 50  0001 C CNN "MFR"
 F 5 "Digikey" H 3900 -2250 50  0001 C CNN "SPR"
@@ -1021,7 +1021,7 @@ Connection ~ 5500 2200
 Wire Wire Line
 	5500 2200 5600 2200
 $Comp
-L DFTBoard-rescue:GND- #PWR0156
+L power:GND #PWR0156
 U 1 1 5C97BFA2
 P 5500 2400
 F 0 "#PWR0156" H 5500 2150 50  0001 C CNN
@@ -1032,7 +1032,7 @@ F 3 "" H 5500 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small- R48
+L Device:R_Small R48
 U 1 1 5C97C3FF
 P 2800 7350
 F 0 "R48" H 2830 7370 50  0000 L CNN
@@ -1069,7 +1069,7 @@ F 3 "~" H 2500 7100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R52
+L Device:R_Small R52
 U 1 1 5C9CB426
 P 7750 1700
 F 0 "R52" V 7750 1650 50  0000 L CNN
@@ -1116,7 +1116,7 @@ DDR3_A13
 Text GLabel 7650 3000 0    60   Input ~ 0
 DDR3_A14
 $Comp
-L DFTBoard-rescue:R_Small R51
+L Device:R_Small R51
 U 1 1 5C9EBED7
 P 7750 1600
 F 0 "R51" V 7750 1550 50  0000 L CNN
@@ -1127,7 +1127,7 @@ F 3 "" H 7750 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R54
+L Device:R_Small R54
 U 1 1 5C9EDA10
 P 7750 1900
 F 0 "R54" V 7750 1850 50  0000 L CNN
@@ -1138,7 +1138,7 @@ F 3 "" H 7750 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R53
+L Device:R_Small R53
 U 1 1 5C9EDA16
 P 7750 1800
 F 0 "R53" V 7750 1750 50  0000 L CNN
@@ -1149,7 +1149,7 @@ F 3 "" H 7750 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R56
+L Device:R_Small R56
 U 1 1 5C9EF607
 P 7750 2100
 F 0 "R56" V 7750 2050 50  0000 L CNN
@@ -1160,7 +1160,7 @@ F 3 "" H 7750 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R55
+L Device:R_Small R55
 U 1 1 5C9EF60D
 P 7750 2000
 F 0 "R55" V 7750 1950 50  0000 L CNN
@@ -1171,7 +1171,7 @@ F 3 "" H 7750 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R58
+L Device:R_Small R58
 U 1 1 5C9EF613
 P 7750 2300
 F 0 "R58" V 7750 2250 50  0000 L CNN
@@ -1182,7 +1182,7 @@ F 3 "" H 7750 2300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R57
+L Device:R_Small R57
 U 1 1 5C9EF619
 P 7750 2200
 F 0 "R57" V 7750 2150 50  0000 L CNN
@@ -1193,7 +1193,7 @@ F 3 "" H 7750 2200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R60
+L Device:R_Small R60
 U 1 1 5C9F1272
 P 7750 2500
 F 0 "R60" V 7750 2450 50  0000 L CNN
@@ -1204,7 +1204,7 @@ F 3 "" H 7750 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R59
+L Device:R_Small R59
 U 1 1 5C9F1278
 P 7750 2400
 F 0 "R59" V 7750 2350 50  0000 L CNN
@@ -1215,7 +1215,7 @@ F 3 "" H 7750 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R62
+L Device:R_Small R62
 U 1 1 5C9F127E
 P 7750 2700
 F 0 "R62" V 7750 2650 50  0000 L CNN
@@ -1226,7 +1226,7 @@ F 3 "" H 7750 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R61
+L Device:R_Small R61
 U 1 1 5C9F1284
 P 7750 2600
 F 0 "R61" V 7750 2550 50  0000 L CNN
@@ -1237,7 +1237,7 @@ F 3 "" H 7750 2600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R64
+L Device:R_Small R64
 U 1 1 5C9F128A
 P 7750 2900
 F 0 "R64" V 7750 2850 50  0000 L CNN
@@ -1248,7 +1248,7 @@ F 3 "" H 7750 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R63
+L Device:R_Small R63
 U 1 1 5C9F1290
 P 7750 2800
 F 0 "R63" V 7750 2750 50  0000 L CNN
@@ -1259,7 +1259,7 @@ F 3 "" H 7750 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R66
+L Device:R_Small R66
 U 1 1 5C9F1296
 P 7750 3200
 F 0 "R66" V 7750 3150 50  0000 L CNN
@@ -1270,7 +1270,7 @@ F 3 "" H 7750 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R65
+L Device:R_Small R65
 U 1 1 5C9F129C
 P 7750 3000
 F 0 "R65" V 7750 2950 50  0000 L CNN
@@ -1281,7 +1281,7 @@ F 3 "" H 7750 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R67
+L Device:R_Small R67
 U 1 1 5C9F48E3
 P 7750 3300
 F 0 "R67" V 7750 3250 50  0000 L CNN
@@ -1292,7 +1292,7 @@ F 3 "" H 7750 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R68
+L Device:R_Small R68
 U 1 1 5C9F4945
 P 7750 3400
 F 0 "R68" V 7750 3350 50  0000 L CNN
@@ -1359,7 +1359,7 @@ DDR3_CAS#
 Text GLabel 7650 3600 0    60   Input ~ 0
 DDR3_RAS#
 $Comp
-L DFTBoard-rescue:R_Small R69
+L Device:R_Small R69
 U 1 1 5C9F910F
 P 7750 3600
 F 0 "R69" V 7750 3550 50  0000 L CNN
@@ -1370,7 +1370,7 @@ F 3 "" H 7750 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R70
+L Device:R_Small R70
 U 1 1 5C9F9115
 P 7750 3700
 F 0 "R70" V 7750 3650 50  0000 L CNN
@@ -1381,7 +1381,7 @@ F 3 "" H 7750 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R71
+L Device:R_Small R71
 U 1 1 5C9F911B
 P 7750 3800
 F 0 "R71" V 7750 3750 50  0000 L CNN
@@ -1405,7 +1405,7 @@ DDR3_ODT
 Text GLabel 7650 4100 0    60   Input ~ 0
 DDR3_CS#
 $Comp
-L DFTBoard-rescue:R_Small R72
+L Device:R_Small R72
 U 1 1 5CA00DBA
 P 7750 4000
 F 0 "R72" V 7750 3950 50  0000 L CNN
@@ -1416,7 +1416,7 @@ F 3 "" H 7750 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DFTBoard-rescue:R_Small R73
+L Device:R_Small R73
 U 1 1 5CA00DC0
 P 7750 4100
 F 0 "R73" V 7750 4050 50  0000 L CNN
@@ -1449,7 +1449,7 @@ Wire Wire Line
 	7850 1450 7850 1600
 Connection ~ 7850 1600
 $Comp
-L DFTBoard-rescue:R_Small R74
+L Device:R_Small R74
 U 1 1 5CA09736
 P 7900 4900
 F 0 "R74" H 7959 4946 50  0000 L CNN
@@ -1464,7 +1464,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 4650 7900 4800
 $Comp
-L DFTBoard-rescue:GND- #PWR0160
+L power:GND #PWR0160
 U 1 1 5CA0C7CC
 P 7900 5000
 F 0 "#PWR0160" H 7900 4750 50  0001 C CNN

@@ -89,93 +89,6 @@ X Shield 5 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DFTBoard-rescue_+1.0V-
-#
-DEF DFTBoard-rescue_+1.0V- #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -40 30 H I C CNN
-F1 "DFTBoard-rescue_+1.0V-" 0 110 30 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-C 0 60 20 0 1 0 N
-P 3 0 1 0 0 0 0 40 0 40 N
-X +1.0V 1 0 0 0 U 30 30 0 0 W N
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_+1.8V
-#
-DEF DFTBoard-rescue_+1.8V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 140 20 H I C CNN
-F1 "DFTBoard-rescue_+1.8V" 0 110 30 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-C 0 60 20 0 1 0 N
-P 3 0 0 0 0 0 0 40 0 40 N
-X +1.8V 1 0 0 0 U 20 20 0 0 W N
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_+1.8V-
-#
-DEF DFTBoard-rescue_+1.8V- #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 140 20 H I C CNN
-F1 "DFTBoard-rescue_+1.8V-" 0 110 30 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-C 0 60 20 0 1 0 N
-P 3 0 0 0 0 0 0 40 0 40 N
-X +1.8V 1 0 0 0 U 20 20 0 0 W N
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_+3.3V
-#
-DEF DFTBoard-rescue_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "DFTBoard-rescue_+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_+3.3V-
-#
-DEF DFTBoard-rescue_+3.3V- #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "DFTBoard-rescue_+3.3V-" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_+5V-
-#
-DEF DFTBoard-rescue_+5V- #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "DFTBoard-rescue_+5V-" 0 150 79 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # DFTBoard-rescue_APDS-9960
 #
 DEF DFTBoard-rescue_APDS-9960 U 0 40 Y Y 1 L N
@@ -238,118 +151,6 @@ X ~ 6 50 0 100 L 40 40 1 1 P
 X ~ 7 -200 -100 100 R 40 40 1 1 P
 X ~ 8 50 -100 100 L 40 40 1 1 P
 X ~ 9 -200 -200 100 R 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_C
-#
-DEF DFTBoard-rescue_C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "DFTBoard-rescue_C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_C-
-#
-DEF DFTBoard-rescue_C- C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "DFTBoard-rescue_C-" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_CP1_Small
-#
-DEF DFTBoard-rescue_CP1_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "DFTBoard-rescue_CP1_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- CP_*
-$ENDFPLIST
-DRAW
-A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
-P 2 0 1 12 -60 20 60 20 N
-P 2 0 1 0 -50 60 -30 60 N
-P 2 0 1 0 -40 50 -40 70 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_CP1_Small-
-#
-DEF DFTBoard-rescue_CP1_Small- C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "DFTBoard-rescue_CP1_Small-" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- CP_*
-$ENDFPLIST
-DRAW
-A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
-P 2 0 1 12 -60 20 60 20 N
-P 2 0 1 0 -50 60 -30 60 N
-P 2 0 1 0 -40 50 -40 70 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_C_Small
-#
-DEF DFTBoard-rescue_C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "DFTBoard-rescue_C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_C_Small-
-#
-DEF DFTBoard-rescue_C_Small- C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "DFTBoard-rescue_C_Small-" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -430,71 +231,6 @@ X IM0 6 -350 1250 200 R 50 50 1 1 I
 X IM1 7 -350 1150 200 R 50 50 1 1 I
 X IM2 8 -350 1050 200 R 50 50 1 1 I
 X IM3 9 -350 950 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_GND
-#
-DEF DFTBoard-rescue_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "DFTBoard-rescue_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_GND-
-#
-DEF DFTBoard-rescue_GND- #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "DFTBoard-rescue_GND-" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_GND-RESCUE-DFTBoard-
-#
-DEF ~DFTBoard-rescue_GND-RESCUE-DFTBoard- #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 0 30 H I C CNN
-F1 "DFTBoard-rescue_GND-RESCUE-DFTBoard-" 0 -70 30 H I C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 4 0 1 0 -50 0 0 -50 50 0 -50 0 N
-X GND 1 0 0 0 U 30 30 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_GNDA
-#
-DEF DFTBoard-rescue_GNDA #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "DFTBoard-rescue_GNDA" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GNDA 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_GNDA-
-#
-DEF DFTBoard-rescue_GNDA- #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "DFTBoard-rescue_GNDA-" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -750,76 +486,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 X pwr 1 0 0 0 U 50 50 0 0 w
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_R
-#
-DEF DFTBoard-rescue_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "DFTBoard-rescue_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_R-
-#
-DEF DFTBoard-rescue_R- R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "DFTBoard-rescue_R-" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_R_Small
-#
-DEF DFTBoard-rescue_R_Small R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "DFTBoard-rescue_R_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# DFTBoard-rescue_R_Small-
-#
-DEF DFTBoard-rescue_R_Small- R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "DFTBoard-rescue_R_Small-" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1398,6 +1064,44 @@ X DTR 6 300 -200 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_CP1_Small
+#
+DEF Device_CP1_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP1_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
+P 2 0 1 12 -60 20 60 20 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_C_Small
 #
 DEF Device_C_Small C 0 10 N N 1 F N
@@ -1781,6 +1485,21 @@ X VCC 8 -700 100 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# power_+1V0
+#
+DEF power_+1V0 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+1V0" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +1V0 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # power_+1V35
 #
 DEF power_+1V35 #PWR 0 0 Y Y 1 F P
@@ -1793,6 +1512,78 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +1V35 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+1V8
+#
+DEF power_+1V8 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+1V8" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +1V8 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+3V3
+#
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GNDA
+#
+DEF power_GNDA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDA" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GNDA 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
