@@ -9,4 +9,7 @@
   (lib (name Connector)(type Legacy)(uri ${KIPRJMOD}/lib/Connector.lib)(options "")(descr ""))
   (lib (name Abracon)(type Legacy)(uri ${KIPRJMOD}/lib/Abracon.lib)(options "")(descr ""))
   (lib (name DFTCustom)(type Legacy)(uri ${KIPRJMOD}/lib/DFTCustom.lib)(options "")(descr ""))
+  (lib (name PJ-102A)(type Legacy)(uri ${KIPRJMOD}/lib/PJ-102A.lib)(options "")(descr ""))
+  (lib (name XC7Z020CLG484)(type Legacy)(uri ${KIPRJMOD}/lib/XC7Z020CLG484.lib)(options "")(descr ""))
+  (lib (name xilinx7)(type Legacy)(uri ${KIPRJMOD}/lib/xilinx7.lib)(options "")(descr ""))
 )

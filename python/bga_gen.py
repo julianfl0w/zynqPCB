@@ -1,15 +1,16 @@
 
 from math import sqrt
 
-width = 17   #17mm square
-count = 400  #400 pins
+width = 19   #19mm square
+count = 484  #484 pins
 pitch = .8   #.8mm pitch
+balldia = 0.4
 side  = int(round(sqrt(count)))
 
-filename = "BGA{}_{}p_{}mmx{}mm.kicad_mod".format(count, pitch, width, width)
+filename = "BGA-%d_%d.0x%d.0mm_Layout%dx%d_P%1.2fmm_dia%1.2fmm.kicad_mod" % (count, width, width, side, side, pitch, balldia)
 outfile = open(filename, "w") 
 
-outfile.write("(module BGA-%d_%d.0x%d.0mm_Layout%dx%d_P%fmm (layer F.Cu) (tedit 5A058D74)\n" % (count, width, width, side, side, pitch))
+outfile.write("(module BGA-%d_%d.0x%d.0mm_Layout%dx%d_P%1.2fmm_dia%1.2fmm (layer F.Cu) (tedit 5A058D74)\n" % (count, width, width, side, side, pitch, balldia))
 outfile.write("(descr \"BGA-%d, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf\")\n" %count)
 outfile.write("(tags BGA-%d)\n" %count)
 outfile.write("(attr smd)\n")
@@ -47,8 +48,11 @@ outfile.write("(fp_line (start -%f -%f) (end -%f %f) (layer F.CrtYd) (width 0.05
 outfile.write("(fp_line (start %f %f) (end %f -%f) (layer F.CrtYd) (width 0.05))  \n" % (hw9, hw9, hw9, hw9)) 
 outfile.write("(fp_line (start %f %f) (end -%f %f) (layer F.CrtYd) (width 0.05))  \n" % (hw9, hw9, hw9, hw9)) 
    
+#BGAs don't use certain letters, for clarity
+bgachars = ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'R', 'T', 'U', 'V', 'W', 'Y', 'AA', 'AB')
+
 for ch in range(side):
   for i in range(side):
-    outfile.write("(pad %s%d smd circle (at %1.2f %1.2f) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask))\n" % (chr(ch + ord('A')), i+1, (i-side/2.0+0.5)*pitch, (ch-side/2.0+0.5)*pitch ))
+    outfile.write("(pad %s%d smd circle (at %1.2f %1.2f) (size %1.2f %1.2f) (layers F.Cu F.Paste F.Mask))\n" % (bgachars[ch], i+1, (i-side/2.0+0.5)*pitch, (ch-side/2.0+0.5)*pitch, balldia, balldia ))
 
 outfile.write(")\n")

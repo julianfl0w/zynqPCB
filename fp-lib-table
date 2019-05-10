@@ -7,4 +7,8 @@
   (lib (name TQFP-32)(type Legacy)(uri "$(KIPRJMOD)/footprints/legacy/TQFP-32.mod")(options "")(descr ""))
   (lib (name UDFN-6)(type Legacy)(uri "$(KIPRJMOD)/footprints/legacy/UDFN-6.mod")(options "")(descr ""))
   (lib (name DFTcustom)(type KiCad)(uri "$(KIPRJMOD)/footprints/DFTcustom.pretty")(options "")(descr ""))
+  (lib (name PJ-102A)(type Legacy)(uri ${KIPRJMOD}/footprints/PJ-102A.mod)(options "")(descr ""))
+  (lib (name SOP65P490X110-8N)(type Legacy)(uri ${KIPRJMOD}/footprints/SOP65P490X110-8N.mod)(options "")(descr ""))
+  (lib (name ABM3-12.000MHZ-B2-T)(type Legacy)(uri ${KIPRJMOD}/footprints/ABM3-12.000MHZ-B2-T.mod)(options "")(descr ""))
+  (lib (name XTAL_ASDMB-24.000MHZ-LC-T)(type Legacy)(uri ${KIPRJMOD}/footprints/XTAL_ASDMB-24.000MHZ-LC-T.mod)(options "")(descr ""))
 )
