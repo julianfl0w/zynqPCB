@@ -193,43 +193,43 @@ F 3 "" H 7350 8000 50  0000 C CNN
 	1    7350 8000
 	1    0    0    -1  
 $EndComp
-Text GLabel 4050 3750 0    60   Input ~ 0
+Text GLabel 4100 3400 0    60   Input ~ 0
 DDR3_A0
-Text GLabel 4050 3850 0    60   Input ~ 0
+Text GLabel 4100 3500 0    60   Input ~ 0
 DDR3_A1
-Text GLabel 4050 3950 0    60   Input ~ 0
+Text GLabel 4100 3600 0    60   Input ~ 0
 DDR3_A2
-Text GLabel 4050 4050 0    60   Input ~ 0
+Text GLabel 4100 3700 0    60   Input ~ 0
 DDR3_A3
-Text GLabel 4050 4150 0    60   Input ~ 0
+Text GLabel 4100 3800 0    60   Input ~ 0
 DDR3_A4
-Text GLabel 4050 4250 0    60   Input ~ 0
+Text GLabel 4100 3900 0    60   Input ~ 0
 DDR3_A5
-Text GLabel 4050 4350 0    60   Input ~ 0
+Text GLabel 4100 4000 0    60   Input ~ 0
 DDR3_A6
-Text GLabel 4050 4450 0    60   Input ~ 0
+Text GLabel 4100 4100 0    60   Input ~ 0
 DDR3_A7
-Text GLabel 4050 4550 0    60   Input ~ 0
+Text GLabel 4100 4200 0    60   Input ~ 0
 DDR3_A8
-Text GLabel 4050 4650 0    60   Input ~ 0
+Text GLabel 4100 4300 0    60   Input ~ 0
 DDR3_A9
-Text GLabel 4050 4750 0    60   Input ~ 0
+Text GLabel 4100 4400 0    60   Input ~ 0
 DDR3_A10
-Text GLabel 4050 4850 0    60   Input ~ 0
+Text GLabel 4100 4500 0    60   Input ~ 0
 DDR3_A11
-Text GLabel 4050 4950 0    60   Input ~ 0
+Text GLabel 4100 4600 0    60   Input ~ 0
 DDR3_A12
-Text GLabel 4050 5450 0    60   Input ~ 0
+Text GLabel 4100 5100 0    60   Input ~ 0
 DDR3_BA1
-Text GLabel 4050 5350 0    60   Input ~ 0
+Text GLabel 4100 5000 0    60   Input ~ 0
 DDR3_BA0
-Text GLabel 4050 3350 0    60   Input ~ 0
+Text GLabel 4100 3000 0    60   Input ~ 0
 DDR3_WE#
-Text GLabel 4050 3250 0    60   Input ~ 0
+Text GLabel 4100 2900 0    60   Input ~ 0
 DDR3_CAS#
-Text GLabel 4050 3150 0    60   Input ~ 0
+Text GLabel 4100 2800 0    60   Input ~ 0
 DDR3_RAS#
-Text GLabel 4050 2650 0    60   Input ~ 0
+Text GLabel 4100 2300 0    60   Input ~ 0
 DDR3_CKE
 Text GLabel 10150 850  0    60   Output ~ 0
 DDR3_A4
@@ -301,7 +301,7 @@ Text GLabel 10150 1050 0    60   Output ~ 0
 DDR3_A6
 Text GLabel 10150 1550 0    60   Output ~ 0
 DDR3_A11
-Text GLabel 4050 3050 0    60   Input ~ 0
+Text GLabel 4100 2700 0    60   Input ~ 0
 DDR3_ODT
 Text GLabel 10150 7250 0    60   Output ~ 0
 DDR3_ODT
@@ -378,32 +378,29 @@ Text GLabel 10150 2550 0    60   Output ~ 0
 DDR3_CK_P
 Text GLabel 10150 2450 0    60   Output ~ 0
 DDR3_CK_N
-Text GLabel 5950 1050 2    60   Input ~ 0
+Text GLabel 6000 700  2    60   Input ~ 0
 DDR3_CK_P
-Text GLabel 5650 1050 0    60   Input ~ 0
+Text GLabel 5700 700  0    60   Input ~ 0
 DDR3_CK_N
-Text GLabel 4050 2450 0    60   Input ~ 0
+Text GLabel 4100 2100 0    60   Input ~ 0
 DDR3_CK_P
-Text GLabel 4050 2550 0    60   Input ~ 0
+Text GLabel 4100 2200 0    60   Input ~ 0
 DDR3_CK_N
 $Comp
 L Device:R R50
 U 1 1 5A7D1ACF
-P 5800 1050
-F 0 "R50" V 5880 1050 50  0000 C CNN
-F 1 "100" V 5800 1050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5730 1050 50  0001 C CNN
-F 3 "" H 5800 1050 50  0001 C CNN
-F 4 "Yageo" H -300 -6000 50  0001 C CNN "MFR"
-F 5 "RC0402FR-07100RL" H -300 -6000 50  0001 C CNN "MPN"
-F 6 "Digikey" H -300 -6000 50  0001 C CNN "SPR"
-F 7 "311-100LRCT-ND" H -300 -6000 50  0001 C CNN "SPN"
-F 8 "" H -300 -6000 50  0001 C CNN "SPURL"
-	1    5800 1050
+P 5850 700
+F 0 "R50" V 5930 700 50  0000 C CNN
+F 1 "80.6 1%" V 5850 700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5780 700 50  0001 C CNN
+F 3 "" H 5850 700 50  0001 C CNN
+F 4 "Yageo" H -250 -6350 50  0001 C CNN "MFR"
+F 5 "Digikey" H -250 -6350 50  0001 C CNN "SPR"
+	1    5850 700 
 	0    1    1    0   
 $EndComp
-Text Notes 4900 900  0    60   ~ 0
-Differential termination at end / first break
+Text Notes 4950 550  0    60   ~ 0
+Differential termination at end / first break\nThis is the only P-to-N termination in ZC702 DDR3
 Wire Wire Line
 	7100 7900 7350 7900
 Wire Wire Line
@@ -446,45 +443,45 @@ Wire Wire Line
 	2800 7100 2800 7250
 Wire Wire Line
 	2800 7100 2500 7100
-Text GLabel 2450 2800 2    60   BiDi ~ 0
+Text GLabel 2500 2450 2    60   BiDi ~ 0
 DDR3_DQ16
-Text GLabel 2450 2900 2    60   BiDi ~ 0
+Text GLabel 2500 2550 2    60   BiDi ~ 0
 DDR3_DQ17
-Text GLabel 2450 3000 2    60   BiDi ~ 0
+Text GLabel 2500 2650 2    60   BiDi ~ 0
 DDR3_DQ18
-Text GLabel 2450 3100 2    60   BiDi ~ 0
+Text GLabel 2500 2750 2    60   BiDi ~ 0
 DDR3_DQ19
-Text GLabel 2450 3200 2    60   BiDi ~ 0
+Text GLabel 2500 2850 2    60   BiDi ~ 0
 DDR3_DQ20
-Text GLabel 2450 3300 2    60   BiDi ~ 0
+Text GLabel 2500 2950 2    60   BiDi ~ 0
 DDR3_DQ21
-Text GLabel 2450 3400 2    60   BiDi ~ 0
+Text GLabel 2500 3050 2    60   BiDi ~ 0
 DDR3_DQ22
-Text GLabel 2450 3500 2    60   BiDi ~ 0
+Text GLabel 2500 3150 2    60   BiDi ~ 0
 DDR3_DQ23
-Text GLabel 2450 3600 2    60   BiDi ~ 0
+Text GLabel 2500 3250 2    60   BiDi ~ 0
 DDR3_DQ24
-Text GLabel 2450 3700 2    60   BiDi ~ 0
+Text GLabel 2500 3350 2    60   BiDi ~ 0
 DDR3_DQ25
-Text GLabel 2450 3800 2    60   BiDi ~ 0
+Text GLabel 2500 3450 2    60   BiDi ~ 0
 DDR3_DQ26
-Text GLabel 2450 3900 2    60   BiDi ~ 0
+Text GLabel 2500 3550 2    60   BiDi ~ 0
 DDR3_DQ27
-Text GLabel 2450 4000 2    60   BiDi ~ 0
+Text GLabel 2500 3650 2    60   BiDi ~ 0
 DDR3_DQ28
-Text GLabel 2450 4100 2    60   BiDi ~ 0
+Text GLabel 2500 3750 2    60   BiDi ~ 0
 DDR3_DQ29
-Text GLabel 2450 4200 2    60   BiDi ~ 0
+Text GLabel 2500 3850 2    60   BiDi ~ 0
 DDR3_DQ30
-Text GLabel 2450 4300 2    60   BiDi ~ 0
+Text GLabel 2500 3950 2    60   BiDi ~ 0
 DDR3_DQ31
-Text GLabel 2450 5000 2    60   BiDi ~ 0
+Text GLabel 2500 4650 2    60   BiDi ~ 0
 DDR3_DQS2_P
-Text GLabel 2450 5100 2    60   BiDi ~ 0
+Text GLabel 2500 4750 2    60   BiDi ~ 0
 DDR3_DQS2_N
-Text GLabel 2450 4700 2    60   BiDi ~ 0
+Text GLabel 2500 4350 2    60   BiDi ~ 0
 DDR3_DQS3_P
-Text GLabel 2450 4800 2    60   BiDi ~ 0
+Text GLabel 2500 4450 2    60   BiDi ~ 0
 DDR3_DQS3_N
 Text GLabel 10150 4750 0    60   BiDi ~ 0
 DDR3_DQ16
@@ -534,17 +531,17 @@ Text GLabel 10150 2950 0    60   Output ~ 0
 DDR3_DM2
 Text GLabel 10150 3050 0    60   Output ~ 0
 DDR3_DM3
-Text GLabel 4050 2950 0    60   Input ~ 0
+Text GLabel 4100 2600 0    60   Input ~ 0
 DDR3_DM0
-Text GLabel 4050 3550 0    60   Input ~ 0
+Text GLabel 4100 3200 0    60   Input ~ 0
 DDR3_DM1
-Text GLabel 1050 2900 0    60   Input ~ 0
+Text GLabel 1100 2550 0    60   Input ~ 0
 DDR3_DM2
-Text GLabel 1050 3500 0    60   Input ~ 0
+Text GLabel 1100 3150 0    60   Input ~ 0
 DDR3_DM3
 Text GLabel 10150 2650 0    60   Output ~ 0
 DDR3_CS#
-Text GLabel 4050 2850 0    60   Input ~ 0
+Text GLabel 4100 2500 0    60   Input ~ 0
 DDR3_CS#
 Text Notes 7150 1150 0    60   ~ 0
 Terminations as described in UG933\nand shown in ZC702 schematic
@@ -566,13 +563,13 @@ F 8 "" H 3600 2650 50  0001 C CNN "SPURL"
 	1    7100 7700
 	1    0    0    -1  
 $EndComp
-Text Notes 4300 6550 0    60   ~ 0
+Text Notes 4350 6050 0    60   ~ 0
 Pinout identical to TW \n96-ball FBGA variant\n
-Text GLabel 4050 5550 0    60   Input ~ 0
+Text GLabel 4100 5200 0    60   Input ~ 0
 DDR3_BA2
-Text GLabel 4050 5050 0    60   Input ~ 0
+Text GLabel 4100 4700 0    60   Input ~ 0
 DDR3_A13
-Text GLabel 4050 5150 0    60   Input ~ 0
+Text GLabel 4100 4800 0    60   Input ~ 0
 DDR3_A14
 Text GLabel 10150 2150 0    60   Output ~ 0
 DDR3_BA2
@@ -582,304 +579,304 @@ Text GLabel 10150 1850 0    60   Output ~ 0
 DDR3_A14
 Text GLabel 10150 7150 0    60   Output ~ 0
 DDR3_DRST#
-Text GLabel 4050 3450 0    60   Input ~ 0
+Text GLabel 4100 3100 0    60   Input ~ 0
 DDR3_DRST#
 $Comp
 L Device:R R49
 U 1 1 5C8DB9A0
-P 3850 6000
-F 0 "R49" H 3920 6046 50  0000 L CNN
-F 1 "240 1%" H 3920 5955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3780 6000 50  0001 C CNN
-F 3 "~" H 3850 6000 50  0001 C CNN
-	1    3850 6000
+P 3900 5650
+F 0 "R49" H 3970 5696 50  0000 L CNN
+F 1 "240 1%" H 3970 5605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3830 5650 50  0001 C CNN
+F 3 "~" H 3900 5650 50  0001 C CNN
+	1    3900 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 5750 3850 5750
+	4100 5400 3900 5400
 Wire Wire Line
-	3850 5750 3850 5850
+	3900 5400 3900 5500
 $Comp
 L power:GND #PWR0155
 U 1 1 5C8E3DDA
-P 3850 6150
-F 0 "#PWR0155" H 3850 5900 50  0001 C CNN
-F 1 "GND" H 3850 6000 50  0000 C CNN
-F 2 "" H 3850 6150 50  0000 C CNN
-F 3 "" H 3850 6150 50  0000 C CNN
-	1    3850 6150
+P 3900 5800
+F 0 "#PWR0155" H 3900 5550 50  0001 C CNN
+F 1 "GND" H 3900 5650 50  0000 C CNN
+F 2 "" H 3900 5800 50  0000 C CNN
+F 3 "" H 3900 5800 50  0000 C CNN
+	1    3900 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L MT41K256M16HA-125_E:MT41K256M16HA-125_E U15
 U 1 1 5C8EBB5A
-P 1750 4000
-F 0 "U15" H 1750 6367 50  0000 C CNN
-F 1 "MT41K256M16HA-125_E" H 1750 6276 50  0000 C CNN
-F 2 "DFTcustom:FBGA-96-DDR3-SDRAM" H 1750 4000 50  0001 L BNN
-F 3 "FBGA-96 Micron" H 1750 4000 50  0001 L BNN
-F 4 "V80a .256mx16 Ddr3 Sdram Plastic Commercial Pbf Fbga 1.35v" H 1750 4000 50  0001 L BNN "Field4"
-F 5 "Micron Technology" H 1750 4000 50  0001 L BNN "Field5"
-F 6 "None" H 1750 4000 50  0001 L BNN "Field6"
-F 7 "MT41K256M16HA-125:E" H 1750 4000 50  0001 L BNN "Field7"
-F 8 "Unavailable" H 1750 4000 50  0001 L BNN "Field8"
-	1    1750 4000
+P 1800 3650
+F 0 "U15" H 1800 6017 50  0000 C CNN
+F 1 "MT41K256M16HA-125_E" H 1800 5926 50  0000 C CNN
+F 2 "DFTcustom:FBGA-96-DDR3-SDRAM" H 1800 3650 50  0001 L BNN
+F 3 "FBGA-96 Micron" H 1800 3650 50  0001 L BNN
+F 4 "V80a .256mx16 Ddr3 Sdram Plastic Commercial Pbf Fbga 1.35v" H 1800 3650 50  0001 L BNN "Field4"
+F 5 "Micron Technology" H 1800 3650 50  0001 L BNN "Field5"
+F 6 "None" H 1800 3650 50  0001 L BNN "Field6"
+F 7 "MT41K256M16HA-125:E" H 1800 3650 50  0001 L BNN "Field7"
+F 8 "Unavailable" H 1800 3650 50  0001 L BNN "Field8"
+	1    1800 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 2250 5450 2200
+	5500 1900 5500 1850
 Wire Wire Line
-	5450 2200 5500 2200
-Connection ~ 5450 2200
+	5500 1850 5550 1850
+Connection ~ 5500 1850
 Wire Wire Line
-	5450 2150 5450 2200
+	5500 1800 5500 1850
 Wire Wire Line
-	5600 2050 5600 1950
+	5650 1700 5650 1600
 Wire Wire Line
-	5450 2050 5600 2050
+	5500 1700 5650 1700
 Wire Wire Line
-	5600 1950 5450 1950
-Connection ~ 5600 1950
+	5650 1600 5500 1600
+Connection ~ 5650 1600
 Wire Wire Line
-	5600 1850 5600 1950
+	5650 1500 5650 1600
 $Comp
 L power:+1V35 #PWR0158
 U 1 1 5C89BAF0
-P 5600 1850
-F 0 "#PWR0158" H 5600 1700 50  0001 C CNN
-F 1 "+1V35" H 5615 2023 50  0000 C CNN
-F 2 "" H 5600 1850 50  0001 C CNN
-F 3 "" H 5600 1850 50  0001 C CNN
-	1    5600 1850
+P 5650 1500
+F 0 "#PWR0158" H 5650 1350 50  0001 C CNN
+F 1 "+1V35" H 5665 1673 50  0000 C CNN
+F 2 "" H 5650 1500 50  0001 C CNN
+F 3 "" H 5650 1500 50  0001 C CNN
+	1    5650 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 6050 5550 6200
+	5600 5700 5600 5850
 Wire Wire Line
-	5450 6050 5550 6050
-Connection ~ 5550 6050
+	5500 5700 5600 5700
+Connection ~ 5600 5700
 Wire Wire Line
-	5550 5950 5550 6050
+	5600 5600 5600 5700
 Wire Wire Line
-	5450 5950 5550 5950
+	5500 5600 5600 5600
 $Comp
 L MT41K256M16HA-125_E:MT41K256M16HA-125_E U16
 U 1 1 5C88EAF1
-P 4750 4050
-F 0 "U16" H 4750 6417 50  0000 C CNN
-F 1 "MT41K256M16HA-125_E" H 4750 6326 50  0000 C CNN
-F 2 "DFTcustom:FBGA-96-DDR3-SDRAM" H 4750 4050 50  0001 L BNN
-F 3 "FBGA-96 Micron" H 4750 4050 50  0001 L BNN
-F 4 "V80a .256mx16 Ddr3 Sdram Plastic Commercial Pbf Fbga 1.35v" H 4750 4050 50  0001 L BNN "Field4"
-F 5 "Micron Technology" H 4750 4050 50  0001 L BNN "Field5"
-F 6 "None" H 4750 4050 50  0001 L BNN "Field6"
-F 7 "MT41K256M16HA-125:E" H 4750 4050 50  0001 L BNN "Field7"
-F 8 "Unavailable" H 4750 4050 50  0001 L BNN "Field8"
-	1    4750 4050
+P 4800 3700
+F 0 "U16" H 4800 6067 50  0000 C CNN
+F 1 "MT41K256M16HA-125_E" H 4800 5976 50  0000 C CNN
+F 2 "DFTcustom:FBGA-96-DDR3-SDRAM" H 4800 3700 50  0001 L BNN
+F 3 "FBGA-96 Micron" H 4800 3700 50  0001 L BNN
+F 4 "V80a .256mx16 Ddr3 Sdram Plastic Commercial Pbf Fbga 1.35v" H 4800 3700 50  0001 L BNN "Field4"
+F 5 "Micron Technology" H 4800 3700 50  0001 L BNN "Field5"
+F 6 "None" H 4800 3700 50  0001 L BNN "Field6"
+F 7 "MT41K256M16HA-125:E" H 4800 3700 50  0001 L BNN "Field7"
+F 8 "Unavailable" H 4800 3700 50  0001 L BNN "Field8"
+	1    4800 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5450 4850 2    60   BiDi ~ 0
+Text GLabel 5500 4500 2    60   BiDi ~ 0
 DDR3_DQS1_N
-Text GLabel 5450 4750 2    60   BiDi ~ 0
+Text GLabel 5500 4400 2    60   BiDi ~ 0
 DDR3_DQS1_P
-Text GLabel 5450 5150 2    60   BiDi ~ 0
+Text GLabel 5500 4800 2    60   BiDi ~ 0
 DDR3_DQS0_N
-Text GLabel 5450 5050 2    60   BiDi ~ 0
+Text GLabel 5500 4700 2    60   BiDi ~ 0
 DDR3_DQS0_P
-Text GLabel 5450 4350 2    60   BiDi ~ 0
+Text GLabel 5500 4000 2    60   BiDi ~ 0
 DDR3_DQ15
-Text GLabel 5450 4250 2    60   BiDi ~ 0
+Text GLabel 5500 3900 2    60   BiDi ~ 0
 DDR3_DQ14
-Text GLabel 5450 4150 2    60   BiDi ~ 0
+Text GLabel 5500 3800 2    60   BiDi ~ 0
 DDR3_DQ13
-Text GLabel 5450 4050 2    60   BiDi ~ 0
+Text GLabel 5500 3700 2    60   BiDi ~ 0
 DDR3_DQ12
-Text GLabel 5450 3950 2    60   BiDi ~ 0
+Text GLabel 5500 3600 2    60   BiDi ~ 0
 DDR3_DQ11
-Text GLabel 5450 3850 2    60   BiDi ~ 0
+Text GLabel 5500 3500 2    60   BiDi ~ 0
 DDR3_DQ10
-Text GLabel 5450 3750 2    60   BiDi ~ 0
+Text GLabel 5500 3400 2    60   BiDi ~ 0
 DDR3_DQ9
-Text GLabel 5450 3650 2    60   BiDi ~ 0
+Text GLabel 5500 3300 2    60   BiDi ~ 0
 DDR3_DQ8
-Text GLabel 5450 3550 2    60   BiDi ~ 0
+Text GLabel 5500 3200 2    60   BiDi ~ 0
 DDR3_DQ7
-Text GLabel 5450 3450 2    60   BiDi ~ 0
+Text GLabel 5500 3100 2    60   BiDi ~ 0
 DDR3_DQ6
-Text GLabel 5450 3350 2    60   BiDi ~ 0
+Text GLabel 5500 3000 2    60   BiDi ~ 0
 DDR3_DQ5
-Text GLabel 5450 3250 2    60   BiDi ~ 0
+Text GLabel 5500 2900 2    60   BiDi ~ 0
 DDR3_DQ4
-Text GLabel 5450 3150 2    60   BiDi ~ 0
+Text GLabel 5500 2800 2    60   BiDi ~ 0
 DDR3_DQ3
-Text GLabel 5450 3050 2    60   BiDi ~ 0
+Text GLabel 5500 2700 2    60   BiDi ~ 0
 DDR3_DQ2
-Text GLabel 5450 2950 2    60   BiDi ~ 0
+Text GLabel 5500 2600 2    60   BiDi ~ 0
 DDR3_DQ1
-Text GLabel 5450 2850 2    60   BiDi ~ 0
+Text GLabel 5500 2500 2    60   BiDi ~ 0
 DDR3_DQ0
 $Comp
 L power:GND #PWR0157
 U 1 1 588278E2
-P 5550 6200
-F 0 "#PWR0157" H 5550 5950 50  0001 C CNN
-F 1 "GND" H 5550 6050 50  0000 C CNN
-F 2 "" H 5550 6200 50  0000 C CNN
-F 3 "" H 5550 6200 50  0000 C CNN
-	1    5550 6200
+P 5600 5850
+F 0 "#PWR0157" H 5600 5600 50  0001 C CNN
+F 1 "GND" H 5600 5700 50  0000 C CNN
+F 2 "" H 5600 5850 50  0000 C CNN
+F 3 "" H 5600 5850 50  0000 C CNN
+	1    5600 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 2000 2600 1900
+	2650 1650 2650 1550
 Wire Wire Line
-	2450 2000 2600 2000
+	2500 1650 2650 1650
 Wire Wire Line
-	2600 1900 2450 1900
-Connection ~ 2600 1900
+	2650 1550 2500 1550
+Connection ~ 2650 1550
 Wire Wire Line
-	2600 1800 2600 1900
+	2650 1450 2650 1550
 $Comp
 L power:+1V35 #PWR0152
 U 1 1 5C8EEF0C
-P 2600 1800
-F 0 "#PWR0152" H 2600 1650 50  0001 C CNN
-F 1 "+1V35" H 2615 1973 50  0000 C CNN
-F 2 "" H 2600 1800 50  0001 C CNN
-F 3 "" H 2600 1800 50  0001 C CNN
-	1    2600 1800
+P 2650 1450
+F 0 "#PWR0152" H 2650 1300 50  0001 C CNN
+F 1 "+1V35" H 2665 1623 50  0000 C CNN
+F 2 "" H 2650 1450 50  0001 C CNN
+F 3 "" H 2650 1450 50  0001 C CNN
+	1    2650 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 6000 2550 6150
+	2600 5650 2600 5800
 Wire Wire Line
-	2450 6000 2550 6000
-Connection ~ 2550 6000
+	2500 5650 2600 5650
+Connection ~ 2600 5650
 Wire Wire Line
-	2550 5900 2550 6000
+	2600 5550 2600 5650
 Wire Wire Line
-	2450 5900 2550 5900
+	2500 5550 2600 5550
 $Comp
 L power:GND #PWR0151
 U 1 1 5C8EEF2B
-P 2550 6150
-F 0 "#PWR0151" H 2550 5900 50  0001 C CNN
-F 1 "GND" H 2550 6000 50  0000 C CNN
-F 2 "" H 2550 6150 50  0000 C CNN
-F 3 "" H 2550 6150 50  0000 C CNN
-	1    2550 6150
+P 2600 5800
+F 0 "#PWR0151" H 2600 5550 50  0001 C CNN
+F 1 "GND" H 2600 5650 50  0000 C CNN
+F 2 "" H 2600 5800 50  0000 C CNN
+F 3 "" H 2600 5800 50  0000 C CNN
+	1    2600 5800
 	1    0    0    -1  
 $EndComp
-Text GLabel 1050 3700 0    60   Input ~ 0
+Text GLabel 1100 3350 0    60   Input ~ 0
 DDR3_A0
-Text GLabel 1050 3800 0    60   Input ~ 0
+Text GLabel 1100 3450 0    60   Input ~ 0
 DDR3_A1
-Text GLabel 1050 3900 0    60   Input ~ 0
+Text GLabel 1100 3550 0    60   Input ~ 0
 DDR3_A2
-Text GLabel 1050 4000 0    60   Input ~ 0
+Text GLabel 1100 3650 0    60   Input ~ 0
 DDR3_A3
-Text GLabel 1050 4100 0    60   Input ~ 0
+Text GLabel 1100 3750 0    60   Input ~ 0
 DDR3_A4
-Text GLabel 1050 4200 0    60   Input ~ 0
+Text GLabel 1100 3850 0    60   Input ~ 0
 DDR3_A5
-Text GLabel 1050 4300 0    60   Input ~ 0
+Text GLabel 1100 3950 0    60   Input ~ 0
 DDR3_A6
-Text GLabel 1050 4400 0    60   Input ~ 0
+Text GLabel 1100 4050 0    60   Input ~ 0
 DDR3_A7
-Text GLabel 1050 4500 0    60   Input ~ 0
+Text GLabel 1100 4150 0    60   Input ~ 0
 DDR3_A8
-Text GLabel 1050 4600 0    60   Input ~ 0
+Text GLabel 1100 4250 0    60   Input ~ 0
 DDR3_A9
-Text GLabel 1050 4700 0    60   Input ~ 0
+Text GLabel 1100 4350 0    60   Input ~ 0
 DDR3_A10
-Text GLabel 1050 4800 0    60   Input ~ 0
+Text GLabel 1100 4450 0    60   Input ~ 0
 DDR3_A11
-Text GLabel 1050 4900 0    60   Input ~ 0
+Text GLabel 1100 4550 0    60   Input ~ 0
 DDR3_A12
-Text GLabel 1050 5400 0    60   Input ~ 0
+Text GLabel 1100 5050 0    60   Input ~ 0
 DDR3_BA1
-Text GLabel 1050 5300 0    60   Input ~ 0
+Text GLabel 1100 4950 0    60   Input ~ 0
 DDR3_BA0
-Text GLabel 1050 3300 0    60   Input ~ 0
+Text GLabel 1100 2950 0    60   Input ~ 0
 DDR3_WE#
-Text GLabel 1050 3200 0    60   Input ~ 0
+Text GLabel 1100 2850 0    60   Input ~ 0
 DDR3_CAS#
-Text GLabel 1050 3100 0    60   Input ~ 0
+Text GLabel 1100 2750 0    60   Input ~ 0
 DDR3_RAS#
-Text GLabel 1050 2600 0    60   Input ~ 0
+Text GLabel 1100 2250 0    60   Input ~ 0
 DDR3_CKE
-Text GLabel 1050 3000 0    60   Input ~ 0
+Text GLabel 1100 2650 0    60   Input ~ 0
 DDR3_ODT
-Text GLabel 1050 2400 0    60   Input ~ 0
+Text GLabel 1100 2050 0    60   Input ~ 0
 DDR3_CK_P
-Text GLabel 1050 2500 0    60   Input ~ 0
+Text GLabel 1100 2150 0    60   Input ~ 0
 DDR3_CK_N
-Text GLabel 1050 2800 0    60   Input ~ 0
+Text GLabel 1100 2450 0    60   Input ~ 0
 DDR3_CS#
-Text GLabel 1050 5500 0    60   Input ~ 0
+Text GLabel 1100 5150 0    60   Input ~ 0
 DDR3_BA2
-Text GLabel 1050 5000 0    60   Input ~ 0
+Text GLabel 1100 4650 0    60   Input ~ 0
 DDR3_A13
-Text GLabel 1050 5100 0    60   Input ~ 0
+Text GLabel 1100 4750 0    60   Input ~ 0
 DDR3_A14
-Text GLabel 1050 3400 0    60   Input ~ 0
+Text GLabel 1100 3050 0    60   Input ~ 0
 DDR3_DRST#
 $Comp
 L Device:R R46
 U 1 1 5C8FB93D
-P 850 5950
-F 0 "R46" H 920 5996 50  0000 L CNN
-F 1 "240 1%" H 920 5905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 780 5950 50  0001 C CNN
-F 3 "~" H 850 5950 50  0001 C CNN
-	1    850  5950
+P 900 5600
+F 0 "R46" H 970 5646 50  0000 L CNN
+F 1 "240 1%" H 970 5555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 830 5600 50  0001 C CNN
+F 3 "~" H 900 5600 50  0001 C CNN
+	1    900  5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 5700 850  5700
+	1100 5350 900  5350
 Wire Wire Line
-	850  5700 850  5800
+	900  5350 900  5450
 $Comp
 L power:GND #PWR0149
 U 1 1 5C8FB945
-P 850 6100
-F 0 "#PWR0149" H 850 5850 50  0001 C CNN
-F 1 "GND" H 850 5950 50  0000 C CNN
-F 2 "" H 850 6100 50  0000 C CNN
-F 3 "" H 850 6100 50  0000 C CNN
-	1    850  6100
+P 900 5750
+F 0 "#PWR0149" H 900 5500 50  0001 C CNN
+F 1 "GND" H 900 5600 50  0000 C CNN
+F 2 "" H 900 5750 50  0000 C CNN
+F 3 "" H 900 5750 50  0000 C CNN
+	1    900  5750
 	1    0    0    -1  
 $EndComp
-Text Label 2550 2200 0    60   ~ 0
+Text Label 2600 1850 0    60   ~ 0
 VREF
 Wire Wire Line
-	2450 2100 2450 2200
+	2500 1750 2500 1850
 Wire Wire Line
-	2450 2200 2550 2200
-Connection ~ 2450 2200
-Text Label 5600 2200 0    60   ~ 0
+	2500 1850 2600 1850
+Connection ~ 2500 1850
+Text Label 5650 1850 0    60   ~ 0
 VREF
 $Comp
 L Device:C_Small C93
 U 1 1 5C964448
-P 2450 2300
-F 0 "C93" H 2460 2370 50  0000 L CNN
-F 1 ".01uF" H 2460 2220 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2450 2300 50  0001 C CNN
-F 3 "" H 2450 2300 50  0001 C CNN
-F 4 "Murata" H 850 -2250 50  0001 C CNN "MFR"
-F 5 "Digikey" H 850 -2250 50  0001 C CNN "SPR"
-	1    2450 2300
+P 2500 1950
+F 0 "C93" H 2510 2020 50  0000 L CNN
+F 1 ".01uF" H 2510 1870 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2500 1950 50  0001 C CNN
+F 3 "" H 2500 1950 50  0001 C CNN
+F 4 "Murata" H 900 -2600 50  0001 C CNN "MFR"
+F 5 "Digikey" H 900 -2600 50  0001 C CNN "SPR"
+	1    2500 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0150
 U 1 1 5C96467C
-P 2450 2400
-F 0 "#PWR0150" H 2450 2150 50  0001 C CNN
-F 1 "GND" H 2450 2250 50  0000 C CNN
-F 2 "" H 2450 2400 50  0000 C CNN
-F 3 "" H 2450 2400 50  0000 C CNN
-	1    2450 2400
+P 2500 2050
+F 0 "#PWR0150" H 2500 1800 50  0001 C CNN
+F 1 "GND" H 2500 1900 50  0000 C CNN
+F 2 "" H 2500 2050 50  0000 C CNN
+F 3 "" H 2500 2050 50  0000 C CNN
+	1    2500 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -996,28 +993,28 @@ $EndComp
 $Comp
 L Device:C_Small C98
 U 1 1 5C97BD40
-P 5500 2300
-F 0 "C98" H 5510 2370 50  0000 L CNN
-F 1 ".01uF" H 5510 2220 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5500 2300 50  0001 C CNN
-F 3 "" H 5500 2300 50  0001 C CNN
-F 4 "Murata" H 3900 -2250 50  0001 C CNN "MFR"
-F 5 "Digikey" H 3900 -2250 50  0001 C CNN "SPR"
-	1    5500 2300
+P 5550 1950
+F 0 "C98" H 5560 2020 50  0000 L CNN
+F 1 ".01uF" H 5560 1870 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5550 1950 50  0001 C CNN
+F 3 "" H 5550 1950 50  0001 C CNN
+F 4 "Murata" H 3950 -2600 50  0001 C CNN "MFR"
+F 5 "Digikey" H 3950 -2600 50  0001 C CNN "SPR"
+	1    5550 1950
 	1    0    0    -1  
 $EndComp
-Connection ~ 5500 2200
+Connection ~ 5550 1850
 Wire Wire Line
-	5500 2200 5600 2200
+	5550 1850 5650 1850
 $Comp
 L power:GND #PWR0156
 U 1 1 5C97BFA2
-P 5500 2400
-F 0 "#PWR0156" H 5500 2150 50  0001 C CNN
-F 1 "GND" H 5500 2250 50  0000 C CNN
-F 2 "" H 5500 2400 50  0000 C CNN
-F 3 "" H 5500 2400 50  0000 C CNN
-	1    5500 2400
+P 5550 2050
+F 0 "#PWR0156" H 5550 1800 50  0001 C CNN
+F 1 "GND" H 5550 1900 50  0000 C CNN
+F 2 "" H 5550 2050 50  0000 C CNN
+F 3 "" H 5550 2050 50  0000 C CNN
+	1    5550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1423,17 +1420,6 @@ Wire Wire Line
 	7850 4000 7850 4100
 Text GLabel 7650 4650 0    60   Input ~ 0
 DDR3_DRST#
-$Comp
-L power:+1V35 #PWR0159
-U 1 1 5CA067BE
-P 7850 1450
-F 0 "#PWR0159" H 7850 1300 50  0001 C CNN
-F 1 "+1V35" H 7865 1623 50  0000 C CNN
-F 2 "" H 7850 1450 50  0001 C CNN
-F 3 "" H 7850 1450 50  0001 C CNN
-	1    7850 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7850 1450 7850 1600
 Connection ~ 7850 1600
@@ -1465,7 +1451,7 @@ F 3 "" H 7900 5000 50  0000 C CNN
 $EndComp
 Text Notes 6400 5950 0    60   ~ 0
 RECOMMENDED: Fly-by and \npoint-to-point routing is\nrecommended for optimal \nmemory performance
-Text Notes 3450 1750 0    60   ~ 0
+Text Notes 3500 1400 0    60   ~ 0
 DDR3L trace impedance:\n40ohm differential\n80ohm single
 $Comp
 L power:+1V35 #PWR0161
@@ -1490,7 +1476,7 @@ Wire Wire Line
 	10150 7650 9950 7650
 Wire Wire Line
 	9950 7750 10150 7750
-Text Notes 1300 1400 0    60   ~ 0
+Text Notes 1300 1150 0    60   ~ 0
 Todo: DDR Bypass Caps?
 $Comp
 L xilinx7:xc7z020clg484 U20
@@ -1503,6 +1489,433 @@ F 3 "" H 10150 450 60  0001 C CNN
 	8    10150 450 
 	1    0    0    -1  
 $EndComp
-Text Notes 8000 6400 0    60   ~ 0
-1066 Mb/s (533 Hz)\nShould be attainable by all \nspeed grades of Zynq\nthrough the PS DDR interface\nThis precludes use of internal Vref
+Text Notes 7600 6650 0    60   ~ 0
+1066 Mb/s (533 MHz)\nShould be attainable by all \nspeed grades of Zynq\nthrough the PS DDR interface\nThis precludes use of internal Vref
+$Comp
+L tps51200DRCR:TPS51200DRCR U8
+U 1 1 5CD51AEE
+P 5200 7200
+F 0 "U8" H 5250 6450 60  0000 C CNN
+F 1 "TPS51200DRCR" H 5250 6550 60  0000 C CNN
+F 2 "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias" H 5400 7400 60  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps51200.pdf" H 5400 7500 60  0001 L CNN
+F 4 "296-26978-1-ND" H 5400 7600 60  0001 L CNN "Digi-Key_PN"
+F 5 "TPS51200DRCR" H 5400 7700 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 5400 7800 60  0001 L CNN "Category"
+F 7 "PMIC - Voltage Regulators - Special Purpose" H 5400 7900 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/lit/ds/symlink/tps51200.pdf" H 5400 8000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TPS51200DRCR/296-26978-1-ND/2255274" H 5400 8100 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC CONV DDR DDR2 DDR3 10SON" H 5400 8200 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 5400 8300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5400 8400 60  0001 L CNN "Status"
+	1    5200 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR085
+U 1 1 5CD51C25
+P 5200 7600
+F 0 "#PWR085" H 5200 7350 50  0001 C CNN
+F 1 "GND" H 5200 7450 50  0000 C CNN
+F 2 "" H 5200 7600 50  0000 C CNN
+F 3 "" H 5200 7600 50  0000 C CNN
+	1    5200 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR094
+U 1 1 5CD51D56
+P 5300 7600
+F 0 "#PWR094" H 5300 7350 50  0001 C CNN
+F 1 "GND" H 5300 7450 50  0000 C CNN
+F 2 "" H 5300 7600 50  0000 C CNN
+F 3 "" H 5300 7600 50  0000 C CNN
+	1    5300 7600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 7300 2    60   Output ~ 0
+DDR3_VTT
+Text GLabel 7850 1450 2    60   Input ~ 0
+DDR3_VTT
+$Comp
+L power:GND #PWR0224
+U 1 1 5CD52F6B
+P 5700 7600
+F 0 "#PWR0224" H 5700 7350 50  0001 C CNN
+F 1 "GND" H 5700 7450 50  0000 C CNN
+F 2 "" H 5700 7600 50  0000 C CNN
+F 3 "" H 5700 7600 50  0000 C CNN
+	1    5700 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 7400 5700 7400
+Wire Wire Line
+	5700 7400 5700 7600
+$Comp
+L power:+1V35 #PWR060
+U 1 1 5CD61F44
+P 4300 6450
+F 0 "#PWR060" H 4300 6300 50  0001 C CNN
+F 1 "+1V35" H 4315 6623 50  0000 C CNN
+F 2 "" H 4300 6450 50  0001 C CNN
+F 3 "" H 4300 6450 50  0001 C CNN
+	1    4300 6450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CD6F744
+P 5800 7450
+AR Path="/58508414/5CD6F744" Ref="C?"  Part="1" 
+AR Path="/58818A06/5CD6F744" Ref="C128"  Part="1" 
+F 0 "C128" H 5810 7520 50  0000 L CNN
+F 1 "10uF" H 5810 7370 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5800 7450 50  0001 C CNN
+F 3 "" H 5800 7450 50  0001 C CNN
+F 4 "Murata" H 2200 4500 50  0001 C CNN "MFR"
+F 5 "GRM21BR61A106KE19L" H 2200 4500 50  0001 C CNN "MPN"
+F 6 "Digikey" H 2200 4500 50  0001 C CNN "SPR"
+F 7 "490-1709-1-ND" H 2200 4500 50  0001 C CNN "SPN"
+F 8 "" H 2200 4500 50  0001 C CNN "SPURL"
+	1    5800 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CD72BCE
+P 6000 7450
+AR Path="/58508414/5CD72BCE" Ref="C?"  Part="1" 
+AR Path="/58818A06/5CD72BCE" Ref="C129"  Part="1" 
+F 0 "C129" H 6010 7520 50  0000 L CNN
+F 1 "10uF" H 6010 7370 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6000 7450 50  0001 C CNN
+F 3 "" H 6000 7450 50  0001 C CNN
+F 4 "Murata" H 2400 4500 50  0001 C CNN "MFR"
+F 5 "GRM21BR61A106KE19L" H 2400 4500 50  0001 C CNN "MPN"
+F 6 "Digikey" H 2400 4500 50  0001 C CNN "SPR"
+F 7 "490-1709-1-ND" H 2400 4500 50  0001 C CNN "SPN"
+F 8 "" H 2400 4500 50  0001 C CNN "SPURL"
+	1    6000 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CD72C52
+P 6200 7450
+AR Path="/58508414/5CD72C52" Ref="C?"  Part="1" 
+AR Path="/58818A06/5CD72C52" Ref="C130"  Part="1" 
+F 0 "C130" H 6210 7520 50  0000 L CNN
+F 1 "10uF" H 6210 7370 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6200 7450 50  0001 C CNN
+F 3 "" H 6200 7450 50  0001 C CNN
+F 4 "Murata" H 2600 4500 50  0001 C CNN "MFR"
+F 5 "GRM21BR61A106KE19L" H 2600 4500 50  0001 C CNN "MPN"
+F 6 "Digikey" H 2600 4500 50  0001 C CNN "SPR"
+F 7 "490-1709-1-ND" H 2600 4500 50  0001 C CNN "SPN"
+F 8 "" H 2600 4500 50  0001 C CNN "SPURL"
+	1    6200 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 7550 5800 7600
+Wire Wire Line
+	5800 7600 6000 7600
+Wire Wire Line
+	6000 7550 6000 7600
+Connection ~ 6000 7600
+Wire Wire Line
+	6000 7600 6200 7600
+$Comp
+L power:GND #PWR0226
+U 1 1 5CD87A65
+P 6000 7600
+F 0 "#PWR0226" H 6000 7350 50  0001 C CNN
+F 1 "GND" H 6000 7450 50  0000 C CNN
+F 2 "" H 6000 7600 50  0000 C CNN
+F 3 "" H 6000 7600 50  0000 C CNN
+	1    6000 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 7600 6200 7550
+Wire Wire Line
+	5600 7300 5800 7300
+Wire Wire Line
+	6200 7350 6200 7300
+Connection ~ 6200 7300
+Wire Wire Line
+	6200 7300 6300 7300
+Wire Wire Line
+	6000 7350 6000 7300
+Connection ~ 6000 7300
+Wire Wire Line
+	6000 7300 6200 7300
+Wire Wire Line
+	5800 7350 5800 7300
+Connection ~ 5800 7300
+Wire Wire Line
+	5800 7300 6000 7300
+$Comp
+L Device:C_Small C?
+U 1 1 5CD9C834
+P 4400 6600
+AR Path="/58508414/5CD9C834" Ref="C?"  Part="1" 
+AR Path="/58818A06/5CD9C834" Ref="C125"  Part="1" 
+F 0 "C125" H 4410 6670 50  0000 L CNN
+F 1 "10uF" H 4410 6520 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4400 6600 50  0001 C CNN
+F 3 "" H 4400 6600 50  0001 C CNN
+F 4 "Murata" H 800 3650 50  0001 C CNN "MFR"
+F 5 "GRM21BR61A106KE19L" H 800 3650 50  0001 C CNN "MPN"
+F 6 "Digikey" H 800 3650 50  0001 C CNN "SPR"
+F 7 "490-1709-1-ND" H 800 3650 50  0001 C CNN "SPN"
+F 8 "" H 800 3650 50  0001 C CNN "SPURL"
+	1    4400 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CD9C840
+P 4600 6600
+AR Path="/58508414/5CD9C840" Ref="C?"  Part="1" 
+AR Path="/58818A06/5CD9C840" Ref="C126"  Part="1" 
+F 0 "C126" H 4610 6670 50  0000 L CNN
+F 1 "10uF" H 4610 6520 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4600 6600 50  0001 C CNN
+F 3 "" H 4600 6600 50  0001 C CNN
+F 4 "Murata" H 1000 3650 50  0001 C CNN "MFR"
+F 5 "GRM21BR61A106KE19L" H 1000 3650 50  0001 C CNN "MPN"
+F 6 "Digikey" H 1000 3650 50  0001 C CNN "SPR"
+F 7 "490-1709-1-ND" H 1000 3650 50  0001 C CNN "SPN"
+F 8 "" H 1000 3650 50  0001 C CNN "SPURL"
+	1    4600 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6700 4400 6750
+Wire Wire Line
+	4400 6750 4500 6750
+$Comp
+L power:GND #PWR072
+U 1 1 5CDB5416
+P 4500 6750
+F 0 "#PWR072" H 4500 6500 50  0001 C CNN
+F 1 "GND" H 4500 6600 50  0000 C CNN
+F 2 "" H 4500 6750 50  0000 C CNN
+F 3 "" H 4500 6750 50  0000 C CNN
+	1    4500 6750
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 6750
+Wire Wire Line
+	4500 6750 4600 6750
+$Comp
+L Device:C_Small C131
+U 1 1 5CDCCF64
+P 6600 7000
+F 0 "C131" H 6610 7070 50  0000 L CNN
+F 1 ".1uF" H 6610 6920 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 7000 50  0001 C CNN
+F 3 "" H 6600 7000 50  0001 C CNN
+F 4 "Murata" H 5000 2450 50  0001 C CNN "MFR"
+F 5 "GRM188R71C104KA01D" H 5000 2450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 5000 2450 50  0001 C CNN "SPR"
+F 7 "490-1532-1-ND" H 5000 2450 50  0001 C CNN "SPN"
+F 8 "" H 5000 2450 50  0001 C CNN "SPURL"
+	1    6600 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0227
+U 1 1 5CDE3F34
+P 6600 6850
+F 0 "#PWR0227" H 6600 6600 50  0001 C CNN
+F 1 "GND" H 6600 6700 50  0000 C CNN
+F 2 "" H 6600 6850 50  0000 C CNN
+F 3 "" H 6600 6850 50  0000 C CNN
+	1    6600 6850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 6850 6600 6900
+$Comp
+L Device:R R?
+U 1 1 5CDE8DE7
+P 5700 6850
+AR Path="/58508444/5CDE8DE7" Ref="R?"  Part="1" 
+AR Path="/58508414/5CDE8DE7" Ref="R?"  Part="1" 
+AR Path="/58818A06/5CDE8DE7" Ref="R101"  Part="1" 
+F 0 "R101" V 5800 6850 50  0000 C CNN
+F 1 "100k" V 5700 6850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5630 6850 50  0001 C CNN
+F 3 "" H 5700 6850 50  0001 C CNN
+F 4 "Yageo" H -3250 5050 50  0001 C CNN "MFR"
+F 5 "RC0402FR-07100KL" H -3250 5050 50  0001 C CNN "MPN"
+F 6 "Digikey" H -3250 5050 50  0001 C CNN "SPR"
+F 7 "311-100KLRTR-ND" H -3250 5050 50  0001 C CNN "SPN"
+F 8 "" H -3250 5050 50  0001 C CNN "SPURL"
+	1    5700 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 7100 5700 7100
+Wire Wire Line
+	5700 7100 5700 7000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CDF72FC
+P 5700 6700
+AR Path="/58508414/5CDF72FC" Ref="#PWR?"  Part="1" 
+AR Path="/58818A06/5CDF72FC" Ref="#PWR0223"  Part="1" 
+F 0 "#PWR0223" H 5700 6550 50  0001 C CNN
+F 1 "+3.3V" H 5700 6840 50  0000 C CNN
+F 2 "" H 5700 6700 50  0000 C CNN
+F 3 "" H 5700 6700 50  0000 C CNN
+	1    5700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CDF7FC5
+P 5350 6550
+AR Path="/58508414/5CDF7FC5" Ref="C?"  Part="1" 
+AR Path="/58818A06/5CDF7FC5" Ref="C127"  Part="1" 
+F 0 "C127" H 5360 6620 50  0000 L CNN
+F 1 "4.7uF" H 5100 6650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5350 6550 50  0001 C CNN
+F 3 "" H 5350 6550 50  0001 C CNN
+F 4 "Murata" H 2800 800 50  0001 C CNN "MFR"
+F 5 "GRM21BR61A475KA73L" H 2800 800 50  0001 C CNN "MPN"
+F 6 "Digikey" H 2800 800 50  0001 C CNN "SPR"
+F 7 "490-9750-1-ND" H 2800 800 50  0001 C CNN "SPN"
+F 8 "" H 2800 800 50  0001 C CNN "SPURL"
+	1    5350 6550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CE245FF
+P 5350 6450
+AR Path="/58508414/5CE245FF" Ref="#PWR?"  Part="1" 
+AR Path="/58818A06/5CE245FF" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 5350 6300 50  0001 C CNN
+F 1 "+3.3V" H 5350 6590 50  0000 C CNN
+F 2 "" H 5350 6450 50  0000 C CNN
+F 3 "" H 5350 6450 50  0000 C CNN
+	1    5350 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0222
+U 1 1 5CE2467C
+P 5350 6650
+F 0 "#PWR0222" H 5350 6400 50  0001 C CNN
+F 1 "GND" H 5350 6500 50  0000 C CNN
+F 2 "" H 5350 6650 50  0000 C CNN
+F 3 "" H 5350 6650 50  0000 C CNN
+	1    5350 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 6450 5200 6450
+Wire Wire Line
+	5200 6450 5200 6800
+Connection ~ 5350 6450
+Text GLabel 4700 7400 0    60   Input ~ 0
+DDR3_VTT
+Wire Wire Line
+	5600 7200 6600 7200
+Wire Wire Line
+	6600 7100 6600 7200
+$Comp
+L DFTBoard-rescue:LED- D?
+U 1 1 5CE5FFD3
+P 6000 6850
+AR Path="/5852A88E/5CE5FFD3" Ref="D?"  Part="1" 
+AR Path="/58508444/5CE5FFD3" Ref="D?"  Part="1" 
+AR Path="/5C7C62AE/5CE5FFD3" Ref="D?"  Part="1" 
+AR Path="/58818A06/5CE5FFD3" Ref="D7"  Part="1" 
+F 0 "D7" H 6000 6950 50  0000 C CNN
+F 1 "BLUE LED" H 6000 6750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6000 6850 50  0001 C CNN
+F 3 "" H 6000 6850 50  0001 C CNN
+F 4 "Vishay Semiconductors" H 3950 2100 50  0001 C CNN "MFR"
+F 5 "VLMB1300-GS08" H 3950 2100 50  0001 C CNN "MPN"
+F 6 "Digikey" H 3950 2100 50  0001 C CNN "SPR"
+F 7 "VLMB1300-GS08CT-ND" H 3950 2100 50  0001 C CNN "SPN"
+F 8 "" H 3950 2100 50  0001 C CNN "SPURL"
+	1    6000 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CE5FFDF
+P 6000 6450
+AR Path="/5852A88E/5CE5FFDF" Ref="R?"  Part="1" 
+AR Path="/58508444/5CE5FFDF" Ref="R?"  Part="1" 
+AR Path="/5C7C62AE/5CE5FFDF" Ref="R?"  Part="1" 
+AR Path="/58818A06/5CE5FFDF" Ref="R102"  Part="1" 
+F 0 "R102" H 6030 6470 50  0000 L CNN
+F 1 "150" H 6030 6410 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6000 6450 50  0001 C CNN
+F 3 "" H 6000 6450 50  0001 C CNN
+F 4 "Yageo" H 3950 2100 50  0001 C CNN "MFR"
+F 5 "RC0402FR-07150RL" H 3950 2100 50  0001 C CNN "MPN"
+F 6 "Digikey" H 3950 2100 50  0001 C CNN "SPR"
+F 7 "311-150LRTR-ND" H 3950 2100 50  0001 C CNN "SPN"
+F 8 "" H 3950 2100 50  0001 C CNN "SPURL"
+	1    6000 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CE5FFE6
+P 6000 6300
+AR Path="/5852A88E/5CE5FFE6" Ref="#PWR?"  Part="1" 
+AR Path="/58508444/5CE5FFE6" Ref="#PWR?"  Part="1" 
+AR Path="/5C7C62AE/5CE5FFE6" Ref="#PWR?"  Part="1" 
+AR Path="/58818A06/5CE5FFE6" Ref="#PWR0225"  Part="1" 
+F 0 "#PWR0225" H 6000 6150 50  0001 C CNN
+F 1 "+5V" H 6000 6440 50  0000 C CNN
+F 2 "" H 6000 6300 50  0000 C CNN
+F 3 "" H 6000 6300 50  0000 C CNN
+	1    6000 6300
+	1    0    0    -1  
+$EndComp
+Text Label 6000 6600 0    60   ~ 0
+SLED2_R
+Wire Wire Line
+	6000 6350 6000 6300
+Wire Wire Line
+	6000 6550 6000 6700
+Wire Wire Line
+	6000 7000 6000 7100
+Wire Wire Line
+	6000 7100 5700 7100
+Connection ~ 5700 7100
+Text GLabel 4700 7200 0    60   Input ~ 0
+DDR3_VTT_EN
+Text Label 3750 7300 0    60   ~ 0
+VREF
+Wire Wire Line
+	5100 6450 5100 6800
+Wire Wire Line
+	4300 6450 4400 6450
+Wire Wire Line
+	4600 6750 4600 6700
+Wire Wire Line
+	4400 6500 4400 6450
+Connection ~ 4400 6450
+Wire Wire Line
+	4400 6450 4600 6450
+Wire Wire Line
+	4600 6500 4600 6450
+Connection ~ 4600 6450
+Wire Wire Line
+	4600 6450 5100 6450
+Text Notes 350  500  0    197  ~ 39
+DDR3
+Wire Wire Line
+	3750 7300 4700 7300
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Mon 01 Apr 2019 06:54:58 PM EDT
+update=Fri 10 May 2019 12:34:07 AM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -31,10 +31,10 @@ ModuleOutlineThickness=0.13
 [schematic_editor]
 version=1
 PageLayoutDescrFile=/home/julian/Downloads/blank.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=/home/julian/Documents/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
-LabSize=60
+LabSize=197
 ERC_TestSimilarLabels=1

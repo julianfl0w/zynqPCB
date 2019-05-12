@@ -1551,4 +1551,6 @@ F 3 "" H 1850 3300 60  0001 C CNN
 	7    1850 3300
 	1    0    0    -1  
 $EndComp
+Text Notes 250  550  0    197  ~ 39
+USB Host and Device
 $EndSCHEMATC

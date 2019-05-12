@@ -579,17 +579,6 @@ F 8 "" H 1050 1850 50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+1V8 #PWR072
-U 1 1 58DB350D
-P 6150 2900
-F 0 "#PWR072" H 6150 3040 20  0001 C CNN
-F 1 "+1.8V" H 6150 3010 30  0000 C CNN
-F 2 "" H 6150 2900 60  0001 C CNN
-F 3 "" H 6150 2900 60  0001 C CNN
-	1    6150 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+1V8 #PWR093
 U 1 1 59853AA6
 P 10000 2800
@@ -683,9 +672,9 @@ I2S_LRCLK
 Text Label 9450 1800 0    60   ~ 0
 RSWITCH
 Text GLabel 7350 3700 0    60   Input ~ 0
-I2C18_SCLK
+I2C33_SCLK
 Text GLabel 7350 3800 0    60   BiDi ~ 0
-I2C18_SDIN
+I2C33_SDIN
 Text Label 10050 7050 0    60   ~ 0
 HPSWITCH
 Text GLabel 7350 3500 0    60   Input ~ 0
@@ -1836,72 +1825,8 @@ Text GLabel 2000 3250 2    60   Input ~ 0
 JD_IN
 Text GLabel 2000 3150 2    60   Input ~ 0
 JD_ROUT
-Text GLabel 2000 3050 2    60   Input ~ 0
+Text GLabel 2000 2850 2    60   Input ~ 0
 JD_LOUT
-$Comp
-L Device:R R?
-U 1 1 5CAB8FC8
-P 7500 1150
-AR Path="/5852A88E/5CAB8FC8" Ref="R?"  Part="1" 
-AR Path="/5CA1ABAE/5CAB8FC8" Ref="R?"  Part="1" 
-AR Path="/58508444/5CAB8FC8" Ref="R25"  Part="1" 
-F 0 "R25" V 7580 1150 50  0000 C CNN
-F 1 "4.7k" V 7500 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7430 1150 50  0001 C CNN
-F 3 "" H 7500 1150 50  0001 C CNN
-F 4 "Yageo" H 5150 -6150 50  0001 C CNN "MFR"
-F 5 "RC0402FR-074K7L" H 5150 -6150 50  0001 C CNN "MPN"
-F 6 "Digikey" H 5150 -6150 50  0001 C CNN "SPR"
-F 7 "311-4.7KLRCT-ND" H 5150 -6150 50  0001 C CNN "SPN"
-F 8 "" H 5150 -6150 50  0001 C CNN "SPURL"
-	1    7500 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5CAB8FD4
-P 7700 1150
-AR Path="/5852A88E/5CAB8FD4" Ref="R?"  Part="1" 
-AR Path="/5CA1ABAE/5CAB8FD4" Ref="R?"  Part="1" 
-AR Path="/58508444/5CAB8FD4" Ref="R26"  Part="1" 
-F 0 "R26" V 7780 1150 50  0000 C CNN
-F 1 "4.7k" V 7700 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7630 1150 50  0001 C CNN
-F 3 "" H 7700 1150 50  0001 C CNN
-F 4 "Yageo" H 5150 -6250 50  0001 C CNN "MFR"
-F 5 "RC0402FR-074K7L" H 5150 -6250 50  0001 C CNN "MPN"
-F 6 "Digikey" H 5150 -6250 50  0001 C CNN "SPR"
-F 7 "311-4.7KLRCT-ND" H 5150 -6250 50  0001 C CNN "SPN"
-F 8 "" H 5150 -6250 50  0001 C CNN "SPURL"
-	1    7700 1150
-	1    0    0    -1  
-$EndComp
-Text GLabel 7500 1300 3    60   Input ~ 0
-I2C18_SCLK
-Text GLabel 7700 1300 3    60   BiDi ~ 0
-I2C18_SDIN
-$Comp
-L power:+1V8 #PWR080
-U 1 1 5CAD43E7
-P 7700 1000
-F 0 "#PWR080" H 7700 1140 20  0001 C CNN
-F 1 "+1.8V" H 7700 1110 30  0000 C CNN
-F 2 "" H 7700 1000 60  0001 C CNN
-F 3 "" H 7700 1000 60  0001 C CNN
-	1    7700 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+1V8 #PWR079
-U 1 1 5CAD44FE
-P 7500 1000
-F 0 "#PWR079" H 7500 1140 20  0001 C CNN
-F 1 "+1.8V" H 7500 1110 30  0000 C CNN
-F 2 "" H 7500 1000 60  0001 C CNN
-F 3 "" H 7500 1000 60  0001 C CNN
-	1    7500 1000
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5CAF3837
@@ -2238,23 +2163,23 @@ Wire Wire Line
 Wire Wire Line
 	3200 5450 2950 5450
 NoConn ~ 2000 650 
-Text GLabel 2000 1750 2    60   BiDi ~ 0
+Text GLabel 2000 1550 2    60   BiDi ~ 0
 HDMI_CEC
-Text GLabel 2000 1250 2    60   Output ~ 0
-HDMI_R_P
-Text GLabel 2000 1150 2    60   Output ~ 0
-HDMI_R_N
-Text GLabel 2000 1450 2    60   Output ~ 0
-HDMI_G_P
-Text GLabel 2000 1350 2    60   Output ~ 0
-HDMI_G_N
-Text GLabel 2000 1650 2    60   Output ~ 0
-HDMI_B_P
-Text GLabel 2000 1550 2    60   Output ~ 0
-HDMI_B_N
 Text GLabel 2000 1050 2    60   Output ~ 0
-HDMI_CLK_P
+HDMI_R_P
 Text GLabel 2000 950  2    60   Output ~ 0
+HDMI_R_N
+Text GLabel 2000 1250 2    60   Output ~ 0
+HDMI_G_P
+Text GLabel 2000 1150 2    60   Output ~ 0
+HDMI_G_N
+Text GLabel 2000 1450 2    60   Output ~ 0
+HDMI_B_P
+Text GLabel 2000 1350 2    60   Output ~ 0
+HDMI_B_N
+Text GLabel 2000 3050 2    60   Output ~ 0
+HDMI_CLK_P
+Text GLabel 2000 2950 2    60   Output ~ 0
 HDMI_CLK_N
 Text GLabel 2000 850  2    60   BiDi ~ 0
 HDMI_HEAC_P
@@ -2264,7 +2189,6 @@ NoConn ~ 2000 1850
 NoConn ~ 2000 1950
 NoConn ~ 2000 2050
 NoConn ~ 2000 550 
-NoConn ~ 2000 3550
 NoConn ~ 2000 3650
 NoConn ~ 2000 3750
 NoConn ~ 2000 3850
@@ -2279,8 +2203,6 @@ NoConn ~ 2000 2450
 NoConn ~ 2000 2550
 NoConn ~ 2000 2650
 NoConn ~ 2000 2750
-NoConn ~ 2000 2850
-NoConn ~ 2000 2950
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5CD431AA
@@ -2302,7 +2224,7 @@ AR Path="/5C7C62AE/5CD431B0" Ref="U?"  Part="3"
 AR Path="/58508444/5CD431B0" Ref="U20"  Part="3" 
 F 0 "U20" H 3231 -1897 60  0000 L CNN
 F 1 "xc7z020clg484" H 3231 -2003 60  0000 L CNN
-F 2 "" H 2000 550 60  0001 C CNN
+F 2 "DFTcustom:BGA-484_19.0x19.0mm_Layout22x22_P0.80mm_dia0.40mm" H 2000 550 60  0001 C CNN
 F 3 "" H 2000 550 60  0001 C CNN
 	3    2000 550 
 	-1   0    0    -1  
@@ -2419,4 +2341,23 @@ Wire Wire Line
 Connection ~ 6600 1850
 Wire Wire Line
 	6600 1850 6600 1750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CDC29DB
+P 6150 2900
+AR Path="/5C7C62AE/5CDC29DB" Ref="#PWR?"  Part="1" 
+AR Path="/58508444/5CDC29DB" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 6150 2750 50  0001 C CNN
+F 1 "+3.3V" H 6165 3073 50  0000 C CNN
+F 2 "" H 6150 2900 50  0001 C CNN
+F 3 "" H 6150 2900 50  0001 C CNN
+	1    6150 2900
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2000 3550 2    60   Output ~ 0
+DDR3_VTT_EN
+Text Notes 200  350  0    197  ~ 39
+Audio and HDMI
+NoConn ~ 2000 1650
+NoConn ~ 2000 1750
 $EndSCHEMATC

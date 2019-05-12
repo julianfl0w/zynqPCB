@@ -481,4 +481,6 @@ $EndComp
 Text GLabel 8800 2950 2    60   BiDi ~ 0
 RF2_IRQ
 NoConn ~ 5900 3900
+Text Notes 250  550  0    197  ~ 39
+Sensors
 $EndSCHEMATC
