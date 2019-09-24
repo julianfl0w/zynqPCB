@@ -445,15 +445,15 @@ Wire Wire Line
 	2800 7100 2500 7100
 Text GLabel 2500 2450 2    60   BiDi ~ 0
 DDR3_DQ16
-Text GLabel 2500 2550 2    60   BiDi ~ 0
-DDR3_DQ17
-Text GLabel 2500 2650 2    60   BiDi ~ 0
-DDR3_DQ18
-Text GLabel 2500 2750 2    60   BiDi ~ 0
-DDR3_DQ19
-Text GLabel 2500 2850 2    60   BiDi ~ 0
-DDR3_DQ20
 Text GLabel 2500 2950 2    60   BiDi ~ 0
+DDR3_DQ17
+Text GLabel 2500 2850 2    60   BiDi ~ 0
+DDR3_DQ18
+Text GLabel 2500 2550 2    60   BiDi ~ 0
+DDR3_DQ19
+Text GLabel 2500 2650 2    60   BiDi ~ 0
+DDR3_DQ20
+Text GLabel 2500 2750 2    60   BiDi ~ 0
 DDR3_DQ21
 Text GLabel 2500 3050 2    60   BiDi ~ 0
 DDR3_DQ22
@@ -461,19 +461,19 @@ Text GLabel 2500 3150 2    60   BiDi ~ 0
 DDR3_DQ23
 Text GLabel 2500 3250 2    60   BiDi ~ 0
 DDR3_DQ24
-Text GLabel 2500 3350 2    60   BiDi ~ 0
-DDR3_DQ25
-Text GLabel 2500 3450 2    60   BiDi ~ 0
-DDR3_DQ26
 Text GLabel 2500 3550 2    60   BiDi ~ 0
+DDR3_DQ25
+Text GLabel 2500 3950 2    60   BiDi ~ 0
+DDR3_DQ26
+Text GLabel 2500 3350 2    60   BiDi ~ 0
 DDR3_DQ27
 Text GLabel 2500 3650 2    60   BiDi ~ 0
 DDR3_DQ28
-Text GLabel 2500 3750 2    60   BiDi ~ 0
+Text GLabel 2500 3450 2    60   BiDi ~ 0
 DDR3_DQ29
 Text GLabel 2500 3850 2    60   BiDi ~ 0
 DDR3_DQ30
-Text GLabel 2500 3950 2    60   BiDi ~ 0
+Text GLabel 2500 3750 2    60   BiDi ~ 0
 DDR3_DQ31
 Text GLabel 2500 4650 2    60   BiDi ~ 0
 DDR3_DQS2_P
@@ -611,6 +611,8 @@ $Comp
 L DFTBoard-rescue:MT41K256M16HA-125_E-MT41K256M16HA-125_E U15
 U 1 1 5C8EBB5A
 P 1800 3650
+AR Path="/5C8EBB5A" Ref="U15"  Part="1" 
+AR Path="/58818A06/5C8EBB5A" Ref="U15"  Part="1" 
 F 0 "U15" H 1800 6017 50  0000 C CNN
 F 1 "MT41K256M16HA-125_E" H 1800 5926 50  0000 C CNN
 F 2 "DFTcustom:FBGA-96-DDR3-SDRAM" H 1800 3650 50  0001 L BNN
@@ -663,6 +665,8 @@ $Comp
 L DFTBoard-rescue:MT41K256M16HA-125_E-MT41K256M16HA-125_E U16
 U 1 1 5C88EAF1
 P 4800 3700
+AR Path="/5C88EAF1" Ref="U16"  Part="1" 
+AR Path="/58818A06/5C88EAF1" Ref="U16"  Part="1" 
 F 0 "U16" H 4800 6067 50  0000 C CNN
 F 1 "MT41K256M16HA-125_E" H 4800 5976 50  0000 C CNN
 F 2 "DFTcustom:FBGA-96-DDR3-SDRAM" H 4800 3700 50  0001 L BNN
@@ -683,35 +687,35 @@ Text GLabel 5500 4800 2    60   BiDi ~ 0
 DDR3_DQS0_N
 Text GLabel 5500 4700 2    60   BiDi ~ 0
 DDR3_DQS0_P
-Text GLabel 5500 4000 2    60   BiDi ~ 0
-DDR3_DQ15
 Text GLabel 5500 3900 2    60   BiDi ~ 0
-DDR3_DQ14
-Text GLabel 5500 3800 2    60   BiDi ~ 0
-DDR3_DQ13
-Text GLabel 5500 3700 2    60   BiDi ~ 0
-DDR3_DQ12
+DDR3_DQ15
 Text GLabel 5500 3600 2    60   BiDi ~ 0
+DDR3_DQ14
+Text GLabel 5500 3700 2    60   BiDi ~ 0
+DDR3_DQ13
+Text GLabel 5500 3300 2    60   BiDi ~ 0
+DDR3_DQ12
+Text GLabel 5500 3400 2    60   BiDi ~ 0
 DDR3_DQ11
 Text GLabel 5500 3500 2    60   BiDi ~ 0
 DDR3_DQ10
-Text GLabel 5500 3400 2    60   BiDi ~ 0
+Text GLabel 5500 4000 2    60   BiDi ~ 0
 DDR3_DQ9
-Text GLabel 5500 3300 2    60   BiDi ~ 0
+Text GLabel 5500 3800 2    60   BiDi ~ 0
 DDR3_DQ8
-Text GLabel 5500 3200 2    60   BiDi ~ 0
+Text GLabel 5500 2800 2    60   BiDi ~ 0
 DDR3_DQ7
-Text GLabel 5500 3100 2    60   BiDi ~ 0
+Text GLabel 5500 3200 2    60   BiDi ~ 0
 DDR3_DQ6
 Text GLabel 5500 3000 2    60   BiDi ~ 0
 DDR3_DQ5
-Text GLabel 5500 2900 2    60   BiDi ~ 0
+Text GLabel 5500 2600 2    60   BiDi ~ 0
 DDR3_DQ4
-Text GLabel 5500 2800 2    60   BiDi ~ 0
+Text GLabel 5500 2900 2    60   BiDi ~ 0
 DDR3_DQ3
 Text GLabel 5500 2700 2    60   BiDi ~ 0
 DDR3_DQ2
-Text GLabel 5500 2600 2    60   BiDi ~ 0
+Text GLabel 5500 3100 2    60   BiDi ~ 0
 DDR3_DQ1
 Text GLabel 5500 2500 2    60   BiDi ~ 0
 DDR3_DQ0

@@ -1,4 +1,4 @@
-update=Wed 04 Sep 2019 06:26:19 PM EDT
+update=Mon 23 Sep 2019 07:57:07 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -22,7 +22,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=dt01zynq.net
+LastNetListRead=DFTBoard.net
 CopperLayerCount=8
 BoardThickness=1.6
 AllowMicroVias=0
@@ -64,7 +64,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.015
 SolderMaskMinWidth=0.2286
 SolderPasteClearance=-0.07619999999999999
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=TOP_GND
 Type=1
