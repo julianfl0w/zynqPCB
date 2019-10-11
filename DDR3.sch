@@ -447,7 +447,7 @@ Text GLabel 2500 2650 2    60   BiDi ~ 0
 DDR3_DQ16
 Text GLabel 2500 2450 2    60   BiDi ~ 0
 DDR3_DQ17
-Text GLabel 2500 2850 2    60   BiDi ~ 0
+Text GLabel 2500 3050 2    60   BiDi ~ 0
 DDR3_DQ18
 Text GLabel 2500 2550 2    60   BiDi ~ 0
 DDR3_DQ19
@@ -455,25 +455,25 @@ Text GLabel 2500 3150 2    60   BiDi ~ 0
 DDR3_DQ20
 Text GLabel 2500 2750 2    60   BiDi ~ 0
 DDR3_DQ21
-Text GLabel 2500 3050 2    60   BiDi ~ 0
+Text GLabel 2500 2850 2    60   BiDi ~ 0
 DDR3_DQ22
 Text GLabel 2500 2950 2    60   BiDi ~ 0
 DDR3_DQ23
 Text GLabel 2500 3250 2    60   BiDi ~ 0
 DDR3_DQ24
-Text GLabel 2500 3550 2    60   BiDi ~ 0
+Text GLabel 2500 3750 2    60   BiDi ~ 0
 DDR3_DQ25
-Text GLabel 2500 3950 2    60   BiDi ~ 0
-DDR3_DQ26
-Text GLabel 2500 3350 2    60   BiDi ~ 0
-DDR3_DQ27
 Text GLabel 2500 3650 2    60   BiDi ~ 0
+DDR3_DQ26
+Text GLabel 2500 3950 2    60   BiDi ~ 0
+DDR3_DQ27
+Text GLabel 2500 3550 2    60   BiDi ~ 0
 DDR3_DQ28
 Text GLabel 2500 3450 2    60   BiDi ~ 0
 DDR3_DQ29
 Text GLabel 2500 3850 2    60   BiDi ~ 0
 DDR3_DQ30
-Text GLabel 2500 3750 2    60   BiDi ~ 0
+Text GLabel 2500 3350 2    60   BiDi ~ 0
 DDR3_DQ31
 Text GLabel 2500 4650 2    60   BiDi ~ 0
 DDR3_DQS2_P
@@ -705,11 +705,11 @@ Text GLabel 5500 3800 2    60   BiDi ~ 0
 DDR3_DQ8
 Text GLabel 5500 2800 2    60   BiDi ~ 0
 DDR3_DQ7
-Text GLabel 5500 3200 2    60   BiDi ~ 0
+Text GLabel 5500 2600 2    60   BiDi ~ 0
 DDR3_DQ6
 Text GLabel 5500 3000 2    60   BiDi ~ 0
 DDR3_DQ5
-Text GLabel 5500 2600 2    60   BiDi ~ 0
+Text GLabel 5500 2500 2    60   BiDi ~ 0
 DDR3_DQ4
 Text GLabel 5500 2900 2    60   BiDi ~ 0
 DDR3_DQ3
@@ -717,7 +717,7 @@ Text GLabel 5500 2700 2    60   BiDi ~ 0
 DDR3_DQ2
 Text GLabel 5500 3100 2    60   BiDi ~ 0
 DDR3_DQ1
-Text GLabel 5500 2500 2    60   BiDi ~ 0
+Text GLabel 5500 3200 2    60   BiDi ~ 0
 DDR3_DQ0
 $Comp
 L power:GND #PWR0157
@@ -1922,6 +1922,4 @@ Text Notes 350  500  0    197  ~ 39
 DDR3
 Wire Wire Line
 	3750 7300 4700 7300
-Entry Wire Line
-	4550 2700 4650 2800
 $EndSCHEMATC
