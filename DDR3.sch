@@ -1922,4 +1922,8 @@ Text GLabel 5500 2500 2    60   BiDi ~ 0
 DDR3_DQ1
 Text GLabel 5500 3100 2    60   BiDi ~ 0
 DDR3_DQ3
+Text Label 900  5350 0    59   ~ 0
+ZQH
+Text Label 3950 5400 0    59   ~ 0
+ZQL
 $EndSCHEMATC
