@@ -642,9 +642,9 @@ Text GLabel 2650 5000 2    60   BiDi ~ 0
 LCD_D8
 Text GLabel 2650 5100 2    60   BiDi ~ 0
 LCD_D9
-Text GLabel 2650 5200 2    60   BiDi ~ 0
-LCD_D10
 Text GLabel 2650 5300 2    60   BiDi ~ 0
+LCD_D10
+Text GLabel 2650 5200 2    60   BiDi ~ 0
 LCD_D11
 Text GLabel 2650 5400 2    60   BiDi ~ 0
 LCD_D12

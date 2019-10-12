@@ -695,9 +695,9 @@ Text GLabel 5500 3700 2    60   BiDi ~ 0
 DDR3_DQ13
 Text GLabel 5500 3300 2    60   BiDi ~ 0
 DDR3_DQ12
-Text GLabel 5500 3400 2    60   BiDi ~ 0
-DDR3_DQ11
 Text GLabel 5500 3500 2    60   BiDi ~ 0
+DDR3_DQ11
+Text GLabel 5500 3400 2    60   BiDi ~ 0
 DDR3_DQ10
 Text GLabel 5500 4000 2    60   BiDi ~ 0
 DDR3_DQ9
@@ -709,14 +709,10 @@ Text GLabel 5500 2600 2    60   BiDi ~ 0
 DDR3_DQ6
 Text GLabel 5500 3000 2    60   BiDi ~ 0
 DDR3_DQ5
-Text GLabel 5500 2500 2    60   BiDi ~ 0
-DDR3_DQ4
 Text GLabel 5500 2900 2    60   BiDi ~ 0
-DDR3_DQ3
+DDR3_DQ4
 Text GLabel 5500 2700 2    60   BiDi ~ 0
 DDR3_DQ2
-Text GLabel 5500 3100 2    60   BiDi ~ 0
-DDR3_DQ1
 Text GLabel 5500 3200 2    60   BiDi ~ 0
 DDR3_DQ0
 $Comp
@@ -1922,4 +1918,8 @@ Text Notes 350  500  0    197  ~ 39
 DDR3
 Wire Wire Line
 	3750 7300 4700 7300
+Text GLabel 5500 2500 2    60   BiDi ~ 0
+DDR3_DQ1
+Text GLabel 5500 3100 2    60   BiDi ~ 0
+DDR3_DQ3
 $EndSCHEMATC

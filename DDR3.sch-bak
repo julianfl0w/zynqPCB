@@ -709,13 +709,13 @@ Text GLabel 5500 2600 2    60   BiDi ~ 0
 DDR3_DQ6
 Text GLabel 5500 3000 2    60   BiDi ~ 0
 DDR3_DQ5
-Text GLabel 5500 2500 2    60   BiDi ~ 0
-DDR3_DQ4
 Text GLabel 5500 2900 2    60   BiDi ~ 0
+DDR3_DQ4
+Text GLabel 5500 3100 2    60   BiDi ~ 0
 DDR3_DQ3
 Text GLabel 5500 2700 2    60   BiDi ~ 0
 DDR3_DQ2
-Text GLabel 5500 3100 2    60   BiDi ~ 0
+Text GLabel 5500 2500 2    60   BiDi ~ 0
 DDR3_DQ1
 Text GLabel 5500 3200 2    60   BiDi ~ 0
 DDR3_DQ0
