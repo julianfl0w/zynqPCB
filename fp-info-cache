@@ -1,4 +1,4 @@
-16441084758883855
+16444245968249855
 6N137S
 8-SMD
 
@@ -42797,6 +42797,20 @@ AUDIO_TRS_6
 0
 7
 6
+DFTcustom
+Arduino_Uno_Shield
+https://store.arduino.cc/arduino-uno-rev3
+
+0
+38
+37
+DFTcustom
+Arduino_Uno_Shield_Simplified
+https://store.arduino.cc/arduino-uno-rev3
+
+0
+32
+31
 DFTcustom
 BGA-400_17.0x17.0mm_Layout20x20_P0.80mm_dia0.40mm
 BGA-400, https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf

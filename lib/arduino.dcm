@@ -84,6 +84,12 @@ K Arduino MPU Shield
 F https://store.arduino.cc/arduino-uno-rev3
 $ENDCMP
 #
+$CMP Arduino_Uno_Shield_Simplified
+D Shield for Arduino Uno
+K Arduino MPU Shield
+F https://store.arduino.cc/arduino-uno-rev3
+$ENDCMP
+#
 $CMP Arduino_Zero_Shield
 D Shield for Arduino Zero
 K Arduino MPU Shield

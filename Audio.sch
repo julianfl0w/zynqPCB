@@ -961,30 +961,6 @@ Wire Wire Line
 	10850 4000 11150 4000
 Wire Wire Line
 	6400 4400 7350 4400
-Text GLabel 2000 4450 2    60   Input ~ 0
-TEMPO_SW
-Text GLabel 2000 4650 2    60   Output ~ 0
-LED_1B_CTRL
-Text GLabel 2000 4550 2    60   Output ~ 0
-LED_1G_CTRL
-Text GLabel 2000 4750 2    60   Output ~ 0
-LED_1R_CTRL
-Text GLabel 2000 4250 2    60   Output ~ 0
-I2S_LRCLK
-Text GLabel 2000 4350 2    60   Input ~ 0
-I2S_ADCSD
-Text GLabel 2000 3950 2    60   Output ~ 0
-I2S_BCLK
-Text GLabel 2000 4150 2    60   Output ~ 0
-I2S_DACSD
-Text GLabel 2000 4050 2    60   Output ~ 0
-I2S_MCLK
-Text GLabel 2000 4950 2    60   Input ~ 0
-LED_2R_CTRL
-Text GLabel 2000 5050 2    60   Input ~ 0
-LED_2G_CTRL
-Text GLabel 2000 4850 2    60   Input ~ 0
-LED_2B_CTRL
 $Comp
 L Device:C C?
 U 1 1 5CC2B8DC
@@ -1669,8 +1645,6 @@ Wire Wire Line
 	6650 7050 6650 7250
 Wire Wire Line
 	6650 7250 6650 7450
-Text GLabel 2000 3450 2    60   Output ~ 0
-TLV_RST#
 $Comp
 L power:+1V8 #PWR068
 U 1 1 5C97B4FE
@@ -1682,14 +1656,6 @@ F 3 "" H 4900 3150 60  0001 C CNN
 	1    4900 3150
 	1    0    0    -1  
 $EndComp
-Text GLabel 2000 3350 2    60   Input ~ 0
-JD_HOUT
-Text GLabel 2000 3250 2    60   Input ~ 0
-JD_IN
-Text GLabel 2000 3150 2    60   Input ~ 0
-JD_ROUT
-Text GLabel 2000 2850 2    60   Input ~ 0
-JD_LOUT
 $Comp
 L power:GND #PWR?
 U 1 1 5CAF3837
@@ -2032,10 +1998,6 @@ Text GLabel 2000 1450 2    60   Output ~ 0
 HDMI_B_P
 Text GLabel 2000 1350 2    60   Output ~ 0
 HDMI_B_N
-Text GLabel 2000 3050 2    60   Output ~ 0
-HDMI_CLK_P
-Text GLabel 2000 2950 2    60   Output ~ 0
-HDMI_CLK_N
 Text GLabel 2000 850  2    60   BiDi ~ 0
 HDMI_HEAC_P
 Text GLabel 2000 750  2    60   BiDi ~ 0
@@ -2043,19 +2005,7 @@ HDMI_HEAC_N
 NoConn ~ 2000 1950
 NoConn ~ 2000 2050
 NoConn ~ 2000 550 
-NoConn ~ 2000 3650
-NoConn ~ 2000 3750
-NoConn ~ 2000 3850
-NoConn ~ 2000 5150
-NoConn ~ 2000 5250
-NoConn ~ 2000 5350
-NoConn ~ 2000 5450
 NoConn ~ 2000 2150
-NoConn ~ 2000 2250
-NoConn ~ 2000 2350
-NoConn ~ 2000 2450
-NoConn ~ 2000 2550
-NoConn ~ 2000 2650
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5CD431AA
@@ -2067,19 +2017,6 @@ F 1 "+3.3V" H 3715 5223 50  0000 C CNN
 F 2 "" H 3700 5050 50  0001 C CNN
 F 3 "" H 3700 5050 50  0001 C CNN
 	1    3700 5050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L xilinx7:xc7z020clg484 U?
-U 3 1 5CD431B0
-P 2000 550
-AR Path="/5C7C62AE/5CD431B0" Ref="U?"  Part="3" 
-AR Path="/58508444/5CD431B0" Ref="U20"  Part="3" 
-F 0 "U20" H 3231 -1897 60  0000 L CNN
-F 1 "xc7z020clg484" H 3231 -2003 60  0000 L CNN
-F 2 "DFTcustom:BGA-484_19.0x19.0mm_Layout22x22_P0.80mm_dia0.40mm" H 2000 550 60  0001 C CNN
-F 3 "" H 2000 550 60  0001 C CNN
-	3    2000 550 
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -2207,8 +2144,6 @@ F 3 "" H 6150 2900 50  0001 C CNN
 	1    6150 2900
 	-1   0    0    -1  
 $EndComp
-Text GLabel 2000 3550 2    60   Output ~ 0
-DDR3_VTT_EN
 Text Notes 200  350  0    197  ~ 39
 Audio and HDMI
 Text GLabel 9450 7450 0    60   Input ~ 0
@@ -2356,207 +2291,6 @@ F 8 "" H 550 1850 50  0001 C CNN "SPURL"
 	1    9750 6800
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4500 1200 4500 1700
-Connection ~ 4500 1200
-Wire Wire Line
-	4500 1100 4500 1200
-Wire Wire Line
-	4500 1200 5300 1200
-Wire Wire Line
-	4500 1700 4650 1700
-Wire Wire Line
-	5600 1200 5850 1200
-Text Label 4800 1200 0    60   ~ 0
-HPSWITCH
-Text GLabel 5850 1200 2    60   Output ~ 0
-JD_MOUT
-$Comp
-L DFTBoard-rescue:JACK_TRS_4PINS J10
-U 1 1 5DC329C0
-P 5050 1600
-F 0 "J10" H 5050 1900 50  0000 C CNN
-F 1 "JACK_TRS_4PINS" H 5000 1300 50  0000 C CNN
-F 2 "DFTcustom:SJ-352X-SMT" H 5150 1450 50  0000 C CNN
-F 3 "" H 5150 1450 50  0001 C CNN
-F 4 "CUI Inc." H -4700 -4000 50  0001 C CNN "MFR"
-F 5 "SJ-3524-SMT-TR" H -4700 -4000 50  0001 C CNN "MPN"
-F 6 "Digikey" H -4700 -4000 50  0001 C CNN "SPR"
-F 7 "CP-3524SJCT-ND" H -4700 -4000 50  0001 C CNN "SPN"
-F 8 "" H -4700 -4000 50  0001 C CNN "SPURL"
-	1    5050 1600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R107
-U 1 1 5DC329ED
-P 5450 1200
-F 0 "R107" V 5530 1200 50  0000 C CNN
-F 1 "49.9k" V 5450 1200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5380 1200 50  0001 C CNN
-F 3 "" H 5450 1200 50  0001 C CNN
-F 4 "Yageo" H -4700 -4000 50  0001 C CNN "MFR"
-F 5 "RC0402FR-0749K9L" H -4700 -4000 50  0001 C CNN "MPN"
-F 6 "Digikey" H -4700 -4000 50  0001 C CNN "SPR"
-F 7 "311-49.9KLRCT-ND" H -4700 -4000 50  0001 C CNN "SPN"
-F 8 "" H -4700 -4000 50  0001 C CNN "SPURL"
-	1    5450 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R106
-U 1 1 5DC329F8
-P 4500 950
-F 0 "R106" V 4580 950 50  0000 C CNN
-F 1 "100k" V 4500 950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4430 950 50  0001 C CNN
-F 3 "" H 4500 950 50  0001 C CNN
-F 4 "Yageo" H -4700 -4000 50  0001 C CNN "MFR"
-F 5 "RC0402FR-07100KL" H -4700 -4000 50  0001 C CNN "MPN"
-F 6 "Digikey" H -4700 -4000 50  0001 C CNN "SPR"
-F 7 "311-100KLRTR-ND" H -4700 -4000 50  0001 C CNN "SPN"
-F 8 "" H -4700 -4000 50  0001 C CNN "SPURL"
-	1    4500 950 
-	-1   0    0    1   
-$EndComp
-Text GLabel 2000 2750 2    60   Input ~ 0
-JD_MOUT
-Text Notes 4700 1000 0    47   ~ 0
-Tip is voltage high (+5v), Ring is open drain \nThis is RX wrt DT01 only
-$Comp
-L 6N137S:6N137S U21
-U 1 1 5DD1AFA9
-P 4100 1650
-F 0 "U21" H 4150 985 50  0000 C CNN
-F 1 "6N137S" H 4150 1076 50  0000 C CNN
-F 2 "6N137S:8-SMD" H 4100 1650 50  0001 L BNN
-F 3 "6N137S" H 4100 1650 50  0001 L BNN
-F 4 "Optocoupler Logic-Out Open Collector DC-IN 1-CH 8-Pin DIP SMD" H 4100 1650 50  0001 L BNN "Field4"
-F 5 "Unavailable" H 4100 1650 50  0001 L BNN "Field5"
-F 6 "SMD-8 Lite-On" H 4100 1650 50  0001 L BNN "Field6"
-F 7 "ON Semiconductor" H 4100 1650 50  0001 L BNN "Field7"
-F 8 "None" H 4100 1650 50  0001 L BNN "Field8"
-	1    4100 1650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4400 1400 4400 1250
-Wire Wire Line
-	4400 1600 4400 1850
-$Comp
-L power:GND #PWR?
-U 1 1 5DD72546
-P 3050 1250
-AR Path="/58508414/59084F78/5DD72546" Ref="#PWR?"  Part="1" 
-AR Path="/5C7C62AE/5DD72546" Ref="#PWR?"  Part="1" 
-AR Path="/58508444/5DD72546" Ref="#PWR0232"  Part="1" 
-F 0 "#PWR0232" H 3050 1000 50  0001 C CNN
-F 1 "GND" H 3050 1100 50  0000 C CNN
-F 2 "" H 3050 1250 50  0000 C CNN
-F 3 "" H 3050 1250 50  0000 C CNN
-	1    3050 1250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C124
-U 1 1 5DDBD1B7
-P 3050 1550
-F 0 "C124" H 3075 1650 50  0000 L CNN
-F 1 "10uF" H 3075 1450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3088 1400 50  0001 C CNN
-F 3 "" H 3050 1550 50  0001 C CNN
-F 4 "Murata" H -350 -1800 50  0001 C CNN "MFR"
-F 5 "GRM21BR61A106KE19L" H -350 -1800 50  0001 C CNN "MPN"
-F 6 "Digikey" H -350 -1800 50  0001 C CNN "SPR"
-F 7 "490-1709-1-ND" H -350 -1800 50  0001 C CNN "SPN"
-F 8 "" H -350 -1800 50  0001 C CNN "SPURL"
-	1    3050 1550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3050 1250 3050 1400
-Wire Wire Line
-	3050 1850 3050 1700
-Connection ~ 3050 1250
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5DE60882
-P 4500 800
-AR Path="/5C7C62AE/5DE60882" Ref="#PWR?"  Part="1" 
-AR Path="/58508444/5DE60882" Ref="#PWR0233"  Part="1" 
-F 0 "#PWR0233" H 4500 650 50  0001 C CNN
-F 1 "+3.3V" H 4515 973 50  0000 C CNN
-F 2 "" H 4500 800 50  0001 C CNN
-F 3 "" H 4500 800 50  0001 C CNN
-	1    4500 800 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5DEA1DC2
-P 3050 1850
-AR Path="/5C7C62AE/5DEA1DC2" Ref="#PWR?"  Part="1" 
-AR Path="/58508444/5DEA1DC2" Ref="#PWR0234"  Part="1" 
-F 0 "#PWR0234" H 3050 1700 50  0001 C CNN
-F 1 "+3.3V" H 3065 2023 50  0000 C CNN
-F 2 "" H 3050 1850 50  0001 C CNN
-F 3 "" H 3050 1850 50  0001 C CNN
-	1    3050 1850
-	1    0    0    1   
-$EndComp
-Connection ~ 3050 1850
-Wire Wire Line
-	3050 1250 3700 1250
-Text GLabel 3450 1450 0    49   Output ~ 0
-MIDI_IN
-Text GLabel 2000 1650 2    49   Input ~ 0
-MIDI_IN
-Text GLabel 2000 1750 2    49   Output ~ 0
-MIDI_EN
-Text GLabel 3700 1650 0    49   Input ~ 0
-MIDI_EN
-Wire Wire Line
-	3450 1450 3600 1450
-Wire Wire Line
-	3600 1450 3600 1550
-Connection ~ 3600 1450
-Wire Wire Line
-	3600 1450 3700 1450
-$Comp
-L Device:R_Small R?
-U 1 1 5DF7E1FF
-P 3300 1700
-AR Path="/5852A88E/5DF7E1FF" Ref="R?"  Part="1" 
-AR Path="/58508444/5DF7E1FF" Ref="R105"  Part="1" 
-AR Path="/5C7C62AE/5DF7E1FF" Ref="R?"  Part="1" 
-F 0 "R105" H 3330 1720 50  0000 L CNN
-F 1 "150" H 3330 1660 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3300 1700 50  0001 C CNN
-F 3 "" H 3300 1700 50  0001 C CNN
-F 4 "Yageo" H 1250 -2650 50  0001 C CNN "MFR"
-F 5 "RC0402FR-07150RL" H 1250 -2650 50  0001 C CNN "MPN"
-F 6 "Digikey" H 1250 -2650 50  0001 C CNN "SPR"
-F 7 "311-150LRTR-ND" H 1250 -2650 50  0001 C CNN "SPN"
-F 8 "" H 1250 -2650 50  0001 C CNN "SPURL"
-	1    3300 1700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 1550 3300 1550
-Wire Wire Line
-	3300 1550 3300 1600
-Wire Wire Line
-	3300 1800 3300 1850
-Connection ~ 3300 1850
-Wire Wire Line
-	3300 1850 3700 1850
-Wire Wire Line
-	3050 1850 3300 1850
-Wire Wire Line
-	4400 1400 4650 1400
-Wire Wire Line
-	4650 1600 4400 1600
-NoConn ~ 4650 1800
 $Comp
 L DFTCustom:TSOP344 JP?
 U 1 1 5E0DA2C8
@@ -2598,19 +2332,6 @@ F 3 "" H 3750 2650 50  0000 C CNN
 $EndComp
 Text GLabel 2000 1850 2    60   Input ~ 0
 IR_RX
-$Comp
-L Device:C_Small C133
-U 1 1 5E175166
-P 4650 650
-F 0 "C133" H 4660 720 50  0000 L CNN
-F 1 ".01uF" H 4660 570 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4650 650 50  0001 C CNN
-F 3 "" H 4650 650 50  0001 C CNN
-F 4 "Murata" H 3050 -3900 50  0001 C CNN "MFR"
-F 5 "Digikey" H 3050 -3900 50  0001 C CNN "SPR"
-	1    4650 650 
-	1    0    0    -1  
-$EndComp
 Text GLabel 3450 2650 3    60   Output ~ 0
 IR_RX
 $Comp
@@ -2654,4 +2375,84 @@ F 3 "" H 3100 2750 50  0001 C CNN
 	1    3100 2750
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2000 1650
+NoConn ~ 2000 1750
+Text GLabel 2000 2250 2    60   BiDi ~ 0
+LCD_D11
+Text GLabel 2000 2350 2    60   BiDi ~ 0
+LCD_D12
+Text GLabel 2000 2450 2    60   BiDi ~ 0
+LCD_D13
+Text GLabel 2000 2550 2    60   BiDi ~ 0
+LCD_D14
+Text GLabel 2000 2650 2    60   BiDi ~ 0
+LCD_D15
+Text GLabel 2000 2750 2    60   BiDi ~ 0
+LCD_D16
+Text GLabel 2000 2850 2    60   BiDi ~ 0
+LCD_D17
+Text GLabel 2000 2950 2    60   BiDi ~ 0
+LCD_D18
+Text GLabel 2000 3050 2    60   BiDi ~ 0
+LCD_D19
+Text GLabel 2000 3150 2    60   BiDi ~ 0
+LCD_D20
+Text GLabel 2000 3250 2    60   BiDi ~ 0
+LCD_D21
+Text GLabel 2000 3350 2    60   BiDi ~ 0
+LCD_D22
+$Comp
+L xilinx7:xc7z020clg484 U?
+U 3 1 5CD431B0
+P 2000 550
+AR Path="/5C7C62AE/5CD431B0" Ref="U?"  Part="3" 
+AR Path="/58508444/5CD431B0" Ref="U20"  Part="3" 
+F 0 "U20" H 3231 -1897 60  0000 L CNN
+F 1 "xc7z020clg484" H 3231 -2003 60  0000 L CNN
+F 2 "DFTcustom:BGA-484_19.0x19.0mm_Layout22x22_P0.80mm_dia0.40mm" H 2000 550 60  0001 C CNN
+F 3 "" H 2000 550 60  0001 C CNN
+	3    2000 550 
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 2000 5450
+Text GLabel 2000 5150 2    60   Input ~ 0
+LED_2B_CTRL
+Text GLabel 2000 5350 2    60   Input ~ 0
+LED_2G_CTRL
+Text GLabel 2000 5250 2    60   Input ~ 0
+LED_2R_CTRL
+Text GLabel 2000 5050 2    60   Output ~ 0
+LED_1R_CTRL
+Text GLabel 2000 4850 2    60   Output ~ 0
+LED_1G_CTRL
+Text GLabel 2000 4950 2    60   Output ~ 0
+LED_1B_CTRL
+Text GLabel 2000 4750 2    60   Input ~ 0
+TEMPO_SW
+Text GLabel 2000 4550 2    60   Output ~ 0
+I2S_LRCLK
+Text GLabel 2000 4650 2    60   Input ~ 0
+I2S_ADCSD
+Text GLabel 2000 4250 2    60   Output ~ 0
+I2S_BCLK
+Text GLabel 2000 4450 2    60   Output ~ 0
+I2S_DACSD
+Text GLabel 2000 4350 2    60   Output ~ 0
+I2S_MCLK
+Text GLabel 2000 4150 2    60   Output ~ 0
+DDR3_VTT_EN
+Text GLabel 2000 3550 2    60   Output ~ 0
+HDMI_CLK_N
+Text GLabel 2000 3650 2    60   Output ~ 0
+HDMI_CLK_P
+Text GLabel 2000 3450 2    60   Input ~ 0
+JD_LOUT
+Text GLabel 2000 3750 2    60   Input ~ 0
+JD_ROUT
+Text GLabel 2000 3850 2    60   Input ~ 0
+JD_IN
+Text GLabel 2000 3950 2    60   Input ~ 0
+JD_HOUT
+Text GLabel 2000 4050 2    60   Output ~ 0
+TLV_RST#
 $EndSCHEMATC

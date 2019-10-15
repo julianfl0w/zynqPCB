@@ -95,17 +95,6 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V8 #PWR0141
-U 1 1 585987BD
-P 6200 2550
-F 0 "#PWR0141" H 6200 2690 20  0001 C CNN
-F 1 "+1.8V" H 6200 2660 30  0000 C CNN
-F 2 "" H 6200 2550 60  0001 C CNN
-F 3 "" H 6200 2550 60  0001 C CNN
-	1    6200 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR0139
 U 1 1 587438B2
 P 4000 3200
@@ -117,9 +106,9 @@ F 3 "" H 4000 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5900 3600 2    60   Input ~ 0
-I2C18_SDIN
+I2C33_SDIN
 Text GLabel 5900 3700 2    60   Input ~ 0
-I2C18_SCLK
+I2C33_SCLK
 Text Notes 6100 4000 0    60   ~ 0
 address 0x52
 $Comp
@@ -223,8 +212,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 2600 6100 2550
 Wire Wire Line
-	6100 2550 6200 2550
-Wire Wire Line
 	6300 2550 6300 2600
 Wire Wire Line
 	6100 3300 6100 2900
@@ -242,7 +229,6 @@ Connection ~ 4000 3300
 Connection ~ 4550 3600
 Connection ~ 4000 3600
 Connection ~ 4550 3300
-Connection ~ 6200 2550
 Wire Wire Line
 	7800 3150 7700 3150
 Wire Wire Line
@@ -454,8 +440,6 @@ Wire Wire Line
 Wire Wire Line
 	4550 3300 4700 3300
 Wire Wire Line
-	6200 2550 6300 2550
-Wire Wire Line
 	7700 3150 7550 3150
 Wire Wire Line
 	7700 2750 7800 2750
@@ -483,4 +467,22 @@ RF2_IRQ
 NoConn ~ 5900 3900
 Text Notes 250  550  0    197  ~ 39
 Sensors
+Text Notes 4950 4200 0    60   ~ 0
+2V8 mode
+Wire Wire Line
+	6100 2550 6200 2550
+$Comp
+L power:+3V3 #PWR0141
+U 1 1 5E2935C0
+P 6200 2550
+F 0 "#PWR0141" H 6200 2400 50  0001 C CNN
+F 1 "+3.3V" H 6200 2690 50  0000 C CNN
+F 2 "" H 6200 2550 50  0000 C CNN
+F 3 "" H 6200 2550 50  0000 C CNN
+	1    6200 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 2550
+Wire Wire Line
+	6200 2550 6300 2550
 $EndSCHEMATC
