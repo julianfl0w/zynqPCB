@@ -11,4 +11,5 @@
   (lib (name SOP65P490X110-8N)(type Legacy)(uri ${KIPRJMOD}/footprints/SOP65P490X110-8N.mod)(options "")(descr ""))
   (lib (name ABM3-12.000MHZ-B2-T)(type Legacy)(uri ${KIPRJMOD}/footprints/ABM3-12.000MHZ-B2-T.mod)(options "")(descr ""))
   (lib (name XTAL_ASDMB-24.000MHZ-LC-T)(type Legacy)(uri ${KIPRJMOD}/footprints/XTAL_ASDMB-24.000MHZ-LC-T.mod)(options "")(descr ""))
+  (lib (name 6N137S)(type Legacy)(uri ${KIPRJMOD}/footprints/legacy/6N137S.mod)(options "")(descr ""))
 )

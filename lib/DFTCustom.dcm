@@ -591,6 +591,12 @@ D Diode simple
 K DEV DIODE
 $ENDCMP
 #
+$CMP TSOP344
+D Jumper, 3-pole, both open
+K Jumper SPDT
+F ~
+$ENDCMP
+#
 $CMP TVS
 D Transient voltage suppressor diode (bi-directional)
 K DEV TVS TRANSIENT SUPPROESSOR ESD

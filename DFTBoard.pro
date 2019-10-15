@@ -1,4 +1,4 @@
-update=Mon 23 Sep 2019 07:57:07 PM EDT
+update=Sat 12 Oct 2019 08:36:57 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -11,7 +11,7 @@ version=1
 LibDir=
 [schematic_editor]
 version=1
-PageLayoutDescrFile=/home/julian/Downloads/blank.kicad_wks
+PageLayoutDescrFile=pagelayout_default.kicad_wks
 PlotDirectoryName=/home/julian/Documents/
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -64,7 +64,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.015
 SolderMaskMinWidth=0.2286
 SolderPasteClearance=-0.07619999999999999
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=TOP_GND
 Type=1
@@ -190,7 +190,7 @@ Name=In30.Cu
 Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
-Name=GND
+Name=BOTTOM
 Type=1
 Enabled=1
 [pcbnew/Layer.B.Adhes]
@@ -277,9 +277,9 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
-Name=Power
+Name=Line Level
 Clearance=0.102
-TrackWidth=0.102
+TrackWidth=0.3
 ViaDiameter=0.48
 ViaDrill=0.25
 uViaDiameter=0.3
@@ -288,6 +288,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
+Name=Power
+Clearance=0.102
+TrackWidth=0.3
+ViaDiameter=0.48
+ViaDrill=0.25
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/6]
 Name=USB SIG
 Clearance=0.102
 TrackWidth=0.28
