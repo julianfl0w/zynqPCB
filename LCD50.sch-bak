@@ -200,10 +200,6 @@ Connection ~ 9600 7400
 Connection ~ 9850 7400
 Connection ~ 10100 7400
 NoConn ~ 9350 1800
-NoConn ~ 9350 4500
-NoConn ~ 9350 5100
-NoConn ~ 9350 4400
-NoConn ~ 9350 5700
 NoConn ~ 9350 2900
 Wire Wire Line
 	10100 7000 10350 7000
@@ -603,8 +599,6 @@ STATLED_1
 Text GLabel 9350 6600 0    60   Output ~ 0
 STATLED_2
 NoConn ~ 9350 2100
-NoConn ~ 9350 2200
-NoConn ~ 9350 4300
 Text Notes 250  550  0    197  ~ 39
 LCD and Status LEDs
 $Comp
@@ -621,92 +615,68 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DBABC3C
-P 3750 4850
+P 3650 3900
 AR Path="/58508414/59084F78/5DBABC3C" Ref="#PWR?"  Part="1" 
 AR Path="/5C7C62AE/5DBABC3C" Ref="#PWR0239"  Part="1" 
-F 0 "#PWR0239" H 3750 4600 50  0001 C CNN
-F 1 "GND" H 3750 4700 50  0000 C CNN
-F 2 "" H 3750 4850 50  0000 C CNN
-F 3 "" H 3750 4850 50  0000 C CNN
-	1    3750 4850
+F 0 "#PWR0239" H 3650 3650 50  0001 C CNN
+F 1 "GND" H 3650 3750 50  0000 C CNN
+F 2 "" H 3650 3900 50  0000 C CNN
+F 3 "" H 3650 3900 50  0000 C CNN
+	1    3650 3900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3900 4750 3800 4750
+	3800 3800 3700 3800
 Wire Wire Line
-	3800 4750 3800 4850
+	3700 3800 3700 3900
 Wire Wire Line
-	3800 4950 3900 4950
+	3700 4000 3800 4000
 Wire Wire Line
-	3750 4850 3800 4850
-Connection ~ 3800 4850
+	3650 3900 3700 3900
+Connection ~ 3700 3900
 Wire Wire Line
-	3800 4850 3800 4950
+	3700 3900 3700 4000
 Wire Wire Line
-	3800 4850 3900 4850
+	3700 3900 3800 3900
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5DBD5605
-P 3900 5050
+P 3800 4100
 AR Path="/58508414/59084F78/5DBD5605" Ref="#PWR?"  Part="1" 
 AR Path="/5C7C62AE/5DBD5605" Ref="#PWR0240"  Part="1" 
-F 0 "#PWR0240" H 3900 4900 50  0001 C CNN
-F 1 "+3.3V" H 3900 5190 50  0000 C CNN
-F 2 "" H 3900 5050 50  0000 C CNN
-F 3 "" H 3900 5050 50  0000 C CNN
-	1    3900 5050
+F 0 "#PWR0240" H 3800 3950 50  0001 C CNN
+F 1 "+3.3V" H 3800 4240 50  0000 C CNN
+F 2 "" H 3800 4100 50  0000 C CNN
+F 3 "" H 3800 4100 50  0000 C CNN
+	1    3800 4100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5DCCD41B
-P 6500 5250
+P 6400 4300
 AR Path="/58508414/59084F78/5DCCD41B" Ref="#PWR?"  Part="1" 
 AR Path="/5C7C62AE/5DCCD41B" Ref="#PWR0241"  Part="1" 
-F 0 "#PWR0241" H 6500 5100 50  0001 C CNN
-F 1 "+3.3V" H 6500 5390 50  0000 C CNN
-F 2 "" H 6500 5250 50  0000 C CNN
-F 3 "" H 6500 5250 50  0000 C CNN
-	1    6500 5250
+F 0 "#PWR0241" H 6400 4150 50  0001 C CNN
+F 1 "+3.3V" H 6400 4440 50  0000 C CNN
+F 2 "" H 6400 4300 50  0000 C CNN
+F 3 "" H 6400 4300 50  0000 C CNN
+	1    6400 4300
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5DEEA165
-P 3900 5150
+P 3800 4200
 AR Path="/58508414/5DEEA165" Ref="#PWR?"  Part="1" 
 AR Path="/5C7C62AE/5DEEA165" Ref="#PWR0242"  Part="1" 
-F 0 "#PWR0242" H 3900 5240 20  0001 C CNN
-F 1 "+5V" H 3900 5240 30  0000 C CNN
-F 2 "" H 3900 5150 60  0001 C CNN
-F 3 "" H 3900 5150 60  0001 C CNN
-	1    3900 5150
+F 0 "#PWR0242" H 3800 4290 20  0001 C CNN
+F 1 "+5V" H 3800 4290 30  0000 C CNN
+F 2 "" H 3800 4200 60  0001 C CNN
+F 3 "" H 3800 4200 60  0001 C CNN
+	1    3800 4200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9350 2300 0    60   BiDi ~ 0
-LCD_D0
-Text GLabel 9350 2400 0    60   BiDi ~ 0
-LCD_D1
-Text GLabel 9350 2500 0    60   BiDi ~ 0
-LCD_D2
-Text GLabel 9350 2600 0    60   BiDi ~ 0
-LCD_D3
-Text GLabel 9350 2700 0    60   BiDi ~ 0
-LCD_D4
-Text GLabel 9350 2800 0    60   BiDi ~ 0
-LCD_D5
-Text GLabel 9350 3000 0    60   BiDi ~ 0
-LCD_D6
-Text GLabel 9350 3100 0    60   BiDi ~ 0
-LCD_D7
-Text GLabel 9350 3200 0    60   BiDi ~ 0
-LCD_D8
-Text GLabel 9350 3300 0    60   BiDi ~ 0
-LCD_D9
-Text GLabel 9350 3400 0    60   BiDi ~ 0
-LCD_D10
-Text GLabel 9350 5000 0    60   BiDi ~ 0
-LCD_D23
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5E120F97
@@ -720,101 +690,211 @@ F 3 "" H 9350 7000 50  0000 C CNN
 	1    9350 7000
 	1    0    0    -1  
 $EndComp
-Text GLabel 9350 6700 0    60   BiDi ~ 0
-LCD_D34
-Text GLabel 3900 3150 0    60   BiDi ~ 0
+Text GLabel 3800 2200 0    60   BiDi ~ 0
 LCD_D0
-Text GLabel 3900 3250 0    60   BiDi ~ 0
+Text GLabel 3800 2300 0    60   BiDi ~ 0
 LCD_D1
-Text GLabel 3900 3450 0    60   BiDi ~ 0
+Text GLabel 3800 2500 0    60   BiDi ~ 0
 LCD_D2
-Text GLabel 3900 3550 0    60   BiDi ~ 0
+Text GLabel 3800 2600 0    60   BiDi ~ 0
 LCD_D3
-Text GLabel 3900 3850 0    60   BiDi ~ 0
+Text GLabel 3800 2900 0    60   BiDi ~ 0
 LCD_D4
-Text GLabel 3900 3950 0    60   BiDi ~ 0
+Text GLabel 3800 3000 0    60   BiDi ~ 0
 LCD_D5
-Text GLabel 3900 4050 0    60   BiDi ~ 0
+Text GLabel 3800 3100 0    60   BiDi ~ 0
 LCD_D6
-Text GLabel 3900 4150 0    60   BiDi ~ 0
+Text GLabel 3800 3200 0    60   BiDi ~ 0
 LCD_D7
-Text GLabel 3900 4250 0    60   BiDi ~ 0
+Text GLabel 3800 3300 0    60   BiDi ~ 0
 LCD_D8
-Text GLabel 3900 4350 0    60   BiDi ~ 0
+Text GLabel 3800 3400 0    60   BiDi ~ 0
 LCD_D9
-Text GLabel 3900 4450 0    60   BiDi ~ 0
+Text GLabel 3800 3500 0    60   BiDi ~ 0
 LCD_D10
-Text GLabel 6500 3150 2    60   BiDi ~ 0
+Text GLabel 6400 2200 2    60   BiDi ~ 0
 LCD_D11
-Text GLabel 6500 3250 2    60   BiDi ~ 0
+Text GLabel 6400 2300 2    60   BiDi ~ 0
 LCD_D12
-Text GLabel 6500 3350 2    60   BiDi ~ 0
+Text GLabel 6400 2400 2    60   BiDi ~ 0
 LCD_D13
-Text GLabel 6500 3450 2    60   BiDi ~ 0
+Text GLabel 6400 2500 2    60   BiDi ~ 0
 LCD_D14
-Text GLabel 6500 3550 2    60   BiDi ~ 0
+Text GLabel 6400 2600 2    60   BiDi ~ 0
 LCD_D15
-Text GLabel 6500 3650 2    60   BiDi ~ 0
+Text GLabel 6400 2700 2    60   BiDi ~ 0
 LCD_D16
-Text GLabel 6500 3750 2    60   BiDi ~ 0
+Text GLabel 6400 2800 2    60   BiDi ~ 0
 LCD_D17
-Text GLabel 6500 3850 2    60   BiDi ~ 0
+Text GLabel 6400 2900 2    60   BiDi ~ 0
 LCD_D18
-Text GLabel 6500 3950 2    60   BiDi ~ 0
+Text GLabel 6400 3000 2    60   BiDi ~ 0
 LCD_D19
-Text GLabel 6500 4050 2    60   BiDi ~ 0
+Text GLabel 6400 3100 2    60   BiDi ~ 0
 LCD_D20
-Text GLabel 6500 4150 2    60   BiDi ~ 0
+Text GLabel 6400 3200 2    60   BiDi ~ 0
 LCD_D21
-Text GLabel 6500 4250 2    60   BiDi ~ 0
+Text GLabel 6400 3300 2    60   BiDi ~ 0
 LCD_D22
 $Comp
 L arduino:Arduino_Uno_Shield_Simplified XA1
 U 1 1 5E17BC07
-P 5200 4200
-F 0 "XA1" H 5200 5587 60  0000 C CNN
-F 1 "Arduino_Uno_Shield_Simplified" H 5200 5481 60  0000 C CNN
-F 2 "DFTcustom:Arduino_Uno_Shield_Simplified" H 7000 7950 60  0001 C CNN
-F 3 "https://store.arduino.cc/arduino-uno-rev3" H 7000 7950 60  0001 C CNN
-	1    5200 4200
+P 5100 3250
+F 0 "XA1" H 5100 4637 60  0000 C CNN
+F 1 "Arduino_Uno_Shield_Simplified" H 5100 4531 60  0000 C CNN
+F 2 "DFTcustom:Arduino_Uno_Shield_Simplified" H 6900 7000 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-uno-rev3" H 6900 7000 60  0001 C CNN
+	1    5100 3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 6500 5150 2    60   BiDi ~ 0
+Text GLabel 6400 4200 2    60   BiDi ~ 0
 LCD_D23
 $Comp
 L power:+5V #PWR?
 U 1 1 5E245F1F
-P 3900 5250
+P 3800 4300
 AR Path="/58508414/5E245F1F" Ref="#PWR?"  Part="1" 
 AR Path="/5C7C62AE/5E245F1F" Ref="#PWR0173"  Part="1" 
-F 0 "#PWR0173" H 3900 5340 20  0001 C CNN
-F 1 "+5V" H 3900 5340 30  0000 C CNN
-F 2 "" H 3900 5250 60  0001 C CNN
-F 3 "" H 3900 5250 60  0001 C CNN
-	1    3900 5250
+F 0 "#PWR0173" H 3800 4390 20  0001 C CNN
+F 1 "+5V" H 3800 4390 30  0000 C CNN
+F 2 "" H 3800 4300 60  0001 C CNN
+F 3 "" H 3800 4300 60  0001 C CNN
+	1    3800 4300
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 9350 5200
-NoConn ~ 9350 5300
-NoConn ~ 9350 5400
-NoConn ~ 9350 5500
-NoConn ~ 9350 5600
-NoConn ~ 9350 5800
-NoConn ~ 9350 5900
-NoConn ~ 9350 6000
-NoConn ~ 9350 6100
-NoConn ~ 9350 6200
-NoConn ~ 9350 6300
-NoConn ~ 9350 3500
-NoConn ~ 9350 3600
-NoConn ~ 9350 3700
-NoConn ~ 9350 3800
-NoConn ~ 9350 3900
-NoConn ~ 9350 4000
-NoConn ~ 9350 4100
-NoConn ~ 9350 4200
-NoConn ~ 9350 4600
-NoConn ~ 9350 4700
-NoConn ~ 9350 4800
-NoConn ~ 9350 4900
+Text GLabel 9350 6100 0    60   BiDi ~ 0
+LCD_D4
+Text GLabel 9350 5100 0    60   BiDi ~ 0
+LCD_D5
+Text GLabel 9350 5000 0    60   BiDi ~ 0
+LCD_D6
+Text GLabel 9350 5400 0    60   BiDi ~ 0
+LCD_D7
+Text GLabel 9350 5500 0    60   BiDi ~ 0
+LCD_D8
+Text GLabel 9350 4900 0    60   BiDi ~ 0
+LCD_D9
+Text GLabel 9350 4800 0    60   BiDi ~ 0
+LCD_D23
+Text GLabel 9350 5200 0    60   BiDi ~ 0
+HDMI_HEAC_N
+Text GLabel 9350 5300 0    60   BiDi ~ 0
+HDMI_HEAC_P
+Text GLabel 9350 4000 0    60   Output ~ 0
+HDMI_B_N
+Text GLabel 9350 4100 0    60   Output ~ 0
+HDMI_B_P
+Text GLabel 9350 4600 0    60   Output ~ 0
+HDMI_G_N
+Text GLabel 9350 4700 0    60   Output ~ 0
+HDMI_G_P
+Text GLabel 9350 4400 0    60   Output ~ 0
+HDMI_R_N
+Text GLabel 9350 4500 0    60   Output ~ 0
+HDMI_R_P
+Text GLabel 9350 5600 0    60   BiDi ~ 0
+HDMI_CEC
+Text Notes 3500 5500 0    60   ~ 0
+It seems all IO on this chip is \nHR (High-range) which includes TMDS_33\n(the physical standard for HDMI)
+$Comp
+L Connector:HDMI_A J9
+U 1 1 5DE42312
+P 5050 6700
+AR Path="/5C7C62AE/5DE42312" Ref="J9"  Part="1" 
+AR Path="/58508444/5DE42312" Ref="J?"  Part="1" 
+F 0 "J9" H 5480 6654 50  0000 L CNN
+F 1 "HDMI_A" H 5480 6745 50  0000 L CNN
+F 2 "DFTcustom:10029449-111RLF" H 5075 6700 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 5075 6700 50  0001 C CNN
+	1    5050 6700
+	0    -1   1    0   
+$EndComp
+Text GLabel 4650 6300 1    60   Input ~ 0
+HDMI_R_P
+Text GLabel 4750 6300 1    60   Input ~ 0
+HDMI_R_N
+Text GLabel 4450 6300 1    60   Input ~ 0
+HDMI_G_P
+Text GLabel 4550 6300 1    60   Input ~ 0
+HDMI_G_N
+Text GLabel 4250 6300 1    60   Input ~ 0
+HDMI_B_P
+Text GLabel 4350 6300 1    60   Input ~ 0
+HDMI_B_N
+Text GLabel 4850 6300 1    60   Input ~ 0
+HDMI_CLK_P
+Text GLabel 4950 6300 1    60   Input ~ 0
+HDMI_CLK_N
+Text GLabel 5450 6300 1    60   Input ~ 0
+I2C33_SDA
+Text GLabel 5350 6300 1    60   Input ~ 0
+I2C33_SCLK
+$Comp
+L power:+5V #PWR0174
+U 1 1 5DE42322
+P 3950 6700
+AR Path="/5C7C62AE/5DE42322" Ref="#PWR0174"  Part="1" 
+AR Path="/58508444/5DE42322" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0174" H 3950 6550 50  0001 C CNN
+F 1 "+5V" H 3965 6873 50  0000 C CNN
+F 2 "" H 3950 6700 50  0001 C CNN
+F 3 "" H 3950 6700 50  0001 C CNN
+	1    3950 6700
+	0    -1   1    0   
+$EndComp
+Text GLabel 5150 6300 1    60   BiDi ~ 0
+HDMI_CEC
+Text GLabel 5650 6300 1    60   BiDi ~ 0
+HDMI_HEAC_P
+Text GLabel 5750 6300 1    60   BiDi ~ 0
+HDMI_HEAC_N
+$Comp
+L power:GND #PWR?
+U 1 1 5DE4232B
+P 6250 6950
+AR Path="/58508414/59084F78/5DE4232B" Ref="#PWR?"  Part="1" 
+AR Path="/5C7C62AE/5DE4232B" Ref="#PWR0175"  Part="1" 
+AR Path="/58508444/5DE4232B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0175" H 6250 6700 50  0001 C CNN
+F 1 "GND" H 6250 6800 50  0000 C CNN
+F 2 "" H 6250 6950 50  0000 C CNN
+F 3 "" H 6250 6950 50  0000 C CNN
+	1    6250 6950
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6250 6950 6200 6950
+Wire Wire Line
+	6200 6950 6200 6900
+Wire Wire Line
+	6200 6900 6150 6900
+Wire Wire Line
+	6150 7000 6200 7000
+Wire Wire Line
+	6200 7000 6200 6950
+Connection ~ 6200 6950
+Wire Wire Line
+	6200 6900 6200 6800
+Wire Wire Line
+	6200 6500 6150 6500
+Connection ~ 6200 6900
+Wire Wire Line
+	6150 6600 6200 6600
+Connection ~ 6200 6600
+Wire Wire Line
+	6200 6600 6200 6500
+Wire Wire Line
+	6150 6700 6200 6700
+Connection ~ 6200 6700
+Wire Wire Line
+	6200 6700 6200 6600
+Wire Wire Line
+	6150 6800 6200 6800
+Connection ~ 6200 6800
+Wire Wire Line
+	6200 6800 6200 6700
+Text GLabel 9350 4200 0    60   Output ~ 0
+HDMI_CLK_N
+Text GLabel 9350 4300 0    60   Output ~ 0
+HDMI_CLK_P
 $EndSCHEMATC

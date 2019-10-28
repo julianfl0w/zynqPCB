@@ -1983,29 +1983,6 @@ Wire Wire Line
 	3450 5450 3200 5450
 Wire Wire Line
 	3200 5450 2950 5450
-NoConn ~ 2000 650 
-Text GLabel 2000 1550 2    60   BiDi ~ 0
-HDMI_CEC
-Text GLabel 2000 1050 2    60   Output ~ 0
-HDMI_R_P
-Text GLabel 2000 950  2    60   Output ~ 0
-HDMI_R_N
-Text GLabel 2000 1250 2    60   Output ~ 0
-HDMI_G_P
-Text GLabel 2000 1150 2    60   Output ~ 0
-HDMI_G_N
-Text GLabel 2000 1450 2    60   Output ~ 0
-HDMI_B_P
-Text GLabel 2000 1350 2    60   Output ~ 0
-HDMI_B_N
-Text GLabel 2000 850  2    60   BiDi ~ 0
-HDMI_HEAC_P
-Text GLabel 2000 750  2    60   BiDi ~ 0
-HDMI_HEAC_N
-NoConn ~ 2000 1950
-NoConn ~ 2000 2050
-NoConn ~ 2000 550 
-NoConn ~ 2000 2150
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5CD431AA
@@ -2032,105 +2009,6 @@ F 3 "" H 2000 5550 50  0001 C CNN
 	1    2000 5550
 	0    1    -1   0   
 $EndComp
-Text Notes 6000 600  0    60   ~ 0
-It seems all IO on this chip is \nHR (High-range) which includes TMDS_33\n(the physical standard for HDMI)
-$Comp
-L Connector:HDMI_A J?
-U 1 1 5CE311A0
-P 7550 1800
-AR Path="/5C7C62AE/5CE311A0" Ref="J?"  Part="1" 
-AR Path="/58508444/5CE311A0" Ref="J9"  Part="1" 
-F 0 "J9" H 7980 1754 50  0000 L CNN
-F 1 "HDMI_A" H 7980 1845 50  0000 L CNN
-F 2 "DFTcustom:10029449-111RLF" H 7575 1800 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 7575 1800 50  0001 C CNN
-	1    7550 1800
-	0    -1   1    0   
-$EndComp
-Text GLabel 7150 1400 1    60   Input ~ 0
-HDMI_R_P
-Text GLabel 7250 1400 1    60   Input ~ 0
-HDMI_R_N
-Text GLabel 6950 1400 1    60   Input ~ 0
-HDMI_G_P
-Text GLabel 7050 1400 1    60   Input ~ 0
-HDMI_G_N
-Text GLabel 6750 1400 1    60   Input ~ 0
-HDMI_B_P
-Text GLabel 6850 1400 1    60   Input ~ 0
-HDMI_B_N
-Text GLabel 7350 1400 1    60   Input ~ 0
-HDMI_CLK_P
-Text GLabel 7450 1400 1    60   Input ~ 0
-HDMI_CLK_N
-Text GLabel 7950 1400 1    60   Input ~ 0
-I2C33_SDA
-Text GLabel 7850 1400 1    60   Input ~ 0
-I2C33_SCLK
-$Comp
-L power:+5V #PWR?
-U 1 1 5CE311B1
-P 6450 1800
-AR Path="/5C7C62AE/5CE311B1" Ref="#PWR?"  Part="1" 
-AR Path="/58508444/5CE311B1" Ref="#PWR0211"  Part="1" 
-F 0 "#PWR0211" H 6450 1650 50  0001 C CNN
-F 1 "+5V" H 6465 1973 50  0000 C CNN
-F 2 "" H 6450 1800 50  0001 C CNN
-F 3 "" H 6450 1800 50  0001 C CNN
-	1    6450 1800
-	0    -1   1    0   
-$EndComp
-Text GLabel 7650 1400 1    60   BiDi ~ 0
-HDMI_CEC
-Text GLabel 8150 1400 1    60   BiDi ~ 0
-HDMI_HEAC_P
-Text GLabel 8250 1400 1    60   BiDi ~ 0
-HDMI_HEAC_N
-$Comp
-L power:GND #PWR?
-U 1 1 5CE311BA
-P 8750 2050
-AR Path="/58508414/59084F78/5CE311BA" Ref="#PWR?"  Part="1" 
-AR Path="/5C7C62AE/5CE311BA" Ref="#PWR?"  Part="1" 
-AR Path="/58508444/5CE311BA" Ref="#PWR0221"  Part="1" 
-F 0 "#PWR0221" H 8750 1800 50  0001 C CNN
-F 1 "GND" H 8750 1900 50  0000 C CNN
-F 2 "" H 8750 2050 50  0000 C CNN
-F 3 "" H 8750 2050 50  0000 C CNN
-	1    8750 2050
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	8750 2050 8700 2050
-Wire Wire Line
-	8700 2050 8700 2000
-Wire Wire Line
-	8700 2000 8650 2000
-Wire Wire Line
-	8650 2100 8700 2100
-Wire Wire Line
-	8700 2100 8700 2050
-Connection ~ 8700 2050
-Wire Wire Line
-	8700 2000 8700 1900
-Wire Wire Line
-	8700 1600 8650 1600
-Connection ~ 8700 2000
-Wire Wire Line
-	8650 1700 8700 1700
-Connection ~ 8700 1700
-Wire Wire Line
-	8700 1700 8700 1600
-Wire Wire Line
-	8650 1800 8700 1800
-Connection ~ 8700 1800
-Wire Wire Line
-	8700 1800 8700 1700
-Wire Wire Line
-	8650 1900 8700 1900
-Connection ~ 8700 1900
-Wire Wire Line
-	8700 1900 8700 1800
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5CDC29DB
@@ -2330,8 +2208,6 @@ F 3 "" H 3750 2650 50  0000 C CNN
 	1    3750 2650
 	-1   0    0    1   
 $EndComp
-Text GLabel 2000 1850 2    60   Input ~ 0
-IR_RX
 Text GLabel 3450 2650 3    60   Output ~ 0
 IR_RX
 $Comp
@@ -2375,32 +2251,6 @@ F 3 "" H 3100 2750 50  0001 C CNN
 	1    3100 2750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2000 1650
-NoConn ~ 2000 1750
-Text GLabel 2000 2250 2    60   BiDi ~ 0
-LCD_D11
-Text GLabel 2000 2350 2    60   BiDi ~ 0
-LCD_D12
-Text GLabel 2000 2450 2    60   BiDi ~ 0
-LCD_D13
-Text GLabel 2000 2550 2    60   BiDi ~ 0
-LCD_D14
-Text GLabel 2000 2650 2    60   BiDi ~ 0
-LCD_D15
-Text GLabel 2000 2750 2    60   BiDi ~ 0
-LCD_D16
-Text GLabel 2000 2850 2    60   BiDi ~ 0
-LCD_D17
-Text GLabel 2000 2950 2    60   BiDi ~ 0
-LCD_D18
-Text GLabel 2000 3050 2    60   BiDi ~ 0
-LCD_D19
-Text GLabel 2000 3150 2    60   BiDi ~ 0
-LCD_D20
-Text GLabel 2000 3250 2    60   BiDi ~ 0
-LCD_D21
-Text GLabel 2000 3350 2    60   BiDi ~ 0
-LCD_D22
 $Comp
 L xilinx7:xc7z020clg484 U?
 U 3 1 5CD431B0
@@ -2414,37 +2264,22 @@ F 3 "" H 2000 550 60  0001 C CNN
 	3    2000 550 
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 2000 5450
-Text GLabel 2000 5150 2    60   Input ~ 0
-LED_2B_CTRL
-Text GLabel 2000 5350 2    60   Input ~ 0
-LED_2G_CTRL
-Text GLabel 2000 5250 2    60   Input ~ 0
-LED_2R_CTRL
-Text GLabel 2000 5050 2    60   Output ~ 0
-LED_1R_CTRL
-Text GLabel 2000 4850 2    60   Output ~ 0
-LED_1G_CTRL
-Text GLabel 2000 4950 2    60   Output ~ 0
-LED_1B_CTRL
 Text GLabel 2000 4750 2    60   Input ~ 0
-TEMPO_SW
-Text GLabel 2000 4550 2    60   Output ~ 0
-I2S_LRCLK
-Text GLabel 2000 4650 2    60   Input ~ 0
-I2S_ADCSD
-Text GLabel 2000 4250 2    60   Output ~ 0
-I2S_BCLK
+LED_2B_CTRL
+Text GLabel 2000 4950 2    60   Input ~ 0
+LED_2G_CTRL
+Text GLabel 2000 4850 2    60   Input ~ 0
+LED_2R_CTRL
+Text GLabel 2000 4650 2    60   Output ~ 0
+LED_1R_CTRL
 Text GLabel 2000 4450 2    60   Output ~ 0
-I2S_DACSD
-Text GLabel 2000 4350 2    60   Output ~ 0
-I2S_MCLK
+LED_1G_CTRL
+Text GLabel 2000 4550 2    60   Output ~ 0
+LED_1B_CTRL
+Text GLabel 2000 4350 2    60   Input ~ 0
+TEMPO_SW
 Text GLabel 2000 4150 2    60   Output ~ 0
 DDR3_VTT_EN
-Text GLabel 2000 3550 2    60   Output ~ 0
-HDMI_CLK_N
-Text GLabel 2000 3650 2    60   Output ~ 0
-HDMI_CLK_P
 Text GLabel 2000 3450 2    60   Input ~ 0
 JD_LOUT
 Text GLabel 2000 3750 2    60   Input ~ 0
@@ -2455,4 +2290,50 @@ Text GLabel 2000 3950 2    60   Input ~ 0
 JD_HOUT
 Text GLabel 2000 4050 2    60   Output ~ 0
 TLV_RST#
+Text GLabel 2000 1450 2    60   BiDi ~ 0
+LCD_D3
+Text GLabel 2000 1650 2    60   BiDi ~ 0
+LCD_D10
+Text GLabel 2000 850  2    60   BiDi ~ 0
+LCD_D22
+Text GLabel 2000 1050 2    60   BiDi ~ 0
+LCD_D21
+Text GLabel 2000 750  2    60   BiDi ~ 0
+LCD_D20
+Text GLabel 2000 950  2    60   BiDi ~ 0
+LCD_D19
+Text GLabel 2000 1550 2    60   BiDi ~ 0
+LCD_D18
+Text GLabel 2000 1250 2    60   BiDi ~ 0
+LCD_D17
+Text GLabel 2000 1350 2    60   BiDi ~ 0
+LCD_D16
+Text GLabel 2000 2450 2    60   BiDi ~ 0
+LCD_D14
+Text GLabel 2000 2350 2    60   BiDi ~ 0
+LCD_D13
+Text GLabel 2000 2050 2    60   BiDi ~ 0
+LCD_D12
+Text GLabel 2000 2250 2    60   BiDi ~ 0
+LCD_D11
+Text GLabel 2000 1950 2    60   BiDi ~ 0
+LCD_D1
+Text GLabel 2000 2150 2    60   BiDi ~ 0
+LCD_D0
+Text GLabel 2000 2550 2    60   Input ~ 0
+IR_RX
+Text GLabel 2000 1150 2    60   BiDi ~ 0
+LCD_D15
+Text GLabel 2000 550  2    60   BiDi ~ 0
+LCD_D2
+Text GLabel 2000 5250 2    60   Output ~ 0
+I2S_MCLK
+Text GLabel 2000 5150 2    60   Output ~ 0
+I2S_BCLK
+Text GLabel 2000 5450 2    60   Output ~ 0
+I2S_LRCLK
+Text GLabel 2000 5050 2    60   Output ~ 0
+I2S_DACSD
+Text GLabel 2000 5350 2    60   Input ~ 0
+I2S_ADCSD
 $EndSCHEMATC

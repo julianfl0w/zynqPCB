@@ -1,4 +1,4 @@
-update=Sat 12 Oct 2019 08:36:57 PM EDT
+update=Thu 17 Oct 2019 11:10:23 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -82,11 +82,11 @@ Name=GND0
 Type=1
 Enabled=1
 [pcbnew/Layer.In4.Cu]
-Name=PWR
+Name=GND1
 Type=1
 Enabled=1
 [pcbnew/Layer.In5.Cu]
-Name=SIGNAL3_GND
+Name=GND2
 Type=2
 Enabled=1
 [pcbnew/Layer.In6.Cu]
