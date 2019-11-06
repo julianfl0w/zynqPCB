@@ -106,7 +106,7 @@ F 3 "" H 4000 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5900 3600 2    60   Input ~ 0
-I2C33_SDIN
+I2C33_SDA
 Text GLabel 5900 3700 2    60   Input ~ 0
 I2C33_SCLK
 Text Notes 6100 4000 0    60   ~ 0

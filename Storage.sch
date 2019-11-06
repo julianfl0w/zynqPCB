@@ -16,10 +16,6 @@ Comment4 ""
 $EndDescr
 Text Notes 2550 6000 0    60   ~ 0
 JTAG Signals
-Text GLabel 8150 2550 0    60   Output ~ 0
-TOUCH_RST#
-Text GLabel 8150 3950 0    60   Input ~ 0
-TOUCH_INT#
 $Comp
 L DFTBoard-rescue:Micro_SD_Card_Det- J?
 U 1 1 5CA20F26
@@ -75,8 +71,6 @@ Wire Wire Line
 	4300 5350 4350 5350
 Wire Wire Line
 	4350 5350 4350 5500
-Text GLabel 8150 3450 0    60   BiDi ~ 0
-RF_IRQ
 $Comp
 L power:GND #PWR?
 U 1 1 5CA20F42
@@ -757,4 +751,8 @@ F 3 "" H 6950 3600 50  0001 C CNN
 	1    6950 3600
 	1    0    0    -1  
 $EndComp
+NoConn ~ 8150 2550
+NoConn ~ 8150 3450
+Text GLabel 8150 3950 0    60   Output ~ 0
+DDR3_VTT_EN
 $EndSCHEMATC

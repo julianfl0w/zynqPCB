@@ -12,4 +12,5 @@
   (lib (name xilinx7)(type Legacy)(uri ${KIPRJMOD}/lib/xilinx7.lib)(options "")(descr ""))
   (lib (name 6N137S)(type Legacy)(uri ${KIPRJMOD}/lib/6N137S.lib)(options "")(descr ""))
   (lib (name arduino)(type Legacy)(uri ${KIPRJMOD}/lib/arduino.lib)(options "")(descr ""))
+  (lib (name TPS562209)(type Legacy)(uri ${KIPRJMOD}/lib/TPS562209.lib)(options "")(descr ""))
 )

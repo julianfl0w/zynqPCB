@@ -592,26 +592,15 @@ Wire Wire Line
 	1300 2350 1300 2500
 Wire Wire Line
 	1300 2800 1300 2950
-Text GLabel 9350 6400 0    60   Output ~ 0
+Text GLabel 9350 3400 0    60   Output ~ 0
 STATLED_0
-Text GLabel 9350 6500 0    60   Output ~ 0
+Text GLabel 9350 3700 0    60   Output ~ 0
 STATLED_1
-Text GLabel 9350 6600 0    60   Output ~ 0
+Text GLabel 9350 3600 0    60   Output ~ 0
 STATLED_2
 NoConn ~ 9350 2100
 Text Notes 250  550  0    197  ~ 39
 LCD and Status LEDs
-$Comp
-L xilinx7:xc7z020clg484 U20
-U 2 1 5CD35FBB
-P 9350 1800
-F 0 "U20" H 9550 2100 60  0000 L CNN
-F 1 "xc7z020clg484" H 9550 2000 60  0000 L CNN
-F 2 "DFTcustom:BGA-484_19.0x19.0mm_Layout22x22_P0.80mm_dia0.40mm" H 9350 1800 60  0001 C CNN
-F 3 "" H 9350 1800 60  0001 C CNN
-	2    9350 1800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DBABC3C
@@ -792,7 +781,7 @@ Text GLabel 9350 4400 0    60   Output ~ 0
 HDMI_R_N
 Text GLabel 9350 4500 0    60   Output ~ 0
 HDMI_R_P
-Text GLabel 9350 5600 0    60   BiDi ~ 0
+Text GLabel 9350 6600 0    60   BiDi ~ 0
 HDMI_CEC
 Text Notes 3500 5500 0    60   ~ 0
 It seems all IO on this chip is \nHR (High-range) which includes TMDS_33\n(the physical standard for HDMI)
@@ -897,4 +886,42 @@ Text GLabel 9350 4200 0    60   Output ~ 0
 HDMI_CLK_N
 Text GLabel 9350 4300 0    60   Output ~ 0
 HDMI_CLK_P
+NoConn ~ 9350 2200
+NoConn ~ 9350 2300
+NoConn ~ 9350 2400
+NoConn ~ 9350 2500
+NoConn ~ 9350 2600
+NoConn ~ 9350 2700
+NoConn ~ 9350 2800
+NoConn ~ 9350 3000
+NoConn ~ 9350 3100
+NoConn ~ 9350 3800
+NoConn ~ 9350 5700
+NoConn ~ 9350 5800
+NoConn ~ 9350 5900
+NoConn ~ 9350 6000
+NoConn ~ 9350 6200
+NoConn ~ 9350 6300
+NoConn ~ 9350 6700
+$Comp
+L xilinx7:xc7z020clg484 U20
+U 2 1 5CD35FBB
+P 9350 1800
+F 0 "U20" H 9550 2100 60  0000 L CNN
+F 1 "xc7z020clg484" H 9550 2000 60  0000 L CNN
+F 2 "DFTcustom:BGA-484_19.0x19.0mm_Layout22x22_P0.80mm_dia0.40mm" H 9350 1800 60  0001 C CNN
+F 3 "" H 9350 1800 60  0001 C CNN
+	2    9350 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9350 3500 0    60   BiDi ~ 0
+RF_IRQ
+Text GLabel 9350 3200 0    60   Output ~ 0
+LED_2B_CTRL
+Text GLabel 9350 3900 0    60   Output ~ 0
+LED_2G_CTRL
+Text GLabel 9350 3300 0    60   Output ~ 0
+LED_2R_CTRL
+NoConn ~ 9350 6400
+NoConn ~ 9350 6500
 $EndSCHEMATC
