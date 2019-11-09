@@ -14,20 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1850 3500 0    60   BiDi ~ 0
-SD_D0
-Text GLabel 1850 3600 0    60   BiDi ~ 0
-SD_D1
-Text GLabel 1850 3700 0    60   BiDi ~ 0
-SD_D2
-Text GLabel 1850 3800 0    60   BiDi ~ 0
-SD_D3
-Text GLabel 1850 3400 0    60   BiDi ~ 0
-SD_CMD
-Text GLabel 1650 3300 0    60   BiDi ~ 0
-SD_CLK
-Text GLabel 1850 4300 0    60   BiDi ~ 0
-SD_CD
 $Comp
 L power:+5V #PWR0110
 U 1 1 5C7BDB65
@@ -1084,8 +1070,6 @@ F 8 "" H 2000 -1350 50  0001 C CNN "SPURL"
 	1    8100 1400
 	0    1    1    0   
 $EndComp
-Text GLabel 7950 1400 0    60   Input ~ 0
-USBD_VBUS
 NoConn ~ 8250 2000
 NoConn ~ 8250 2300
 Text GLabel 8250 2100 0    60   BiDi ~ 0
@@ -1338,8 +1322,6 @@ Connection ~ 9700 1400
 Wire Wire Line
 	9700 1750 9700 1900
 Connection ~ 9700 1900
-Text GLabel 9750 4700 2    60   Output ~ 0
-USBD_VBUS
 Text GLabel 9550 5000 2    60   BiDi ~ 0
 USBD_D_N
 Text GLabel 9550 4900 2    60   BiDi ~ 0
@@ -1486,17 +1468,6 @@ Wire Wire Line
 	8150 1600 8000 1600
 NoConn ~ 1850 7100
 $Comp
-L Device:R_Small R34
-U 1 1 5CAB588F
-P 1750 3300
-F 0 "R34" V 1554 3300 50  0000 C CNN
-F 1 "47" V 1645 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 3300 50  0001 C CNN
-F 3 "~" H 1750 3300 50  0001 C CNN
-	1    1750 3300
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5CA10D11
 P 1700 7200
@@ -1526,8 +1497,6 @@ NoConn ~ 1850 4100
 NoConn ~ 1850 4200
 Text Notes 1050 4100 0    60   ~ 0
 SPI3v3 or GPIO \ncan go here\n
-Text GLabel 1850 4400 0    60   Input ~ 0
-1v35PG
 $Comp
 L power:+3V3 #PWR0101
 U 1 1 5CB2E5AA
@@ -1553,4 +1522,55 @@ F 3 "" H 1850 3300 60  0001 C CNN
 $EndComp
 Text Notes 600  1000 0    197  ~ 39
 USB Host and Device
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE2EB64
+P 7950 1400
+AR Path="/58508414/5DE2EB64" Ref="#PWR?"  Part="1" 
+AR Path="/5852A88E/5DE2EB64" Ref="#PWR0180"  Part="1" 
+F 0 "#PWR0180" H 7950 1490 20  0001 C CNN
+F 1 "+5V" H 7950 1490 30  0000 C CNN
+F 2 "" H 7950 1400 60  0001 C CNN
+F 3 "" H 7950 1400 60  0001 C CNN
+	1    7950 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0181
+U 1 1 5DE3808F
+P 9750 4700
+F 0 "#PWR0181" H 9750 4790 20  0001 C CNN
+F 1 "+5V" H 9750 4790 30  0000 C CNN
+F 2 "" H 9750 4700 60  0001 C CNN
+F 3 "" H 9750 4700 60  0001 C CNN
+	1    9750 4700
+	0    1    1    0   
+$EndComp
+Text GLabel 1650 3300 0    60   BiDi ~ 0
+SD_CLK
+$Comp
+L Device:R_Small R26
+U 1 1 5DD165E9
+P 1750 3300
+AR Path="/5852A88E/5DD165E9" Ref="R26"  Part="1" 
+AR Path="/58508444/5DD165E9" Ref="R?"  Part="1" 
+F 0 "R26" V 1554 3300 50  0000 C CNN
+F 1 "47" V 1645 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 3300 50  0001 C CNN
+F 3 "~" H 1750 3300 50  0001 C CNN
+	1    1750 3300
+	0    1    1    0   
+$EndComp
+Text GLabel 1850 3700 0    60   BiDi ~ 0
+SD_D2
+Text GLabel 1850 3500 0    60   BiDi ~ 0
+SD_D0
+Text GLabel 1850 3600 0    60   BiDi ~ 0
+SD_D1
+Text GLabel 1850 3400 0    60   BiDi ~ 0
+SD_CMD
+Text GLabel 1850 3800 0    60   BiDi ~ 0
+SD_D3
+Text GLabel 1850 4300 0    60   BiDi ~ 0
+SD_CD
 $EndSCHEMATC

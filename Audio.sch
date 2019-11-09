@@ -2253,19 +2253,19 @@ F 3 "" H 2000 550 60  0001 C CNN
 	3    2000 550 
 	-1   0    0    -1  
 $EndComp
-Text GLabel 2000 4650 2    60   Output ~ 0
+Text GLabel 2000 2950 2    60   Output ~ 0
 LED_1R_CTRL
-Text GLabel 2000 4450 2    60   Output ~ 0
+Text GLabel 2000 2550 2    60   Output ~ 0
 LED_1G_CTRL
-Text GLabel 2000 4550 2    60   Output ~ 0
+Text GLabel 2000 2750 2    60   Output ~ 0
 LED_1B_CTRL
 Text GLabel 2000 4350 2    60   Input ~ 0
 TEMPO_SW
-Text GLabel 2000 3450 2    60   Input ~ 0
+Text GLabel 2000 4150 2    60   Input ~ 0
 JD_LOUT
-Text GLabel 2000 3750 2    60   Input ~ 0
+Text GLabel 2000 2650 2    60   Input ~ 0
 JD_ROUT
-Text GLabel 2000 3850 2    60   Input ~ 0
+Text GLabel 2000 3250 2    60   Input ~ 0
 JD_IN
 Text GLabel 2000 3950 2    60   Input ~ 0
 JD_HOUT
@@ -2301,7 +2301,7 @@ Text GLabel 2000 1950 2    60   BiDi ~ 0
 LCD_D1
 Text GLabel 2000 2150 2    60   BiDi ~ 0
 LCD_D0
-Text GLabel 2000 2550 2    60   Input ~ 0
+Text GLabel 2000 2850 2    60   Input ~ 0
 IR_RX
 Text GLabel 2000 1150 2    60   BiDi ~ 0
 LCD_D15
@@ -2313,17 +2313,10 @@ Text GLabel 2000 5150 2    60   Output ~ 0
 I2S_BCLK
 Text GLabel 2000 5450 2    60   Output ~ 0
 I2S_LRCLK
-Text GLabel 2000 5050 2    60   Output ~ 0
+Text GLabel 2000 4950 2    60   Output ~ 0
 I2S_DACSD
 Text GLabel 2000 5350 2    60   Input ~ 0
 I2S_ADCSD
-NoConn ~ 2000 2650
-NoConn ~ 2000 2750
-NoConn ~ 2000 2850
-NoConn ~ 2000 2950
-NoConn ~ 2000 3050
-NoConn ~ 2000 3150
-NoConn ~ 2000 3250
 NoConn ~ 2000 3350
 NoConn ~ 2000 3550
 NoConn ~ 2000 3650
@@ -2331,10 +2324,8 @@ NoConn ~ 2000 4250
 NoConn ~ 2000 1750
 NoConn ~ 2000 1850
 NoConn ~ 2000 650 
-NoConn ~ 2000 4150
 NoConn ~ 2000 4750
 NoConn ~ 2000 4850
-NoConn ~ 2000 4950
 $Comp
 L power:GND #PWR0179
 U 1 1 5DC6F0BB

@@ -724,7 +724,7 @@ $EndComp
 Text GLabel 6750 3900 3    60   Input ~ 0
 I2C33_SCLK
 Text GLabel 6950 3900 3    60   BiDi ~ 0
-I2C33_SDIN
+I2C33_SDA
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5CF3215A

@@ -902,7 +902,6 @@ NoConn ~ 9350 5900
 NoConn ~ 9350 6000
 NoConn ~ 9350 6200
 NoConn ~ 9350 6300
-NoConn ~ 9350 6700
 $Comp
 L xilinx7:xc7z020clg484 U20
 U 2 1 5CD35FBB
@@ -924,4 +923,6 @@ Text GLabel 9350 3300 0    60   Output ~ 0
 LED_2R_CTRL
 NoConn ~ 9350 6400
 NoConn ~ 9350 6500
+Text GLabel 9350 6700 0    60   Input ~ 0
+1v35PG
 $EndSCHEMATC
