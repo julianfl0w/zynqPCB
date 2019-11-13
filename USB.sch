@@ -1573,4 +1573,5 @@ Text GLabel 1850 3800 0    60   BiDi ~ 0
 SD_D3
 Text GLabel 1850 4300 0    60   BiDi ~ 0
 SD_CD
+NoConn ~ 1850 4400
 $EndSCHEMATC

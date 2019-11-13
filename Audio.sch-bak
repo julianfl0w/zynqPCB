@@ -559,7 +559,7 @@ RSWITCH
 Text GLabel 7350 3700 0    60   Input ~ 0
 I2C33_SCLK
 Text GLabel 7350 3800 0    60   BiDi ~ 0
-I2C33_SDIN
+I2C33_SDA
 Text GLabel 7350 3500 0    60   Input ~ 0
 TLV_RST#
 Text GLabel 7350 3000 0    60   Input ~ 0
@@ -2259,13 +2259,13 @@ Text GLabel 2000 2550 2    60   Output ~ 0
 LED_1G_CTRL
 Text GLabel 2000 2750 2    60   Output ~ 0
 LED_1B_CTRL
-Text GLabel 2000 4350 2    60   Input ~ 0
+Text GLabel 2000 5050 2    60   Input ~ 0
 TEMPO_SW
 Text GLabel 2000 4150 2    60   Input ~ 0
 JD_LOUT
 Text GLabel 2000 2650 2    60   Input ~ 0
 JD_ROUT
-Text GLabel 2000 3850 2    60   Input ~ 0
+Text GLabel 2000 3250 2    60   Input ~ 0
 JD_IN
 Text GLabel 2000 3950 2    60   Input ~ 0
 JD_HOUT
@@ -2337,4 +2337,13 @@ F 3 "" H 5450 3100 60  0001 C CNN
 	1    5450 3100
 	-1   0    0    1   
 $EndComp
+NoConn ~ 2000 3050
+NoConn ~ 2000 3150
+NoConn ~ 2000 3450
+NoConn ~ 2000 3750
+NoConn ~ 2000 3850
+NoConn ~ 2000 4350
+NoConn ~ 2000 4450
+NoConn ~ 2000 4550
+NoConn ~ 2000 4650
 $EndSCHEMATC

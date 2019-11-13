@@ -925,4 +925,5 @@ NoConn ~ 9350 6400
 NoConn ~ 9350 6500
 Text GLabel 9350 6700 0    60   Input ~ 0
 1v35PG
+NoConn ~ 9350 5600
 $EndSCHEMATC
