@@ -153,7 +153,7 @@ F 3 "" H 9600 7500 50  0000 C CNN
 	1    9600 7500
 	1    0    0    -1  
 $EndComp
-Text GLabel 9350 2000 0    60   Output ~ 0
+Text GLabel 9350 5700 0    60   Output ~ 0
 TEMPO_LED
 Wire Wire Line
 	8850 7100 8850 7000
@@ -896,10 +896,8 @@ NoConn ~ 9350 2800
 NoConn ~ 9350 3000
 NoConn ~ 9350 3100
 NoConn ~ 9350 3800
-NoConn ~ 9350 5700
 NoConn ~ 9350 5800
 NoConn ~ 9350 5900
-NoConn ~ 9350 6000
 NoConn ~ 9350 6200
 NoConn ~ 9350 6300
 $Comp
@@ -923,7 +921,8 @@ Text GLabel 9350 3300 0    60   Output ~ 0
 LED_2R_CTRL
 NoConn ~ 9350 6400
 NoConn ~ 9350 6500
-Text GLabel 9350 6700 0    60   Input ~ 0
+Text GLabel 9350 6000 0    60   Input ~ 0
 1v35PG
 NoConn ~ 9350 5600
+NoConn ~ 9350 6700
 $EndSCHEMATC
