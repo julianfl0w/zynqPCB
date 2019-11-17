@@ -2257,7 +2257,7 @@ Text GLabel 2000 2950 2    60   Output ~ 0
 LED_1R_CTRL
 Text GLabel 2000 2550 2    60   Output ~ 0
 LED_1G_CTRL
-Text GLabel 2000 2750 2    60   Output ~ 0
+Text GLabel 2000 2850 2    60   Output ~ 0
 LED_1B_CTRL
 Text GLabel 2000 5050 2    60   Input ~ 0
 TEMPO_SW
@@ -2301,7 +2301,7 @@ Text GLabel 2000 1950 2    60   BiDi ~ 0
 LCD_D1
 Text GLabel 2000 2150 2    60   BiDi ~ 0
 LCD_D0
-Text GLabel 2000 2850 2    60   Input ~ 0
+Text GLabel 2000 2750 2    60   Input ~ 0
 IR_RX
 Text GLabel 2000 1150 2    60   BiDi ~ 0
 LCD_D15
