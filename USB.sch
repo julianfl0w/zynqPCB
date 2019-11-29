@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:DFTBoard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -36,10 +35,6 @@ F 3 "" H 5350 7500 50  0000 C CNN
 	1    5350 7500
 	0    1    1    0   
 $EndComp
-Text GLabel 6600 7150 2    60   Output ~ 0
-USBH_VBUS
-Text GLabel 6150 4650 2    60   Input ~ 0
-USBH_VBUS
 $Comp
 L DFTBoard-rescue:USB_A- J6
 U 1 1 5C7BDC6A
@@ -48,6 +43,11 @@ F 0 "J6" H 5300 5300 50  0000 L CNN
 F 1 "USB_A" H 5300 5200 50  0000 L CNN
 F 2 "DFTcustom:USB-A-Receptacle-FCI_87583" H 5650 4800 50  0001 C CNN
 F 3 "" H 5650 4800 50  0001 C CNN
+F 4 "Amphenol ICC" H 0   0   50  0001 C CNN "MFR"
+F 5 "87583-2010RLF" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "609-5390-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    5500 4850
 	1    0    0    -1  
 $EndComp
@@ -73,10 +73,6 @@ F 3 "" H 5500 5250 50  0000 C CNN
 	1    5500 5250
 	1    0    0    -1  
 $EndComp
-Text GLabel 5800 4950 2    60   BiDi ~ 0
-USBH_D_N
-Text GLabel 5800 4850 2    60   BiDi ~ 0
-USBH_D_P
 $Comp
 L Device:C_Small C?
 U 1 1 5CB33FAB
@@ -131,24 +127,6 @@ F 8 "" H -1200 1650 50  0001 C CNN "SPURL"
 	1    1350 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1100 7500 1100 7550
-Wire Wire Line
-	1100 7550 1350 7550
-Wire Wire Line
-	1600 7550 1600 7500
-Wire Wire Line
-	1350 7550 1350 7500
-Connection ~ 1350 7550
-Wire Wire Line
-	1350 7550 1600 7550
-Wire Wire Line
-	1100 7300 1350 7300
-Connection ~ 1350 7300
-Wire Wire Line
-	1350 7300 1600 7300
-Wire Wire Line
-	1350 7550 1350 7600
 $Comp
 L power:GND #PWR?
 U 1 1 5CB33FD1
@@ -162,9 +140,6 @@ F 3 "" H 1350 7600 60  0001 C CNN
 	1    1350 7600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1850 7300 1600 7300
-Connection ~ 1600 7300
 $Comp
 L Microchip:USB3320 U10
 U 1 1 5C855DF2
@@ -172,8 +147,13 @@ P 4700 2400
 F 0 "U10" H 4850 3750 60  0000 L CNN
 F 1 "USB3320" H 4750 3650 60  0000 L CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" V 5100 2950 39  0001 C CNN
-F 3 "" H 4800 2300 60  0000 C CNN
+F 3 "" H 4800 2300 60  0001 C CNN
 F 4 "Microchip" V 4950 2900 60  0001 C CNN "Manufacturer"
+F 5 "Microchip Technology" H 0   0   50  0001 C CNN "MFR"
+F 6 "USB3320C-EZK-TR" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "USB3320C-EZK-CT-NDs" H 0   0   50  0001 C CNN "SPN"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    4700 2400
 	1    0    0    -1  
 $EndComp
@@ -184,8 +164,13 @@ P 5200 2500
 F 0 "U10" H 5506 4087 60  0000 C CNN
 F 1 "USB3320" H 5506 3981 60  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" V 5600 3050 39  0001 C CNN
-F 3 "" H 5300 2400 60  0000 C CNN
+F 3 "" H 5300 2400 60  0001 C CNN
 F 4 "Microchip" V 5450 3000 60  0001 C CNN "Manufacturer"
+F 5 "Microchip Technology" H 0   0   50  0001 C CNN "MFR"
+F 6 "USB3320C-EZK-TR" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "USB3320C-EZK-CT-NDs" H 0   0   50  0001 C CNN "SPN"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
 	2    5200 2500
 	-1   0    0    1   
 $EndComp
@@ -196,8 +181,13 @@ P 5300 3850
 F 0 "U10" H 5806 5737 60  0000 C CNN
 F 1 "USB3320" H 5806 5631 60  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" V 5700 4400 39  0001 C CNN
-F 3 "" H 5400 3750 60  0000 C CNN
+F 3 "" H 5400 3750 60  0001 C CNN
 F 4 "Microchip" V 5550 4350 60  0001 C CNN "Manufacturer"
+F 5 "Microchip Technology" H 0   0   50  0001 C CNN "MFR"
+F 6 "USB3320C-EZK-TR" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "USB3320C-EZK-CT-NDs" H 0   0   50  0001 C CNN "SPN"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
 	3    5300 3850
 	1    0    0    -1  
 $EndComp
@@ -208,85 +198,16 @@ P 5250 1900
 F 0 "U10" H 5606 2787 60  0000 C CNN
 F 1 "USB3320" H 5606 2681 60  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" V 5650 2450 39  0001 C CNN
-F 3 "" H 5350 1800 60  0000 C CNN
+F 3 "" H 5350 1800 60  0001 C CNN
 F 4 "Microchip" V 5500 2400 60  0001 C CNN "Manufacturer"
+F 5 "Microchip Technology" H 0   0   50  0001 C CNN "MFR"
+F 6 "USB3320C-EZK-TR" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "USB3320C-EZK-CT-NDs" H 0   0   50  0001 C CNN "SPN"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
 	4    5250 1900
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 4500 0    60   BiDi ~ 0
-USB0_D4
-Text GLabel 1850 4900 0    60   BiDi ~ 0
-USB0_D0
-Text GLabel 1850 5000 0    60   BiDi ~ 0
-USB0_D1
-Text GLabel 1850 5100 0    60   BiDi ~ 0
-USB0_D2
-Text GLabel 1850 5200 0    60   BiDi ~ 0
-USB0_D3
-Text GLabel 1850 5400 0    60   BiDi ~ 0
-USB0_D5
-Text GLabel 1850 5500 0    60   BiDi ~ 0
-USB0_D6
-Text GLabel 1850 5600 0    60   BiDi ~ 0
-USB0_D7
-Text GLabel 1850 5300 0    60   Input ~ 0
-USB0_CLK
-Text GLabel 1850 4600 0    60   Input ~ 0
-USB0_dir
-Text GLabel 1850 4700 0    60   Output ~ 0
-USB0_stp
-Text GLabel 1850 4800 0    60   Input ~ 0
-USB0_nxt
-Text GLabel 1850 5700 0    60   BiDi ~ 0
-USB1_D4
-Text GLabel 1850 6100 0    60   BiDi ~ 0
-USB1_D0
-Text GLabel 1850 6200 0    60   BiDi ~ 0
-USB1_D1
-Text GLabel 1850 6300 0    60   BiDi ~ 0
-USB1_D2
-Text GLabel 1850 6400 0    60   BiDi ~ 0
-USB1_D3
-Text GLabel 1850 6600 0    60   BiDi ~ 0
-USB1_D5
-Text GLabel 1850 6700 0    60   BiDi ~ 0
-USB1_D6
-Text GLabel 1850 6800 0    60   BiDi ~ 0
-USB1_D7
-Text GLabel 1850 6500 0    60   Input ~ 0
-USB1_CLK
-Text GLabel 1850 5800 0    60   Input ~ 0
-USB1_dir
-Text GLabel 1850 5900 0    60   Output ~ 0
-USB1_stp
-Text GLabel 1850 6000 0    60   Input ~ 0
-USB1_nxt
-Text GLabel 4600 3800 0    60   BiDi ~ 0
-USB0_D4
-Text GLabel 4600 3400 0    60   BiDi ~ 0
-USB0_D0
-Text GLabel 4600 3300 0    60   BiDi ~ 0
-USB0_D1
-Text GLabel 4600 3200 0    60   BiDi ~ 0
-USB0_D2
-Text GLabel 4600 3100 0    60   BiDi ~ 0
-USB0_D3
-Text GLabel 4600 2900 0    60   BiDi ~ 0
-USB0_D5
-Text GLabel 4600 2800 0    60   BiDi ~ 0
-USB0_D6
-Text GLabel 4600 2700 0    60   BiDi ~ 0
-USB0_D7
-Text GLabel 4600 3000 0    60   Output ~ 0
-USB0_CLK
-Text GLabel 4600 3700 0    60   Output ~ 0
-USB0_dir
-Text GLabel 4600 3600 0    60   Input ~ 0
-USB0_stp
-Text GLabel 4600 3500 0    60   Output ~ 0
-USB0_nxt
-Text Notes 5200 800  0    60   ~ 0
-Host USB 0
 $Comp
 L power:+3V3 #PWR0117
 U 1 1 5C92CDF0
@@ -298,20 +219,6 @@ F 3 "" H 6450 2150 50  0001 C CNN
 	1    6450 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 2150 6450 2250
-Wire Wire Line
-	6450 2450 6300 2450
-Wire Wire Line
-	6300 2350 6450 2350
-Connection ~ 6450 2350
-Wire Wire Line
-	6450 2350 6450 2450
-Wire Wire Line
-	6300 2250 6450 2250
-Connection ~ 6450 2250
-Wire Wire Line
-	6450 2250 6450 2350
 $Comp
 L power:+5V #PWR0119
 U 1 1 5C9320AB
@@ -352,11 +259,6 @@ F 8 "" H 4850 -2700 50  0001 C CNN "SPURL"
 	1    6800 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 2850 6300 2950
-Wire Wire Line
-	6300 2950 6800 2950
-Connection ~ 6300 2950
 $Comp
 L power:GND #PWR0123
 U 1 1 5C93B6EA
@@ -379,9 +281,6 @@ F 3 "" H 6800 2700 60  0001 C CNN
 	1    6800 2700
 	1    0    0    -1  
 $EndComp
-Connection ~ 6800 2950
-Wire Wire Line
-	6800 2700 6800 2950
 $Comp
 L power:+3V3 #PWR0115
 U 1 1 5C93FC03
@@ -404,8 +303,6 @@ F 3 "" H 4500 1700 60  0001 C CNN
 	1    4500 1700
 	0    1    1    0   
 $EndComp
-Text Notes 3600 1700 0    60   ~ 0
-Fixed Host Mode
 $Comp
 L Device:C C?
 U 1 1 5C942966
@@ -424,8 +321,6 @@ F 8 "" H 1500 -3350 50  0001 C CNN "SPURL"
 	1    4250 1650
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4500 1500 4250 1500
 $Comp
 L power:GND #PWR0104
 U 1 1 5C946F81
@@ -455,18 +350,6 @@ F 8 "" H -1750 -1450 50  0001 C CNN "SPURL"
 	1    4350 1300
 	0    1    1    0   
 $EndComp
-Text GLabel 4200 1300 0    60   Input ~ 0
-USBH_VBUS
-Text GLabel 4500 1400 0    60   Output ~ 0
-USBH_CPEN
-Text GLabel 5350 7200 0    60   Input ~ 0
-USBH_CPEN
-NoConn ~ 4500 1900
-NoConn ~ 4500 2200
-Text GLabel 4500 2000 0    60   BiDi ~ 0
-USBH_D_N
-Text GLabel 4500 2300 0    60   BiDi ~ 0
-USBH_D_P
 $Comp
 L power:GND #PWR0116
 U 1 1 5C96084F
@@ -486,13 +369,14 @@ F 0 "R38" H 6570 3646 50  0000 L CNN
 F 1 "8.06k 1%" H 6570 3555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6430 3600 50  0001 C CNN
 F 3 "~" H 6500 3600 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0402FR-078K06L" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-8.06KLRTR-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    6500 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 3350 6500 3350
-Wire Wire Line
-	6500 3350 6500 3450
 $Comp
 L power:GND #PWR0118
 U 1 1 5C963669
@@ -509,20 +393,17 @@ L Device:Crystal Y1
 U 1 1 5C963D01
 P 6250 1550
 F 0 "Y1" V 6204 1681 50  0000 L CNN
-F 1 "ABM3-24.000MHZ-D2Y-T" V 6600 1900 50  0000 L CNN
+F 1 "24.000MHZ" V 6600 1900 50  0000 L CNN
 F 2 "ABM3-12.000MHZ-B2-T:XTAL500X320X130N" H 6250 1550 50  0001 C CNN
 F 3 "~" H 6250 1550 50  0001 C CNN
+F 4 "Abracon LLC" H 0   0   50  0001 C CNN "MFR"
+F 5 "ABM3-24.000MHZ-D2Y-T" H 0   0   50  0001 C CNN "MPN"
+F 6 "DigiKey" H 0   0   50  0001 C CNN "SPR"
+F 7 "535-10643-2-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    6250 1550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5950 1800 6250 1800
-Wire Wire Line
-	6250 1800 6250 1700
-Wire Wire Line
-	5950 1300 6250 1300
-Wire Wire Line
-	6250 1300 6250 1400
 $Comp
 L Device:C_Small C76
 U 1 1 5C968AF0
@@ -531,12 +412,14 @@ F 0 "C76" V 6321 1800 50  0000 C CNN
 F 1 "18pF" V 6412 1800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6550 1800 50  0001 C CNN
 F 3 "~" H 6550 1800 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GCM1555C1H180JA16D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-12650-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    6550 1800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6450 1800 6250 1800
-Connection ~ 6250 1800
 $Comp
 L Device:C_Small C75
 U 1 1 5C96B49A
@@ -545,19 +428,14 @@ F 0 "C75" V 6321 1300 50  0000 C CNN
 F 1 "18pF" V 6412 1300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6550 1300 50  0001 C CNN
 F 3 "~" H 6550 1300 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GCM1555C1H180JA16D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-12650-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    6550 1300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6250 1300 6450 1300
-Connection ~ 6250 1300
-Wire Wire Line
-	6650 1300 6650 1550
-Wire Wire Line
-	6650 1550 6750 1550
-Connection ~ 6650 1550
-Wire Wire Line
-	6650 1550 6650 1800
 $Comp
 L power:GND #PWR0121
 U 1 1 5C972F1B
@@ -634,32 +512,6 @@ F 3 "" H 4700 4400 50  0001 C CNN
 	1    4700 4400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4700 4400 4700 4450
-Wire Wire Line
-	4400 4550 4400 4450
-Wire Wire Line
-	4400 4450 4700 4450
-Connection ~ 4700 4450
-Wire Wire Line
-	4700 4450 4700 4550
-Wire Wire Line
-	5000 4550 5000 4450
-Wire Wire Line
-	4700 4450 5000 4450
-Wire Wire Line
-	4400 4850 4400 4950
-Wire Wire Line
-	4400 4950 4700 4950
-Wire Wire Line
-	5000 4950 5000 4850
-Wire Wire Line
-	4700 4850 4700 4950
-Connection ~ 4700 4950
-Wire Wire Line
-	4700 4950 5000 4950
-Wire Wire Line
-	4700 5050 4700 4950
 $Comp
 L power:GND #PWR0106
 U 1 1 5C9902A1
@@ -689,13 +541,6 @@ F 8 "" H 4150 -850 50  0001 C CNN "SPURL"
 	1    6550 2700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 2650 6400 2650
-Wire Wire Line
-	6400 2650 6400 2550
-Wire Wire Line
-	6400 2550 6550 2550
-Connection ~ 6550 2550
 $Comp
 L Device:R_Small R37
 U 1 1 5C9955B4
@@ -704,15 +549,14 @@ F 0 "R37" H 6009 1596 50  0000 L CNN
 F 1 "1M" H 6009 1505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 5950 1550 50  0001 C CNN
 F 3 "~" H 5950 1550 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0402FR-071ML" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-1.00MLRCT-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    5950 1550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 1450 5950 1300
-Connection ~ 5950 1300
-Wire Wire Line
-	5950 1650 5950 1800
-Connection ~ 5950 1800
 $Comp
 L Micrel:MIC2025-1YMM U11
 U 1 1 5C9BAA52
@@ -720,21 +564,15 @@ P 5550 7600
 F 0 "U11" H 5900 8387 60  0000 C CNN
 F 1 "MIC2025-1YMM" H 5900 8281 60  0000 C CNN
 F 2 "SOP65P490X110-8N:SOP65P490X110-8N" H 5550 7600 60  0001 C CNN
-F 3 "" H 5550 7600 60  0000 C CNN
+F 3 "" H 5550 7600 60  0001 C CNN
+F 4 "Microchip" H 0   0   50  0001 C CNN "MFR"
+F 5 "MIC2025-1YMM-TR" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "MIC2025-1YMM-CT-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    5550 7600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6500 7100 6450 7100
-Wire Wire Line
-	6500 7100 6500 7150
-Wire Wire Line
-	6500 7150 6600 7150
-Wire Wire Line
-	6450 7200 6500 7200
-Wire Wire Line
-	6500 7200 6500 7150
-Connection ~ 6500 7150
 $Comp
 L DFTBoard-rescue:LED- D3
 U 1 1 5C9D3D99
@@ -778,16 +616,6 @@ F 3 "" H 3900 7300 50  0000 C CNN
 	1    3900 7300
 	0    -1   -1   0   
 $EndComp
-Text Label 4200 7300 1    60   ~ 0
-USBH_FLAG_LED
-Wire Wire Line
-	3950 7300 3900 7300
-Wire Wire Line
-	4150 7300 4300 7300
-Wire Wire Line
-	5350 7300 4600 7300
-Text Notes 4650 6950 0    60   ~ 0
-Active High En
 $Comp
 L power:+5V #PWR0108
 U 1 1 5C9EC23D
@@ -836,6 +664,11 @@ F 0 "J7" H 9305 5367 50  0000 C CNN
 F 1 "USB_B" H 9305 5276 50  0000 C CNN
 F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 9400 4850 50  0001 C CNN
 F 3 " ~" H 9400 4850 50  0001 C CNN
+F 4 "On Shore Technology" H 0   0   50  0001 C CNN "MFR"
+F 5 "USB-B1HSW6" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "ED2982-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    9250 4900
 	1    0    0    -1  
 $EndComp
@@ -846,8 +679,13 @@ P 8450 2500
 F 0 "U12" H 8600 3850 60  0000 L CNN
 F 1 "USB3320" H 8500 3750 60  0000 L CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" V 8850 3050 39  0001 C CNN
-F 3 "" H 8550 2400 60  0000 C CNN
+F 3 "" H 8550 2400 60  0001 C CNN
 F 4 "Microchip" V 8700 3000 60  0001 C CNN "Manufacturer"
+F 5 "Microchip Technology" H 0   0   50  0001 C CNN "MFR"
+F 6 "USB3320C-EZK-TR" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "USB3320C-EZK-CT-NDs" H 0   0   50  0001 C CNN "SPN"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    8450 2500
 	1    0    0    -1  
 $EndComp
@@ -858,8 +696,13 @@ P 8950 2600
 F 0 "U12" H 9256 4187 60  0000 C CNN
 F 1 "USB3320" H 9256 4081 60  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" V 9350 3150 39  0001 C CNN
-F 3 "" H 9050 2500 60  0000 C CNN
+F 3 "" H 9050 2500 60  0001 C CNN
 F 4 "Microchip" V 9200 3100 60  0001 C CNN "Manufacturer"
+F 5 "Microchip Technology" H 0   0   50  0001 C CNN "MFR"
+F 6 "USB3320C-EZK-TR" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "USB3320C-EZK-CT-NDs" H 0   0   50  0001 C CNN "SPN"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
 	2    8950 2600
 	-1   0    0    1   
 $EndComp
@@ -870,8 +713,13 @@ P 9050 3950
 F 0 "U12" H 9556 5837 60  0000 C CNN
 F 1 "USB3320" H 9556 5731 60  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" V 9450 4500 39  0001 C CNN
-F 3 "" H 9150 3850 60  0000 C CNN
+F 3 "" H 9150 3850 60  0001 C CNN
 F 4 "Microchip" V 9300 4450 60  0001 C CNN "Manufacturer"
+F 5 "Microchip Technology" H 0   0   50  0001 C CNN "MFR"
+F 6 "USB3320C-EZK-TR" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "USB3320C-EZK-CT-NDs" H 0   0   50  0001 C CNN "SPN"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
 	3    9050 3950
 	1    0    0    -1  
 $EndComp
@@ -882,37 +730,16 @@ P 9000 2000
 F 0 "U12" H 9356 2887 60  0000 C CNN
 F 1 "USB3320" H 9356 2781 60  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" V 9400 2550 39  0001 C CNN
-F 3 "" H 9100 1900 60  0000 C CNN
+F 3 "" H 9100 1900 60  0001 C CNN
 F 4 "Microchip" V 9250 2500 60  0001 C CNN "Manufacturer"
+F 5 "Microchip Technology" H 0   0   50  0001 C CNN "MFR"
+F 6 "USB3320C-EZK-TR" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "USB3320C-EZK-CT-NDs" H 0   0   50  0001 C CNN "SPN"
+F 9 "-" H 0   0   50  0001 C CNN "SPURL"
 	4    9000 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 8350 3900 0    60   BiDi ~ 0
-USB1_D4
-Text GLabel 8350 3500 0    60   BiDi ~ 0
-USB1_D0
-Text GLabel 8350 3400 0    60   BiDi ~ 0
-USB1_D1
-Text GLabel 8350 3300 0    60   BiDi ~ 0
-USB1_D2
-Text GLabel 8350 3200 0    60   BiDi ~ 0
-USB1_D3
-Text GLabel 8350 3000 0    60   BiDi ~ 0
-USB1_D5
-Text GLabel 8350 2900 0    60   BiDi ~ 0
-USB1_D6
-Text GLabel 8350 2800 0    60   BiDi ~ 0
-USB1_D7
-Text GLabel 8350 3100 0    60   Output ~ 0
-USB1_CLK
-Text GLabel 8350 3800 0    60   Output ~ 0
-USB1_dir
-Text GLabel 8350 3700 0    60   Input ~ 0
-USB1_stp
-Text GLabel 8350 3600 0    60   Output ~ 0
-USB1_nxt
-Text Notes 8950 900  0    60   ~ 0
-Device USB 1
 $Comp
 L power:+3V3 #PWR0132
 U 1 1 5CA09C6F
@@ -924,20 +751,6 @@ F 3 "" H 10200 2250 50  0001 C CNN
 	1    10200 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10200 2250 10200 2350
-Wire Wire Line
-	10200 2550 10050 2550
-Wire Wire Line
-	10050 2450 10200 2450
-Connection ~ 10200 2450
-Wire Wire Line
-	10200 2450 10200 2550
-Wire Wire Line
-	10050 2350 10200 2350
-Connection ~ 10200 2350
-Wire Wire Line
-	10200 2350 10200 2450
 $Comp
 L power:+5V #PWR0134
 U 1 1 5CA09C7D
@@ -978,11 +791,6 @@ F 8 "" H 8600 -2600 50  0001 C CNN "SPURL"
 	1    10550 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10050 2950 10050 3050
-Wire Wire Line
-	10050 3050 10550 3050
-Connection ~ 10050 3050
 $Comp
 L power:GND #PWR0138
 U 1 1 5CA09C97
@@ -1005,9 +813,6 @@ F 3 "" H 10550 2800 60  0001 C CNN
 	1    10550 2800
 	1    0    0    -1  
 $EndComp
-Connection ~ 10550 3050
-Wire Wire Line
-	10550 2800 10550 3050
 $Comp
 L power:+3V3 #PWR0130
 U 1 1 5CA09CA5
@@ -1019,8 +824,6 @@ F 3 "" H 10050 3250 50  0001 C CNN
 	1    10050 3250
 	0    1    1    0   
 $EndComp
-Text Notes 7350 1800 0    60   ~ 0
-Fixed Device Mode
 $Comp
 L Device:C C?
 U 1 1 5CA09CB7
@@ -1039,8 +842,6 @@ F 8 "" H 5250 -3250 50  0001 C CNN "SPURL"
 	1    8000 1750
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8250 1600 8150 1600
 $Comp
 L power:GND #PWR0124
 U 1 1 5CA09CBE
@@ -1070,12 +871,6 @@ F 8 "" H 2000 -1350 50  0001 C CNN "SPURL"
 	1    8100 1400
 	0    1    1    0   
 $EndComp
-NoConn ~ 8250 2000
-NoConn ~ 8250 2300
-Text GLabel 8250 2100 0    60   BiDi ~ 0
-USBD_D_N
-Text GLabel 8250 2400 0    60   BiDi ~ 0
-USBD_D_P
 $Comp
 L power:GND #PWR0131
 U 1 1 5CA09CD5
@@ -1095,13 +890,14 @@ F 0 "R41" H 10320 3746 50  0000 L CNN
 F 1 "8.06k 1%" H 10320 3655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10180 3700 50  0001 C CNN
 F 3 "~" H 10250 3700 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0402FR-078K06L" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-8.06KLRTR-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    10250 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10050 3450 10250 3450
-Wire Wire Line
-	10250 3450 10250 3550
 $Comp
 L power:GND #PWR0133
 U 1 1 5CA09CE3
@@ -1118,20 +914,17 @@ L Device:Crystal Y2
 U 1 1 5CA09CE9
 P 10000 1650
 F 0 "Y2" V 9954 1781 50  0000 L CNN
-F 1 "ABM3-24.000MHZ-D2Y-T" V 10250 2150 50  0000 L CNN
+F 1 "24.000MHZ" V 10250 2150 50  0000 L CNN
 F 2 "ABM3-12.000MHZ-B2-T:XTAL500X320X130N" H 10000 1650 50  0001 C CNN
 F 3 "~" H 10000 1650 50  0001 C CNN
+F 4 "Abracon LLC" H 0   0   50  0001 C CNN "MFR"
+F 5 "ABM3-24.000MHZ-D2Y-T" H 0   0   50  0001 C CNN "MPN"
+F 6 "DigiKey" H 0   0   50  0001 C CNN "SPR"
+F 7 "535-10643-2-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    10000 1650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9700 1900 10000 1900
-Wire Wire Line
-	10000 1900 10000 1800
-Wire Wire Line
-	9700 1400 10000 1400
-Wire Wire Line
-	10000 1400 10000 1500
 $Comp
 L Device:C_Small C85
 U 1 1 5CA09CF3
@@ -1140,12 +933,14 @@ F 0 "C85" V 10071 1900 50  0000 C CNN
 F 1 "18pF" V 10162 1900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10300 1900 50  0001 C CNN
 F 3 "~" H 10300 1900 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GCM1555C1H180JA16D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-12650-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    10300 1900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10200 1900 10000 1900
-Connection ~ 10000 1900
 $Comp
 L Device:C_Small C84
 U 1 1 5CA09CFB
@@ -1154,19 +949,14 @@ F 0 "C84" V 10071 1400 50  0000 C CNN
 F 1 "18pF" V 10162 1400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10300 1400 50  0001 C CNN
 F 3 "~" H 10300 1400 50  0001 C CNN
+F 4 "Murata" H 0   0   50  0001 C CNN "MFR"
+F 5 "GCM1555C1H180JA16D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "490-12650-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    10300 1400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10000 1400 10200 1400
-Connection ~ 10000 1400
-Wire Wire Line
-	10400 1400 10400 1650
-Wire Wire Line
-	10400 1650 10500 1650
-Connection ~ 10400 1650
-Wire Wire Line
-	10400 1650 10400 1900
 $Comp
 L power:GND #PWR0136
 U 1 1 5CA09D07
@@ -1243,32 +1033,6 @@ F 3 "" H 8250 4450 50  0001 C CNN
 	1    8250 4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8250 4450 8250 4500
-Wire Wire Line
-	7950 4600 7950 4500
-Wire Wire Line
-	7950 4500 8250 4500
-Connection ~ 8250 4500
-Wire Wire Line
-	8250 4500 8250 4600
-Wire Wire Line
-	8550 4600 8550 4500
-Wire Wire Line
-	8250 4500 8550 4500
-Wire Wire Line
-	7950 4900 7950 5000
-Wire Wire Line
-	7950 5000 8250 5000
-Wire Wire Line
-	8550 5000 8550 4900
-Wire Wire Line
-	8250 4900 8250 5000
-Connection ~ 8250 5000
-Wire Wire Line
-	8250 5000 8550 5000
-Wire Wire Line
-	8250 5100 8250 5000
 $Comp
 L power:GND #PWR0126
 U 1 1 5CA09D42
@@ -1298,13 +1062,6 @@ F 8 "" H 7900 -750 50  0001 C CNN "SPURL"
 	1    10300 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10050 2750 10150 2750
-Wire Wire Line
-	10150 2750 10150 2650
-Wire Wire Line
-	10150 2650 10300 2650
-Connection ~ 10300 2650
 $Comp
 L Device:R_Small R40
 U 1 1 5CA09D57
@@ -1313,19 +1070,14 @@ F 0 "R40" H 9759 1696 50  0000 L CNN
 F 1 "1M" H 9759 1605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9700 1650 50  0001 C CNN
 F 3 "~" H 9700 1650 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0402FR-071ML" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-1.00MLRCT-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    9700 1650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9700 1550 9700 1400
-Connection ~ 9700 1400
-Wire Wire Line
-	9700 1750 9700 1900
-Connection ~ 9700 1900
-Text GLabel 9550 5000 2    60   BiDi ~ 0
-USBD_D_N
-Text GLabel 9550 4900 2    60   BiDi ~ 0
-USBD_D_P
 $Comp
 L power:GND #PWR0127
 U 1 1 5CA37BA1
@@ -1384,25 +1136,6 @@ F 8 "" H 2550 -500 50  0001 C CNN "SPURL"
 	1    6050 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5900 4400 5900 4450
-Wire Wire Line
-	5900 4400 5950 4400
-Wire Wire Line
-	6050 4400 6050 4450
-Wire Wire Line
-	5800 4650 5900 4650
-Connection ~ 5900 4650
-Wire Wire Line
-	5900 4650 6050 4650
-Connection ~ 6050 4650
-Wire Wire Line
-	6050 4650 6150 4650
-Wire Wire Line
-	5950 4300 5950 4400
-Connection ~ 5950 4400
-Wire Wire Line
-	5950 4400 6050 4400
 $Comp
 L power:GND #PWR0114
 U 1 1 5CA4C65D
@@ -1432,13 +1165,6 @@ F 8 "" H 7100 -1250 50  0001 C CNN "SPURL"
 	1    9650 4500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9550 4700 9650 4700
-Wire Wire Line
-	9650 4600 9650 4700
-Connection ~ 9650 4700
-Wire Wire Line
-	9650 4700 9750 4700
 $Comp
 L power:GND #PWR0129
 U 1 1 5CA56EB1
@@ -1450,23 +1176,6 @@ F 3 "" H 9650 4400 50  0000 C CNN
 	1    9650 4400
 	-1   0    0    1   
 $EndComp
-Text GLabel 1850 6900 0    60   Output ~ 0
-USB0_RST
-Text GLabel 1850 7000 0    60   Output ~ 0
-USB1_RST
-Text GLabel 4600 2600 0    60   Input ~ 0
-USB0_RST
-Text GLabel 8350 2700 0    60   Input ~ 0
-USB1_RST
-NoConn ~ 8250 1500
-Wire Wire Line
-	8250 1800 8150 1800
-Wire Wire Line
-	8150 1800 8150 1600
-Connection ~ 8150 1600
-Wire Wire Line
-	8150 1600 8000 1600
-NoConn ~ 1850 7100
 $Comp
 L Device:R R?
 U 1 1 5CA10D11
@@ -1485,18 +1194,6 @@ F 8 "" H -4400 4450 50  0001 C CNN "SPURL"
 	1    1700 7200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1550 7200 1350 7200
-Wire Wire Line
-	1350 7200 1350 7300
-Text Notes 3050 7100 0    60   ~ 0
-RGMII Ref, \nSafe to Float
-NoConn ~ 1850 3900
-NoConn ~ 1850 4000
-NoConn ~ 1850 4100
-NoConn ~ 1850 4200
-Text Notes 1050 4100 0    60   ~ 0
-SPI3v3 or GPIO \ncan go here\n
 $Comp
 L power:+3V3 #PWR0101
 U 1 1 5CB2E5AA
@@ -1508,7 +1205,6 @@ F 3 "" H 1100 7300 50  0001 C CNN
 	1    1100 7300
 	1    0    0    -1  
 $EndComp
-Connection ~ 1100 7300
 $Comp
 L xilinx7:xc7z020clg484 U20
 U 7 1 5CD20DB0
@@ -1517,11 +1213,14 @@ F 0 "U20" H 2981 1353 60  0000 L CNN
 F 1 "xc7z020clg484" H 2981 1247 60  0000 L CNN
 F 2 "DFTcustom:BGA-484_19.0x19.0mm_Layout22x22_P0.80mm_dia0.40mm" H 1850 3300 60  0001 C CNN
 F 3 "" H 1850 3300 60  0001 C CNN
+F 4 "Xilinx" H 0   0   50  0001 C CNN "MFR"
+F 5 "XC7Z020-1CLG484C" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "122-1850-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	7    1850 3300
 	1    0    0    -1  
 $EndComp
-Text Notes 600  1000 0    197  ~ 39
-USB Host and Device
 $Comp
 L power:+5V #PWR?
 U 1 1 5DE2EB64
@@ -1546,8 +1245,6 @@ F 3 "" H 9750 4700 60  0001 C CNN
 	1    9750 4700
 	0    1    1    0   
 $EndComp
-Text GLabel 1650 3300 0    60   BiDi ~ 0
-SD_CLK
 $Comp
 L Device:R_Small R26
 U 1 1 5DD165E9
@@ -1558,9 +1255,164 @@ F 0 "R26" V 1554 3300 50  0000 C CNN
 F 1 "47" V 1645 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 3300 50  0001 C CNN
 F 3 "~" H 1750 3300 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0402JR-0747RL" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "311-47JRTR-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    1750 3300
 	0    1    1    0   
 $EndComp
+Text GLabel 6600 7150 2    60   Output ~ 0
+USBH_VBUS
+Text GLabel 6150 4650 2    60   Input ~ 0
+USBH_VBUS
+Text GLabel 5800 4950 2    60   BiDi ~ 0
+USBH_D_N
+Text GLabel 5800 4850 2    60   BiDi ~ 0
+USBH_D_P
+Text GLabel 1850 4500 0    60   BiDi ~ 0
+USB0_D4
+Text GLabel 1850 4900 0    60   BiDi ~ 0
+USB0_D0
+Text GLabel 1850 5000 0    60   BiDi ~ 0
+USB0_D1
+Text GLabel 1850 5100 0    60   BiDi ~ 0
+USB0_D2
+Text GLabel 1850 5200 0    60   BiDi ~ 0
+USB0_D3
+Text GLabel 1850 5400 0    60   BiDi ~ 0
+USB0_D5
+Text GLabel 1850 5500 0    60   BiDi ~ 0
+USB0_D6
+Text GLabel 1850 5600 0    60   BiDi ~ 0
+USB0_D7
+Text GLabel 1850 5300 0    60   Input ~ 0
+USB0_CLK
+Text GLabel 1850 4600 0    60   Input ~ 0
+USB0_dir
+Text GLabel 1850 4700 0    60   Output ~ 0
+USB0_stp
+Text GLabel 1850 4800 0    60   Input ~ 0
+USB0_nxt
+Text GLabel 1850 5700 0    60   BiDi ~ 0
+USB1_D4
+Text GLabel 1850 6100 0    60   BiDi ~ 0
+USB1_D0
+Text GLabel 1850 6200 0    60   BiDi ~ 0
+USB1_D1
+Text GLabel 1850 6300 0    60   BiDi ~ 0
+USB1_D2
+Text GLabel 1850 6400 0    60   BiDi ~ 0
+USB1_D3
+Text GLabel 1850 6600 0    60   BiDi ~ 0
+USB1_D5
+Text GLabel 1850 6700 0    60   BiDi ~ 0
+USB1_D6
+Text GLabel 1850 6800 0    60   BiDi ~ 0
+USB1_D7
+Text GLabel 1850 6500 0    60   Input ~ 0
+USB1_CLK
+Text GLabel 1850 5800 0    60   Input ~ 0
+USB1_dir
+Text GLabel 1850 5900 0    60   Output ~ 0
+USB1_stp
+Text GLabel 1850 6000 0    60   Input ~ 0
+USB1_nxt
+Text GLabel 4600 3800 0    60   BiDi ~ 0
+USB0_D4
+Text GLabel 4600 3400 0    60   BiDi ~ 0
+USB0_D0
+Text GLabel 4600 3300 0    60   BiDi ~ 0
+USB0_D1
+Text GLabel 4600 3200 0    60   BiDi ~ 0
+USB0_D2
+Text GLabel 4600 3100 0    60   BiDi ~ 0
+USB0_D3
+Text GLabel 4600 2900 0    60   BiDi ~ 0
+USB0_D5
+Text GLabel 4600 2800 0    60   BiDi ~ 0
+USB0_D6
+Text GLabel 4600 2700 0    60   BiDi ~ 0
+USB0_D7
+Text GLabel 4600 3000 0    60   Output ~ 0
+USB0_CLK
+Text GLabel 4600 3700 0    60   Output ~ 0
+USB0_dir
+Text GLabel 4600 3600 0    60   Input ~ 0
+USB0_stp
+Text GLabel 4600 3500 0    60   Output ~ 0
+USB0_nxt
+Text Notes 5200 800  0    60   ~ 0
+Host USB 0
+Text Notes 3600 1700 0    60   ~ 0
+Fixed Host Mode
+Text GLabel 4200 1300 0    60   Input ~ 0
+USBH_VBUS
+Text GLabel 4500 1400 0    60   Output ~ 0
+USBH_CPEN
+Text GLabel 5350 7200 0    60   Input ~ 0
+USBH_CPEN
+Text GLabel 4500 2000 0    60   BiDi ~ 0
+USBH_D_N
+Text GLabel 4500 2300 0    60   BiDi ~ 0
+USBH_D_P
+Text Label 4200 7300 1    60   ~ 0
+USBH_FLAG_LED
+Text Notes 4650 6950 0    60   ~ 0
+Active High En
+Text GLabel 8350 3900 0    60   BiDi ~ 0
+USB1_D4
+Text GLabel 8350 3500 0    60   BiDi ~ 0
+USB1_D0
+Text GLabel 8350 3400 0    60   BiDi ~ 0
+USB1_D1
+Text GLabel 8350 3300 0    60   BiDi ~ 0
+USB1_D2
+Text GLabel 8350 3200 0    60   BiDi ~ 0
+USB1_D3
+Text GLabel 8350 3000 0    60   BiDi ~ 0
+USB1_D5
+Text GLabel 8350 2900 0    60   BiDi ~ 0
+USB1_D6
+Text GLabel 8350 2800 0    60   BiDi ~ 0
+USB1_D7
+Text GLabel 8350 3100 0    60   Output ~ 0
+USB1_CLK
+Text GLabel 8350 3800 0    60   Output ~ 0
+USB1_dir
+Text GLabel 8350 3700 0    60   Input ~ 0
+USB1_stp
+Text GLabel 8350 3600 0    60   Output ~ 0
+USB1_nxt
+Text Notes 8950 900  0    60   ~ 0
+Device USB 1
+Text Notes 7350 1800 0    60   ~ 0
+Fixed Device Mode
+Text GLabel 8250 2100 0    60   BiDi ~ 0
+USBD_D_N
+Text GLabel 8250 2400 0    60   BiDi ~ 0
+USBD_D_P
+Text GLabel 9550 5000 2    60   BiDi ~ 0
+USBD_D_N
+Text GLabel 9550 4900 2    60   BiDi ~ 0
+USBD_D_P
+Text GLabel 1850 6900 0    60   Output ~ 0
+USB0_RST
+Text GLabel 1850 7000 0    60   Output ~ 0
+USB1_RST
+Text GLabel 4600 2600 0    60   Input ~ 0
+USB0_RST
+Text GLabel 8350 2700 0    60   Input ~ 0
+USB1_RST
+Text Notes 3050 7100 0    60   ~ 0
+RGMII Ref, \nSafe to Float
+Text Notes 1050 4100 0    60   ~ 0
+SPI3v3 or GPIO \ncan go here\n
+Text Notes 600  1000 0    197  ~ 39
+USB Host and Device
+Text GLabel 1650 3300 0    60   BiDi ~ 0
+SD_CLK
 Text GLabel 1850 3700 0    60   BiDi ~ 0
 SD_D2
 Text GLabel 1850 3500 0    60   BiDi ~ 0
@@ -1573,5 +1425,267 @@ Text GLabel 1850 3800 0    60   BiDi ~ 0
 SD_D3
 Text GLabel 1850 4300 0    60   BiDi ~ 0
 SD_CD
+Wire Wire Line
+	1100 7500 1100 7550
+Wire Wire Line
+	1100 7550 1350 7550
+Wire Wire Line
+	1600 7550 1600 7500
+Wire Wire Line
+	1350 7550 1350 7500
+Wire Wire Line
+	1350 7550 1600 7550
+Wire Wire Line
+	1100 7300 1350 7300
+Wire Wire Line
+	1350 7300 1600 7300
+Wire Wire Line
+	1350 7550 1350 7600
+Wire Wire Line
+	1850 7300 1600 7300
+Wire Wire Line
+	6450 2150 6450 2250
+Wire Wire Line
+	6450 2450 6300 2450
+Wire Wire Line
+	6300 2350 6450 2350
+Wire Wire Line
+	6450 2350 6450 2450
+Wire Wire Line
+	6300 2250 6450 2250
+Wire Wire Line
+	6450 2250 6450 2350
+Wire Wire Line
+	6300 2850 6300 2950
+Wire Wire Line
+	6300 2950 6800 2950
+Wire Wire Line
+	6800 2700 6800 2950
+Wire Wire Line
+	4500 1500 4250 1500
+Wire Wire Line
+	6300 3350 6500 3350
+Wire Wire Line
+	6500 3350 6500 3450
+Wire Wire Line
+	5950 1800 6250 1800
+Wire Wire Line
+	6250 1800 6250 1700
+Wire Wire Line
+	5950 1300 6250 1300
+Wire Wire Line
+	6250 1300 6250 1400
+Wire Wire Line
+	6450 1800 6250 1800
+Wire Wire Line
+	6250 1300 6450 1300
+Wire Wire Line
+	6650 1300 6650 1550
+Wire Wire Line
+	6650 1550 6750 1550
+Wire Wire Line
+	6650 1550 6650 1800
+Wire Wire Line
+	4700 4400 4700 4450
+Wire Wire Line
+	4400 4550 4400 4450
+Wire Wire Line
+	4400 4450 4700 4450
+Wire Wire Line
+	4700 4450 4700 4550
+Wire Wire Line
+	5000 4550 5000 4450
+Wire Wire Line
+	4700 4450 5000 4450
+Wire Wire Line
+	4400 4850 4400 4950
+Wire Wire Line
+	4400 4950 4700 4950
+Wire Wire Line
+	5000 4950 5000 4850
+Wire Wire Line
+	4700 4850 4700 4950
+Wire Wire Line
+	4700 4950 5000 4950
+Wire Wire Line
+	4700 5050 4700 4950
+Wire Wire Line
+	6300 2650 6400 2650
+Wire Wire Line
+	6400 2650 6400 2550
+Wire Wire Line
+	6400 2550 6550 2550
+Wire Wire Line
+	5950 1450 5950 1300
+Wire Wire Line
+	5950 1650 5950 1800
+Wire Wire Line
+	6500 7100 6450 7100
+Wire Wire Line
+	6500 7100 6500 7150
+Wire Wire Line
+	6500 7150 6600 7150
+Wire Wire Line
+	6450 7200 6500 7200
+Wire Wire Line
+	6500 7200 6500 7150
+Wire Wire Line
+	3950 7300 3900 7300
+Wire Wire Line
+	4150 7300 4300 7300
+Wire Wire Line
+	5350 7300 4600 7300
+Wire Wire Line
+	10200 2250 10200 2350
+Wire Wire Line
+	10200 2550 10050 2550
+Wire Wire Line
+	10050 2450 10200 2450
+Wire Wire Line
+	10200 2450 10200 2550
+Wire Wire Line
+	10050 2350 10200 2350
+Wire Wire Line
+	10200 2350 10200 2450
+Wire Wire Line
+	10050 2950 10050 3050
+Wire Wire Line
+	10050 3050 10550 3050
+Wire Wire Line
+	10550 2800 10550 3050
+Wire Wire Line
+	8250 1600 8150 1600
+Wire Wire Line
+	10050 3450 10250 3450
+Wire Wire Line
+	10250 3450 10250 3550
+Wire Wire Line
+	9700 1900 10000 1900
+Wire Wire Line
+	10000 1900 10000 1800
+Wire Wire Line
+	9700 1400 10000 1400
+Wire Wire Line
+	10000 1400 10000 1500
+Wire Wire Line
+	10200 1900 10000 1900
+Wire Wire Line
+	10000 1400 10200 1400
+Wire Wire Line
+	10400 1400 10400 1650
+Wire Wire Line
+	10400 1650 10500 1650
+Wire Wire Line
+	10400 1650 10400 1900
+Wire Wire Line
+	8250 4450 8250 4500
+Wire Wire Line
+	7950 4600 7950 4500
+Wire Wire Line
+	7950 4500 8250 4500
+Wire Wire Line
+	8250 4500 8250 4600
+Wire Wire Line
+	8550 4600 8550 4500
+Wire Wire Line
+	8250 4500 8550 4500
+Wire Wire Line
+	7950 4900 7950 5000
+Wire Wire Line
+	7950 5000 8250 5000
+Wire Wire Line
+	8550 5000 8550 4900
+Wire Wire Line
+	8250 4900 8250 5000
+Wire Wire Line
+	8250 5000 8550 5000
+Wire Wire Line
+	8250 5100 8250 5000
+Wire Wire Line
+	10050 2750 10150 2750
+Wire Wire Line
+	10150 2750 10150 2650
+Wire Wire Line
+	10150 2650 10300 2650
+Wire Wire Line
+	9700 1550 9700 1400
+Wire Wire Line
+	9700 1750 9700 1900
+Wire Wire Line
+	5900 4400 5900 4450
+Wire Wire Line
+	5900 4400 5950 4400
+Wire Wire Line
+	6050 4400 6050 4450
+Wire Wire Line
+	5800 4650 5900 4650
+Wire Wire Line
+	5900 4650 6050 4650
+Wire Wire Line
+	6050 4650 6150 4650
+Wire Wire Line
+	5950 4300 5950 4400
+Wire Wire Line
+	5950 4400 6050 4400
+Wire Wire Line
+	9550 4700 9650 4700
+Wire Wire Line
+	9650 4600 9650 4700
+Wire Wire Line
+	9650 4700 9750 4700
+Wire Wire Line
+	8250 1800 8150 1800
+Wire Wire Line
+	8150 1800 8150 1600
+Wire Wire Line
+	8150 1600 8000 1600
+Wire Wire Line
+	1550 7200 1350 7200
+Wire Wire Line
+	1350 7200 1350 7300
+Connection ~ 1350 7550
+Connection ~ 1350 7300
+Connection ~ 1600 7300
+Connection ~ 6450 2350
+Connection ~ 6450 2250
+Connection ~ 6300 2950
+Connection ~ 6800 2950
+Connection ~ 6250 1800
+Connection ~ 6250 1300
+Connection ~ 6650 1550
+Connection ~ 4700 4450
+Connection ~ 4700 4950
+Connection ~ 6550 2550
+Connection ~ 5950 1300
+Connection ~ 5950 1800
+Connection ~ 6500 7150
+Connection ~ 10200 2450
+Connection ~ 10200 2350
+Connection ~ 10050 3050
+Connection ~ 10550 3050
+Connection ~ 10000 1900
+Connection ~ 10000 1400
+Connection ~ 10400 1650
+Connection ~ 8250 4500
+Connection ~ 8250 5000
+Connection ~ 10300 2650
+Connection ~ 9700 1400
+Connection ~ 9700 1900
+Connection ~ 5900 4650
+Connection ~ 6050 4650
+Connection ~ 5950 4400
+Connection ~ 9650 4700
+Connection ~ 8150 1600
+Connection ~ 1100 7300
+NoConn ~ 4500 1900
+NoConn ~ 4500 2200
+NoConn ~ 8250 2000
+NoConn ~ 8250 2300
+NoConn ~ 8250 1500
+NoConn ~ 1850 7100
+NoConn ~ 1850 3900
+NoConn ~ 1850 4000
+NoConn ~ 1850 4100
+NoConn ~ 1850 4200
 NoConn ~ 1850 4400
 $EndSCHEMATC

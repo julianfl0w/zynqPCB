@@ -1,4 +1,4 @@
-update=Sat 16 Nov 2019 02:22:43 PM EST
+update=Fri 29 Nov 2019 02:51:52 PM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -70,20 +70,20 @@ Name=TOP_GND
 Type=1
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=SIGNAL1
-Type=0
-Enabled=1
-[pcbnew/Layer.In2.Cu]
-Name=SIGNAL2
-Type=0
-Enabled=1
-[pcbnew/Layer.In3.Cu]
 Name=GND0
 Type=1
 Enabled=1
-[pcbnew/Layer.In4.Cu]
+[pcbnew/Layer.In2.Cu]
+Name=SIGNAL1
+Type=0
+Enabled=1
+[pcbnew/Layer.In3.Cu]
 Name=GND1
 Type=1
+Enabled=1
+[pcbnew/Layer.In4.Cu]
+Name=SIGNAL2
+Type=0
 Enabled=1
 [pcbnew/Layer.In5.Cu]
 Name=GND2

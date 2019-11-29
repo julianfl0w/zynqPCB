@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:DFTBoard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -105,12 +104,6 @@ F 3 "" H 4000 3200 50  0000 C CNN
 	1    4000 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 3600 2    60   Input ~ 0
-I2C33_SDA
-Text GLabel 5900 3700 2    60   Input ~ 0
-I2C33_SCLK
-Text Notes 6100 4000 0    60   ~ 0
-address 0x52
 $Comp
 L power:GND #PWR0140
 U 1 1 5A331874
@@ -187,82 +180,6 @@ F 3 "" H 7400 3050 50  0001 C CNN
 	1    7400 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4700 3700 4550 3700
-Wire Wire Line
-	4550 3600 4550 3700
-Wire Wire Line
-	4700 3800 4550 3800
-Wire Wire Line
-	4700 3900 4550 3900
-Wire Wire Line
-	4700 4000 4550 4000
-Wire Wire Line
-	3700 3600 4000 3600
-Wire Wire Line
-	3700 3300 4000 3300
-Wire Wire Line
-	3700 3600 3700 3500
-Wire Wire Line
-	4000 3600 4000 3500
-Wire Wire Line
-	4700 3400 4550 3400
-Wire Wire Line
-	4550 3400 4550 3300
-Wire Wire Line
-	6100 2600 6100 2550
-Wire Wire Line
-	6300 2550 6300 2600
-Wire Wire Line
-	6100 3300 6100 2900
-Wire Wire Line
-	6300 3400 6300 2900
-Wire Wire Line
-	4000 3200 4000 3300
-Wire Wire Line
-	6100 3300 5900 3300
-Connection ~ 4550 3800
-Connection ~ 4550 3900
-Connection ~ 4550 4000
-Connection ~ 4550 3700
-Connection ~ 4000 3300
-Connection ~ 4550 3600
-Connection ~ 4000 3600
-Connection ~ 4550 3300
-Wire Wire Line
-	7800 3150 7700 3150
-Wire Wire Line
-	7550 3150 7550 3300
-Wire Wire Line
-	7600 2950 7800 2950
-Wire Wire Line
-	7600 3000 7600 2950
-Wire Wire Line
-	7050 3000 7400 3000
-Wire Wire Line
-	7050 2700 7400 2700
-Wire Wire Line
-	7600 2700 7600 2750
-Wire Wire Line
-	7600 2750 7700 2750
-Wire Wire Line
-	7400 2600 7400 2700
-Wire Wire Line
-	7400 3000 7400 3050
-Wire Wire Line
-	7700 2750 7700 3150
-Connection ~ 7700 3150
-Connection ~ 7700 2750
-Text GLabel 8800 3050 2    60   Input ~ 0
-I2C33_SCLK
-Text GLabel 8800 3150 2    60   Input ~ 0
-I2C33_SDA
-Wire Wire Line
-	8800 2850 8900 2850
-Wire Wire Line
-	8900 2850 8900 2750
-Wire Wire Line
-	8900 2750 8800 2750
 $Comp
 L Device:C C90
 U 1 1 5A3C4743
@@ -279,13 +196,6 @@ F 8 "" H -200 -1800 50  0001 C CNN "SPURL"
 	1    7050 2850
 	-1   0    0    1   
 $EndComp
-Connection ~ 7400 2700
-Connection ~ 7400 3000
-Wire Wire Line
-	5900 3400 6300 3400
-Text GLabel 6450 3400 2    60   BiDi ~ 0
-RF_IRQ
-Connection ~ 6300 3400
 $Comp
 L DFTBoard-rescue:SW_IL- SW1
 U 1 1 5C7C1D6F
@@ -394,6 +304,45 @@ F 8 "" H -1400 1200 50  0001 C CNN "SPURL"
 	1    8450 4300
 	1    0    0    -1  
 $EndComp
+$Comp
+L DFTBoard-rescue:APDS-9960 U14
+U 1 1 5A3C088A
+P 8300 2950
+F 0 "U14" H 8200 3350 50  0000 L BNN
+F 1 "APDS-9960" H 7900 2550 50  0000 L BNN
+F 2 "DFTcustom:APDS_9960" H 8330 3100 20  0001 C CNN
+F 3 "" H 8300 2950 60  0001 C CNN
+F 4 "Broadcom Limited" H 0   0   50  0001 C CNN "MFR"
+F 5 "APDS-9960" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "516-3480-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    8300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0141
+U 1 1 5E2935C0
+P 6200 2550
+F 0 "#PWR0141" H 6200 2400 50  0001 C CNN
+F 1 "+3.3V" H 6200 2690 50  0000 C CNN
+F 2 "" H 6200 2550 50  0000 C CNN
+F 3 "" H 6200 2550 50  0000 C CNN
+	1    6200 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5900 3600 2    60   Input ~ 0
+I2C33_SDA
+Text GLabel 5900 3700 2    60   Input ~ 0
+I2C33_SCLK
+Text Notes 6100 4000 0    60   ~ 0
+address 0x52
+Text GLabel 8800 3050 2    60   Input ~ 0
+I2C33_SCLK
+Text GLabel 8800 3150 2    60   Input ~ 0
+I2C33_SDA
+Text GLabel 6450 3400 2    60   BiDi ~ 0
+RF_IRQ
 Text GLabel 8650 4600 2    60   Output ~ 0
 TEMPO_SW
 Text GLabel 7750 5350 2    60   Input ~ 0
@@ -402,6 +351,76 @@ Text Label 8400 4850 0    60   ~ 0
 TEMPO_LED_R
 Text Label 7550 4850 0    60   ~ 0
 TEMPO_LED_D
+Text GLabel 8800 2950 2    60   BiDi ~ 0
+RF2_IRQ
+Text Notes 250  550  0    197  ~ 39
+Sensors
+Text Notes 4950 4200 0    60   ~ 0
+2V8 mode
+Wire Wire Line
+	4700 3700 4550 3700
+Wire Wire Line
+	4550 3600 4550 3700
+Wire Wire Line
+	4700 3800 4550 3800
+Wire Wire Line
+	4700 3900 4550 3900
+Wire Wire Line
+	4700 4000 4550 4000
+Wire Wire Line
+	3700 3600 4000 3600
+Wire Wire Line
+	3700 3300 4000 3300
+Wire Wire Line
+	3700 3600 3700 3500
+Wire Wire Line
+	4000 3600 4000 3500
+Wire Wire Line
+	4700 3400 4550 3400
+Wire Wire Line
+	4550 3400 4550 3300
+Wire Wire Line
+	6100 2600 6100 2550
+Wire Wire Line
+	6300 2550 6300 2600
+Wire Wire Line
+	6100 3300 6100 2900
+Wire Wire Line
+	6300 3400 6300 2900
+Wire Wire Line
+	4000 3200 4000 3300
+Wire Wire Line
+	6100 3300 5900 3300
+Wire Wire Line
+	7800 3150 7700 3150
+Wire Wire Line
+	7550 3150 7550 3300
+Wire Wire Line
+	7600 2950 7800 2950
+Wire Wire Line
+	7600 3000 7600 2950
+Wire Wire Line
+	7050 3000 7400 3000
+Wire Wire Line
+	7050 2700 7400 2700
+Wire Wire Line
+	7600 2700 7600 2750
+Wire Wire Line
+	7600 2750 7700 2750
+Wire Wire Line
+	7400 2600 7400 2700
+Wire Wire Line
+	7400 3000 7400 3050
+Wire Wire Line
+	7700 2750 7700 3150
+Wire Wire Line
+	8800 2850 8900 2850
+Wire Wire Line
+	8900 2850 8900 2750
+Wire Wire Line
+	8900 2750 8800 2750
+Wire Wire Line
+	5900 3400 6300 3400
 Wire Wire Line
 	7700 4600 7250 4600
 Wire Wire Line
@@ -422,7 +441,6 @@ Wire Wire Line
 	8450 4400 8450 4600
 Wire Wire Line
 	8450 4200 8450 4100
-Connection ~ 8450 4600
 Wire Wire Line
 	4550 3800 4550 3900
 Wire Wire Line
@@ -451,38 +469,204 @@ Wire Wire Line
 	6300 3400 6450 3400
 Wire Wire Line
 	8450 4600 8650 4600
-$Comp
-L DFTBoard-rescue:APDS-9960 U14
-U 1 1 5A3C088A
-P 8300 2950
-F 0 "U14" H 8200 3350 50  0000 L BNN
-F 1 "APDS-9960" H 7900 2550 50  0000 L BNN
-F 2 "DFTcustom:APDS_9960" H 8330 3100 20  0001 C CNN
-F 3 "" H 8300 2950 60  0001 C CNN
-	1    8300 2950
-	1    0    0    -1  
-$EndComp
-Text GLabel 8800 2950 2    60   BiDi ~ 0
-RF2_IRQ
-NoConn ~ 5900 3900
-Text Notes 250  550  0    197  ~ 39
-Sensors
-Text Notes 4950 4200 0    60   ~ 0
-2V8 mode
 Wire Wire Line
 	6100 2550 6200 2550
-$Comp
-L power:+3V3 #PWR0141
-U 1 1 5E2935C0
-P 6200 2550
-F 0 "#PWR0141" H 6200 2400 50  0001 C CNN
-F 1 "+3.3V" H 6200 2690 50  0000 C CNN
-F 2 "" H 6200 2550 50  0000 C CNN
-F 3 "" H 6200 2550 50  0000 C CNN
-	1    6200 2550
-	1    0    0    -1  
-$EndComp
-Connection ~ 6200 2550
 Wire Wire Line
 	6200 2550 6300 2550
+Connection ~ 4550 3800
+Connection ~ 4550 3900
+Connection ~ 4550 4000
+Connection ~ 4550 3700
+Connection ~ 4000 3300
+Connection ~ 4550 3600
+Connection ~ 4000 3600
+Connection ~ 4550 3300
+Connection ~ 7700 3150
+Connection ~ 7700 2750
+Connection ~ 7400 2700
+Connection ~ 7400 3000
+Connection ~ 6300 3400
+Connection ~ 8450 4600
+Connection ~ 6200 2550
+NoConn ~ 5900 3900
+$Comp
+L Sensor_Motion:LIS2HH12 U6
+U 1 1 5DDE2C05
+P 5100 6000
+F 0 "U6" H 5150 6681 50  0000 C CNN
+F 1 "LIS2HH12" H 5150 6590 50  0000 C CNN
+F 2 "Package_LGA:LGA-12_2x2mm_P0.5mm" H 5250 6550 50  0001 L CNN
+F 3 "www.st.com/resource/en/datasheet/lis2hh12.pdf" H 4750 6000 50  0001 C CNN
+	1    5100 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0184
+U 1 1 5DDE3C8C
+P 5100 6650
+F 0 "#PWR0184" H 5100 6400 50  0001 C CNN
+F 1 "GND" H 5100 6500 50  0000 C CNN
+F 2 "" H 5100 6650 50  0001 C CNN
+F 3 "" H 5100 6650 50  0001 C CNN
+	1    5100 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6500 5000 6550
+Wire Wire Line
+	5000 6550 5100 6550
+Wire Wire Line
+	5200 6550 5200 6500
+Wire Wire Line
+	5100 6500 5100 6550
+Connection ~ 5100 6550
+Wire Wire Line
+	5100 6550 5200 6550
+Wire Wire Line
+	5100 6650 5100 6550
+Text GLabel 4700 5900 0    60   Input ~ 0
+I2C33_SDA
+Text GLabel 4700 6100 0    60   Input ~ 0
+I2C33_SCLK
+$Comp
+L power:+3V3 #PWR0185
+U 1 1 5DDF0859
+P 5150 5250
+F 0 "#PWR0185" H 5150 5100 50  0001 C CNN
+F 1 "+3.3V" H 5150 5390 50  0000 C CNN
+F 2 "" H 5150 5250 50  0000 C CNN
+F 3 "" H 5150 5250 50  0000 C CNN
+	1    5150 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5250 5150 5400
+Wire Wire Line
+	5150 5400 5200 5400
+Wire Wire Line
+	5200 5400 5200 5500
+Wire Wire Line
+	5100 5500 5100 5400
+Wire Wire Line
+	5100 5400 5150 5400
+Connection ~ 5150 5400
+$Comp
+L power:+3V3 #PWR0186
+U 1 1 5DE26AB5
+P 4200 5800
+F 0 "#PWR0186" H 4200 5650 50  0001 C CNN
+F 1 "+3.3V" H 4200 5940 50  0000 C CNN
+F 2 "" H 4200 5800 50  0000 C CNN
+F 3 "" H 4200 5800 50  0000 C CNN
+	1    4200 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 5800 4700 5800
+Text GLabel 5600 5900 2    60   BiDi ~ 0
+ACC_INT1
+Text GLabel 5600 6000 2    60   BiDi ~ 0
+ACC_INT2
+$Comp
+L power:GND #PWR0187
+U 1 1 5DE2D4C5
+P 5600 6300
+F 0 "#PWR0187" H 5600 6050 50  0001 C CNN
+F 1 "GND" H 5600 6150 50  0000 C CNN
+F 2 "" H 5600 6300 50  0001 C CNN
+F 3 "" H 5600 6300 50  0001 C CNN
+	1    5600 6300
+	0    -1   -1   0   
+$EndComp
+Text Notes 5900 5800 0    60   ~ 0
+address 0x17
+$Comp
+L power:GND #PWR0207
+U 1 1 5DE5CD5C
+P 4200 6000
+F 0 "#PWR0207" H 4200 5750 50  0001 C CNN
+F 1 "GND" H 4200 5850 50  0000 C CNN
+F 2 "" H 4200 6000 50  0001 C CNN
+F 3 "" H 4200 6000 50  0001 C CNN
+	1    4200 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 6000 4200 6000
+Text Notes 7900 3500 0    60   ~ 0
+address 0x39
+$Comp
+L Device:C_Small C21
+U 1 1 5E0EBC27
+P 5750 5300
+F 0 "C21" H 5760 5370 50  0000 L CNN
+F 1 "4.7uF" H 5760 5220 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5750 5300 50  0001 C CNN
+F 3 "" H 5750 5300 50  0001 C CNN
+F 4 "Murata" H 1750 1900 50  0001 C CNN "MFR"
+F 5 "GRM21BR61A475KA73L" H 1750 1900 50  0001 C CNN "MPN"
+F 6 "Digikey" H 1750 1900 50  0001 C CNN "SPR"
+F 7 "490-9750-1-ND" H 1750 1900 50  0001 C CNN "SPN"
+F 8 "" H 1750 1900 50  0001 C CNN "SPURL"
+	1    5750 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 5E0EBC32
+P 5550 5300
+F 0 "C16" H 5560 5370 50  0000 L CNN
+F 1 ".1uF" H 5560 5220 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5550 5300 50  0001 C CNN
+F 3 "" H 5550 5300 50  0001 C CNN
+F 4 "Murata" H 1850 1900 50  0001 C CNN "MFR"
+F 5 "GRM188R71C104KA01D" H 1850 1900 50  0001 C CNN "MPN"
+F 6 "Digikey" H 1850 1900 50  0001 C CNN "SPR"
+F 7 "490-1532-1-ND" H 1850 1900 50  0001 C CNN "SPN"
+F 8 "" H 1850 1900 50  0001 C CNN "SPURL"
+	1    5550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0338
+U 1 1 5E0F2A75
+P 5650 5100
+F 0 "#PWR0338" H 5650 4950 50  0001 C CNN
+F 1 "+3.3V" H 5650 5240 50  0000 C CNN
+F 2 "" H 5650 5100 50  0000 C CNN
+F 3 "" H 5650 5100 50  0000 C CNN
+	1    5650 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5100 5650 5150
+Wire Wire Line
+	5650 5150 5750 5150
+Wire Wire Line
+	5750 5150 5750 5200
+Wire Wire Line
+	5550 5150 5550 5200
+Wire Wire Line
+	5550 5150 5650 5150
+Connection ~ 5650 5150
+Wire Wire Line
+	5750 5400 5750 5450
+Wire Wire Line
+	5750 5450 5650 5450
+Wire Wire Line
+	5550 5450 5550 5400
+$Comp
+L power:GND #PWR0339
+U 1 1 5E0FB171
+P 5650 5450
+F 0 "#PWR0339" H 5650 5200 50  0001 C CNN
+F 1 "GND" H 5650 5300 50  0000 C CNN
+F 2 "" H 5650 5450 50  0001 C CNN
+F 3 "" H 5650 5450 50  0001 C CNN
+	1    5650 5450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 5450
+Wire Wire Line
+	5650 5450 5550 5450
 $EndSCHEMATC
