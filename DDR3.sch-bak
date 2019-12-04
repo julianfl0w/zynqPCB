@@ -72,9 +72,9 @@ F 6 "None" H 1800 3650 50  0001 L BNN "Field6"
 F 7 "MT41K256M16HA-125:E" H 1800 3650 50  0001 L BNN "Field7"
 F 8 "Unavailable" H 1800 3650 50  0001 L BNN "Field8"
 F 9 "Micron" H 0   0   50  0001 C CNN "MFR"
-F 10 "MT41K256M16HA-125:E" H 0   0   50  0001 C CNN "MPN"
+F 10 "MT41K256M16TW-107" H 0   0   50  0001 C CNN "MPN"
 F 11 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 12 "MT41K256M16HA-125:E-ND" H 0   0   50  0001 C CNN "SPN"
+F 12 "557-2006-6-ND" H 0   0   50  0001 C CNN "SPN"
 F 13 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    1800 3650
 	1    0    0    -1  
@@ -1415,38 +1415,22 @@ Text GLabel 10150 850  0    60   Output ~ 0
 DDR3_A4
 Text GLabel 10150 6450 0    60   BiDi ~ 0
 DDR3_DQS1_N
-Text GLabel 10150 4550 0    60   BiDi ~ 0
-DDR3_DQ14
 Text GLabel 10150 6850 0    60   BiDi ~ 0
 DDR3_DQS1_P
-Text GLabel 10150 4650 0    60   BiDi ~ 0
-DDR3_DQ15
 Text GLabel 10150 4050 0    60   BiDi ~ 0
-DDR3_DQ9
+DDR3_DQ15
 Text GLabel 10150 3950 0    60   BiDi ~ 0
-DDR3_DQ8
-Text GLabel 10150 4250 0    60   BiDi ~ 0
-DDR3_DQ11
-Text GLabel 10150 4350 0    60   BiDi ~ 0
-DDR3_DQ12
-Text GLabel 10150 4450 0    60   BiDi ~ 0
 DDR3_DQ13
-Text GLabel 10150 4150 0    60   BiDi ~ 0
-DDR3_DQ10
 Text GLabel 10150 6350 0    60   BiDi ~ 0
 DDR3_DQS0_N
-Text GLabel 10150 3750 0    60   BiDi ~ 0
-DDR3_DQ6
 Text GLabel 10150 3850 0    60   BiDi ~ 0
-DDR3_DQ7
+DDR3_DQ3
 Text GLabel 10150 6750 0    60   BiDi ~ 0
 DDR3_DQS0_P
-Text GLabel 10150 3250 0    60   BiDi ~ 0
-DDR3_DQ1
 Text GLabel 10150 3150 0    60   BiDi ~ 0
-DDR3_DQ0
+DDR3_DQ7
 Text GLabel 10150 3450 0    60   BiDi ~ 0
-DDR3_DQ3
+DDR3_DQ6
 Text GLabel 10150 3550 0    60   BiDi ~ 0
 DDR3_DQ4
 Text GLabel 10150 3650 0    60   BiDi ~ 0
@@ -1507,38 +1491,30 @@ Text GLabel 4100 2200 0    60   Input ~ 0
 DDR3_CK_N
 Text Notes 4950 550  0    60   ~ 0
 Differential termination at end / first break\nThis is the only P-to-N termination in ZC702 DDR3
-Text GLabel 2500 2650 2    60   BiDi ~ 0
-DDR3_DQ16
-Text GLabel 2500 2450 2    60   BiDi ~ 0
-DDR3_DQ17
-Text GLabel 2500 3050 2    60   BiDi ~ 0
-DDR3_DQ18
-Text GLabel 2500 2550 2    60   BiDi ~ 0
-DDR3_DQ19
 Text GLabel 2500 3150 2    60   BiDi ~ 0
-DDR3_DQ20
-Text GLabel 2500 2750 2    60   BiDi ~ 0
-DDR3_DQ21
-Text GLabel 2500 2850 2    60   BiDi ~ 0
-DDR3_DQ22
-Text GLabel 2500 2950 2    60   BiDi ~ 0
 DDR3_DQ23
+Text GLabel 2500 2750 2    60   BiDi ~ 0
+DDR3_DQ19
+Text GLabel 2500 2850 2    60   BiDi ~ 0
+DDR3_DQ20
+Text GLabel 2500 2950 2    60   BiDi ~ 0
+DDR3_DQ21
 Text GLabel 2500 3250 2    60   BiDi ~ 0
 DDR3_DQ24
 Text GLabel 2500 3750 2    60   BiDi ~ 0
-DDR3_DQ25
-Text GLabel 2500 3650 2    60   BiDi ~ 0
-DDR3_DQ26
-Text GLabel 2500 3950 2    60   BiDi ~ 0
-DDR3_DQ27
-Text GLabel 2500 3550 2    60   BiDi ~ 0
-DDR3_DQ28
-Text GLabel 2500 3450 2    60   BiDi ~ 0
 DDR3_DQ29
+Text GLabel 2500 3650 2    60   BiDi ~ 0
+DDR3_DQ28
+Text GLabel 2500 3950 2    60   BiDi ~ 0
+DDR3_DQ31
+Text GLabel 2500 3550 2    60   BiDi ~ 0
+DDR3_DQ27
+Text GLabel 2500 3450 2    60   BiDi ~ 0
+DDR3_DQ26
 Text GLabel 2500 3850 2    60   BiDi ~ 0
 DDR3_DQ30
 Text GLabel 2500 3350 2    60   BiDi ~ 0
-DDR3_DQ31
+DDR3_DQ25
 Text GLabel 2500 4650 2    60   BiDi ~ 0
 DDR3_DQS2_P
 Text GLabel 2500 4750 2    60   BiDi ~ 0
@@ -1547,38 +1523,30 @@ Text GLabel 2500 4350 2    60   BiDi ~ 0
 DDR3_DQS3_P
 Text GLabel 2500 4450 2    60   BiDi ~ 0
 DDR3_DQS3_N
-Text GLabel 10150 4750 0    60   BiDi ~ 0
-DDR3_DQ16
-Text GLabel 10150 4850 0    60   BiDi ~ 0
-DDR3_DQ17
-Text GLabel 10150 4950 0    60   BiDi ~ 0
-DDR3_DQ18
-Text GLabel 10150 5050 0    60   BiDi ~ 0
-DDR3_DQ19
 Text GLabel 10150 5150 0    60   BiDi ~ 0
-DDR3_DQ20
-Text GLabel 10150 5250 0    60   BiDi ~ 0
-DDR3_DQ21
-Text GLabel 10150 5350 0    60   BiDi ~ 0
-DDR3_DQ22
-Text GLabel 10150 5450 0    60   BiDi ~ 0
 DDR3_DQ23
+Text GLabel 10150 5250 0    60   BiDi ~ 0
+DDR3_DQ19
+Text GLabel 10150 5350 0    60   BiDi ~ 0
+DDR3_DQ20
+Text GLabel 10150 5450 0    60   BiDi ~ 0
+DDR3_DQ21
 Text GLabel 10150 5550 0    60   BiDi ~ 0
 DDR3_DQ24
 Text GLabel 10150 5650 0    60   BiDi ~ 0
-DDR3_DQ25
-Text GLabel 10150 5750 0    60   BiDi ~ 0
-DDR3_DQ26
-Text GLabel 10150 5850 0    60   BiDi ~ 0
-DDR3_DQ27
-Text GLabel 10150 5950 0    60   BiDi ~ 0
-DDR3_DQ28
-Text GLabel 10150 6050 0    60   BiDi ~ 0
 DDR3_DQ29
+Text GLabel 10150 5750 0    60   BiDi ~ 0
+DDR3_DQ28
+Text GLabel 10150 5850 0    60   BiDi ~ 0
+DDR3_DQ31
+Text GLabel 10150 5950 0    60   BiDi ~ 0
+DDR3_DQ27
+Text GLabel 10150 6050 0    60   BiDi ~ 0
+DDR3_DQ26
 Text GLabel 10150 6150 0    60   BiDi ~ 0
 DDR3_DQ30
 Text GLabel 10150 6250 0    60   BiDi ~ 0
-DDR3_DQ31
+DDR3_DQ25
 Text GLabel 10150 6550 0    60   BiDi ~ 0
 DDR3_DQS2_N
 Text GLabel 10150 6650 0    60   BiDi ~ 0
@@ -1635,26 +1603,12 @@ Text GLabel 5500 4800 2    60   BiDi ~ 0
 DDR3_DQS0_N
 Text GLabel 5500 4700 2    60   BiDi ~ 0
 DDR3_DQS0_P
-Text GLabel 5500 3900 2    60   BiDi ~ 0
-DDR3_DQ15
-Text GLabel 5500 3600 2    60   BiDi ~ 0
-DDR3_DQ14
-Text GLabel 5500 3700 2    60   BiDi ~ 0
-DDR3_DQ13
-Text GLabel 5500 3300 2    60   BiDi ~ 0
-DDR3_DQ12
-Text GLabel 5500 3500 2    60   BiDi ~ 0
-DDR3_DQ11
-Text GLabel 5500 3400 2    60   BiDi ~ 0
-DDR3_DQ10
 Text GLabel 5500 4000 2    60   BiDi ~ 0
-DDR3_DQ9
+DDR3_DQ15
 Text GLabel 5500 3800 2    60   BiDi ~ 0
-DDR3_DQ8
+DDR3_DQ13
 Text GLabel 5500 2800 2    60   BiDi ~ 0
-DDR3_DQ7
-Text GLabel 5500 2600 2    60   BiDi ~ 0
-DDR3_DQ6
+DDR3_DQ3
 Text GLabel 5500 3000 2    60   BiDi ~ 0
 DDR3_DQ5
 Text GLabel 5500 2900 2    60   BiDi ~ 0
@@ -1662,7 +1616,7 @@ DDR3_DQ4
 Text GLabel 5500 2700 2    60   BiDi ~ 0
 DDR3_DQ2
 Text GLabel 5500 3200 2    60   BiDi ~ 0
-DDR3_DQ0
+DDR3_DQ7
 Text GLabel 1100 3350 0    60   Input ~ 0
 DDR3_A0
 Text GLabel 1100 3450 0    60   Input ~ 0
@@ -1775,18 +1729,14 @@ Text Notes 6400 5950 0    60   ~ 0
 RECOMMENDED: Fly-by and \npoint-to-point routing is\nrecommended for optimal \nmemory performance
 Text Notes 3500 1400 0    60   ~ 0
 DDR3L trace impedance:\n40ohm differential\n80ohm single
-Text Notes 1300 1150 0    60   ~ 0
-Todo: DDR Bypass Caps?
 Text Notes 7600 6650 0    60   ~ 0
 1066 Mb/s (533 MHz)\nShould be attainable by all \nspeed grades of Zynq\nthrough the PS DDR interface\nThis precludes use of internal Vref
 Text GLabel 7850 1450 2    60   Input ~ 0
 DDR3_VTT
 Text Notes 350  500  0    197  ~ 39
 DDR3
-Text GLabel 5500 2500 2    60   BiDi ~ 0
-DDR3_DQ1
 Text GLabel 5500 3100 2    60   BiDi ~ 0
-DDR3_DQ3
+DDR3_DQ6
 Text Label 900  5350 0    59   ~ 0
 ZQH
 Text Label 3950 5400 0    59   ~ 0
@@ -2143,4 +2093,114 @@ Connection ~ 3100 7100
 Connection ~ 2800 6700
 Connection ~ 2800 7500
 Connection ~ 4600 7200
+Text GLabel 5500 2500 2    60   BiDi ~ 0
+DDR3_DQ0
+Text GLabel 5500 3400 2    60   BiDi ~ 0
+DDR3_DQ9
+Text GLabel 5500 3500 2    60   BiDi ~ 0
+DDR3_DQ10
+Text GLabel 5500 3300 2    60   BiDi ~ 0
+DDR3_DQ8
+Text GLabel 5500 3700 2    60   BiDi ~ 0
+DDR3_DQ12
+Text GLabel 5500 3600 2    60   BiDi ~ 0
+DDR3_DQ11
+Text GLabel 5500 3900 2    60   BiDi ~ 0
+DDR3_DQ14
+Text GLabel 10150 5050 0    60   BiDi ~ 0
+DDR3_DQ17
+Text GLabel 10150 4950 0    60   BiDi ~ 0
+DDR3_DQ22
+Text GLabel 10150 4850 0    60   BiDi ~ 0
+DDR3_DQ16
+Text GLabel 10150 4750 0    60   BiDi ~ 0
+DDR3_DQ18
+Text GLabel 2500 2550 2    60   BiDi ~ 0
+DDR3_DQ17
+Text GLabel 2500 3050 2    60   BiDi ~ 0
+DDR3_DQ22
+Text GLabel 2500 2450 2    60   BiDi ~ 0
+DDR3_DQ16
+Text GLabel 2500 2650 2    60   BiDi ~ 0
+DDR3_DQ18
+Text GLabel 10150 3250 0    60   BiDi ~ 0
+DDR3_DQ0
+Text GLabel 10150 4150 0    60   BiDi ~ 0
+DDR3_DQ9
+Text GLabel 10150 4450 0    60   BiDi ~ 0
+DDR3_DQ12
+Text GLabel 10150 4350 0    60   BiDi ~ 0
+DDR3_DQ8
+Text GLabel 10150 4250 0    60   BiDi ~ 0
+DDR3_DQ10
+Text GLabel 10150 4650 0    60   BiDi ~ 0
+DDR3_DQ14
+Text GLabel 10150 4550 0    60   BiDi ~ 0
+DDR3_DQ11
+Text GLabel 5500 2600 2    60   BiDi ~ 0
+DDR3_DQ1
+Text GLabel 10150 3750 0    60   BiDi ~ 0
+DDR3_DQ1
+$Comp
+L Device:C_Small C109
+U 1 1 5E5D8A7D
+P 2900 1750
+F 0 "C109" H 2910 1820 50  0000 L CNN
+F 1 ".01uF" H 2910 1670 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2900 1750 50  0001 C CNN
+F 3 "" H 2900 1750 50  0001 C CNN
+F 4 "Murata" H 1300 -2800 50  0001 C CNN "MFR"
+F 5 "Digikey" H 1300 -2800 50  0001 C CNN "SPR"
+F 6 "GRM155R71H103KA88J" H 400 -200 50  0001 C CNN "MPN"
+F 7 "490-6351-1-ND" H 400 -200 50  0001 C CNN "SPN"
+F 8 "-" H 400 -200 50  0001 C CNN "SPURL"
+	1    2900 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1650 2650 1650
+Connection ~ 2650 1650
+$Comp
+L power:GND #PWR0353
+U 1 1 5E5E05CD
+P 2900 1850
+F 0 "#PWR0353" H 2900 1600 50  0001 C CNN
+F 1 "GND" H 2900 1700 50  0000 C CNN
+F 2 "" H 2900 1850 50  0000 C CNN
+F 3 "" H 2900 1850 50  0000 C CNN
+	1    2900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C110
+U 1 1 5E5E94F3
+P 5950 1850
+F 0 "C110" H 5960 1920 50  0000 L CNN
+F 1 ".01uF" H 5960 1770 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5950 1850 50  0001 C CNN
+F 3 "" H 5950 1850 50  0001 C CNN
+F 4 "Murata" H 4350 -2700 50  0001 C CNN "MFR"
+F 5 "Digikey" H 4350 -2700 50  0001 C CNN "SPR"
+F 6 "GRM155R71H103KA88J" H 3450 -100 50  0001 C CNN "MPN"
+F 7 "490-6351-1-ND" H 3450 -100 50  0001 C CNN "SPN"
+F 8 "-" H 3450 -100 50  0001 C CNN "SPURL"
+	1    5950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0354
+U 1 1 5E5E94F9
+P 5950 1950
+F 0 "#PWR0354" H 5950 1700 50  0001 C CNN
+F 1 "GND" H 5950 1800 50  0000 C CNN
+F 2 "" H 5950 1950 50  0000 C CNN
+F 3 "" H 5950 1950 50  0000 C CNN
+	1    5950 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1700 5950 1700
+Wire Wire Line
+	5950 1700 5950 1750
+Connection ~ 5650 1700
 $EndSCHEMATC

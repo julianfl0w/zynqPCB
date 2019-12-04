@@ -767,11 +767,11 @@ Text GLabel 6450 4250 0    60   Output ~ 0
 HDMI_CLK_P
 Text GLabel 6450 3450 0    60   BiDi ~ 0
 RF_IRQ
-Text GLabel 6450 3150 0    60   Output ~ 0
+Text GLabel 6450 3250 0    60   Output ~ 0
 LED_2B_CTRL
 Text GLabel 6450 3850 0    60   Output ~ 0
 LED_2G_CTRL
-Text GLabel 6450 3250 0    60   Output ~ 0
+Text GLabel 6450 3150 0    60   Output ~ 0
 LED_2R_CTRL
 Text GLabel 6450 5950 0    60   Input ~ 0
 1v35PG
@@ -918,7 +918,6 @@ Connection ~ 4950 6600
 Connection ~ 4950 6700
 Connection ~ 4950 6800
 NoConn ~ 6450 1750
-NoConn ~ 6450 2850
 NoConn ~ 6450 1850
 NoConn ~ 6450 2050
 NoConn ~ 6450 2150
@@ -2489,4 +2488,5 @@ F 3 "~" H 4100 4150 50  0001 C CNN
 $EndComp
 Connection ~ 4100 4150
 NoConn ~ 6450 2750
+NoConn ~ 6450 2850
 $EndSCHEMATC
