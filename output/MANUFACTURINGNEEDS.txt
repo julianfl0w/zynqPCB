@@ -1,26 +1,13 @@
 Board Specs:
 
 PCB:
-148.5mm x 62mm
+120mm x 60mm
 8 layers, .062 inches / 1.6mm thick
 1oz copper
-No impedance control
-.20mm (8 mil) drill
-5 mil trace/clearance
+50ohm 4mil impedance on internal signal layers
+.25mm drill
+4 mil trace/clearance
 Dielectric: FR4
 ENIG Finish
 Via-In-Pad required
 
-Parts:
-BOM lines: 59
-Count: 266
-Double side mounting
-BGA/FINE Pitch: 4
-Smallest pitch: .8mm
-Smallest PKG: 0402
-Through-hole parts: 6
-Through-holes: ~36
-SMD parts: 260
-SMD pads: 1231
-
-smallest via: 45 dia, 20 drill
