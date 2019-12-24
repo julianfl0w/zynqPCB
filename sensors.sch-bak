@@ -499,13 +499,13 @@ L Sensor_Motion:LSM6DS3 U23
 U 1 1 5DECF379
 P 8200 6650
 F 0 "U23" H 8844 6696 50  0000 L CNN
-F 1 "LSM6DS3" H 8844 6605 50  0000 L CNN
+F 1 "LSM6DSLTR" H 8844 6605 50  0000 L CNN
 F 2 "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y" H 7800 5950 50  0001 L CNN
 F 3 "www.st.com/resource/en/datasheet/lsm6ds3.pdf" H 8300 6000 50  0001 C CNN
 F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "MFR"
-F 5 "LSM6DS3TR" H 0   0   50  0001 C CNN "MPN"
+F 5 "LSM6DSLTR" H 0   0   50  0001 C CNN "MPN"
 F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "497-15383-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 7 "497-16705-6-ND" H 0   0   50  0001 C CNN "SPN"
 F 8 "-" H 0   0   50  0001 C CNN "SPURL"
 	1    8200 6650
 	1    0    0    -1  
@@ -976,4 +976,6 @@ Connection ~ 7500 6450
 Connection ~ 8250 7300
 Connection ~ 8000 2650
 NoConn ~ 5900 3900
+Text Notes 8850 6100 0    60   ~ 0
+Mode 1: no master i2c
 $EndSCHEMATC
