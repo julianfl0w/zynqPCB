@@ -1772,10 +1772,10 @@ Text GLabel 9450 7450 0    60   Input ~ 0
 HPCOM_P
 Text GLabel 9450 7250 0    60   Input ~ 0
 HPCOM_N
-Text Label 9800 7450 0    60   ~ 0
-HPRCOM_MC
 Text Label 9800 7250 0    60   ~ 0
-HPRCOM_PC
+HPRCOM_C_N
+Text Label 9800 7450 0    60   ~ 0
+HPRCOM_C_P
 Text Label 10050 7050 0    60   ~ 0
 HPSWITCH
 Text GLabel 11100 7050 2    60   Output ~ 0
