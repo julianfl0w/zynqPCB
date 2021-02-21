@@ -14,7 +14,7 @@ An 8-layer board built upon Xilinx Zynq Chip. Includes sound output, HDMI, DDR3,
 ![GitHub Logo](images/dt01_v3_bottom.jpg)
 
 # Introduction  
-Hi friends! This is the current status of my 4-year project to make an FPGA-accelerated audio+video synthesizer. I am currently taking a hiatus from this project, and have decided to make the entire PCB design available on Github! Quite a bit of work has been put into this project. The difficult tasks of part selection and routing have been taken care of. I am still testing the functionality of the board. Only one PCB problem has been found: the SPI Flash for Zynq Boot was the wrong footprint! **FIX THIS TODAY**  
+Hi friends! This is the current status of my 4-year project to make an FPGA-accelerated audio+video synthesizer. I am currently taking a hiatus from this project, and have decided to make the entire PCB design available on Github! Quite a bit of work has been put into this project. The difficult tasks of part selection and routing have been taken care of. I am still testing the functionality of the board. Only one PCB problem has been found: the SPI Flash for Zynq Boot was the wrong footprint! This problem has since been fixed.  
 
 I believe that together we can make this a formidable tool in the open hardware community.  
 
