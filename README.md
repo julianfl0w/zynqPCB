@@ -34,12 +34,13 @@ xc7z020clg484 (Zynq Chip)
 VL53L1CXV0FY/1 (rangefinder)  
 
 # Interfaces:  
-1. VL53L1CXV0FY Rangefinder : Untested  
-2. APDS-9960 Rangefinder : Untested 
-3. LIS2HH12 Accelerometer : Untested 
-4. LSM6DSLTR IMU  : Untested 
-5. HDMI Out : Untested
-6. USB Host : Untested
-7. DDR3 PS Memory : Untested
-8. TLV320 Audio Codec : Untested
-9. MicroSD card : Untested
+1. JTAG interface : Functional!
+2. VL53L1CXV0FY Rangefinder : Untested  
+3. APDS-9960 Rangefinder : Untested 
+4. LIS2HH12 Accelerometer : Untested 
+5. LSM6DSLTR IMU  : Untested 
+6. HDMI Out : Untested
+7. USB Host : Untested
+8. DDR3 PS Memory : Untested
+9. TLV320 Audio Codec : Untested
+10. MicroSD card : Untested
