@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:DFTBoard-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -358,7 +359,7 @@ AR Path="/5852A88E/5CA21025" Ref="U?"  Part="1"
 AR Path="/5CA1ABAE/5CA21025" Ref="U19"  Part="1" 
 F 0 "U19" H 6750 5787 60  0000 C CNN
 F 1 "S25FL256SAGNFI001" H 6750 5681 60  0000 C CNN
-F 2 "DFTcustom:WSON-8" H 6350 6300 60  0001 C CNN
+F 2 "footprints:Cypress-002-18827-0-0-0" H 6350 6300 60  0001 C CNN
 F 3 "" H 6350 6300 60  0001 C CNN
 F 4 "Cypress" H 0   0   50  0001 C CNN "MFR"
 F 5 "S25FL256SAGNFI001" H 0   0   50  0001 C CNN "MPN"
@@ -782,7 +783,7 @@ I2C33_SCLK
 Text GLabel 8150 3850 0    60   BiDi ~ 0
 I2C33_SDA
 Text Notes 950  1150 0    197  ~ 39
-Non-volitile memory
+Non-volatile memory
 Text GLabel 6750 3900 3    60   Input ~ 0
 I2C33_SCLK
 Text GLabel 6950 3900 3    60   BiDi ~ 0
@@ -876,4 +877,18 @@ NoConn ~ 5550 4100
 NoConn ~ 5550 4500
 NoConn ~ 8150 2550
 NoConn ~ 8150 3450
+$Comp
+L power:GND #PWR?
+U 1 1 6034A13B
+P 6700 5800
+AR Path="/58508414/6034A13B" Ref="#PWR?"  Part="1" 
+AR Path="/5852A88E/6034A13B" Ref="#PWR?"  Part="1" 
+AR Path="/5CA1ABAE/6034A13B" Ref="#PWR0357"  Part="1" 
+F 0 "#PWR0357" H 6700 5800 30  0001 C CNN
+F 1 "GND" H 6700 5730 30  0001 C CNN
+F 2 "" H 6700 5800 60  0001 C CNN
+F 3 "" H 6700 5800 60  0001 C CNN
+	1    6700 5800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

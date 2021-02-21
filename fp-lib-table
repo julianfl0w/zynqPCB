@@ -13,4 +13,5 @@
   (lib (name XTAL_ASDMB-24.000MHZ-LC-T)(type Legacy)(uri ${KIPRJMOD}/footprints/XTAL_ASDMB-24.000MHZ-LC-T.mod)(options "")(descr ""))
   (lib (name 6N137S)(type Legacy)(uri ${KIPRJMOD}/footprints/legacy/6N137S.mod)(options "")(descr ""))
   (lib (name SPW2430HR5H-B)(type Legacy)(uri ${KIPRJMOD}/footprints/SPW2430HR5H-B.mod)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/../footprints.pretty)(options "")(descr ""))
 )
