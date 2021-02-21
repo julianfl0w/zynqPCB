@@ -35,12 +35,14 @@ VL53L1CXV0FY/1 (rangefinder)
 
 # Interfaces:  
 1. JTAG interface : Functional!
-2. VL53L1CXV0FY Rangefinder : Untested  
-3. APDS-9960 Rangefinder : Untested 
-4. LIS2HH12 Accelerometer : Untested 
-5. LSM6DSLTR IMU  : Untested 
-6. HDMI Out : Untested
-7. USB Host : Untested
-8. DDR3 PS Memory : Untested
-9. TLV320 Audio Codec : Untested
-10. MicroSD card : Untested
+2. SPI Flash : Untested
+3. VL53L1CXV0FY Rangefinder : Untested  
+4. APDS-9960 Rangefinder : Untested 
+5. LIS2HH12 Accelerometer : Untested 
+6. LSM6DSLTR IMU  : Untested 
+7. HDMI Out : Untested
+8. USB Host : Untested
+9. USB Device : Untested
+10. DDR3 PS Memory : Untested
+11. TLV320 Audio Codec : Untested
+12. MicroSD card : Untested
