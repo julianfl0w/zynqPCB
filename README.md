@@ -1,13 +1,19 @@
 # zynqPCB
-An 8-layer board built upon Xilinx Zynq Chip. Includes sound output, HDMI, DDR3, USB Host, USB Device, a handful of sensors, and Arduino Uno style header for screen connection
+An 8-layer board built upon Xilinx Zynq Chip. Includes sound output, HDMI, DDR3, USB Host, USB Device, a handful of sensors, and Arduino Uno style header for screen connection. See schematic in this repo "schematic.pdf"
   
 ## OPEN TO COLLABORATION!!
+
+# Kicad Project
+![GitHub Logo](images/KiCad-Logo1.png)
 
 # 3D Render
 ![GitHub Logo](images/dt01_3drender.PNG)
 
 # Layout
 ![GitHub Logo](images/dt01_schematic.PNG)
+
+# Block Diagram 
+![GitHub Logo](images/blockdiagram_edited.png)
 
 # Manufactured PCB - Top
 ![GitHub Logo](images/dt01_v3_top.jpg)
