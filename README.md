@@ -4,7 +4,8 @@ An 8-layer board built upon Xilinx Zynq Chip. Includes sound output, HDMI, DDR3,
 ## OPEN TO COLLABORATION!!
 
 # Kicad Project
-![GitHub Logo](images/KiCad-Logo1.png | width=100)
+<img src="images/KiCad-Logo1.png" width="100">  
+https://kicad.org/  
 
 # 3D Render
 ![GitHub Logo](images/dt01_3drender.PNG)
