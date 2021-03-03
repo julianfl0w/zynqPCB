@@ -5,16 +5,16 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.5-52549c5~84~ubuntu18.04.1"
+      "Version":     "(5.0.1)-rc2"
     },
-    "CreationDate":  "2019-12-10T23:02:16-05:00"
+    "CreationDate":  "2021-03-03T09:19:07-05:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
       "Name": "DFTBoard",
-      "GUID": "44465442-6f61-4726-942e-6b696361645f",
+      "GUID": "444654426F6172642E6B696361645F70",
       "Revision": "rev?"
     },
     "Size":
@@ -89,37 +89,37 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "DFTBoard-F_Paste.gbr",
+      "Path":  "DFTBoard-F.Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "DFTBoard-B_Paste.gbr",
+      "Path":  "DFTBoard-B.Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "DFTBoard-F_SilkS.gbr",
+      "Path":  "DFTBoard-F.SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "DFTBoard-B_SilkS.gbr",
+      "Path":  "DFTBoard-B.SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "DFTBoard-F_Mask.gbr",
+      "Path":  "DFTBoard-F.Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "DFTBoard-B_Mask.gbr",
+      "Path":  "DFTBoard-B.Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "DFTBoard-Edge_Cuts.gbr",
+      "Path":  "DFTBoard-Edge.Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
